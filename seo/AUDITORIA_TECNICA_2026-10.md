@@ -89,3 +89,30 @@
 |---|---|---|
 | 1, 2, 5, 6, 9 | Admin API (productos/colecciones/redirects) | Bajo — reversible; respaldo previo en `products.jsonl` |
 | 3, 4, 7, 8, 10 | Copia del tema → edito → tú previsualizas → tú publicas | Nulo hasta publicar (API no permite escribir en tema live) |
+
+## Estado de ejecución — Paso 1 (2026-10-27)
+
+| Fix | Estado | Detalle |
+|---|---|---|
+| S1 Vendor → marca | ✅ Hecho | 2,458 productos verificados (export completo, 0 fallos). Proveedor original en metafield `custom.proveedor` (definición "Proveedor" creada) |
+| S1 pendientes | ⏳ Diego | 120 productos sin marca clara: `vendor_a_marca.csv` columna `revisar = SI` (PULSERA, COMBO, GADGET, RESERVA, genéricos). Siguen con razón social: Ventas Guate (41), Ventas Guate 1 (12), MIRGOR USA LLC (9), Cali Peninsula East Corp (3), DIEGO ANDRES SEGURA VILLAGRAN (2), CAMACHO PHONES CORP (2), MATTER BRANDS (2), Imeqmo (1) |
+| S1 proveedor = marca | ⏳ Diego | 14 productos donde vendor ya era la marca → proveedor quedó = marca (SwitchEasy, Solo New York, Tucano, MagEasy). Corregir a mano |
+| I2 Colecciones vacías — noindex | ✅ Hecho | `seo.hidden = 1` en las 13 → fuera de sitemap + noindex |
+| I2 Redirects 301 | ✅ Creados | 13 nuevos + `/collections/computado` corregido → `conectividad-1`. **Se activan al despublicar** |
+| I2 Despublicar | ⏳ Diego | API bloquea despublicar. Admin → Productos → Colecciones → seleccionar las 13 → "Excluir de canales de venta" → Tienda online |
+| Menús | ⏳ Diego | Main menu enlaza a ipads-seminuevas, almacenamiento, computo, holders, viaje; menú Gaming → controles. Funcionan vía 301, pero conviene quitarlos/reapuntarlos |
+
+### Redirects creados
+
+| Colección vacía | → Destino |
+|---|---|
+| holders | auto |
+| almacenamiento, computo, hp, (computado) | conectividad-1 |
+| viaje | maletines |
+| apple | iphone-1 |
+| click, spigen | cases |
+| ipads-seminuevas | seminuevos |
+| controles | gaming-1 |
+| applewatch | pulseras-applewatch |
+| ohsnap | magsafe (⚠ hay 8 productos OhSnap: mejor llenar la colección y borrar el redirect) |
+| fold-8 | z-fold |
