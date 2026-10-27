@@ -101,3 +101,25 @@ Por categoría: audífonos 1,641 u. (Q480k) · smartwatch 1,150 u. (Q480k) · bo
 | Variantes con costo unitario | 0 de 105 | 105 de 105 |
 
 Las metas son de dirección, no promesas: dependen de la oferta (Fase 4) tanto como del SEO.
+
+---
+
+## Fase 1 — ejecutado 2026-10-27
+
+| Acción | Resultado |
+|---|---|
+| FlexClip: 4 publicaciones → 1 producto `/products/hifuture-flexclip-open-ear` con Color Negro / Beige, Q299 ambos | ✅ Negro 524 u. + Beige 424 u. = 948 u. (mismo total que antes). 3 duplicados archivados con 301. El handle anterior redirige solo |
+| Echo Spot 2024 Negro: 2 publicaciones (mismo SKU 840268963422) → 1, publicada | ✅ 8 u. (4 + 4). Duplicado archivado con 301 |
+| Bombilla Amazon Basics A19 publicada | ✅ 19 u., título nuevo |
+| Echo Dot 5 Azul duplicado (`…-azul-1`, Q549) archivado con 301 al principal | ✅ |
+| HiFuture Active2, Aura Gold, Zone2 a Q1 (0 u.) archivados con 301 a Smartwatch HiFuture | ✅ |
+
+### No ejecutado — requiere decisión
+- **Reebok Stride Midnight Black:** las 2 publicaciones tienen **SKU distinto** (843808109397 · 16 u. y 843808109243 · 6 u.). Puede ser otro modelo o talla. No se unificó.
+- **Amazon Paquete 9 / Paquete 12 / Paquetes (Q1):** parecen ítems internos o de servicio. No se archivaron.
+- **36 productos activos a ≤ Q1**, incluidos insumos de Protection Pro publicados (base de corte, cuchillas, film). Revisar.
+
+### A verificar físicamente
+- FlexClip y Echo Spot tenían el **mismo SKU en dos productos**. Las cantidades se sumaron (el total en Shopify no cambió). Si las publicaciones `-1` se crearon re-importando el mismo lote, el stock real puede ser menor → **contar físicamente** 6972576181954 (negro), 6972576181961 (beige) y 840268963422 (Echo Spot).
+- Echo Dot `…-azul-1` (archivado) y `…-azul-old` (sin listar) comparten el SKU 840080527079, con 1 u. registrada en cada uno.
+- Echo Spot no tiene descripción → se hace en Fase 2.
