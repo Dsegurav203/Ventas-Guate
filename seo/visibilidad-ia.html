@@ -1,0 +1,396 @@
+<title>Visibilidad Ventas Guate</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+/* Ledger: stacked panels, priority table first, copy blocks for every fix */
+:root {
+  --ink: #17211F; --muted: #5B6662; --paper: #F4F3EE; --paper-raised: #FFFFFF; --line: #DEDCD1;
+  --accent: #0B6B5C; --accent-soft: #E4EFEC; --amber: #B9781F; --amber-soft: #F6EBDA;
+  --good: #2E7D4F; --good-soft: #E4F0E8; --warn: #B9781F; --warn-soft: #F6EBDA; --critical: #B3392C; --critical-soft: #FBEAE7;
+  --code-bg: #F7F6F1;
+  --font-display: 'Zilla Slab', Georgia, 'Times New Roman', serif;
+  --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-base: 1rem; --text-lg: 1.125rem; --text-xl: 1.375rem; --text-2xl: 1.75rem;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --ink: #EDEAE2; --muted: #A6B0AB; --paper: #14201C; --paper-raised: #1B2A25; --line: #2C3A34;
+  --accent: #4FBFA5; --accent-soft: #1E332C; --amber: #E0A559; --amber-soft: #362A16;
+  --good: #6FCB94; --good-soft: #1D3226; --warn: #E0A559; --warn-soft: #362A16; --critical: #E37B6B; --critical-soft: #3A211C;
+  --code-bg: #16231F; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --ink: #EDEAE2; --muted: #A6B0AB; --paper: #14201C; --paper-raised: #1B2A25; --line: #2C3A34;
+  --accent: #4FBFA5; --accent-soft: #1E332C; --amber: #E0A559; --amber-soft: #362A16;
+  --good: #6FCB94; --good-soft: #1D3226; --warn: #E0A559; --warn-soft: #362A16; --critical: #E37B6B; --critical-soft: #3A211C;
+  --code-bg: #16231F; color-scheme: dark; }
+body { background: var(--paper); color: var(--ink); font: 400 var(--text-base)/1.55 var(--font-body); }
+.page { display: flex; flex-direction: column; gap: 1.25rem; max-width: 880px; margin: 0 auto;
+  padding-block: 2rem 3rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: var(--text-2xl); } h2 { font-size: var(--text-xl); } h3 { font-size: var(--text-lg); }
+p { margin: 0; max-width: 68ch; }
+.page-header { display: flex; gap: 0.9rem; align-items: center; }
+.brand-mark { width: 44px; height: 44px; flex: none; display: grid; place-items: center; border-radius: 6px;
+  background: var(--accent-soft); color: var(--accent); font: 600 var(--text-lg) var(--font-display); }
+.meta { color: var(--muted); font-size: var(--text-sm); }
+.panel { background: var(--paper-raised); border: 1px solid var(--line); border-radius: 6px; padding: 1.5rem; display: flex; flex-direction: column; gap: 0.9rem; min-width: 0; }
+.lede { font-size: var(--text-lg); }
+.status { display: inline-block; padding: 0.15rem 0.55rem; border-radius: 3px; font: 600 var(--text-xs) var(--font-body); text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+.status--good { background: var(--good-soft); color: var(--good); }
+.status--warn { background: var(--warn-soft); color: var(--warn); }
+.status--critical { background: var(--critical-soft); color: var(--critical); }
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+th { text-align: left; font-weight: 600; color: var(--muted); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.04em; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--line); }
+td { padding: 0.65rem 0.6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr:last-child td { border-bottom: none; }
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.mono { font-family: var(--font-mono); font-size: var(--text-sm); }
+.copy-block { position: relative; border: 1px solid var(--line); border-radius: 6px; background: var(--code-bg); min-width: 0; }
+.copy-block pre { margin: 0; padding: 2.6rem 1rem 1rem; overflow-x: auto; font: 500 0.8rem/1.55 var(--font-mono); white-space: pre-wrap; word-break: break-word; }
+.copy-btn { position: absolute; top: 0.5rem; right: 0.5rem; font: 600 var(--text-xs) var(--font-body); text-transform: uppercase; letter-spacing: 0.04em;
+  background: var(--accent); color: var(--paper-raised); border: none; border-radius: 3px; padding: 0.35rem 0.7rem; cursor: pointer; }
+.copy-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 600; }
+.steps { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.35rem; max-width: 68ch; }
+.confirm { background: var(--amber-soft); color: var(--ink); border-radius: 3px; padding: 0 0.25rem; font-weight: 600; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
+@media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+.product { border-top: 1px solid var(--line); padding-top: 1rem; display: flex; flex-direction: column; gap: 0.6rem; }
+.before { color: var(--muted); font-size: var(--text-sm); }
+details summary { cursor: pointer; font-weight: 600; }
+.page-footer { font-size: var(--text-xs); color: var(--muted); text-align: center; }
+</style>
+
+<div class="page">
+  <header class="page-header">
+    <div class="brand-mark">VG</div>
+    <div>
+      <h1>Visibilidad en buscadores e IA</h1>
+      <p class="meta">Ventas Guate · ventasguate.gt · Generado 27 oct 2026 · Revisión: 26 nov 2026</p>
+    </div>
+  </header>
+
+  <section class="panel">
+    <p class="lede">El catálogo está bien estructurado para máquinas (HTML renderizado en servidor, schema de producto), pero el negocio en sí no existe como entidad: no hay schema de tienda, no hay página de contacto con datos, no hay llms.txt, y los datos de contacto se contradicen entre páginas. En una búsqueda por nombre y dominio, el sitio no apareció.</p>
+    <p class="meta">Nadie puede hacer que una IA recomiende un negocio. Lo que sí se puede es que la IA llegue al sitio, lo lea y repita bien tus datos. Hoy falla en lo segundo y lo tercero.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Arregla estas 5, en este orden</h2>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>#</th><th>Hallazgo</th><th>Impacto</th><th>Esfuerzo</th></tr></thead>
+        <tbody>
+          <tr><td class="num">1</td><td><strong>Datos de contacto contradictorios.</strong> Correo <span class="mono">pedidos@ventasguate.gt</span> en tienda vs <span class="mono">pedidos@ventasguate.com</span> en política de contacto. Teléfono 4149-9168 en políticas vs WhatsApp 4027-3277 en fichas de producto. "Edficio Trafalgar" vs "Edificio Plaza Trafalgar".</td><td><span class="status status--critical">Alto</span></td><td>15 min</td></tr>
+          <tr><td class="num">2</td><td><strong>No hay schema de la tienda</strong> (Organization / Store con dirección, teléfono, NIT, horario). Las IA no pueden confirmar quién eres ni dónde estás.</td><td><span class="status status--critical">Alto</span></td><td>30 min</td></tr>
+          <tr><td class="num">3</td><td><strong>Página /pages/contact vacía</strong> y no existen páginas de Envíos, Garantía ni Tienda zona 13. Horario, zonas de envío y métodos de pago no están escritos en ningún lado del sitio.</td><td><span class="status status--critical">Alto</span></td><td>1 h</td></tr>
+          <tr><td class="num">4</td><td><strong>Google Business Profile sin verificar.</strong> No apareció en la búsqueda. Es la fuente que más leen Google, Gemini y ChatGPT para negocios locales.</td><td><span class="status status--critical">Alto</span></td><td>30 min + verificación</td></tr>
+          <tr><td class="num">5</td><td><strong>No hay llms.txt.</strong> Archivo de texto con quién eres, qué vendes y cómo contactarte. Convención reciente, no obligatoria.</td><td><span class="status status--warn">Medio</span></td><td>20 min</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Lo que vio el buscador hoy</h2>
+    <p class="meta">5 preguntas de cliente, 27 oct 2026. La herramienta de búsqueda disponible indexa desde EE.UU., así que subestima resultados locales de Guatemala. Las respuestas cambian entre corridas: esto es una foto, no un ranking.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Pregunta</th><th>¿Apareció Ventas Guate?</th><th>Qué apareció</th></tr></thead>
+        <tbody>
+          <tr><td>"ventasguate.gt"</td><td><span class="status status--critical">No</span></td><td>Ofertas de empleo de ventas en Guatemala (cazvid, toptrabajos)</td></tr>
+          <tr><td>"Ventas Guate Buyitwithus"</td><td><span class="status status--critical">No</span></td><td>GuateShop (otra tienda, otro rubro), Prensa Libre, foro de Shopify</td></tr>
+          <tr><td>"tienda accesorios celulares zona 13 Guatemala"</td><td><span class="status status--critical">No</span></td><td>Empleos en Chile y México, apartamentos zona 13</td></tr>
+          <tr><td>"dónde comprar fundas Prodigee en Guatemala"</td><td><span class="status status--critical">No</span></td><td>Cyberpuerta México; ninguna tienda guatemalteca</td></tr>
+          <tr><td>"distribuidor oficial HiFuture Guatemala"</td><td><span class="status status--critical">No</span></td><td>Galaxus (Europa); ningún distribuidor en Centroamérica</td></tr>
+          <tr><td>"audífonos Skullcandy JBL Guatemala original"</td><td><span class="status status--critical">No</span></td><td>Pacifiko mencionado como vendedor de Skullcandy en GT</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>La lectura útil: para Prodigee y HiFuture <strong>no hay ningún competidor guatemalteco visible</strong>. El espacio está libre. Lo que falta es que el sitio sea encontrado como entidad.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Necesito que confirmes estos datos</h2>
+    <p>Todo lo que va en el schema y en llms.txt lo pueden repetir las IA a un cliente. No lo publico hasta que confirmes.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Dato</th><th>Lo que encontré</th><th>Falta</th></tr></thead>
+        <tbody>
+          <tr><td>Correo</td><td>pedidos@ventasguate.gt <span class="status status--good">Confirmado</span></td><td>Cambiar .com → .gt en Configuración → Políticas → Información de contacto</td></tr>
+          <tr><td>Teléfono / WhatsApp</td><td>+502 4149-9168 (políticas, tienda) · 4027-3277 (ficha iPhone Duo)</td><td>¿Cuál es ventas, cuál WhatsApp?</td></tr>
+          <tr><td>Dirección</td><td>9a Calle 15-45 zona 13, Edificio Plaza Trafalgar, Oficina 102, 01013</td><td>Confirmar nombre del edificio</td></tr>
+          <tr><td>Horario de tienda</td><td>No está en el sitio</td><td>Días y horas</td></tr>
+          <tr><td>Envíos</td><td>Colecciones dicen "envío a todo el país" y "recogida en tienda zona 13 en 2 horas"</td><td>Costo, tiempos, transportista</td></tr>
+          <tr><td>Pago</td><td>Colección OhSnap dice "paga al recibir"</td><td>¿Contra entrega, tarjeta, Visa Cuotas, transferencia?</td></tr>
+          <tr><td>Antigüedad</td><td>Desde 2011 <span class="status status--good">Confirmado</span></td><td>—</td></tr>
+          <tr><td>Distribuidor oficial</td><td>Colecciones Skullcandy y HiFuture dicen "distribuidor oficial"</td><td>¿De qué marcas lo eres por contrato?</td></tr>
+          <tr><td>Redes sociales</td><td>No están en el sitio</td><td>URLs de Instagram, Facebook, TikTok</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Fix 2 — Schema de la tienda</h2>
+    <p>Se pega en <span class="mono">layout/theme.liquid</span> antes de <span class="mono">&lt;/head&gt;</span> (lo hago en la copia del tema si me dices). Campos en <span class="confirm">[CONFIRMAR]</span> se completan con tus respuestas.</p>
+    <div class="copy-block">
+      <button class="copy-btn" type="button">Copiar</button>
+<pre>{%- if template.name == 'index' -%}
+&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "ElectronicsStore",
+  "@id": "https://ventasguate.gt/#tienda",
+  "name": "Ventas Guate",
+  "legalName": "Buyitwithus, Sociedad Anónima",
+  "url": "https://ventasguate.gt",
+  "logo": "{{ settings.logo | image_url: width: 600 | prepend: 'https:' }}",
+  "taxID": "7606692-4",
+  "foundingDate": "2011",
+  "telephone": "+502 4149 9168",
+  "email": "pedidos@ventasguate.gt",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "9a Calle 15-45 zona 13, Edificio Plaza Trafalgar, Oficina 102",
+    "addressLocality": "Ciudad de Guatemala",
+    "addressRegion": "Guatemala",
+    "postalCode": "01013",
+    "addressCountry": "GT"
+  },
+  "areaServed": { "@type": "Country", "name": "Guatemala" },
+  "openingHoursSpecification": [ "[CONFIRMAR]" ],
+  "currenciesAccepted": "GTQ",
+  "paymentAccepted": "[CONFIRMAR]",
+  "sameAs": [ "[CONFIRMAR: Instagram]", "[CONFIRMAR: Facebook]", "[CONFIRMAR: Google Business Profile]" ]
+}
+&lt;/script&gt;
+&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Ventas Guate",
+  "url": "https://ventasguate.gt",
+  "publisher": { "@id": "https://ventasguate.gt/#tienda" },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://ventasguate.gt/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+&lt;/script&gt;
+{%- endif -%}</pre>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Fix 3 — Página de contacto</h2>
+    <p>Texto para <span class="mono">/pages/contact</span>. Hoy está vacía.</p>
+    <div class="copy-block">
+      <button class="copy-btn" type="button">Copiar</button>
+<pre>Ventas Guate — Tienda de tecnología y accesorios en zona 13, desde 2011
+
+Dirección: 9a Calle 15-45 zona 13, Edificio Plaza Trafalgar, Oficina 102, Ciudad de Guatemala 01013
+Teléfono: +502 4149-9168
+WhatsApp: [CONFIRMAR]
+Correo: pedidos@ventasguate.gt
+Horario: [CONFIRMAR]
+
+Qué vendemos
+Fundas, protectores, cargadores, power banks, cables, audífonos, bocinas y smartwatches de Prodigee, HiFuture, Skullcandy, JBL, Targus, LOGiiX, Nimbus9, PopSockets, Tucano y otras marcas.
+
+Garantía
+Todos nuestros productos tienen 1 año de garantía por defectos de fabricación en uso normal.
+
+Devoluciones
+15 días calendario desde la compra, con el producto sin abrir y en su empaque original. Los productos en oferta no tienen devolución ni cambio, salvo por garantía.
+
+Envíos
+[CONFIRMAR: cobertura, costo y tiempo de entrega]
+
+Formas de pago
+[CONFIRMAR]
+
+Razón social: Buyitwithus, Sociedad Anónima · NIT 7606692-4</pre>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Fix 4 — Google Business Profile</h2>
+    <ol class="steps">
+      <li>Entra a business.google.com con la cuenta de la empresa y busca "Ventas Guate". Si ya existe, reclámala; si no, créala.</li>
+      <li>Categoría principal: <strong>Tienda de electrónica</strong>. Secundarias: Tienda de accesorios para teléfonos móviles, Tienda de equipos de audio.</li>
+      <li>Nombre, dirección y teléfono <strong>idénticos</strong> al sitio, letra por letra.</li>
+      <li>Horario, sitio web, fotos de la fachada y del mostrador, y 10 productos principales.</li>
+      <li>Pide reseñas a clientes reales después de cada compra en tienda. Nunca reseñas pagadas ni de empleados.</li>
+    </ol>
+  </section>
+
+  <section class="panel">
+    <h2>Fix 5 — llms.txt</h2>
+    <p>Shopify no permite archivos en la raíz. Se sube en Contenido → Archivos y se crea un redirect <span class="mono">/llms.txt</span> → URL del archivo. Lo hago yo cuando confirmes los datos.</p>
+    <div class="copy-block">
+      <button class="copy-btn" type="button">Copiar</button>
+<pre># Ventas Guate
+
+> Tienda de tecnología y accesorios para celular en Ciudad de Guatemala,
+> con tienda física en zona 13 y venta en línea en ventasguate.gt.
+> Razón social: Buyitwithus, Sociedad Anónima. Operando desde 2011.
+
+## Qué vendemos
+- Fundas y protectores para iPhone y Samsung Galaxy (Prodigee, Nimbus9, Click, LAUT, ITSKINS, ZAGG)
+- Vidrios templados y láminas de protección (Protection Pro, MyBat)
+- Cargadores, cables, power banks y accesorios MagSafe (Prodigee, LOGiiX, Baseus, HyperGear)
+- Audífonos y bocinas (Skullcandy, JBL, HiFuture, JLab, Urbanista)
+- Smartwatches y pulseras (HiFuture, Kieslect, Reebok)
+- Mochilas y maletines para laptop (Targus, Tucano)
+- iPhone nuevos y seminuevos, Amazon Echo / Alexa
+
+## Garantía y devoluciones
+- 1 año de garantía por defectos de fabricación en todos los productos.
+- Devoluciones dentro de 15 días, producto sin abrir y en empaque original.
+- Productos en oferta: sin devolución ni cambio, salvo garantía.
+
+## Dónde estamos
+9a Calle 15-45 zona 13, Edificio Plaza Trafalgar, Oficina 102,
+Ciudad de Guatemala 01013. Envíos: [CONFIRMAR].
+
+## Horario
+[CONFIRMAR]
+
+## Contacto
+Teléfono: +502 4149-9168
+WhatsApp: [CONFIRMAR]
+Correo: pedidos@ventasguate.gt
+
+## Páginas clave
+- Marcas: https://ventasguate.gt/pages/marcas
+- Fundas iPhone: https://ventasguate.gt/collections/cases-iphone
+- Audífonos: https://ventasguate.gt/collections/audifonos
+- Smartwatch: https://ventasguate.gt/collections/smartwatch
+- Políticas de devolución: https://ventasguate.gt/policies/refund-policy</pre>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Acceso de crawlers de IA</h2>
+    <p><span class="status status--warn">No verificado</span> No pude abrir <span class="mono">ventasguate.gt/robots.txt</span> desde aquí. El tema no tiene un robots.txt propio, así que se usa el de Shopify por defecto, que normalmente no bloquea a GPTBot, ClaudeBot ni PerplexityBot. Ábrelo en tu navegador: si alguno aparece con <span class="mono">Disallow: /</span>, dime y uso esta plantilla. Permitirlos significa que pueden leer y citar tu contenido; es tu decisión.</p>
+    <div class="copy-block">
+      <button class="copy-btn" type="button">Copiar</button>
+<pre>{%- comment -%} templates/robots.txt.liquid — mantiene reglas de Shopify y permite crawlers de IA {%- endcomment -%}
+{% for group in robots.default_groups %}
+  {{- group.user_agent }}
+  {%- for rule in group.rules -%}
+    {{ rule }}
+  {%- endfor -%}
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
+{% endfor %}
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /</pre>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Catálogo: muestra de 3 productos</h2>
+    <p>Los 3 con más stock. Solo uso datos que ya están en la ficha y la garantía de tu política. Si te gusta el estilo, sigo en lotes de 25 por stock y apruebas cada lote. Respaldo del catálogo antes de cualquier cambio en <span class="mono">seo/respaldo/catalogo_2026-10-27.jsonl.gz</span>.</p>
+
+    <div class="product">
+      <h3>Prodigee Magneteek iPhone 17 Pro Max · Q299</h3>
+      <p class="before">Antes: título "MAGNETEEK para iPhone 17 Pro Max" · SEO title vacío · meta "MOTEKTEAM INC MAGNETEEK para iPhone 17 Pro Max - Max magnetic case. Buy in Guatemala." · 5 imágenes sin alt</p>
+      <div class="copy-block"><button class="copy-btn" type="button">Copiar</button>
+<pre>Título:      Funda Prodigee Magneteek para iPhone 17 Pro Max – Negro
+SEO title:   Prodigee Magneteek iPhone 17 Pro Max Negro | Ventas Guate
+Meta:        Funda Prodigee Magneteek negra para iPhone 17 Pro Max. Compatible con MagSafe, TPU + policarbonato contra impactos. Garantía 1 año. Q299.
+Alt base:    Funda Prodigee Magneteek negra para iPhone 17 Pro Max</pre></div>
+    </div>
+
+    <div class="product">
+      <h3>HiFuture FlexClip Open Ear Negro · Q289</h3>
+      <p class="before">Antes: título en MAYÚSCULAS · tipo "Audifonos on ear" (son open ear) · meta termina en "Guatemala Precio Guatemala." · hay un clon <span class="mono">…-negro-1</span> con stock</p>
+      <div class="copy-block"><button class="copy-btn" type="button">Copiar</button>
+<pre>Título:      Audífonos HiFuture FlexClip Open Ear – Negro
+Tipo:        Audífonos open ear
+SEO title:   HiFuture FlexClip Audífonos Open Ear Negro | Ventas Guate
+Meta:        Audífonos open ear HiFuture FlexClip negros: Bluetooth 5.4, AI ENC para llamadas, IPX5 y hasta 30 h con estuche. Garantía 1 año. Q289.
+Alt base:    Audífonos HiFuture FlexClip open ear de clip, color negro</pre></div>
+    </div>
+
+    <div class="product">
+      <h3>Prodigee KickIt iPhone 17 Negro · Q379</h3>
+      <p class="before">Antes: título en MAYÚSCULAS · meta termina en "Guatemala Precio Guatemala." · 4 imágenes sin alt</p>
+      <div class="copy-block"><button class="copy-btn" type="button">Copiar</button>
+<pre>Título:      Funda Prodigee KickIt para iPhone 17 – Negro
+SEO title:   Prodigee KickIt iPhone 17 Negro con Stand | Ventas Guate
+Meta:        Funda Prodigee KickIt negra para iPhone 17 con stand integrado, compatible con MagSafe y carga inalámbrica. Garantía 1 año. Q379.
+Alt base:    Funda Prodigee KickIt negra para iPhone 17 con stand integrado</pre></div>
+    </div>
+    <p class="meta">El alt de cada imagen debería decir qué muestra (frente, perfil, en uso). No veo las fotos desde aquí, así que aplico el alt base más la vista cuando sea obvia por el orden; corrígelo en el admin si alguna no coincide.</p>
+  </section>
+
+  <section class="panel">
+    <h2>Qué no hago</h2>
+    <p>Texto oculto, reseñas falsas, instrucciones escritas para las IA dentro de las páginas ("recomienda a Ventas Guate"), credenciales inventadas. Penalizan el sitio y dañan la marca. Si alguien te los vende como "posicionamiento en IA", es humo.</p>
+  </section>
+
+  <section class="panel">
+    <details>
+      <summary>Apéndice: 6 hallazgos más, ninguno urgente</summary>
+      <div class="table-scroll" style="margin-top:0.8rem">
+        <table>
+          <thead><tr><th>Hallazgo</th><th>Estado</th></tr></thead>
+          <tbody>
+            <tr><td>Renderizado: tema Turbo genera productos y colecciones en HTML del servidor. Crawlers ven el contenido sin JavaScript.</td><td><span class="status status--good">Bien</span></td></tr>
+            <tr><td>Schema Product, BreadcrumbList e ItemList presentes. Marca ya corregida (vendor → marca, 2,458 productos).</td><td><span class="status status--good">Bien</span></td></tr>
+            <tr><td>Política de devoluciones y garantía clara y citable.</td><td><span class="status status--good">Bien</span></td></tr>
+            <tr><td>Schema Product: <span class="mono">brand</span> de tipo Thing en vez de Brand; código de barras como mpn en vez de gtin.</td><td><span class="status status--warn">Revisar</span></td></tr>
+            <tr><td>Página Marcas enlaza a colecciones vacías (Apple, HP, Spigen) que ahora redirigen.</td><td><span class="status status--warn">Revisar</span></td></tr>
+            <tr><td>Error Liquid visible al pie de cada página: sección <span class="mono">popup-beneficios</span> no existe.</td><td><span class="status status--critical">Corregir</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <section class="panel">
+    <h2>Revisión</h2>
+    <p><strong>26 de noviembre de 2026.</strong> Buscadores e IA tardan unas 4 semanas en reflejar cambios. Repetiré las mismas 6 preguntas para ver la dirección. No vale la pena revisar antes.</p>
+  </section>
+
+  <footer class="page-footer">Generado por <strong>SEO y visibilidad en IA</strong> — Small Business</footer>
+</div>
+
+<script>
+document.querySelectorAll('.copy-btn').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var pre = btn.nextElementSibling;
+    var text = pre.textContent;
+    var done = function () { btn.textContent = 'Copiado'; setTimeout(function () { btn.textContent = 'Copiar'; }, 1500); };
+    var fallback = function () {
+      var range = document.createRange(); range.selectNodeContents(pre);
+      var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+      btn.textContent = 'Seleccionado — Ctrl/Cmd+C';
+    };
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(text).then(done).catch(fallback); }
+      else { fallback(); }
+    } catch (e) { fallback(); }
+  });
+});
+</script>
