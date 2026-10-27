@@ -32,3 +32,6 @@ Responder: **aprobado todo**, o los números a cambiar.
 **Extra #13:** se corrige la descripción del iPhone 11 Pro Max, que dice "iPhone XS".
 
 **Regla aplicada:** ninguna meta lleva precio. Google ya muestra el precio real desde el schema de producto, y 6 metas tenían precios viejos.
+
+---
+**Aplicado 2026-10-27:** 24 cambios (6 colecciones + página Marcas + 17 productos), 0 errores, verificado en muestra. Spigen: 9 productos agregados, noindex quitado, redirect borrado.
