@@ -147,7 +147,7 @@ Texto ancla con la keyword natural ("fundas para iPhone 17 Pro Max"), nunca "cli
 | Sesiones de búsqueda | 3,807 (≈1,270/mes) | +50% (≈1,900/mes) | Shopify Analytics |
 | Conversión de búsqueda | 0.60% | ≥ 0.60% (no bajar al crecer) | Shopify Analytics |
 | Pedidos desde búsqueda | ≈23 | +50% | Shopify Analytics |
-| Keywords en top 10 | medir en GSC | 20 de las 16 keywords + variantes | Search Console |
+| Keywords en top 10 | medir en GSC | 10 de las 16 keywords principales | Search Console |
 | Artículos publicados | 0 | 12 | Blog |
 | Colecciones con texto + SEO | ~19 de 147 | +24 | Admin |
 
