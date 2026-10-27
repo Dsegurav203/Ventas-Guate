@@ -74,3 +74,4 @@ Fuentes: ficha oficial ohsnap.com (Grip Wallet) y retailers autorizados (J.B. Hi
 
 ---
 **Aplicado 2026-10-27:** 15 productos (9 Snap Grip, 2 Grip Stand, 4 Grip Wallet): título, tipo de producto, descripción y SEO. 0 errores, verificado en muestra. La descripción va sin el color, que ya está en el título.
+- 2026-10-27: Snap Car Mount MagSafe a **Q299**, ACTIVE, visible en Google, con descripción y SEO (soporte para tablero con 3M VHB, base de aluminio, rótula ajustable; no carga). Colección OhSnap: 15 productos. 0 u. en stock.
