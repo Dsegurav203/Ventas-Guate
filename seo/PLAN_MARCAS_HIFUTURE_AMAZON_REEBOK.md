@@ -132,3 +132,4 @@ Las metas son de dirección, no promesas: dependen de la oferta (Fase 4) tanto c
 - 17 productos sin precio cargado (OhSnap, Click Flex Shield, Gadget Guard, Baseus Pudding, MyBat, Tucano Modo, Backbone Display)
 
 ⚠️ UNLISTED oculta el producto, pero quien tenga el link directo todavía puede comprarlo. Con stock y precio Q0: **OhSnap Grip Wallet Orchid Slap (11 u.)** e insumos (base de corte 25 u., cuchilla blanca 17 u., film 46 u., cuchilla negra 5 u.). → Cargar precio real o pasar a ARCHIVED si no se venden en POS.
+- 2026-10-27: OhSnap Grip Wallet a **Q599** (Orchid Slap ×2, Cranberry Smash; Black ya estaba en Q599). Orchid Slap `-1` (11 u.) vuelve a ACTIVE y visible en Google. Cranberry pasa a ACTIVE (0 u., no publicado en la tienda online). Orchid Slap original (0 u., duplicado) sigue oculto.
