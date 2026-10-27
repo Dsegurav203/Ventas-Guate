@@ -12,7 +12,7 @@
 
 # iPhone reacondicionado en Guatemala: qué revisar antes de comprar
 
-Un iPhone reacondicionado o seminuevo cuesta entre 40% y 60% menos que uno nuevo y, si está bien revisado, rinde igual por años. En Guatemala, en octubre de 2026, en Ventas Guate encontrás desde **Q2,150 (iPhone XS)** hasta **Q4,100 (iPhone 12 Pro 256GB)**, todos liberados de fábrica y con **30 días de garantía**. Antes de comprar en cualquier tienda, revisá estas 7 cosas.
+Un iPhone reacondicionado o seminuevo cuesta bastante menos que uno nuevo y, si está bien revisado, rinde por años. En Guatemala, en octubre de 2026, en Ventas Guate encontrás desde **Q2,150 (iPhone XS)** hasta **Q4,100 (iPhone 12 Pro 256GB)**, todos liberados de fábrica y con **30 días de garantía**. Antes de comprar en cualquier tienda, revisá estas 7 cosas.
 
 ## ¿Reacondicionado, seminuevo o usado? Qué significa cada uno
 
@@ -86,7 +86,7 @@ Precios y existencias cambian a diario: mirá el [catálogo de seminuevos](/coll
 ## Preguntas frecuentes
 
 **¿Un iPhone seminuevo recibe actualizaciones de iOS?**
-Sí, mientras Apple dé soporte al modelo. El iPhone XS y los posteriores siguen recibiendo actualizaciones de seguridad.
+Sí, mientras Apple dé soporte al modelo. Revisá en **Configuración → General → Actualización de software** qué versión acepta el equipo antes de comprar. [CONFIRMAR qué modelos del catálogo reciben iOS actual]
 
 **¿Puedo pagar en efectivo o transferencia?**
 Sí. Preguntá por los beneficios al pagar en efectivo o por transferencia. [CONFIRMAR condiciones]
