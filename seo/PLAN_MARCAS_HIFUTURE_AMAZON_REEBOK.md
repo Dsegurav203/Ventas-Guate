@@ -123,3 +123,12 @@ Las metas son de dirección, no promesas: dependen de la oferta (Fase 4) tanto c
 - FlexClip y Echo Spot tenían el **mismo SKU en dos productos**. Las cantidades se sumaron (el total en Shopify no cambió). Si las publicaciones `-1` se crearon re-importando el mismo lote, el stock real puede ser menor → **contar físicamente** 6972576181954 (negro), 6972576181961 (beige) y 840268963422 (Echo Spot).
 - Echo Dot `…-azul-1` (archivado) y `…-azul-old` (sin listar) comparten el SKU 840080527079, con 1 u. registrada en cada uno.
 - Echo Spot no tiene descripción → se hace en Fase 2.
+
+### Productos ocultos 2026-10-27
+33 productos a ≤ Q1 pasan de ACTIVE a **UNLISTED** + `seo.hidden = 1`. Siguen en el sistema (POS e inventario) y desaparecen de colecciones, búsqueda, sitemap y Google:
+- Insumos Protection Pro: base de corte, cuchillas blanca y negra, espátula 4", film Extra Small HD
+- Amazon Paquete 9, Paquete 12, Paquetes
+- 8 iPhone 18 Pro Max Burgundy por número de serie (0 u.)
+- 17 productos sin precio cargado (OhSnap, Click Flex Shield, Gadget Guard, Baseus Pudding, MyBat, Tucano Modo, Backbone Display)
+
+⚠️ UNLISTED oculta el producto, pero quien tenga el link directo todavía puede comprarlo. Con stock y precio Q0: **OhSnap Grip Wallet Orchid Slap (11 u.)** e insumos (base de corte 25 u., cuchilla blanca 17 u., film 46 u., cuchilla negra 5 u.). → Cargar precio real o pasar a ARCHIVED si no se venden en POS.
