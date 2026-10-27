@@ -158,3 +158,92 @@ Son metas de dirección, no promesas de ranking. Los primeros resultados se ven 
 1. Conectar Google Search Console (si no está) para validar keywords reales.
 2. Confirmar: horario, WhatsApp, envíos, formas de pago y marcas con distribución oficial.
 3. Renombrar el blog "News" a "Guías" (handle `guias`) y agregarlo al menú.
+
+---
+
+# Ajuste con datos reales de Search Console (27 jul – 24 oct 2026)
+
+Fuente: exportación "GSC Ventas Guate 2026-10 Full" (Drive). Web, 3 meses.
+
+## Resumen
+
+| Métrica | Valor |
+|---|---|
+| Clics | 3,626 |
+| Impresiones | 48,866 |
+| Guatemala | 98% de los clics |
+| Móvil / escritorio | 75% / 24% de los clics · posición 7.8 en móvil vs 15.0 en escritorio |
+| **Búsquedas de marca** ("ventas guate", "ventasguate", "guate ventas"…) | **1,867 clics de 4,484 impresiones = 80% de los clics** |
+| **Búsquedas sin marca** | **459 clics de 17,188 impresiones · CTR 2.7%** |
+| Fragmentos de producto (rich results) | 537 clics · 14,474 impresiones ✅ |
+| Merchant listings (ficha con precio y envío en Google) | 0 clics · 2 impresiones ❌ falta `shippingDetails` y `hasMerchantReturnPolicy` en el schema |
+
+**Lectura:** Google ya te conoce por nombre. Casi nadie te encuentra buscando *lo que vendes*. Hay 17,188 impresiones sin marca convirtiendo al 2.7%: ahí está el crecimiento.
+
+## Demanda real por tema (solo búsquedas sin marca)
+
+| Tema | Impresiones | Clics | Consultas | Cambio vs plan original |
+|---|---|---|---|---|
+| Audio (JBL, Skullcandy, HiFuture) | 3,585 | 90 | 223 | Se mantiene, enfocado en **modelos** |
+| **iPhone seminuevo / reacondicionado** | 2,091 | 94 | 120 | **Sube a pilar #1** |
+| Fundas / cases | 2,078 | 110 | 117 | Se mantiene |
+| **Smart home (Govee, Alexa)** | 1,689 | 50 | 82 | **Nuevo pilar** — no estaba en el plan |
+| **Smartwatch** | 1,271 | **4** | 33 | **Mayor brecha:** demanda alta, posición 22–38 |
+| PopSockets / grips | 447 | 24 | 14 | Colección, no blog |
+| Carga (cargadores, power banks, MagSafe) | 373 | 12 | 33 | **Baja**: poca búsqueda, se queda en colecciones |
+| Gaming | 282 | 16 | 25 | Fill-in |
+
+## Quick wins: ya rankeas, nadie hace clic (posición 2–10)
+
+Arreglo = mejor SEO title + meta description. Sin contenido nuevo.
+
+| Página | Impresiones | CTR | Posición | Problema |
+|---|---|---|---|---|
+| `/policies/contact-information` | 2,815 | 0.8% | 4.2 | Google la muestra mucho **con el correo .com equivocado** → corregir ya |
+| `/collections/promociones` | 2,599 | 0.7% | 4.0 | Sin SEO title ni meta |
+| `/pages/marcas` | 1,317 | 0.5% | 2.5 | Título "Marcas" — no dice nada |
+| `/collections/alexa` | 1,743 | 2.7% | 10.6 | Meta OK, falta texto en la colección |
+| `/collections/prodigee` | 1,172 | 6.8% | 4.9 | "prodigee" sola: 463 impresiones, 2.4% CTR |
+| `/collections/popsockets` | 764 | 5.5% | 6.4 | — |
+| `/collections/hifuture` | 530 | 4.0% | 5.8 | "hifuture": 162 impresiones, 0.6% CTR |
+| Producto Skullcandy Dime 3 | 248 imp. de la consulta | 0% | 10.0 | Título en MAYÚSCULAS, sin meta |
+| Producto Skullcandy Smokin Buds | 574 | 1.0% | 7.8 | Ídem |
+| Producto iPad 7ma generación | 652 | 0.8% | 7.4 | Ídem |
+
+## Brechas: hay demanda, estás en página 3–4
+
+| Consulta | Impresiones | Posición | Acción |
+|---|---|---|---|
+| precio iphone 11 pro max guatemala (+3 variantes) | 486 | 33–37 | Ficha y guía de seminuevos por modelo **solo si hay stock** |
+| smartwatch para mujer / guatemala / relojes inteligentes | 297 | 34–38 | Texto en `/collections/smartwatch` + guía |
+| reloj para correr / reloj gps guatemala | 244 | 27–35 | Guía "smartwatch con GPS para correr" |
+| estuches iphone guatemala / case iphone guatemala | 225 | 19–21 | Texto en `/collections/cases-iphone` con "estuche" + "case" + "forro" |
+| spigen guatemala | 128 | 15.4 | ⚠️ La colección Spigen está vacía y la marqué noindex en el Paso 1. Hay productos Spigen: **llenar la colección y revertir** |
+| casetify guatemala | 133 | 18.5 | Sin producto → ignorar |
+| magsafe guatemala | 127 | 19.5 | Texto en `/collections/magsafe` |
+
+## Cola revisada (reemplaza la anterior)
+
+| # | Qué | Tipo | Por qué (dato GSC) | Semana |
+|---|---|---|---|---|
+| 1 | Corregir correo en política de contacto | Fix | 2,815 impresiones mostrando .com | Hoy (Diego) |
+| 2 | SEO title + meta: Promociones, Marcas, Prodigee, HiFuture, PopSockets, Alexa | Quick win | 8,145 impresiones, CTR < 7% | 1 |
+| 3 | SEO de 20 productos con más impresiones (Skullcandy, JBL, Govee, iPad) | Quick win | Consultas de modelo en pos. 5–10 | 1 |
+| 4 | Guía: iPhone reacondicionado en Guatemala — qué revisar, batería, garantía | Pilar | 2,091 imp., CTR 18% en la keyword principal | 1 |
+| 5 | Regalos tecnológicos Navidad Guatemala | Estacional | Temporada | 2 (antes del 10 nov) |
+| 6 | Colección Smartwatch: texto + FAQ ("para mujer", "con GPS", "con llamadas") | Brecha | 1,271 imp., 4 clics | 2 |
+| 7 | Guía: Smartwatch para correr con GPS en Guatemala | Brecha | 244 imp. pos. 27–35 | 3 |
+| 8 | Guía: Govee — tiras LED y TV Backlight, cuál comprar | Nuevo pilar | Govee 1,000+ imp. | 3 |
+| 9 | Colección Alexa + guía "Echo Dot vs Echo Pop vs Echo Show" | Nuevo pilar | Alexa 1,743 imp. | 4 |
+| 10 | Comparativa Skullcandy: Dime 3 vs Smokin Buds vs Sesh ANC vs Method 360 | Audio | 4 modelos con 600+ imp. sumadas | 4 |
+| 11 | Comparativa Prodigee | Fundas | 463 imp. "prodigee" | 5 |
+| 12 | Cases iPhone: texto con "estuche/case/forro" | Brecha | 225 imp. pos. 20 | 5 |
+
+**Bajan de prioridad:** "Qué cargador comprar", "Power bank MagSafe", "iPhone eSIM Tigo/Claro" → sin demanda medible todavía. Se revisan en enero.
+
+## Técnico que sale de GSC
+
+- **Merchant listings = 0** → agregar `shippingDetails` y `hasMerchantReturnPolicy` al schema Product (copia del tema). Necesita costo y tiempo de envío confirmados.
+- **Escritorio en posición 15 vs móvil 7.8** → revisar Core Web Vitals de escritorio en GSC → Experiencia.
+- **`/collections/ipads-seminuevas`** tuvo 43 clics: está vacía, noindex aplicado y con redirect a `/collections/seminuevos` listo. Correcto.
+- **`/collections/controles`**: 200 impresiones y vacía → redirect a `/collections/gaming-1` listo. Correcto.
