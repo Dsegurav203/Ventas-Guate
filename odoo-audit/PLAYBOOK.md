@@ -57,5 +57,6 @@ Idioma: español. Sin saludos ni cierres.
 - Usuarios autorizados como **Inventario / Administrador** (únicos que pueden aplicar ajustes): Diego Segura (id 2), Glenda Ixcayau (id 27), SOPORTE NODUU (id 229).
 - Grupo Inventario / Administrador: `res.groups` id 47. Shopify / Manager (id 148) implica id 47.
 - Grupo "Consulta de costos de inventario" (`res.groups` id 154): solo lectura de valoración, sin ajustes. Autorizado: Henry Galindo (id 7). Reportar cualquier otro miembro.
+- Grupo "Bloqueo de creación de productos" (`res.groups` id 156, reglas `ir.rule` 639 y 640): miembros no pueden crear productos. Deben estar Bodega Central (17) y Auxiliar de bodega (28). ALTA si faltan, si las reglas se desactivan o si cualquiera de los dos crea un `product.template`.
 - Menú Inventario / Reportes (`ir.ui.menu` 289) abierto a Inventario / Usuario (46); Valoración (317) solo grupos 47 y 154. Si se revierte tras una actualización, reportarlo como ALTA.
 - Obitech (res.partner 49): 14 pedidos entregados sin facturar (~Q226,418) pendientes de validación contra FEL por Glenda. Reportar como SIGUE hasta que se resuelva.
