@@ -160,16 +160,20 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
     1. `./odoo group sale.report -g product_id -a price_subtotal:sum,margin:sum,product_uom_qty:sum -d '<dominio>' -l 5000 -F json`
     2. `./odoo search product.product -d '[["id","in",[IDS]]]' -f brand_id -l 5000 -F json` (con `"active_test": false` si hay archivados vía `call … search_read -k`), luego sumar por marca.
   - Filtrar ventas de una marca: `["product_id.brand_id.name","=","MARCA"]` sí funciona en el dominio.
-- **Canal de venta = `team_id`** (equipo de ventas). Agrupación por canal:
-  | Canal | Equipos (`crm.team`) |
-  |---|---|
-  | Tiendas / Kioscos (POS) | Point of Sale (3), Tiendas (13), Kiosco Portales K-02 (8), Kiosco Miraflores K-49 (7), Kiosko Miraflores K-08 (6) |
-  | E-commerce | Ventasguate.gt (14), Website (2) |
-  | Redes / chat | Chats Redes (FB/IG/WhatsApp) (20) |
-  | Distribución / mayoreo | Distribuciòn y Mayoreo (5, 10), Distribucion Rudy (11) |
-  | Vendedores (equipo con nombre de persona) | Henry Galindo (9), Estuardo Pineda (21), Luis Guevara (12), Fernando Aguilar (1), Luis Alfredo Cantoral (17), Sebastian Hernandez (18), Glenda Ixcayau (19) |
-  Confirmar con Diego esta clasificación antes de publicar reportes por canal.
+- **Canales oficiales** (definidos por Diego, 2026-11-18). En Odoo `team_id` está mal configurado (mezcla canales y vendedores); usar este mapeo de equipos históricos → canal:
+  | Canal | Sub-canal | Responsable | Equipos históricos (`crm.team` id) |
+  |---|---|---|---|
+  | Retail (tienda física) | — | — | Point of Sale (3), Tiendas (13), Kioscos K-02 (8), K-49 (7), K-08 (6) |
+  | E-commerce | ventasguate.gt | — | Ventasguate.gt (14), Website (2) |
+  | Distribución | Mayoreo (puntos de venta mayoristas) | Henry Galindo (gerente); vendedores Estuardo Pineda, Luis Guevara | Luis Guevara (12), Estuardo Pineda (21), Distribuciòn y Mayoreo (5, 10), Distribucion Rudy (11) |
+  | Distribución | Dropship / plataformas digitales | Fernando Aguilar, bajo Henry | Fernando Aguilar (1) |
+  | Distribución | Henry (cuentas propias) | Henry Galindo | Henry Galindo (9) — sub-canal por confirmar |
+  | Por confirmar | — | — | Chats Redes (20), Sebastian Hernandez (18), Glenda Ixcayau (19), Luis Alfredo Cantoral (17), sin equipo |
+  - Reporte por canal: `./odoo group sale.report -g team_id … -F json` y sumar con este mapeo. Vendedor = `user_id`, nunca `team_id`.
+  - Usuarios que no son vendedores en `user_id`: Ventas Guate Trafalgar, VG Miraflores 1, VG PORTALES (cajas POS), Bodega Central, Auxiliar de bodega, OdooBot.
+- **⚠️ Margen POS en devoluciones está mal calculado** (`pos_sale_margin`): en reembolsos el margen resta el costo en vez de sumarlo (ej. nov-2026: devoluciones −Q71.8k venta, −Q125.3k margen; lo correcto ≈ −Q18.2k). Para margen de Retail: agrupar ventas (`product_uom_qty > 0`) y devoluciones (`< 0`) por separado y corregir devoluciones con `margen_real = 2 × price_subtotal − margin`.
+- **⚠️ Error de captura sep-2026**: pedido POS `Ventas Guate Design Center/25487` (2026-09-26) y su reembolso: iPhone 18 Pro Max con cantidad 15,495 (se digitó el precio como cantidad). Margen −Q142M cada uno. Excluir ambos de cualquier análisis de margen.
 
 ## Contexto de negocio (no reportar como anomalía)
 - **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
-- **Margen bajo en POS (~8%, nov‑2026)**: esperado por mezcla de productos Apple (margen bajo) y combos de liquidación. Al analizar margen, separar Apple y liquidación del resto antes de concluir.
+- **Margen POS nov‑2026**: el 8% reportado inicialmente estaba distorsionado por el error de margen en devoluciones; real ≈ 22%. Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
