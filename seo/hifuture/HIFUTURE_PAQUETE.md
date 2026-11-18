@@ -168,3 +168,14 @@ Datos tomados de las páginas oficiales de HiFuture (gravity, ripple, futuremate
 | FutureMate2 Pro | Descripción nueva: open ear, driver de 15.4 mm, BT 5.4, 4 micrófonos ENC, IPX5, 7 g. La batería no se indica porque HiFuture da 20 h y 30 h |
 | Event Horizon | Ahora es "Parlante HiFuture Event Horizon 100W". Se borró la descripción de smartwatch. 100W, BT 5.3, 8000 mAh y USB-C vienen de tiendas, no de una ficha oficial |
 | Ultra2 Pro Sport Negro | ARCHIVADO (descontinuado, inventario 0). Redirect /products/hifuture-ultra2-pro-sport-smartwatch-negro-1 → /collections/smartwatch-hifuture |
+
+### Lote 5 — revisión con hifuturegroup.com abierto (18 nov 2026)
+
+Datos tomados de la tabla de especificaciones de cada página de producto en hifuturegroup.com.
+
+| Producto | Cambio |
+|---|---|
+| Ripple ×3 | IPX7 (la tabla de especificaciones dice IPX7; el título de la página dice IPX5). Se agregó 635 g y carga de 3.5 h |
+| Gravity ×2 | Se agregó 1.7 kg y carga de 3.5 h |
+| FutureMate2 Pro | Hasta 30 h (página de producto oficial); open ear confirmado |
+| Event Horizon | Ficha oficial: 100W, 3 vías con woofer de 6.5", LED sincronizado, TWS, efectos de micrófono (reverb, eco, delay), 8000 mAh y entrada DC. Se quitaron Bluetooth 5.3 y USB-C porque la página oficial no los menciona |
