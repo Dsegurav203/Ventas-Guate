@@ -17,6 +17,7 @@ import os
 import sys
 import json
 import ssl
+import urllib.error
 import urllib.request
 
 APLICAR = "--aplicar" in sys.argv
@@ -28,7 +29,20 @@ _ca = "/root/.ccr/ca-bundle.crt"
 _ctx = ssl.create_default_context(cafile=_ca) if os.path.exists(_ca) else ssl.create_default_context()
 
 
+import time
+
+
 def _rpc(service, method, *args):
+    for intento in range(5):
+        try:
+            return _rpc1(service, method, *args)
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if intento == 4:
+                raise
+            time.sleep(5 * (intento + 1))
+
+
+def _rpc1(service, method, *args):
     body = json.dumps({"jsonrpc": "2.0", "method": "call", "id": 1,
                        "params": {"service": service, "method": method, "args": list(args)}}).encode()
     req = urllib.request.Request(f"{url}/jsonrpc", body, {"Content-Type": "application/json"})
@@ -49,6 +63,14 @@ def call(model, method, *args, **kw):
 
 
 filas = list(csv.DictReader(open(os.path.join(AQUI, "titulos_respaldo_y_nuevos.csv"), encoding="utf-8")))
+# Reanudar: saltar filas ya aplicadas en una corrida anterior (salvo las forzadas)
+previo = os.environ.get("RESULTADO_PREVIO")
+forzar = set(os.environ.get("FORZAR_IDS", "").split(",")) - {""}
+if previo and os.path.exists(previo):
+    hechos = {r["product_id"] for r in csv.DictReader(open(previo, encoding="utf-8"))
+              if r["estado"].startswith("aplicado")}
+    filas = [f for f in filas if f["product_id"] not in hechos or f["product_id"] in forzar]
+    print(f"Reanudando: {len(hechos)} ya aplicados, {len(filas)} por procesar")
 ids_shopify = [f["product_id"] for f in filas]
 
 # Capas Shopify en bloque
