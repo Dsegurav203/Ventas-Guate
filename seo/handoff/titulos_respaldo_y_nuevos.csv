@@ -55,7 +55,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9142007070933,avana-velvet-magsafe-galaxy-s24-plus-negro,ACTIVE,0,AVANA VELVET MAGSAFE GALAXY S24 PLUS NEGRO,Avana Velvet MagSafe Galaxy S24 Plus Negro,2
 9142007136469,avana-velvet-magsafe-galaxy-s24-ultra-lavender,ACTIVE,0,AVANA VELVET MAGSAFE GALAXY S24 ULTRA LAVENDER,Avana Velvet MagSafe Galaxy S24 Ultra Lavender,2
 9142007365845,backbone-one-2da-generacion-playstation-edition-lightning,ACTIVE,0,BACKBONE ONE 2DA GENERACION PLAYSTATION EDITION LIGHTNING,Backbone One 2da Generación PlayStation Edition Lightning,2
-9142007529685,backbone-one-playstation-android-ub-c-blanco,ACTIVE,0,BACKBONE ONE PLAYSTATION ANDROID/ UB-C BLANCO,Backbone One PlayStation Android/ Ub-C Blanco,2
+9142007529685,backbone-one-playstation-android-ub-c-blanco,ACTIVE,0,BACKBONE ONE PLAYSTATION ANDROID/ UB-C BLANCO,Backbone One PlayStation Android/ USB-C Blanco,2
 9142007595221,backbone-one-playstation-edition-lightning,ACTIVE,0,"BACKBONE ONE, PLAYSTATION EDITION LIGHTNING","Backbone One, PlayStation Edition Lightning",2
 9142007726293,belkin-powerbank-stand-10-000-mah-negro,ACTIVE,0,"BELKIN POWERBANK STAND 10,000 MAH NEGRO","Belkin Powerbank Stand 10,000 mAh Negro",2
 9142007791829,bitty-boomers-bocina-bluetooth-olaf,ACTIVE,0,BITTY BOOMERS BOCINA BLUETOOTH OLAF,Bitty Boomers Bocina Bluetooth Olaf,2
@@ -132,7 +132,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9142020210901,l-apple-case-original-silicone-con-magsafe-iphone-12-pro-max-blanco,ACTIVE,1,L-APPLE CASE ORIGINAL SILICONE CON MAGSAFE IPHONE 12 PRO MAX BLANCO,Apple Case Original Silicone con MagSafe iPhone 12 Pro Max Blanco,3
 9142020243669,l-case-mate-vidrio-para-camara-iphone-14-14-plus-sparkle-silver,ACTIVE,1,L-CASE-MATE VIDRIO PARA CAMARA IPHONE 14/14 PLUS SPARKLE SILVER,Case-Mate Vidrio para Cámara iPhone 14/14 Plus Sparkle Silver,3
 9142020276437,l-gear-4-bridgetown-galaxy-z-flip-3-negro,ACTIVE,1,L-GEAR 4 BRIDGETOWN GALAXY Z FLIP 3 NEGRO,Gear 4 Bridgetown Galaxy Z Flip 3 Negro,3
-9142020309205,l-georgia-case-symmmetry-hard-iphone-12-pro-max,ACTIVE,1,L-GEORGIA CASE SYMMMETRY HARD IPHONE 12 PRO MAX,Georgia Case Symmmetry Hard iPhone 12 Pro Max,3
+9142020309205,l-georgia-case-symmmetry-hard-iphone-12-pro-max,ACTIVE,1,L-GEORGIA CASE SYMMMETRY HARD IPHONE 12 PRO MAX,Georgia Case Symmetry Hard iPhone 12 Pro Max,3
 9142020341973,l-griffin-survivor-iphone-12-pro-max-azul,ACTIVE,1,L-GRIFFIN SURVIVOR IPHONE 12 PRO MAX AZUL,Griffin Survivor iPhone 12 Pro Max Azul,3
 9142020440277,l-lbt-cable-7ft-usb-c-to-c-black-white,ACTIVE,1,L-LBT CABLE 7FT USB-C TO C BLACK/WHITE,Lbt Cable 7FT USB-C to C Black/White,3
 9142020538581,l-mybat-designed-for-iphone-13-clear,ACTIVE,1,L-MYBAT DESIGNED FOR IPHONE 13 CLEAR,MyBat Designed for iPhone 13 Clear,3
@@ -157,7 +157,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9142021685461,l-mybat-pro-vidrio-templado-para-camara-galaxy-s21-plus,ACTIVE,1,L-MYBAT PRO VIDRIO TEMPLADO PARA CAMARA GALAXY S21 PLUS,MyBat Pro Vidrio Templado para Cámara Galaxy S21 Plus,4
 9142021750997,l-mybat-pro-vidrio-templado-para-camara-iphone-14-14-plus,ACTIVE,1,L-MYBAT PRO VIDRIO TEMPLADO PARA CAMARA IPHONE 14-14 PLUS,MyBat Pro Vidrio Templado para Cámara iPhone 14-14 Plus,4
 9142021816533,l-mybat-pro-vidrio-templado-para-camara-s23-s23-plus,ACTIVE,1,L-MYBAT PRO VIDRIO TEMPLADO PARA CAMARA S23/S23 PLUS,MyBat Pro Vidrio Templado para Cámara S23/S23 Plus,4
-9142021849301,l-mybat-pro-vidro-templado-para-camara-celular-galaxy-s22-s22-plus,ACTIVE,1,L-MYBAT PRO VIDRO TEMPLADO PARA CAMARA CELULAR GALAXY S22 / S22 PLUS,MyBat Pro Vidro Templado para Cámara Celular Galaxy S22 / S22 Plus,4
+9142021849301,l-mybat-pro-vidro-templado-para-camara-celular-galaxy-s22-s22-plus,ACTIVE,1,L-MYBAT PRO VIDRO TEMPLADO PARA CAMARA CELULAR GALAXY S22 / S22 PLUS,MyBat Pro Vidrio Templado para Cámara Celular Galaxy S22 / S22 Plus,4
 9142021914837,l-mybat-pro-x-antimicrobial-galaxy-s22-azul,ACTIVE,1,L-MYBAT PRO X ANTIMICROBIAL GALAXY S22 AZUL,MyBat Pro X Antimicrobial Galaxy S22 Azul,4
 9142021980373,l-mybat-pro-x-antimicrobial-galaxy-s22-plus-negro,ACTIVE,1,L-MYBAT PRO X ANTIMICROBIAL GALAXY S22 PLUS NEGRO,MyBat Pro X Antimicrobial Galaxy S22 Plus Negro,4
 9142022045909,l-mybat-vidrio-templado-para-camara-iphone-12-clear,ACTIVE,1,L-MYBAT VIDRIO TEMPLADO PARA CAMARA IPHONE 12 CLEAR,MyBat Vidrio Templado para Cámara iPhone 12 Clear,4
@@ -497,7 +497,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9149956292821,tucano-universal-pencil-black,ACTIVE,0,TUCANO UNIVERSAL PENCIL BLACK,Tucano Universal Pencil Black,10
 9149956554965,tucano-vento-case-universal-para-tablet-9-a-10-pulgadas-azul,ACTIVE,0,TUCANO VENTO CASE UNIVERSAL PARA TABLET 9 A 10 PULGADAS AZUL,Tucano Vento Case Universal para Tablet 9 a 10 Pulgadas Azul,10
 9149957734613,uag-case-civilian-galaxy-z-fold-3-azul,ACTIVE,0,UAG CASE CIVILIAN GALAXY Z FOLD 3 AZUL,UAG Case Civilian Galaxy Z Fold 3 Azul,10
-9149958226133,xdoria-spartan-iphone-x-pnrpura,ACTIVE,0,XDORIA SPARTAN IPHONE X PNRPURA,Xdoria Spartan iPhone X Pnrpura,10
+9149958226133,xdoria-spartan-iphone-x-pnrpura,ACTIVE,0,XDORIA SPARTAN IPHONE X PNRPURA,Xdoria Spartan iPhone X Púrpura,10
 9149958291669,zagg-london-snap-iphone-16-pro-black-hexagon,ACTIVE,0,ZAGG LONDON SNAP IPHONE 16 PRO BLACK HEXAGON,ZAGG London Snap iPhone 16 Pro Black Hexagon,10
 9149958357205,zagg-london-snap-iphone-16-pro-max-black-hexagon,ACTIVE,0,ZAGG LONDON SNAP IPHONE 16 PRO MAX BLACK HEXAGON,ZAGG London Snap iPhone 16 Pro Max Black Hexagon,11
 9149958422741,zagg-luxe-snap-iphone-16-negro,ACTIVE,0,ZAGG LUXE SNAP IPHONE 16 NEGRO,ZAGG Luxe Snap iPhone 16 Negro,11
@@ -538,7 +538,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9150015930581,l-prodigee-safetee-smooth-iphone-12-pro-max-gris,ACTIVE,1,L-PRODIGEE SAFETEE SMOOTH IPHONE 12 PRO MAX GRIS,Prodigee Safetee Smooth iPhone 12 Pro Max Gris,11
 9150016127189,l-prodigee-safetee-transforme-iphone-13-negro,ACTIVE,1,L-PRODIGEE SAFETEE TRANSFORME IPHONE 13 NEGRO,Prodigee Safetee Transforme iPhone 13 Negro,11
 9150016356565,l-prodigee-superstar-iphone-12-pro-max-negro,ACTIVE,1,L-PRODIGEE SUPERSTAR IPHONE 12 PRO MAX NEGRO,Prodigee Superstar iPhone 12 Pro Max Negro,11
-9150016946389,l-prodigee-safetee-flow-nigt-11-pro,ACTIVE,1,L-Prodigee Safetee Flow Nigt 11 Pro,Prodigee Safetee Flow Nigt 11 Pro,11
+9150016946389,l-prodigee-safetee-flow-nigt-11-pro,ACTIVE,1,L-Prodigee Safetee Flow Night 11 Pro,Prodigee Safetee Flow Night 11 Pro,11
 9150018191573,prodigee-car-mount-magneteek-base-de-carga-inalambrica-magsafe-para-carro,ACTIVE,0,PRODIGEE CAR MOUNT MAGNETEEK BASE DE CARGA INALAMBRICA MAGSAFE PARA CARRO,Prodigee Car Mount Magneteek Base de Carga Inalámbrica MagSafe para Carro,11
 9150018322645,prodigee-clear-fit-galaxy-a53-clear,ACTIVE,0,PRODIGEE CLEAR FIT GALAXY A53 CLEAR,Prodigee Clear Fit Galaxy A53 Clear,11
 9150018355413,prodigee-clear-fit-galaxy-a72-negro,ACTIVE,0,PRODIGEE CLEAR FIT GALAXY A72 NEGRO,Prodigee Clear Fit Galaxy A72 Negro,11
@@ -1675,7 +1675,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9142005989589,amazon-fire-tv-3-gen-stick-negro,UNLISTED,0,AMAZON FIRE TV (3 GEN) STICK NEGRO,Amazon Fire TV (3 Gen) Stick Negro,34
 9142006907093,audifono-tipo-earpods-lightning-blanco,UNLISTED,0,AUDIFONO TIPO EARPODS LIGHTNING BLANCO,Audífono Tipo Earpods Lightning Blanco,34
 9142006939861,audifonos-tipo-earpods-blanco,UNLISTED,0,AUDIFONOS TIPO EARPODS BLANCO,Audífonos Tipo Earpods Blanco,34
-9142007464149,backbone-one-playstation-android-ub-c,UNLISTED,0,BACKBONE ONE PLAYSTATION ANDROID/ UB-C,Backbone One PlayStation Android/ Ub-C,34
+9142007464149,backbone-one-playstation-android-ub-c,UNLISTED,0,BACKBONE ONE PLAYSTATION ANDROID/ UB-C,Backbone One PlayStation Android/ USB-C,34
 9142007955669,bitty-boomers-bocina-bluetooth-star-wars-r2d2,UNLISTED,0,BITTY BOOMERS BOCINA BLUETOOTH STAR WARS R2D2,Bitty Boomers Bocina Bluetooth Star Wars R2d2,34
 9142008283349,botella-bevu-single-wall-termica-750ml-plum,UNLISTED,0,BOTELLA BEVU SINGLE WALL TERMICA 750ML PLUM,Botella Bevu Single Wall Termica 750ml Plum,34
 9142008348885,botslab-camara-exterior-w312-vision-360-blanco,UNLISTED,0,BOTSLAB CAMARA EXTERIOR W312 VISION 360° BLANCO,Botslab Cámara Exterior W312 Vision 360° Blanco,34
@@ -1837,20 +1837,20 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9149933781205,prodigee-universal-tablet-folio-7-a-9-pulgadas-gris-metalico,UNLISTED,0,PRODIGEE UNIVERSAL TABLET FOLIO 7 A 9 PULGADAS GRIS METALICO,Prodigee Universal Tablet Folio 7 a 9 Pulgadas Gris Metálico,37
 9149934895317,protection-pro-infinity-lamina-extra-grande-diseno-matte-rojo,UNLISTED,0,PROTECTION PRO INFINITY LAMINA EXTRA GRANDE DISEÑO MATTE ROJO,Protection Pro Infinity Lamina Extra Grande Diseño Matte Rojo,37
 9149934960853,protection-pro-infinity-lamina-extra-grande-satin-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA EXTRA GRANDE SATIN NEGRO,Protection Pro Infinity Lamina Extra Grande Satin Negro,37
-9149935059157,protection-pro-infinity-lamina-grande-diseno-fibra-de-carbono-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA GRANDE DISE√ëO FIBRA DE CARBONO NEGRO,Protection Pro Infinity Lamina Grande Dise√ëo Fibra de Carbono Negro,37
+9149935059157,protection-pro-infinity-lamina-grande-diseno-fibra-de-carbono-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA GRANDE DISE√ëO FIBRA DE CARBONO NEGRO,Protection Pro Infinity Lamina Grande Diseño Fibra de Carbono Negro,37
 9149935124693,protection-pro-infinity-lamina-grande-diseno-matte-rojo,UNLISTED,0,PROTECTION PRO INFINITY LAMINA GRANDE DISEÑO MATTE ROJO,Protection Pro Infinity Lamina Grande Diseño Matte Rojo,37
 9149935157461,protection-pro-infinity-lamina-grande-fibra-de-carbono-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA GRANDE FIBRA DE CARBONO NEGRO,Protection Pro Infinity Lamina Grande Fibra de Carbono Negro,37
-9149935222997,protection-pro-infinity-lamina-mediana-diseno-fibra-de-carbono-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA MEDIANA DISE√ëO FIBRA DE CARBONO NEGRO,Protection Pro Infinity Lamina Mediana Dise√ëo Fibra de Carbono Negro,37
+9149935222997,protection-pro-infinity-lamina-mediana-diseno-fibra-de-carbono-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA MEDIANA DISE√ëO FIBRA DE CARBONO NEGRO,Protection Pro Infinity Lamina Mediana Diseño Fibra de Carbono Negro,37
 9149935255765,protection-pro-infinity-lamina-mediana-diseno-matte-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA MEDIANA DISEÑO MATTE NEGRO,Protection Pro Infinity Lamina Mediana Diseño Matte Negro,37
 9149935321301,protection-pro-infinity-lamina-mediana-diseno-matte-rojo,UNLISTED,0,PROTECTION PRO INFINITY LAMINA MEDIANA DISEÑO MATTE ROJO,Protection Pro Infinity Lamina Mediana Diseño Matte Rojo,37
 9149935386837,protection-pro-infinity-lamina-mediana-diseno-satin-negro,UNLISTED,0,PROTECTION PRO INFINITY LAMINA MEDIANA DISEÑO SATIN NEGRO,Protection Pro Infinity Lamina Mediana Diseño Satin Negro,37
-9149935419605,protection-pro-infinity-lamina-pequena-diseno-textura-cafe-zebra,UNLISTED,0,PROTECTION PRO INFINITY LAMINA PEQUE√ëA DISE√ëO TEXTURA CAFE ZEBRA,Protection Pro Infinity Lamina Peque√ëa Dise√ëo Textura Cafe Zebra,37
-9149935517909,protection-pro-infinity-lamina-pequena-diseno-textura-negro-zebra,UNLISTED,0,PROTECTION PRO INFINITY LAMINA PEQUE√ëA DISE√ëO TEXTURA NEGRO ZEBRA,Protection Pro Infinity Lamina Peque√ëa Dise√ëo Textura Negro Zebra,37
-9149935583445,protection-pro-infinity-lamina-textura-cuero-pequena-proteccion-trasera-gris,UNLISTED,0,PROTECTION PRO INFINITY LAMINA TEXTURA CUERO PEQUE√ëA PROTECCION TRASERA GRIS,Protection Pro Infinity Lamina Textura Cuero Peque√ëa Protección Trasera Gris,37
+9149935419605,protection-pro-infinity-lamina-pequena-diseno-textura-cafe-zebra,UNLISTED,0,PROTECTION PRO INFINITY LAMINA PEQUE√ëA DISE√ëO TEXTURA CAFE ZEBRA,Protection Pro Infinity Lamina Pequeña Diseño Textura Cafe Zebra,37
+9149935517909,protection-pro-infinity-lamina-pequena-diseno-textura-negro-zebra,UNLISTED,0,PROTECTION PRO INFINITY LAMINA PEQUE√ëA DISE√ëO TEXTURA NEGRO ZEBRA,Protection Pro Infinity Lamina Pequeña Diseño Textura Negro Zebra,37
+9149935583445,protection-pro-infinity-lamina-textura-cuero-pequena-proteccion-trasera-gris,UNLISTED,0,PROTECTION PRO INFINITY LAMINA TEXTURA CUERO PEQUE√ëA PROTECCION TRASERA GRIS,Protection Pro Infinity Lamina Textura Cuero Pequeña Protección Trasera Gris,37
 9149935648981,protection-pro-kit-maquina-procut,UNLISTED,0,PROTECTION PRO KIT MAQUINA PROCUT,Protection Pro Kit Maquina Procut,37
 9149935681749,protection-pro-lamina-grande-diseno-matte-negro,UNLISTED,0,PROTECTION PRO LAMINA GRANDE DISENO MATTE NEGRO,Protection Pro Lamina Grande Diseno Matte Negro,37
-9149935780053,protection-pro-lamina-prism-diseno-pequena-proteccion-trasera-apple,UNLISTED,0,PROTECTION PRO LAMINA PRISM DISE√ëO PEQUE√ëA PROTECCION TRASERA APPLE,Protection Pro Lamina Prism Dise√ëo Peque√ëa Protección Trasera Apple,38
-9149935845589,protection-pro-lamina-prism-diseno-pequena-proteccion-trasera-maze-film,UNLISTED,0,PROTECTION PRO LAMINA PRISM DISE√ëO PEQUE√ëA PROTECCION TRASERA MAZE FILM,Protection Pro Lamina Prism Dise√ëo Peque√ëa Protección Trasera Maze Film,38
+9149935780053,protection-pro-lamina-prism-diseno-pequena-proteccion-trasera-apple,UNLISTED,0,PROTECTION PRO LAMINA PRISM DISE√ëO PEQUE√ëA PROTECCION TRASERA APPLE,Protection Pro Lamina Prism Diseño Pequeña Protección Trasera Apple,38
+9149935845589,protection-pro-lamina-prism-diseno-pequena-proteccion-trasera-maze-film,UNLISTED,0,PROTECTION PRO LAMINA PRISM DISE√ëO PEQUE√ëA PROTECCION TRASERA MAZE FILM,Protection Pro Lamina Prism Diseño Pequeña Protección Trasera Maze Film,38
 9149935878357,protection-pro-lamina-ultra-hd-medium-plus-matte,UNLISTED,0,PROTECTION PRO LAMINA ULTRA HD MEDIUM PLUS MATTE,Protection Pro Lamina Ultra HD Medium Plus Matte,38
 9149936107733,protection-pro-madico-adaptador-tipo-c,UNLISTED,0,PROTECTION PRO MADICO ADAPTADOR TIPO C,Protection Pro Madico Adaptador Tipo C,38
 9149936206037,protection-pro-maquina-express-blanco,UNLISTED,0,PROTECTION PRO MAQUINA EXPRESS BLANCO,Protection Pro Maquina Express Blanco,38
@@ -1873,7 +1873,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9149938303189,protection-proadaptador-micro-usb-negro,UNLISTED,0,PROTECTION PROADAPTADOR MICRO USB NEGRO,Protection Proadaptador Micro USB Negro,38
 9149946396885,samsung-cubo-de-carga-45w-tipo-c-blanco,UNLISTED,0,SAMSUNG CUBO DE CARGA 45W TIPO C BLANCO,Samsung Cubo de Carga 45W Tipo C Blanco,38
 9149946495189,samsung-cubo-de-carga-tipo-c-45w-negro,UNLISTED,0,SAMSUNG CUBO DE CARGA TIPO C 45W NEGRO,Samsung Cubo de Carga Tipo C 45W Negro,38
-9149946560725,samsung-cubo-de-garga-rapida-25-watts-tipo-c-negro,UNLISTED,0,SAMSUNG CUBO DE GARGA RAPIDA 25 WATTS TIPO C NEGRO,Samsung Cubo de Garga Rápida 25 Watts Tipo C Negro,38
+9149946560725,samsung-cubo-de-garga-rapida-25-watts-tipo-c-negro,UNLISTED,0,SAMSUNG CUBO DE GARGA RAPIDA 25 WATTS TIPO C NEGRO,Samsung Cubo de Carga Rápida 25 Watts Tipo C Negro,38
 9149946659029,samsung-kit-de-carga-45-watts-tipo-c-blanco,UNLISTED,0,SAMSUNG KIT DE CARGA 45 WATTS TIPO C BLANCO,Samsung Kit de Carga 45 Watts Tipo C Blanco,38
 9149946757333,samsung-kit-de-carga-rapida-25w-tipo-c-negro,UNLISTED,0,SAMSUNG KIT DE CARGA RAPIDA 25W TIPO C NEGRO,Samsung Kit de Carga Rápida 25W Tipo C Negro,38
 9149946822869,samsung-kit-de-carga-rapida-25w-tipo-c-negro-1,UNLISTED,0,SAMSUNG KIT DE CARGA RAPIDA 25W TIPO C NEGRO,Samsung Kit de Carga Rápida 25W Tipo C Negro,38
@@ -1912,7 +1912,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9149954752725,spigen-watch-band-lite-fit-45-44-42-mm-negro,UNLISTED,0,SPIGEN WATCH BAND LITE FIT 45-44-42 MM NEGRO,Spigen Watch Band Lite Fit 45-44-42 Mm Negro,39
 9149954818261,staechi-cargador-magnetico-para-apple-watch-negro,UNLISTED,0,STAECHI CARGADOR MAGNETICO PARA APPLE WATCH NEGRO,Staechi Cargador Magnético para Apple Watch Negro,39
 9149954883797,syb-sturdy-gummy-galaxy-z-fold-6-clear,UNLISTED,0,SYB STURDY GUMMY GALAXY Z FOLD 6 CLEAR,Syb Sturdy Gummy Galaxy Z Fold 6 Clear,39
-9149954949333,tekya-3-en-1-base-de-carga-inalambrica-magstand-max-magsafe-wireless-charger-blanco,UNLISTED,0,TEKYA 3 EN 1 BASE DE CARGA INAL√ÅMBRICA MAGSTAND MAX MAGSAFE WIRELESS CHARGER BLANCO,Tekya 3 en 1 Base de Carga Inal√åmbrica Magstand Max MagSafe Wireless Charger Blanco,39
+9149954949333,tekya-3-en-1-base-de-carga-inalambrica-magstand-max-magsafe-wireless-charger-blanco,UNLISTED,0,TEKYA 3 EN 1 BASE DE CARGA INAL√ÅMBRICA MAGSTAND MAX MAGSAFE WIRELESS CHARGER BLANCO,Tekya 3 en 1 Base de Carga Inalámbrica Magstand Max MagSafe Wireless Charger Blanco,39
 9149955145941,tekya-t-buds-usb-c-audifonos,UNLISTED,0,TEKYA T-BUDS USB-C AUDIFONOS,Tekya T-Buds USB-C Audífonos,39
 9149955211477,tll04bk-miami-carry-on-tsa-key-lock-2-pack-negro-31640,UNLISTED,0,TLL04BK MIAMI CARRY ON TSA KEY LOCK 2 PACK NEGRO (31640),Tll04bk Miami Carry On Tsa Key Lock 2 Pack Negro (31640),39
 9149955440853,tucano-facile-plus-universal-para-tablet-11-pulgadas-negro,UNLISTED,0,TUCANO FACILE PLUS UNIVERSAL PARA TABLET 11 PULGADAS NEGRO,Tucano Facile Plus Universal para Tablet 11 Pulgadas Negro,39
@@ -1950,7 +1950,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9149966254293,hifuture-ripple-bocina-bluetooth-azul,UNLISTED,0,HIFUTURE RIPPLE BOCINA BLUETOOTH AZUL,HiFuture Ripple Bocina Bluetooth Azul,39
 9149966352597,hifuture-ripple-bocina-bluetooth-negro,UNLISTED,0,HIFUTURE RIPPLE BOCINA BLUETOOTH NEGRO,HiFuture Ripple Bocina Bluetooth Negro,39
 9149966614741,hifuture-ultra2-pro-sport-smartwatch-negro,UNLISTED,0,HIFUTURE ULTRA2 PRO SPORT SMARTWATCH NEGRO,HiFuture Ultra2 Pro Sport Smartwatch Negro,40
-9149967204565,protectio-pro-prism-skull,UNLISTED,0,PROTECTIO PRO PRISM SKULL,Protectio Pro Prism Skull,40
+9149967204565,protectio-pro-prism-skull,UNLISTED,0,PROTECTIO PRO PRISM SKULL,Protection Pro Prism Skull,40
 9149967237333,skullcandy-inkd-in-ear-audifono-con-microfono-gris,UNLISTED,0,SKULLCANDY  INKD IN EAR AUDIFONO CON MICROFONO GRIS,Skullcandy Inkd in Ear Audífono con Micrófono Gris,40
 9149967302869,skullcandy-cassette-wireless-on-ear-audifono-bluetooth-azul,UNLISTED,0,SKULLCANDY CASSETTE WIRELESS ON EAR AUDIFONO BLUETOOTH AZUL,Skullcandy Cassette Wireless On Ear Audífono Bluetooth Azul,40
 9149967368405,skullcandy-crusher-evo-wireless-over-ear-chill-grey,UNLISTED,0,SKULLCANDY CRUSHER EVO WIRELESS OVER-EAR CHILL GREY,Skullcandy Crusher Evo Wireless Over-Ear Chill Grey,40
@@ -2394,7 +2394,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 9149934698709,protection-pro-gel-de-instalacion-5-onzas-insumos,DRAFT,0,PROTECTION PRO GEL DE INSTALACION 5 ONZAS (INSUMOS),Protection Pro Gel de Instalacion 5 Onzas (Insumos),48
 9149934829781,protection-pro-gel-de-instalcion-32-onzas-insumos,DRAFT,0,PROTECTION PRO GEL DE INSTALCION 32 ONZAS (INSUMOS),Protection Pro Gel de Instalcion 32 Onzas (Insumos),48
 9149936369877,protection-pro-mat-negroinsumos,DRAFT,0,PROTECTION PRO MAT NEGRO(INSUMOS),Protection Pro Mat Negro(Insumos),48
-9149937156309,protection-pro-pano-de-microfibra-color-gris-insumos,DRAFT,0,PROTECTION PRO PA√ëO DE MICROFIBRA COLOR GRIS (INSUMOS),Protection Pro Pa√ëo de Microfibra Color Gris (Insumos),48
+9149937156309,protection-pro-pano-de-microfibra-color-gris-insumos,DRAFT,0,PROTECTION PRO PA√ëO DE MICROFIBRA COLOR GRIS (INSUMOS),Protection Pro Paño de Microfibra Color Gris (Insumos),48
 9149937254613,protection-pro-pinzas-para-instalacion-de-blanco-insumos,DRAFT,0,PROTECTION PRO PINZAS PARA INSTALACION DE BLANCO (INSUMOS),Protection Pro Pinzas para Instalacion de Blanco (Insumos),48
 9149937549525,protection-pro-rubber-mat-negroinsumos,DRAFT,0,PROTECTION PRO RUBBER MAT NEGRO(INSUMOS),Protection Pro Rubber Mat Negro(Insumos),48
 9149937582293,protection-pro-squeegee-de-goma-2-pulgadas-para-instalacion-con-gel-insumos,DRAFT,0,PROTECTION PRO SQUEEGEE DE GOMA 2 PULGADAS PARA INSTALACION CON GEL (INSUMOS),Protection Pro Squeegee de Goma 2 Pulgadas para Instalacion con Gel (Insumos),48
@@ -2430,7 +2430,7 @@ product_id,handle,status,liquidacion,titulo_anterior,titulo_nuevo,lote
 15480758272213,protection-pro-lamina-prism-diseno-pequena-proteccion-trasera-puzzle-film,DRAFT,0,PROTECTION PRO LAMINA PRISM DISEÑO PEQUEÑA PROTECCION TRASERA PUZZLE FILM,Protection Pro Lamina Prism Diseño Pequeña Protección Trasera Puzzle Film,49
 15480758304981,protection-pro-lamina-prism-diseno-pequena-proteccion-trasera-rose-film,DRAFT,0,PROTECTION PRO LAMINA PRISM DISEÑO PEQUEÑA PROTECCION TRASERA ROSE FILM,Protection Pro Lamina Prism Diseño Pequeña Protección Trasera Rose Film,49
 15480758337749,protection-pro-lamina-prism-diseno-pequena-proteccion-trasera-wood-film,DRAFT,0,PROTECTION PRO LAMINA PRISM DISEÑO PEQUEÑA PROTECCION TRASERA WOOD FILM,Protection Pro Lamina Prism Diseño Pequeña Protección Trasera Wood Film,49
-15480758370517,protection-pro-microbe-x-lamina-antibacterial-pequea-a-clear,DRAFT,0,PROTECTION PRO MICROBE-X LAMINA ANTIBACTERIAL PEQUEÃ?A CLEAR,Protection Pro Microbe-X Lamina Antibacterial Pequeã?a Clear,49
+15480758370517,protection-pro-microbe-x-lamina-antibacterial-pequea-a-clear,DRAFT,0,PROTECTION PRO MICROBE-X LAMINA ANTIBACTERIAL PEQUEÃ?A CLEAR,Protection Pro Microbe-X Lamina Antibacterial Pequeña Clear,49
 15480758436053,protection-pro-ultra-2-film-extra-grande,DRAFT,0,PROTECTION PRO ULTRA 2 FILM EXTRA GRANDE,Protection Pro Ultra 2 Film Extra Grande,49
 15480758501589,protection-pro-lamina-pequena-matte-verde-militar,DRAFT,0,PROTECTION PRO LAMINA PEQUEÑA MATTE VERDE MILITAR,Protection Pro Lamina Pequeña Matte Verde Militar,49
 15480758567125,protection-pro-lamina-pequena-matte-negro,DRAFT,0,PROTECTION PRO LAMINA PEQUEÑA MATTE NEGRO,Protection Pro Lamina Pequeña Matte Negro,49
