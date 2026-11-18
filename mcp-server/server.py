@@ -5,14 +5,15 @@
 - OAuth 2.1 con registro dinámico (lo que exige claude.ai) y sin base de datos: clientes,
   códigos y tokens van cifrados (Fernet) con MCP_SECRET_KEY. Cambiar la clave cierra todas
   las sesiones. Revocar la API key en Odoo corta el acceso de esa persona de inmediato.
-- Escritura (crear/editar/ejecutar) solo si MCP_ALLOW_WRITE=1; aun así Odoo valida permisos.
+- Escritura solo si MCP_ALLOW_WRITE=1 y únicamente en los modelos de MCP_WRITE_MODELS (por defecto productos);
+  aun así Odoo valida los permisos de cada usuario. Imágenes: el servidor descarga la URL y la normaliza.
 
 Variables: ODOO_URL, ODOO_DB, MCP_PUBLIC_URL (https://…), MCP_SECRET_KEY (Fernet),
            MCP_ALLOW_WRITE (0/1), MCP_ALLOW_LOCAL_REDIRECTS (0/1, solo pruebas), PORT.
 """
 from __future__ import annotations
 
-import base64, hashlib, hmac, html, json, os, sys, time, urllib.parse, xmlrpc.client
+import base64, hashlib, hmac, html, json, os, sys, time, urllib.parse, urllib.request, xmlrpc.client
 from typing import Any
 
 import anyio
@@ -39,6 +40,9 @@ ODOO_DB = os.environ["ODOO_DB"]
 PUBLIC_URL = os.environ.get("MCP_PUBLIC_URL", "http://localhost:8000").rstrip("/")
 SECRET = os.environ["MCP_SECRET_KEY"].encode()
 ALLOW_WRITE = os.environ.get("MCP_ALLOW_WRITE", "0") == "1"
+WRITE_MODELS = {m.strip() for m in os.environ.get(
+    "MCP_WRITE_MODELS", "product.template,product.product,product.category,product.brand").replace(";", ",").split(",") if m.strip()}
+IMAGE_MODELS = {"product.template", "product.product"} & WRITE_MODELS
 ALLOW_LOCAL = os.environ.get("MCP_ALLOW_LOCAL_REDIRECTS", "0") == "1"
 F = Fernet(SECRET)
 
@@ -188,7 +192,7 @@ def _client() -> oc.Odoo:
         raise oc.OdooError("Sesión no válida: vuelve a conectar el conector de Odoo")
     o = oc.Odoo(ODOO_URL, ODOO_DB, d["login"], d["key"], "xmlrpc")
     o._uid = d["uid"]
-    o.readonly = not ALLOW_WRITE
+    o.readonly = not ALLOW_WRITE  # además, cada herramienta de escritura valida WRITE_MODELS
     return o
 
 
@@ -267,21 +271,120 @@ async def odoo_name_search(model: str, text: str, limit: int = 10) -> Any:
     return await _call(model, "name_search", name=text, limit=limit)
 
 
+def _check_write(model: str) -> dict | None:
+    if model not in WRITE_MODELS:
+        return {"error": f"Escritura no permitida en '{model}'. Modelos permitidos: {', '.join(sorted(WRITE_MODELS))}"}
+    return None
+
+
+def _safe_url(url: str) -> str | None:
+    """Solo http(s) a IPs públicas (evita que el servidor lea su red interna o el metadata server)."""
+    import ipaddress, socket
+    u = urllib.parse.urlparse(url)
+    if u.scheme not in ("http", "https") or not u.hostname:
+        return "La URL debe empezar con http:// o https://"
+    try:
+        infos = socket.getaddrinfo(u.hostname, u.port or (443 if u.scheme == "https" else 80))
+    except socket.gaierror:
+        return "No se pudo resolver el dominio de la imagen"
+    for info in infos:
+        ip = ipaddress.ip_address(info[4][0])
+        if not ip.is_global:
+            return "URL no permitida"
+    return None
+
+
+def _normalize_image(raw: bytes) -> tuple[bytes, bytes, tuple[int, int]]:
+    """Estándar Ventas Guate: 1200x1200, fondo blanco, producto al 90 %, JPEG < 350 KB. Devuelve (jpeg, miniatura, tamaño original)."""
+    import io
+    from PIL import Image, ImageOps
+    im = Image.open(io.BytesIO(raw))
+    im = ImageOps.exif_transpose(im)
+    orig = im.size
+    if im.mode in ("RGBA", "LA", "P"):
+        im = im.convert("RGBA")
+        bg = Image.new("RGBA", im.size, (255, 255, 255, 255))
+        bg.alpha_composite(im)
+        im = bg
+    im = im.convert("RGB")
+    k = min(1080 / im.width, 1080 / im.height)  # producto al 90 % del lienzo (agranda o reduce)
+    im = im.resize((max(1, round(im.width * k)), max(1, round(im.height * k))), Image.LANCZOS)
+    canvas = Image.new("RGB", (1200, 1200), (255, 255, 255))
+    canvas.paste(im, ((1200 - im.width) // 2, (1200 - im.height) // 2))
+    for q in (88, 82, 76, 70, 62, 55):
+        buf = io.BytesIO()
+        canvas.save(buf, "JPEG", quality=q, optimize=True, progressive=True)
+        if buf.tell() < 350_000:
+            break
+    thumb = canvas.copy()
+    thumb.thumbnail((320, 320))
+    tb = io.BytesIO()
+    thumb.save(tb, "JPEG", quality=80)
+    return buf.getvalue(), tb.getvalue(), orig
+
+
 if ALLOW_WRITE:
     @mcp.tool()
     async def odoo_create(model: str, values: dict) -> Any:
-        """Crea un registro. Confirma con el usuario los valores antes de llamar."""
+        """Crea un registro (solo modelos de producto). Antes de llamar, muestra al usuario los valores y espera su confirmación.
+        Para imágenes no uses este campo: usa odoo_set_image_from_url."""
+        if err := _check_write(model):
+            return err
+        if any(k.startswith("image_") for k in values):
+            return {"error": "Para imágenes usa odoo_set_image_from_url"}
         return await _call(model, "create", vals_list=[values])
 
     @mcp.tool()
     async def odoo_write(model: str, ids: list[int], values: dict) -> Any:
-        """Edita registros. Confirma con el usuario los cambios antes de llamar."""
+        """Edita registros (solo modelos de producto). Antes de llamar, muestra al usuario los cambios y espera su confirmación."""
+        if err := _check_write(model):
+            return err
+        if any(k.startswith("image_") for k in values):
+            return {"error": "Para imágenes usa odoo_set_image_from_url"}
         return await _call(model, "write", ids=ids, vals=values)
 
-    @mcp.tool()
-    async def odoo_execute(model: str, method: str, ids: list[int] | None = None, kwargs: dict | None = None) -> Any:
-        """Ejecuta un método (ej. action_confirm). Confirma con el usuario antes de llamar."""
-        return await _call(model, method, ids=ids, **(kwargs or {}))
+    if IMAGE_MODELS:
+        from mcp.server.fastmcp import Image as McpImage
+
+        @mcp.tool()
+        async def odoo_set_image_from_url(record_id: int, url: str, model: str = "product.template") -> Any:
+            """Descarga una imagen desde una URL pública, la normaliza al estándar de Ventas Guate (1200x1200, fondo blanco,
+            JPEG < 350 KB) y la carga como imagen principal del producto. Devuelve una miniatura: revísala y confirma que es
+            el mismo modelo y color antes de dar por buena la carga. Usa preferentemente el sitio oficial de la marca."""
+            if model not in IMAGE_MODELS:
+                return {"error": f"Solo se cargan imágenes en {', '.join(sorted(IMAGE_MODELS))}"}
+            if err := await anyio.to_thread.run_sync(_safe_url, url):
+                return {"error": err}
+
+            class _SafeRedirect(urllib.request.HTTPRedirectHandler):
+                def redirect_request(self, req, fp, code, msg, headers, newurl):
+                    if _safe_url(newurl):  # re-valida cada redirección
+                        raise ValueError("redirección a una URL no permitida")
+                    return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+            def fetch() -> bytes:
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (VentasGuate image loader)"})
+                with urllib.request.build_opener(_SafeRedirect).open(req, timeout=20) as r:
+                    if not (r.headers.get("Content-Type") or "").startswith("image/"):
+                        raise ValueError(f"La URL no es una imagen ({r.headers.get('Content-Type')})")
+                    data = r.read(15_000_001)
+                    if len(data) > 15_000_000:
+                        raise ValueError("Imagen mayor a 15 MB")
+                    return data
+            try:
+                raw = await anyio.to_thread.run_sync(fetch)
+                jpeg, thumb, orig = await anyio.to_thread.run_sync(_normalize_image, raw)
+            except Exception as e:
+                return {"error": f"No se pudo usar la imagen: {e}"}
+            res = await _call(model, "write", ids=[record_id], vals={"image_1920": base64.b64encode(jpeg).decode()})
+            if isinstance(res, dict) and "error" in res:
+                return res
+            name = await _call(model, "read", ids=[record_id], fields=["display_name"])
+            info = {"ok": True, "producto": name[0]["display_name"] if isinstance(name, list) and name else record_id,
+                    "original_px": f"{orig[0]}x{orig[1]}", "final": "1200x1200", "kb": round(len(jpeg) / 1024)}
+            if max(orig) < 600:
+                info["aviso"] = "Imagen original de baja resolución (<600 px): buscar una mejor si existe"
+            return [json.dumps(info, ensure_ascii=False), McpImage(data=thumb, format="jpeg")]
 
 
 # --------------------------------------------------------------------------- login page

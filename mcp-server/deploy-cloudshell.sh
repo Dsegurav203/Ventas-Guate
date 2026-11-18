@@ -34,7 +34,7 @@ done
 echo "== 5/6 Compilando y publicando (3-5 min)"
 gcloud run deploy "$SERVICE" --source . --region "$REGION" --quiet \
   --no-invoker-iam-check --min-instances 0 --max-instances 2 --memory 512Mi \
-  --set-env-vars "ODOO_URL=$ODOO_URL,ODOO_DB=$ODOO_DB,MCP_ALLOW_WRITE=0" \
+  --set-env-vars "ODOO_URL=$ODOO_URL,ODOO_DB=$ODOO_DB,MCP_ALLOW_WRITE=1,MCP_WRITE_MODELS=product.template;product.product;product.category;product.brand" \
   --set-secrets "MCP_SECRET_KEY=odoo-mcp-secret:latest"
 URL=$(gcloud run services describe "$SERVICE" --region "$REGION" --format='value(status.url)')
 gcloud run services update "$SERVICE" --region "$REGION" --quiet --update-env-vars "MCP_PUBLIC_URL=$URL" >/dev/null
