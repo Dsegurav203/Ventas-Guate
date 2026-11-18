@@ -160,7 +160,17 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
     1. `./odoo group sale.report -g product_id -a price_subtotal:sum,margin:sum,product_uom_qty:sum -d '<dominio>' -l 5000 -F json`
     2. `./odoo search product.product -d '[["id","in",[IDS]]]' -f brand_id -l 5000 -F json` (con `"active_test": false` si hay archivados vía `call … search_read -k`), luego sumar por marca.
   - Filtrar ventas de una marca: `["product_id.brand_id.name","=","MARCA"]` sí funciona en el dominio.
-- **Canales oficiales** (definidos por Diego, 2026-11-18). En Odoo `team_id` está mal configurado (mezcla canales y vendedores); usar este mapeo de equipos históricos → canal:
+- **Equipos de venta = canales (reconfigurado 2026-11-18)**. Activos:
+  | id | Equipo | Líder | Miembros |
+  |---|---|---|---|
+  | 3 | Retail (tienda física + chats redes) | Luis Hernandez | Luis Hernandez, Ventas Guate Trafalgar (caja Design Center) |
+  | 14 | E-commerce (ventasguate.gt / Shopify, sitios web) | Luis Hernandez | Luis Hernandez |
+  | 5 | Distribución – Mayoreo | Henry Galindo | Henry, Estuardo Pineda, Luis Guevara, Luis Alfredo Cantoral, Mayra González (captura) |
+  | 1 | Distribución – Dropship (plataformas digitales) | Henry Galindo | Fernando Aguilar |
+  - Pedidos nuevos: `team_id` ya es el canal. Canal "Distribución" = equipos 5 + 1.
+  - Pedidos confirmados antes del 2026-11-18 conservan el equipo viejo (archivado): usar el mapeo histórico de abajo. Para incluir archivados en consultas sobre `crm.team` usar `["active","in",[true,false]]`.
+  - Respaldo del estado previo: `ir.attachment` id 356230.
+- **Mapeo histórico** (equipos archivados → canal):
   | Canal | Sub-canal | Responsable | Equipos históricos (`crm.team` id) |
   |---|---|---|---|
   | Retail (tienda física) | — | — | Point of Sale (3), Tiendas (13), Kioscos K-02 (8), K-49 (7), K-08 (6), Chats Redes FB/IG/WhatsApp (20) |
