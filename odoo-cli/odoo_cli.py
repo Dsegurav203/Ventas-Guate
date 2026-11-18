@@ -24,6 +24,10 @@ from pathlib import Path
 
 __version__ = "0.1.0"
 
+READ_METHODS = {"search", "search_read", "read", "search_count", "read_group", "formatted_read_group",
+                "fields_get", "name_search", "name_get", "display_name", "context_get", "default_get",
+                "check_access_rights", "has_group", "get_views", "authenticate", "version"}
+
 WRITE_METHODS = {"create", "write", "unlink", "copy", "action_confirm", "action_post",
                  "button_confirm", "button_validate", "action_cancel"}
 
@@ -54,6 +58,7 @@ class Odoo:
         self.url = url.rstrip("/")
         self.db, self.user, self.key = db, user, key
         self.timeout = timeout
+        self.readonly = os.environ.get("ODOO_READONLY", "") not in ("", "0", "false")
         self.protocol = protocol
         self._uid: int | None = None
         if protocol == "auto":
@@ -128,6 +133,8 @@ class Odoo:
 
     # -- unified call: ids (optional) + keyword args
     def call(self, model: str, method: str, ids: list[int] | None = None, **kwargs):
+        if self.readonly and method not in READ_METHODS:
+            raise OdooError(f"Modo solo lectura: '{model}.{method}' bloqueado (ODOO_READONLY=1)")
         if self.protocol == "json2":
             body = dict(kwargs)
             if ids is not None:
@@ -154,13 +161,19 @@ class Odoo:
 
 
 def client_from_env(args) -> Odoo:
-    return Odoo(
+    ro = bool(getattr(args, "readonly", False)) or os.environ.get("ODOO_READONLY", "") not in ("", "0", "false")
+    # with a read-only key configured, read-only mode uses it (defense in depth: an Odoo user without write rights)
+    key = os.environ.get("ODOO_RO_API_KEY") if ro and os.environ.get("ODOO_RO_API_KEY") else os.environ.get("ODOO_API_KEY", "")
+    user = os.environ.get("ODOO_RO_USER") if ro and os.environ.get("ODOO_RO_USER") else os.environ.get("ODOO_USER")
+    o = Odoo(
         url=os.environ.get("ODOO_URL", ""),
         db=os.environ.get("ODOO_DB"),
-        user=os.environ.get("ODOO_USER"),
-        key=os.environ.get("ODOO_API_KEY", ""),
+        user=user,
+        key=key,
         protocol=args.protocol or os.environ.get("ODOO_PROTOCOL", "auto"),
     )
+    o.readonly = ro
+    return o
 
 
 # --------------------------------------------------------------------------- helpers
@@ -316,6 +329,7 @@ def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="odoo", description="CLI directo a Odoo (JSON-2 / XML-RPC)")
     p.add_argument("--protocol", choices=["auto", "json2", "xmlrpc"], help="default: $ODOO_PROTOCOL o auto")
     p.add_argument("--version", action="version", version=__version__)
+    p.add_argument("--readonly", action="store_true", help="bloquea cualquier escritura (igual que ODOO_READONLY=1)")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     def add(name, fn, help_, fmt=True):

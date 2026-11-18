@@ -17,6 +17,10 @@ CLI directo a Odoo vía su API externa oficial. Sin MCP de terceros, sin depende
 
 > Usar un usuario con permisos mínimos necesarios. Nunca commitear `.env`.
 
+## Modo solo lectura
+
+`./odoo-ro …` o `ODOO_READONLY=1` / `--readonly`: solo permite métodos de lectura (search, read, read_group, fields_get, name_search…); cualquier otro método falla, también en scripts que importen el CLI. Si existen `ODOO_RO_USER` y `ODOO_RO_API_KEY`, el modo solo lectura usa ese usuario.
+
 ## Comandos
 
 ```bash

@@ -186,6 +186,12 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - **⚠️ Margen POS en devoluciones está mal calculado** (`pos_sale_margin`): en reembolsos el margen resta el costo en vez de sumarlo (ej. nov-2026: devoluciones −Q71.8k venta, −Q125.3k margen; lo correcto ≈ −Q18.2k). Para margen de Retail: agrupar ventas (`product_uom_qty > 0`) y devoluciones (`< 0`) por separado y corregir devoluciones con `margen_real = 2 × price_subtotal − margin`.
 - **⚠️ Error de captura sep-2026**: pedido POS `Ventas Guate Design Center/25487` (2026-09-26) y su reembolso: iPhone 18 Pro Max con cantidad 15,495 (se digitó el precio como cantidad). Margen −Q142M cada uno. Excluir ambos de cualquier análisis de margen.
 
+## Particularidades técnicas de la API
+- `res.users.login_date` no se puede filtrar en dominio (campo relacionado no almacenado): traer usuarios y filtrar localmente.
+- `res.groups.users` solo devuelve usuarios activos; para inactivos consultar `res.users` con `["active","in",[true,false]]` y `groups_id`.
+- Cada corrida con la API key de Diego actualiza su último acceso y aparece como `write_uid` = Diego en los cambios. Los cambios del 2026-11-18 ~03:34 UTC a usuarios 6, 7, 8, 30, 338, 359 fueron la reconfiguración de equipos de venta hecha por Claude (membresías), no cambios de permisos.
+- Modo solo lectura: `./odoo-ro` (o `ODOO_READONLY=1`). Auditores y reportes usan solo eso. Con `ODOO_RO_USER` / `ODOO_RO_API_KEY` definidos usa un usuario de Odoo sin permisos de escritura.
+
 ## Contexto de negocio (no reportar como anomalía)
 - **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
 - **Margen POS nov‑2026**: el 8% reportado inicialmente estaba distorsionado por el error de margen en devoluciones; real ≈ 22%. Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
