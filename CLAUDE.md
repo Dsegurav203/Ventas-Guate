@@ -167,7 +167,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
   | 14 | E-commerce (ventasguate.gt / Shopify, sitios web) | Luis Hernandez | Luis Hernandez |
   | 5 | Distribución – Mayoreo | Henry Galindo | Henry, Estuardo Pineda, Luis Guevara, Luis Alfredo Cantoral, Mayra González (captura) |
   | 1 | Distribución – Dropship (plataformas digitales) | Henry Galindo | Fernando Aguilar |
-  - Metas mensuales de facturación (`invoiced_target`, sin IVA): Mayoreo Q1,000,000 (mínimo); Dropship Q200,000; Retail Q50,000; E-commerce Q40,000. Avance = facturación neta del mes (`account.move` out_invoice − out_refund, `amount_untaxed_signed`) incluyendo equipos archivados mapeados al canal.
+  - Metas mensuales de facturación (`invoiced_target`, sin IVA): Mayoreo Q1,000,000 (mínimo); Dropship Q200,000; Retail Q50,000 **medida sin Apple** (excluir `["product_id.brand_id.name","!=","Apple"]`; reportar Apple aparte); E-commerce Q40,000. Avance = facturación neta del mes (`account.move` out_invoice − out_refund, `amount_untaxed_signed`) incluyendo equipos archivados mapeados al canal.
   - Pedidos nuevos: `team_id` ya es el canal. Canal "Distribución" = equipos 5 + 1.
   - Pedidos confirmados antes del 2026-11-18 conservan el equipo viejo (archivado): usar el mapeo histórico de abajo. Para incluir archivados en consultas sobre `crm.team` usar `["active","in",[true,false]]`.
   - Respaldo del estado previo: `ir.attachment` id 356230.
@@ -175,7 +175,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - **Mapeo histórico** (equipos archivados → canal):
   | Canal | Sub-canal | Responsable | Equipos históricos (`crm.team` id) |
   |---|---|---|---|
-  | Retail (tienda física) | — | — | Point of Sale (3), Tiendas (13), Kioscos K-02 (8), K-49 (7), K-08 (6), Chats Redes FB/IG/WhatsApp (20) |
+  | Retail (tienda física) | Tienda Trafalgar / Design Center (única tienda activa; kioscos Miraflores y Portales cerrados) | Luis Hernandez | Point of Sale (3), Tiendas (13), Kioscos K-02 (8), K-49 (7), K-08 (6), Chats Redes FB/IG/WhatsApp (20) |
   | E-commerce | ventasguate.gt | — | Ventasguate.gt (14), Website (2) |
   | Distribución | Mayoreo | Henry Galindo (gerente, también vende); vendedores Estuardo Pineda, Luis Guevara, Luis Alfredo Cantoral | Henry Galindo (9), Luis Guevara (12), Estuardo Pineda (21), Luis Alfredo Cantoral (17), Distribuciòn y Mayoreo (5, 10), Distribucion Rudy (11, ex-empleado) |
   | Distribución | Dropship / plataformas digitales | Fernando Aguilar, bajo Henry | Fernando Aguilar (1) |
