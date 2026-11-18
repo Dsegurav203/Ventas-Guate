@@ -87,6 +87,14 @@ if any(f["liquidacion"] == "1" for f in filas):
     elif APLICAR:
         tag_id = call("product.tag", "create", {"name": "Liquidación"})
 
+pos_id = None
+if os.environ.get("POS_CATEGORIA") == "1" and any(f["liquidacion"] == "1" for f in filas):
+    p = call("pos.category", "search", [["name", "=", "Liquidación"]])
+    if p:
+        pos_id = p[0]
+    elif APLICAR:
+        pos_id = call("pos.category", "create", {"name": "Liquidación"})
+
 out = csv.writer(open(os.path.join(AQUI, "odoo_sync_resultado.csv"), "w", newline="", encoding="utf-8"))
 out.writerow(["product_id", "capa_id", "product_tmpl_id", "nombre_odoo_anterior", "titulo_nuevo", "liquidacion", "estado"])
 ok = sin_capa = 0
@@ -113,9 +121,11 @@ for f in filas:
         vals = {"name": f["titulo_nuevo"]}
         if f["liquidacion"] == "1" and tag_id:
             vals["product_tag_ids"] = [(4, tag_id)]
+        if f["liquidacion"] == "1" and pos_id:
+            vals["pos_categ_ids"] = [(4, pos_id)]
         call("product.template", "write", [tmpl_id], vals)
         estado = f"aplicado ({via})"
     ok += 1
     out.writerow([f["product_id"], capa_id, tmpl_id, tmpl_name, f["titulo_nuevo"], f["liquidacion"], estado])
 
-print(f"{'Aplicados' if APLICAR else 'A aplicar'}: {ok} | sin coincidencia en Odoo: {sin_capa} | etiqueta Liquidación id: {tag_id}")
+print(f"{'Aplicados' if APLICAR else 'A aplicar'}: {ok} | sin coincidencia en Odoo: {sin_capa} | etiqueta Liquidación id: {tag_id} | categoría POS id: {pos_id}")
