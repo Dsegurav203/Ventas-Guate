@@ -27,7 +27,7 @@ gcloud secrets add-iam-policy-binding odoo-mcp-secret --member="serviceAccount:$
   --role=roles/secretmanager.secretAccessor >/dev/null
 
 echo "== 4/6 Permisos de compilación"
-for ROLE in roles/cloudbuild.builds.builder roles/artifactregistry.writer roles/logging.logWriter roles/storage.objectViewer; do
+for ROLE in roles/run.builder roles/serviceusage.serviceUsageConsumer roles/cloudbuild.builds.builder roles/artifactregistry.writer roles/logging.logWriter roles/storage.objectViewer; do
   gcloud projects add-iam-policy-binding "$PROJECT" --member="serviceAccount:$SA" --role="$ROLE" --condition=None >/dev/null
 done
 
