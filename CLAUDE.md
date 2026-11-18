@@ -193,6 +193,11 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - **Usuario de consulta "Claude Lectura"** (res.users 364, login `claude.lectura@ventasguate.com`; antes Javier Barillas / mercadeo@, respaldo `ir.attachment` 356232): grupos Usuario interno + Contabilidad / Solo lectura + **Consulta Claude (solo lectura)** (res.groups 159, 43 modelos con permiso solo de lectura). Si un auditor recibe "Access Denied" en un modelo, agregar ese modelo al grupo 159 con `perm_read` únicamente (con aprobación de Diego). Su key va en `ODOO_RO_USER` / `ODOO_RO_API_KEY`.
 - Modo solo lectura: `./odoo-ro` (o `ODOO_READONLY=1`). Auditores y reportes usan solo eso. Con `ODOO_RO_USER` / `ODOO_RO_API_KEY` definidos usa un usuario de Odoo sin permisos de escritura.
 
+## Seguridad de usuarios Odoo (Fase 1 aplicada 2026-11-18)
+- Solo Diego (2), Glenda (27), SOPORTE NODUU (229) y María Fernanda Paredes (15, dueña, cuenta de emergencia: **nunca desactivar ni quitarle permisos**) tienen Ajustes / Derechos de acceso. Se quitaron a Henry, Luis Hernández, Bodega Central, Auxiliar de bodega, Mayra, Luis Guevara, Luis Alfredo y Estuardo (respaldo `ir.attachment` 356233).
+- Plantilla por defecto (res.users 3) reducida a "Usuario interno": los usuarios nuevos ya no nacen como administradores.
+- Pendiente Fase 2: permisos por rol (tabla propuesta a Diego el 2026-11-18), no aplicar sin su aprobación.
+
 ## Contexto de negocio (no reportar como anomalía)
 - **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
 - **Margen POS nov‑2026**: 22.2% (ya corregido en Odoo). Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
