@@ -88,3 +88,5 @@ Para aplicar en una sesión nueva con Shopify conectado:
 1. Colección: buscar `/collections/skullcandy` (collectionByIdentifier handle "skullcandy") y aplicar `coleccion.json` (seo.title, seo.description, descriptionHtml).
 2. Productos: `productos.json` → `productUpdate` por `id` con `title` y `seo{title,description}`; si trae `html`, también `descriptionHtml`.
 3. Antes de aplicar, verificar que cada producto siga ACTIVE y con stock (el export es del 27 oct).
+
+**APLICADO 2026-11-18:** colección `/collections/skullcandy` + 41 productos (títulos, SEO, 3 descripciones nuevas). 0 errores, verificado en muestra. Ajustes al aplicar: Push 720 Open Negro meta "open ear, no tapan el oído"; bocinas "original" en singular. 4 productos ya sin stock al aplicar: Smokin' Buds Preppy Blue, Push ANC Active, PLYR, Riff.
