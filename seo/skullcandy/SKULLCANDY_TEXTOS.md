@@ -80,3 +80,11 @@ Ya se hicieron en la semana 1: Dime 3 Black, Smokin' Buds Negro, Sesh ANC Active
 **Excluido:** "SKULLCANDY OUNCE+ SPEAKER NEGRO" — su URL dice *kilo-compact-speaker-negro* y el título dice *Ounce+*. ¿Cuál es el producto real?
 
 **Nota:** "Crusher 540 Active Concret" pasa a "Concrete". Confirmar el nombre del color en la caja.
+
+---
+**APROBADO por Diego el 2026-11-18 — pendiente de aplicar** (Shopify desconectado en la sesión donde se aprobó).
+
+Para aplicar en una sesión nueva con Shopify conectado:
+1. Colección: buscar `/collections/skullcandy` (collectionByIdentifier handle "skullcandy") y aplicar `coleccion.json` (seo.title, seo.description, descriptionHtml).
+2. Productos: `productos.json` → `productUpdate` por `id` con `title` y `seo{title,description}`; si trae `html`, también `descriptionHtml`.
+3. Antes de aplicar, verificar que cada producto siga ACTIVE y con stock (el export es del 27 oct).
