@@ -20,14 +20,15 @@ Conector remoto para el **chat de claude.ai** (web, escritorio, móvil). Reempla
 ## Despliegue en Google Cloud Run (~US$0–10/mes con 5 usuarios)
 
 ```bash
-gcloud run deploy odoo-mcp-vg --source . --dockerfile mcp-server/Dockerfile \
-  --region us-central1 --allow-unauthenticated --min-instances 0 --max-instances 2 \
+# Paquete listo para Cloud Shell: ver deploy-cloudshell.sh (Dockerfile en la raíz del paquete)
+gcloud run deploy odoo-mcp-vg --source . \
+  --region us-central1 --no-invoker-iam-check --min-instances 0 --max-instances 2 \
   --set-env-vars ODOO_URL=https://ventasguate.odoo.com,ODOO_DB=rocketgithub-ventasguate-odoo-sh-main-5436798,MCP_ALLOW_WRITE=0 \
   --set-secrets MCP_SECRET_KEY=odoo-mcp-secret:latest
 # luego fijar la URL pública que devolvió el deploy:
 gcloud run services update odoo-mcp-vg --region us-central1 --update-env-vars MCP_PUBLIC_URL=https://<url-del-servicio>
 ```
-`--allow-unauthenticated` es necesario: la protección la da el OAuth del propio servidor (sin token válido, `/mcp` responde 401).
+`--no-invoker-iam-check` es necesario: la protección la da el OAuth del propio servidor (sin token válido, `/mcp` responde 401).
 
 ## Alta en claude.ai (una vez, administrador de la organización)
 
