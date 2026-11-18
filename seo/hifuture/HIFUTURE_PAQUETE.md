@@ -156,3 +156,15 @@ Correcciones de color en descripciones: Pocket S Azul, FlyBuds 4 Matcha, Mega S 
 - **[CONFIRMAR] Event Horizon:** el título dice bocina para fiestas y la descripción describe un smartwatch. Quedó titulada como bocina y la descripción no se tocó. Hay que confirmar qué producto es.
 - **Sin descripción ni especificaciones** (meta genérica): Gravity Azul y Negro, Ripple Azul y Negro, Ultra2 Pro Sport y FutureMate2 Pro. Hay que redactarlas cuando haya ficha técnica o caja.
 - **Revisar datos heredados:** Boombeat (60W, 24 h) y Vela Adventure (14 días) vienen de textos viejos sin fuente confirmada. Las metas nuevas no usan esas cifras.
+
+## APLICADO — Lote 5 — 18 nov 2026
+
+Datos tomados de las páginas oficiales de HiFuture (gravity, ripple, futuremate2pro) a través del buscador, porque hifuturegroup.com está bloqueado en la red de esta sesión. Archivo: `productos_lote5.json`.
+
+| Producto | Cambio |
+|---|---|
+| Gravity Azul y Negro | Descripción nueva: 45W (30W + 15W), BT 5.3, IPX7, RGB, TWS, 4000 mAh / 8 h, USB-C 10W |
+| Ripple Azul, Negro y Roja | Descripción nueva: 30W (20W + 10W), BT 5.3, TWS, 4000 mAh / 12 h. La Roja decía 10 h; corregido a 12 h. El IP no se indica porque la página oficial dice IPX5 e IPX7 |
+| FutureMate2 Pro | Descripción nueva: open ear, driver de 15.4 mm, BT 5.4, 4 micrófonos ENC, IPX5, 7 g. La batería no se indica porque HiFuture da 20 h y 30 h |
+| Event Horizon | Ahora es "Parlante HiFuture Event Horizon 100W". Se borró la descripción de smartwatch. 100W, BT 5.3, 8000 mAh y USB-C vienen de tiendas, no de una ficha oficial |
+| Ultra2 Pro Sport Negro | ARCHIVADO (descontinuado, inventario 0). Redirect /products/hifuture-ultra2-pro-sport-smartwatch-negro-1 → /collections/smartwatch-hifuture |
