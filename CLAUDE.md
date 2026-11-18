@@ -183,8 +183,8 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
   | No es canal de venta | Contabilidad y logística | Glenda Ixcayau (contadora general); Wilver, Mayra González | GLENDA MIROSLAVA IXCAYAU VICENTE (19) |
   - Reporte por canal: `./odoo group sale.report -g team_id … -F json` y sumar con este mapeo. Vendedor = `user_id`, nunca `team_id`.
   - Usuarios que no son vendedores en `user_id`: Ventas Guate Trafalgar, VG Miraflores 1, VG PORTALES (cajas POS), Bodega Central, Auxiliar de bodega, OdooBot, Mayra González y Wilver (contabilidad/logística), Diego Segura. Pedidos con estos usuarios se atribuyen al canal por `team_id`, no a un vendedor.
-- **⚠️ Margen POS en devoluciones está mal calculado** (`pos_sale_margin`): en reembolsos el margen resta el costo en vez de sumarlo (ej. nov-2026: devoluciones −Q71.8k venta, −Q125.3k margen; lo correcto ≈ −Q18.2k). Para margen de Retail: agrupar ventas (`product_uom_qty > 0`) y devoluciones (`< 0`) por separado y corregir devoluciones con `margen_real = 2 × price_subtotal − margin`.
-- **⚠️ Error de captura sep-2026**: pedido POS `Ventas Guate Design Center/25487` (2026-09-26) y su reembolso: iPhone 18 Pro Max con cantidad 15,495 (se digitó el precio como cantidad). Margen −Q142M cada uno. Excluir ambos de cualquier análisis de margen.
+- **Margen POS en devoluciones** (`pos.order.line.total_cost`): Odoo copia el costo de la venta original con signo positivo en los reembolsos. **Corregido el 2026-11-18** en las 839 líneas históricas (respaldo `ir.attachment` 356229). Devoluciones nuevas: tarea programada nocturna `odoo-cli/server-actions/fix_pos_refund_cost.py` (pendiente de crear en Odoo: Ajustes → Técnico → Acciones planificadas). Chequeo: `./odoo-ro count pos.order.line -d '[["qty","<",0],["total_cost",">",0]]'` debe dar 0 o solo devoluciones recientes; si hay, corregir su margen con `margen_real = 2 × price_subtotal − margin`.
+- **Error de captura sep-2026**: pedido POS `Ventas Guate Design Center/25487` (2026-09-26) y su reembolso: iPhone 18 Pro Max con cantidad 15,495 (precio digitado como cantidad). Tras la corrección se netean (margen ≈ 0), pero inflan venta bruta y devoluciones de sep-2026.
 
 ## Particularidades técnicas de la API
 - `res.users.login_date` no se puede filtrar en dominio (campo relacionado no almacenado): traer usuarios y filtrar localmente.
@@ -194,7 +194,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 
 ## Contexto de negocio (no reportar como anomalía)
 - **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
-- **Margen POS nov‑2026**: el 8% reportado inicialmente estaba distorsionado por el error de margen en devoluciones; real ≈ 22%. Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
+- **Margen POS nov‑2026**: 22.2% (ya corregido en Odoo). Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
 
 ## Proceso semanal de cobranza (desde 2026-11-23, lunes 7:00 Guatemala)
 1. Reporte: `python3 odoo-cli/reports/cobranza_extract.py <ayer> <hoy>` → actualizar el artifact "Cobranza Ventas Guate" (https://claude.ai/artifact/TTkdocxnFMMJQwYA5B7y2v), mismo formato.
