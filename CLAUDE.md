@@ -169,3 +169,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
   | Distribución / mayoreo | Distribuciòn y Mayoreo (5, 10), Distribucion Rudy (11) |
   | Vendedores (equipo con nombre de persona) | Henry Galindo (9), Estuardo Pineda (21), Luis Guevara (12), Fernando Aguilar (1), Luis Alfredo Cantoral (17), Sebastian Hernandez (18), Glenda Ixcayau (19) |
   Confirmar con Diego esta clasificación antes de publicar reportes por canal.
+
+## Contexto de negocio (no reportar como anomalía)
+- **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
+- **Margen bajo en POS (~8%, nov‑2026)**: esperado por mezcla de productos Apple (margen bajo) y combos de liquidación. Al analizar margen, separar Apple y liquidación del resto antes de concluir.
