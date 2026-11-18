@@ -134,6 +134,11 @@ class Odoo:
                 body["ids"] = ids
             return self._json2(model, method, body)
         args = [ids] if ids is not None else []
+        # pass the main argument positionally: @api.model_create_multi requires it and
+        # many models override write(self, values) with a different parameter name
+        for m, k in (("create", "vals_list"), ("write", "vals")):
+            if method == m and k in kwargs:
+                args.append(kwargs.pop(k))
         return self._xmlrpc(model, method, args, kwargs)
 
     def version(self) -> dict:
