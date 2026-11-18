@@ -171,6 +171,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
   - Pedidos nuevos: `team_id` ya es el canal. Canal "Distribución" = equipos 5 + 1.
   - Pedidos confirmados antes del 2026-11-18 conservan el equipo viejo (archivado): usar el mapeo histórico de abajo. Para incluir archivados en consultas sobre `crm.team` usar `["active","in",[true,false]]`.
   - Respaldo del estado previo: `ir.attachment` id 356230.
+  - **Luis Antonio Chicas Franco** (usuario 18, archivado): su cartera pasó a **Estuardo Pineda** (359) el 2026-11-18 — clientes, cotizaciones abiertas, oportunidades y facturas por cobrar (respaldo `ir.attachment` 356231). Ventas históricas siguen a nombre de Chicas; para análisis de cartera de Estuardo sumar ambos usuarios.
 - **Mapeo histórico** (equipos archivados → canal):
   | Canal | Sub-canal | Responsable | Equipos históricos (`crm.team` id) |
   |---|---|---|---|
