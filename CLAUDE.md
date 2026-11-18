@@ -189,3 +189,12 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 ## Contexto de negocio (no reportar como anomalía)
 - **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
 - **Margen POS nov‑2026**: el 8% reportado inicialmente estaba distorsionado por el error de margen en devoluciones; real ≈ 22%. Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
+
+## Proceso semanal de cobranza (desde 2026-11-23, lunes 7:00 Guatemala)
+1. Reporte: `python3 odoo-cli/reports/cobranza_extract.py <ayer> <hoy>` → actualizar el artifact "Cobranza Ventas Guate" (https://claude.ai/artifact/TTkdocxnFMMJQwYA5B7y2v), mismo formato.
+2. Revisión de la semana anterior: `python3 odoo-cli/reports/cobranza_tareas.py review <lunes anterior> <hoy>` → sección "Gestión de la semana" en el reporte: tareas cerradas a tiempo, vencidas sin cerrar, compromisos cumplidos/incumplidos por vendedor. Incumplidos o vencidos: escalar a Henry (distribución) y mencionarlos a Diego.
+3. Tareas: `python3 odoo-cli/reports/cobranza_tareas.py preview <ayer> <hoy>` y luego `create … --yes`. **Primera corrida (2026-11-23): mostrar la lista a Diego y esperar su confirmación antes de crear.** Desde la segunda, crear sin pedir confirmación salvo que cambie el criterio.
+   - Actividad "Cobranza semanal" sobre el cliente (`res.partner`), vence en 2 días. Criterio: saldo vencido ≥ Q1,000 o > 30 días; sin facturas internas.
+   - Responsable: vendedor de la factura (Henry, Luis Guevara, Estuardo, Fernando, Luis Alfredo); si no es vendedor (Bodega Central, Auxiliar de bodega, Mayra, sin asignar) → **Glenda Ixcayau** (contabilidad).
+   - Respuesta del vendedor al marcarla hecha: `COMPROMISO: AAAA-MM-DD Q monto` · `DISPUTA: motivo` · `SIN CONTACTO` · `PAGADO`.
+- Módulo `account_followup` instalado con 5 niveles (−3, 1, 5, 15, 30 días) pero casi no genera actividades: revisar antes de depender de él. Sus correos son al cliente; las tareas de cobranza semanal son internas.
