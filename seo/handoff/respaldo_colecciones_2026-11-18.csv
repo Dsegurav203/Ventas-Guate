@@ -1,0 +1,29 @@
+id,handle,title,productos,accion,seo_hidden_antes
+519907344597,destacados-prueba,Destacados prueba,1705,seo.hidden=1,
+522614669525,precio-regular,Precio Regular,1610,seo.hidden=1,
+523498422485,sale14,SALE14,78,seo.hidden=1,
+523455004885,sale15,SALE15,85,seo.hidden=1,
+523345756373,sale16,SALE16,199,seo.hidden=1,
+529023467733,midnightsale,MIDNIGHTSALE,23,seo.hidden=1,
+522614636757,oferta,Oferta,95,seo.hidden=1,
+494251507925,frontpage,Home page,1,seo.hidden=1,
+525533282517,targus-1,Targus,49,seo.hidden=1,
+531270336725,backbone-1,BACKBONE CONSOLA,3,seo.hidden=1,
+524965544149,17-pro-max-1,ACCESORIOS 17 PRO MAX,78,seo.hidden=1,
+518732251349,iphone-1,iPhone,275,seo.hidden=1,
+519158726869,iphone13,iPhone13,44,seo.hidden=1,
+526189854933,14plus,14PLUSPRODIGEE,5,seo.hidden=1,
+526193066197,14promaxprodigee,14PROMAXPRODIGEE,4,seo.hidden=1,
+505692192981,amazon,Amazon,3,borrar+301 /collections/alexa,
+505694388437,tucano,Tucano,1,NO (hay ~46 productos Tucano en catálogo; conviene llenarla),
+505694322901,protection-pro,Protection Pro,1,borrar+301 /collections/cases,
+514345009365,s24-ultra,S24 Ultra,0,borrar+301 /collections/s24-cases,
+528406511829,reservas,Reservas,3,NO (menú principal),
+519158890709,iphone12,iPhone12,27,NO (menú iPhone),
+519158563029,iphone14,iPhone14,52,NO (menú iPhone),
+517237080277,maletines,Maletines,2,NO (menú Tablets),
+519160430805,z-fold,Z Fold,1,NO (menú Samsung),
+# productos de colecciones borradas (para restaurar)
+# amazon: 9150261362901, 9150260904149, 9141958344917
+# protection-pro: 9149938106581
+# s24-ultra: (vacía)
