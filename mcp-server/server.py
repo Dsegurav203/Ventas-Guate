@@ -43,6 +43,14 @@ ALLOW_WRITE = os.environ.get("MCP_ALLOW_WRITE", "0") == "1"
 WRITE_MODELS = {m.strip() for m in os.environ.get(
     "MCP_WRITE_MODELS", "product.template,product.product,product.category,product.brand").replace(";", ",").split(",") if m.strip()}
 IMAGE_MODELS = {"product.template", "product.product"} & WRITE_MODELS
+# Modelos de configuración: solo usuarios con Ajustes (base.group_system) en Odoo.
+ADMIN_WRITE_MODELS = {m.strip() for m in os.environ.get(
+    "MCP_ADMIN_WRITE_MODELS", "stock.warehouse,stock.location,stock.picking,res.users").replace(";", ",").split(",") if m.strip()}
+NO_CREATE_MODELS = {"res.users", "stock.picking"}             # se editan, no se crean desde el chat
+FIELD_LIMITS = {"res.users": {"property_warehouse_id"}}      # en usuarios solo el almacén predeterminado
+NEVER_WRITE = {"ir.rule", "ir.model.access", "res.groups", "ir.config_parameter", "res.users.apikeys"}
+ACTIONS = {tuple(a.strip().rsplit(".", 1)) for a in os.environ.get(
+    "MCP_ACTIONS", "stock.picking.action_cancel").replace(";", ",").split(",") if a.strip()}
 ALLOW_LOCAL = os.environ.get("MCP_ALLOW_LOCAL_REDIRECTS", "0") == "1"
 F = Fernet(SECRET)
 
@@ -271,10 +279,28 @@ async def odoo_name_search(model: str, text: str, limit: int = 10) -> Any:
     return await _call(model, "name_search", name=text, limit=limit)
 
 
-def _check_write(model: str) -> dict | None:
-    if model not in WRITE_MODELS:
-        return {"error": f"Escritura no permitida en '{model}'. Modelos permitidos: {', '.join(sorted(WRITE_MODELS))}"}
-    return None
+async def _is_admin() -> bool:
+    o = _client()
+    r = await _call("res.users", "has_group", ids=[o._uid], group_ext_id="base.group_system")
+    return r is True
+
+
+async def _check_write(model: str, values: dict | None = None, create: bool = False) -> dict | None:
+    if model in NEVER_WRITE:
+        return {"error": f"'{model}' es configuración de seguridad: no se modifica desde el chat. Hazlo en Claude Code con revisión."}
+    if model in WRITE_MODELS:
+        return None
+    if model in ADMIN_WRITE_MODELS:
+        if not await _is_admin():
+            return {"error": f"Solo administradores de Odoo (Ajustes) pueden modificar '{model}' desde el chat"}
+        if create and model in NO_CREATE_MODELS:
+            return {"error": f"No se crean registros de '{model}' desde el chat"}
+        allowed = FIELD_LIMITS.get(model)
+        if allowed and values and set(values) - allowed:
+            return {"error": f"En '{model}' solo se pueden editar: {', '.join(sorted(allowed))}"}
+        return None
+    return {"error": f"Escritura no permitida en '{model}'. Modelos permitidos: "
+                     f"{', '.join(sorted(WRITE_MODELS))}; solo administradores: {', '.join(sorted(ADMIN_WRITE_MODELS))}"}
 
 
 def _safe_url(url: str) -> str | None:
@@ -326,9 +352,9 @@ def _normalize_image(raw: bytes) -> tuple[bytes, bytes, tuple[int, int]]:
 if ALLOW_WRITE:
     @mcp.tool()
     async def odoo_create(model: str, values: dict) -> Any:
-        """Crea un registro (solo modelos de producto). Antes de llamar, muestra al usuario los valores y espera su confirmación.
-        Para imágenes no uses este campo: usa odoo_set_image_from_url."""
-        if err := _check_write(model):
+        """Crea un registro. Productos: cualquier usuario con permiso en Odoo. Almacenes y ubicaciones: solo administradores.
+        Antes de llamar, muestra al usuario los valores y espera su confirmación. Para imágenes usa odoo_set_image_from_url."""
+        if err := await _check_write(model, values, create=True):
             return err
         if any(k.startswith("image_") for k in values):
             return {"error": "Para imágenes usa odoo_set_image_from_url"}
@@ -336,12 +362,24 @@ if ALLOW_WRITE:
 
     @mcp.tool()
     async def odoo_write(model: str, ids: list[int], values: dict) -> Any:
-        """Edita registros (solo modelos de producto). Antes de llamar, muestra al usuario los cambios y espera su confirmación."""
-        if err := _check_write(model):
+        """Edita registros. Productos: cualquier usuario con permiso en Odoo. Almacenes, ubicaciones, traslados y el almacén
+        predeterminado de usuarios (property_warehouse_id): solo administradores. Archivar = {"active": false}.
+        Antes de llamar, muestra al usuario los cambios y espera su confirmación."""
+        if err := await _check_write(model, values):
             return err
         if any(k.startswith("image_") for k in values):
             return {"error": "Para imágenes usa odoo_set_image_from_url"}
         return await _call(model, "write", ids=ids, vals=values)
+
+    @mcp.tool()
+    async def odoo_action(model: str, method: str, ids: list[int]) -> Any:
+        """Ejecuta una acción de Odoo sobre registros (ej. stock.picking action_cancel para cancelar traslados).
+        Solo acciones permitidas y solo administradores. Antes de llamar, muestra al usuario los registros y espera su confirmación."""
+        if (model, method) not in ACTIONS:
+            return {"error": f"Acción no permitida. Permitidas: {', '.join(f'{m}.{a}' for m, a in sorted(ACTIONS))}"}
+        if not await _is_admin():
+            return {"error": "Solo administradores de Odoo (Ajustes) pueden ejecutar acciones desde el chat"}
+        return await _call(model, method, ids=ids)
 
     if IMAGE_MODELS:
         from mcp.server.fastmcp import Image as McpImage

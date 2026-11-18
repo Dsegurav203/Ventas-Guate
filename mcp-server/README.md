@@ -5,6 +5,7 @@ Conector remoto para el **chat de claude.ai** (web, escritorio, móvil). Reempla
 - Cada persona conecta **su** usuario de Odoo + su API key: Odoo aplica sus permisos.
 - Inicio de sesión OAuth 2.1 con registro dinámico (lo que pide claude.ai). Sin base de datos: todo va cifrado con `MCP_SECRET_KEY`.
 - Solo lectura por defecto. `MCP_ALLOW_WRITE=1` agrega `odoo_create`, `odoo_write` y `odoo_set_image_from_url`, **solo en los modelos de `MCP_WRITE_MODELS`** (productos por defecto; separar con `;`). Odoo igual valida permisos.
+- Para administradores de Odoo (grupo Ajustes) además: `MCP_ADMIN_WRITE_MODELS` (almacenes, ubicaciones, traslados; en `res.users` solo `property_warehouse_id`) y `odoo_action` con `MCP_ACTIONS` (por defecto `stock.picking.action_cancel`). Bloqueado siempre: `ir.rule`, `ir.model.access`, `res.groups`, `ir.config_parameter`, API keys.
 - Herramientas: `odoo_whoami`, `odoo_search`, `odoo_count`, `odoo_read`, `odoo_group`, `odoo_fields`, `odoo_models`, `odoo_name_search` (+ `odoo_create`, `odoo_write`, `odoo_set_image_from_url` con escritura).
 
 ## Variables

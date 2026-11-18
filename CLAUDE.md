@@ -200,6 +200,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 
 ## MCP propio (conector de Odoo para el chat de claude.ai)
 - Código: `mcp-server/` (server.py, deploy-cloudshell.sh). Producción: **https://odoo-mcp-vg-cauirfgxia-uc.a.run.app/mcp** (Google Cloud Run, proyecto `ventasguate-mcp`, us-central1). Desplegado y probado 16/16 el 2026-11-18. **Escritura solo en productos** (`MCP_WRITE_MODELS`: product.template, product.product, product.category, product.brand) + `odoo_set_image_from_url` (el servidor descarga y normaliza la imagen a 1200×1200, fondo blanco, <350 KB; bloquea URLs internas).
+- **Solo administradores de Odoo (Ajustes: Diego, Glenda, María Fernanda, Noduu)** pueden además editar desde el chat `stock.warehouse`, `stock.location`, `stock.picking` y en `res.users` solo `property_warehouse_id`; y ejecutar `odoo_action` con las acciones permitidas (`MCP_ACTIONS`, hoy solo `stock.picking.action_cancel`). Nunca desde el chat: `ir.rule`, `ir.model.access`, `res.groups`, `ir.config_parameter`, API keys (eso se hace en Claude Code con revisión).
 - Productos: 1–10 por el chat; cargas masivas por Claude Code con el CLI (validación, respaldo, lotes de imágenes).
 - Cada usuario entra con su login + API key de Odoo (permisos de Odoo aplican). Actualizar: subir paquete a Cloud Shell y `bash deploy-cloudshell.sh`.
 - Objetivo: reemplazar el MCP de terceros (5 usuarios, US$75–100/mes) tras piloto y Fase 2 de roles.
