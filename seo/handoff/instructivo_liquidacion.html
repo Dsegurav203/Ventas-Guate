@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Instructivo: productos de liquidación</title>
+<style>
+  @page { size: Letter; margin: 16mm 16mm 18mm 16mm; }
+  :root { --ink:#1a1d23; --muted:#5b6270; --line:#d9dde3; --accent:#0b5cad; --soft:#eef4fb; --warn:#fff6e5; --warnline:#e0a43a; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; color: var(--ink); font-size: 10.5pt; line-height: 1.45; margin: 0; }
+  header { border-bottom: 3px solid var(--accent); padding-bottom: 8px; margin-bottom: 14px; }
+  .brand { font-size: 9pt; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+  h1 { font-size: 19pt; margin: 4px 0 2px; }
+  .sub { color: var(--muted); font-size: 10pt; }
+  h2 { font-size: 12.5pt; color: var(--accent); margin: 18px 0 6px; padding-bottom: 3px; border-bottom: 1px solid var(--line); }
+  h3 { font-size: 11pt; margin: 12px 0 4px; }
+  p { margin: 4px 0 8px; }
+  ul, ol { margin: 4px 0 8px 18px; padding: 0; }
+  li { margin: 2px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0 10px; font-size: 9.8pt; }
+  th, td { border: 1px solid var(--line); padding: 5px 7px; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  .box { background: var(--soft); border-left: 4px solid var(--accent); padding: 8px 12px; margin: 8px 0 12px; }
+  .warn { background: var(--warn); border-left: 4px solid var(--warnline); padding: 8px 12px; margin: 8px 0 12px; }
+  .path { font-family: "Courier New", monospace; background: #f3f4f6; padding: 1px 4px; border-radius: 3px; font-size: 9.5pt; }
+  .tag { display: inline-block; background: #e3f0d9; border: 1px solid #9cc47f; border-radius: 10px; padding: 0 8px; font-size: 9pt; }
+  .steps li { margin-bottom: 4px; }
+  footer { margin-top: 18px; padding-top: 6px; border-top: 1px solid var(--line); color: var(--muted); font-size: 8.5pt; }
+  .page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Ventas Guate · Buyitwithus, S.A.</div>
+  <h1>Productos de liquidación: cómo encontrarlos ahora</h1>
+  <div class="sub">Instructivo para ventas, tiendas, distribución, bodega y contabilidad · Vigente desde el 18 de noviembre de 2026</div>
+</header>
+
+<div class="box">
+  <strong>En resumen:</strong> los productos de liquidación ya <strong>no llevan "L-" en el nombre</strong>.
+  Ahora se identifican con la <strong>etiqueta <span class="tag">Liquidación</span></strong> en Odoo y con la
+  <strong>categoría de Punto de Venta "Liquidación"</strong>. Para el spiff de liquidación, la venta cuenta si el producto tiene esa etiqueta o categoría.
+</div>
+
+<h2>1. Qué cambió y por qué</h2>
+<table>
+  <tr><th style="width:28%"></th><th style="width:36%">Antes</th><th>Ahora</th></tr>
+  <tr><td>Cómo se marcaba</td><td>"L-" al inicio del nombre del producto</td><td>Etiqueta de producto <span class="tag">Liquidación</span> + categoría de PdV "Liquidación"</td></tr>
+  <tr><td>Nombre del producto</td><td><span class="path">L-PRODIGEE KICKIT GALAXY S25 NEGRO</span></td><td><span class="path">Prodigee Kickit Galaxy S25 Negro</span></td></tr>
+  <tr><td>Código interno / SKU</td><td colspan="2">No cambia. Se sigue buscando igual (por ejemplo <span class="path">810023957560</span>).</td></tr>
+  <tr><td>Tienda en línea</td><td>"L-" visible para los clientes</td><td>Sección <span class="path">ventasguate.gt/collections/liquidacion</span></td></tr>
+</table>
+<p><strong>Por qué:</strong> el "L-" ensuciaba los reportes (los productos no se agrupaban por marca), salía en la tienda en línea y obligaba a renombrar el producto al entrar o salir de liquidación. Con la etiqueta, entrar o salir de liquidación es solo poner o quitar la etiqueta.</p>
+
+<h2>2. Cómo encontrarlos en el Punto de Venta (todas las tiendas)</h2>
+<ol class="steps">
+  <li>Abrí la caja como siempre.</li>
+  <li>En la barra de categorías arriba de los productos, tocá <strong>Liquidación</strong>.</li>
+  <li>Aparecen solo los productos en liquidación. También podés buscar por nombre o por código como siempre.</li>
+</ol>
+
+<h2>3. Cómo encontrarlos en Odoo (Ventas, Inventario, Compras)</h2>
+<ol class="steps">
+  <li>Entrá a la lista de productos: <span class="path">Ventas → Productos → Productos</span> (o desde Inventario).</li>
+  <li>En el buscador escribí <strong>Liquidación</strong> y elegí la opción <strong>"Buscar Etiquetas de producto: Liquidación"</strong>.</li>
+  <li>Para no repetirlo cada vez: abrí el menú del buscador → <strong>Guardar búsqueda actual</strong> → nombre "Liquidación" → marcá <strong>Compartir con todos los usuarios</strong> (lo hace un administrador una vez).</li>
+</ol>
+<p>Al crear una cotización o pedido, la etiqueta se ve en la ficha del producto (campo <strong>Etiquetas</strong>).</p>
+
+<h2 class="page-break">4. Cómo medir las ventas de liquidación (spiff)</h2>
+<h3>Ventas de tienda (Punto de Venta)</h3>
+<ol class="steps">
+  <li><span class="path">Punto de Venta → Informes → Pedidos</span>.</li>
+  <li>Filtros → <strong>Agregar filtro personalizado</strong> → <strong>Categoría de PdV</strong> = <strong>Liquidación</strong>.</li>
+  <li>Agrupá por <strong>Vendedor</strong> (o Empleado) y por mes para ver el total por persona.</li>
+</ol>
+<h3>Ventas de mayoreo, distribución y e-commerce (Ventas)</h3>
+<ol class="steps">
+  <li><span class="path">Ventas → Informes → Ventas</span>.</li>
+  <li>Filtros → <strong>Agregar filtro personalizado</strong> → <strong>Producto → Etiquetas de producto</strong> contiene <strong>Liquidación</strong>.</li>
+  <li>Agrupá por <strong>Vendedor</strong> y por mes. Guardá la búsqueda como favorito "Spiff liquidación" y compartila.</li>
+</ol>
+<div class="warn">
+  <strong>Importante para el spiff:</strong> desde hoy, una venta de liquidación se reconoce por la <strong>etiqueta o la categoría</strong>, no por el "L-" en el nombre.
+  Los pedidos anteriores al 18 de noviembre conservan en la línea el nombre con "L-" que tenían al venderse.
+</div>
+
+<h2>5. Reglas para el equipo</h2>
+<ul>
+  <li><strong>No volver a escribir "L-"</strong> (ni otros prefijos) en el nombre de un producto.</li>
+  <li><strong>Producto nuevo en liquidación:</strong> en la ficha del producto, agregá la etiqueta <span class="tag">Liquidación</span> y, en la pestaña de Punto de Venta, la categoría <strong>Liquidación</strong>. En Shopify, la etiqueta <span class="path">liquidacion</span> lo agrega solo a la sección de la web.</li>
+  <li><strong>Producto que sale de liquidación:</strong> quitá la etiqueta y la categoría. No hace falta cambiar el nombre.</li>
+  <li><strong>Nombres:</strong> marca y modelo con mayúscula inicial (por ejemplo "JBL Tune Buds2 NC Negro"), no todo en MAYÚSCULAS.</li>
+  <li><strong>Sincronización con Shopify:</strong> al actualizar productos desde Odoo hacia Shopify, no marcar la opción de datos básicos ("Set Basic Detail"), para no sobrescribir los títulos de la tienda en línea.</li>
+</ul>
+
+<h2>6. Dónde está cada cosa</h2>
+<table>
+  <tr><th style="width:32%">Necesito…</th><th>Dónde</th></tr>
+  <tr><td>Vender un producto de liquidación en tienda</td><td>PdV → categoría <strong>Liquidación</strong></td></tr>
+  <tr><td>Ver la lista de productos en liquidación</td><td>Ventas → Productos → buscar "Liquidación" en Etiquetas</td></tr>
+  <tr><td>Reporte de spiff (tienda)</td><td>PdV → Informes → Pedidos → filtro Categoría de PdV = Liquidación</td></tr>
+  <tr><td>Reporte de spiff (mayoreo/e-commerce)</td><td>Ventas → Informes → Ventas → filtro Producto → Etiquetas = Liquidación</td></tr>
+  <tr><td>Mandar el link a un cliente</td><td><span class="path">ventasguate.gt/collections/liquidacion</span></td></tr>
+</table>
+
+<footer>
+  Cambio aplicado el 18/11/2026 en Odoo y en la tienda en línea. Dudas: Diego Segura (dsegura@ventasguate.com).
+</footer>
+</body>
+</html>
