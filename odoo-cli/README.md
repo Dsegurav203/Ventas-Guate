@@ -12,7 +12,7 @@ CLI directo a Odoo vía su API externa oficial. Sin MCP de terceros, sin depende
 
 1. Odoo → Preferencias de usuario → Seguridad de la cuenta → **Nueva API Key**.
 2. `cp odoo-cli/.env.example .env` y completar (también lee `~/.config/odoo-cli/.env`).
-3. Opcional: `alias odoo="python3 $PWD/odoo-cli/odoo_cli.py"`
+3. Desde la raíz del repo: `./odoo <comando>`
 4. `odoo ping`
 
 > Usar un usuario con permisos mínimos necesarios. Nunca commitear `.env`.
