@@ -130,3 +130,20 @@ Specs de fichas de distribuidores (el sitio oficial de HiFuture está bloqueado 
 - **Zone3**: no se encontró edición "Sport"; queda como "Zone3".
 - **GO PRO2 Gold**: sin descripción; usa la del GO PRO2 Negro.
 - **Vocalist 100 Silver**: su descripción dice "en Negro". Se corrige al aplicar.
+
+---
+
+## APLICADO — 18 nov 2026
+
+| Bloque | Productos | Resultado |
+|---|---|---|
+| Colección `hifuture`: texto + meta | 1 | OK |
+| Publicados en Online Store | 12 | OK |
+| Aurora2 Rosado/Púrpura agregados a la colección | 2 | OK (88 productos) |
+| Lote 1: títulos + SEO (`productos_lote1.json`) | 45 | 0 errores |
+| Lote 2: descripción nueva + títulos + SEO (`productos_lote2.json`) | 22 | 0 errores |
+| Lote 3: 10 recién publicados (descripción limpia, color correcto, título, SEO) + GO PRO2 Gold + Vocalist 100 Silver (`productos_lote3.json`) | 12 | 0 errores |
+
+Correcciones de color en descripciones: Pocket S Azul, FlyBuds 4 Matcha, Mega S Silver y Ultra3 Pro Silver decían "Color: Negro"; Vocalist 100 Silver decía "en Negro". GO PRO2 Gold no tenía descripción.
+
+**Fuera de alcance:** 41 productos HiFuture activos con inventario 0 (Colorbuds2, OlymBuds3, Pocket S Gris/Negro/Rosado, Gravity, Ripple, Evo2, Ultra2 Pro, VibeMate Hot Pink, etc.). Siguen con títulos en MAYÚSCULAS y meta vieja. 11 de ellos se ven en la tienda como agotados. Decidir: ocultarlos (UNLISTED + seo.hidden) o arreglarlos cuando se reabastezcan.
