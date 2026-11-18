@@ -163,14 +163,14 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - **Canales oficiales** (definidos por Diego, 2026-11-18). En Odoo `team_id` está mal configurado (mezcla canales y vendedores); usar este mapeo de equipos históricos → canal:
   | Canal | Sub-canal | Responsable | Equipos históricos (`crm.team` id) |
   |---|---|---|---|
-  | Retail (tienda física) | — | — | Point of Sale (3), Tiendas (13), Kioscos K-02 (8), K-49 (7), K-08 (6) |
+  | Retail (tienda física) | — | — | Point of Sale (3), Tiendas (13), Kioscos K-02 (8), K-49 (7), K-08 (6), Chats Redes FB/IG/WhatsApp (20) |
   | E-commerce | ventasguate.gt | — | Ventasguate.gt (14), Website (2) |
-  | Distribución | Mayoreo (puntos de venta mayoristas) | Henry Galindo (gerente); vendedores Estuardo Pineda, Luis Guevara | Luis Guevara (12), Estuardo Pineda (21), Distribuciòn y Mayoreo (5, 10), Distribucion Rudy (11) |
+  | Distribución | Mayoreo | Henry Galindo (gerente, también vende); vendedores Estuardo Pineda, Luis Guevara, Luis Alfredo Cantoral | Henry Galindo (9), Luis Guevara (12), Estuardo Pineda (21), Luis Alfredo Cantoral (17), Distribuciòn y Mayoreo (5, 10), Distribucion Rudy (11, ex-empleado) |
   | Distribución | Dropship / plataformas digitales | Fernando Aguilar, bajo Henry | Fernando Aguilar (1) |
-  | Distribución | Henry (cuentas propias) | Henry Galindo | Henry Galindo (9) — sub-canal por confirmar |
-  | Por confirmar | — | — | Chats Redes (20), Sebastian Hernandez (18), Glenda Ixcayau (19), Luis Alfredo Cantoral (17), sin equipo |
+  | Otros | Ex-empleado | Sebastian Hernandez (no labora) | Sebastian Hernandez (18) |
+  | No es canal de venta | Contabilidad y logística | Glenda Ixcayau (contadora general); Wilver, Mayra González | GLENDA MIROSLAVA IXCAYAU VICENTE (19) |
   - Reporte por canal: `./odoo group sale.report -g team_id … -F json` y sumar con este mapeo. Vendedor = `user_id`, nunca `team_id`.
-  - Usuarios que no son vendedores en `user_id`: Ventas Guate Trafalgar, VG Miraflores 1, VG PORTALES (cajas POS), Bodega Central, Auxiliar de bodega, OdooBot.
+  - Usuarios que no son vendedores en `user_id`: Ventas Guate Trafalgar, VG Miraflores 1, VG PORTALES (cajas POS), Bodega Central, Auxiliar de bodega, OdooBot, Mayra González y Wilver (contabilidad/logística), Diego Segura. Pedidos con estos usuarios se atribuyen al canal por `team_id`, no a un vendedor.
 - **⚠️ Margen POS en devoluciones está mal calculado** (`pos_sale_margin`): en reembolsos el margen resta el costo en vez de sumarlo (ej. nov-2026: devoluciones −Q71.8k venta, −Q125.3k margen; lo correcto ≈ −Q18.2k). Para margen de Retail: agrupar ventas (`product_uom_qty > 0`) y devoluciones (`< 0`) por separado y corregir devoluciones con `margen_real = 2 × price_subtotal − margin`.
 - **⚠️ Error de captura sep-2026**: pedido POS `Ventas Guate Design Center/25487` (2026-09-26) y su reembolso: iPhone 18 Pro Max con cantidad 15,495 (se digitó el precio como cantidad). Margen −Q142M cada uno. Excluir ambos de cualquier análisis de margen.
 
