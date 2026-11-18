@@ -90,3 +90,11 @@ Para aplicar en una sesión nueva con Shopify conectado:
 3. Antes de aplicar, verificar que cada producto siga ACTIVE y con stock (el export es del 27 oct).
 
 **APLICADO 2026-11-18:** colección `/collections/skullcandy` + 41 productos (títulos, SEO, 3 descripciones nuevas). 0 errores, verificado en muestra. Ajustes al aplicar: Push 720 Open Negro meta "open ear, no tapan el oído"; bocinas "original" en singular. 4 productos ya sin stock al aplicar: Smokin' Buds Preppy Blue, Push ANC Active, PLYR, Riff.
+
+## 2026-11-18 — segunda pasada ("componer todo Skullcandy")
+- Guía publicada: `/blogs/guias/que-audifonos-skullcandy-comprar`.
+- Smokin' Buds Verde (17 u.): título/SEO y publicado.
+- Method 360 ANC Bone (1 u.): título/SEO y publicado.
+- Títulos/SEO: Cassette Negro, Kilo Compact Negro (antes mal llamado "Ounce+"; la descripción y la URL dicen Kilo), Grom Wireless Negro, Hesh Wireless Negro, Ink'd Azul, Jib Azul, Jib True 2 Gris, Fix cargador 12W, estuche Backbone, cable Line Plus.
+- Redirects 301: Dime 3 Negro → Dime 360 Negro; Smokin' Buds Negro → Smokin' Buds 360 Negro (los dos agotados y despublicados; eran las 2 fichas con más impresiones). Borrar los redirects si regresan.
+- Pendiente: Ink'd Azul tiene la descripción del Jib; Jib True 2 Gris sin descripción.
