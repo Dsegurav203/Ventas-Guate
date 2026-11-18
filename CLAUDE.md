@@ -190,6 +190,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - `res.users.login_date` no se puede filtrar en dominio (campo relacionado no almacenado): traer usuarios y filtrar localmente.
 - `res.groups.users` solo devuelve usuarios activos; para inactivos consultar `res.users` con `["active","in",[true,false]]` y `groups_id`.
 - Cada corrida con la API key de Diego actualiza su último acceso y aparece como `write_uid` = Diego en los cambios. Los cambios del 2026-11-18 ~03:34 UTC a usuarios 6, 7, 8, 30, 338, 359 fueron la reconfiguración de equipos de venta hecha por Claude (membresías), no cambios de permisos.
+- **Usuario de consulta "Claude Lectura"** (res.users 364, login `claude.lectura@ventasguate.com`; antes Javier Barillas / mercadeo@, respaldo `ir.attachment` 356232): grupos Usuario interno + Contabilidad / Solo lectura + **Consulta Claude (solo lectura)** (res.groups 159, 43 modelos con permiso solo de lectura). Si un auditor recibe "Access Denied" en un modelo, agregar ese modelo al grupo 159 con `perm_read` únicamente (con aprobación de Diego). Su key va en `ODOO_RO_USER` / `ODOO_RO_API_KEY`.
 - Modo solo lectura: `./odoo-ro` (o `ODOO_READONLY=1`). Auditores y reportes usan solo eso. Con `ODOO_RO_USER` / `ODOO_RO_API_KEY` definidos usa un usuario de Odoo sin permisos de escritura.
 
 ## Contexto de negocio (no reportar como anomalía)
