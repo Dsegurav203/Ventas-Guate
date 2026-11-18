@@ -35,18 +35,18 @@ Reemplaza `INI` / `FIN` por fechas (`2026-11-01`, `2026-11-30`).
 ### Ventas
 ```bash
 # Ventas del periodo por mes (sin IVA, GTQ)
-./odoo group sale.report -g date:month -a price_subtotal:sum,margin:sum -d '[["state","=","sale"],["date",">=","INI"],["date","<=","FIN"]]'
+./odoo group sale.report -g date:month -a price_subtotal:sum,margin:sum -d '[["state","not in",["draft","sent","cancel"]],["date",">=","INI"],["date","<=","FIN"]]'
 
 # Top clientes
-./odoo group sale.report -g partner_id -a price_subtotal:sum,margin:sum -d '[["state","=","sale"],["date",">=","INI"],["date","<=","FIN"]]' -o "price_subtotal desc" -l 20
+./odoo group sale.report -g partner_id -a price_subtotal:sum,margin:sum -d '[["state","not in",["draft","sent","cancel"]],["date",">=","INI"],["date","<=","FIN"]]' -o "price_subtotal desc" -l 20
 
 # Por vendedor / por equipo (retail, distribución, ecommerce)
-./odoo group sale.report -g user_id -a price_subtotal:sum,margin:sum -d '[["state","=","sale"],["date",">=","INI"]]'
-./odoo group sale.report -g team_id -a price_subtotal:sum,margin:sum -d '[["state","=","sale"],["date",">=","INI"]]'
+./odoo group sale.report -g user_id -a price_subtotal:sum,margin:sum -d '[["state","not in",["draft","sent","cancel"]],["date",">=","INI"]]'
+./odoo group sale.report -g team_id -a price_subtotal:sum,margin:sum -d '[["state","not in",["draft","sent","cancel"]],["date",">=","INI"]]'
 
 # Top productos / categorías (unidades, venta, margen)
-./odoo group sale.report -g product_id -a product_uom_qty:sum,price_subtotal:sum,margin:sum -d '[["state","=","sale"],["date",">=","INI"]]' -o "price_subtotal desc" -l 30
-./odoo group sale.report -g categ_id -a price_subtotal:sum,margin:sum -d '[["state","=","sale"],["date",">=","INI"]]'
+./odoo group sale.report -g product_id -a product_uom_qty:sum,price_subtotal:sum,margin:sum -d '[["state","not in",["draft","sent","cancel"]],["date",">=","INI"]]' -o "price_subtotal desc" -l 30
+./odoo group sale.report -g categ_id -a price_subtotal:sum,margin:sum -d '[["state","not in",["draft","sent","cancel"]],["date",">=","INI"]]'
 
 # Pedidos confirmados pendientes de facturar
 ./odoo search sale.order -d '[["state","=","sale"],["invoice_status","=","to invoice"]]' -f name,partner_id,date_order,amount_total,user_id -o "date_order asc"
@@ -100,7 +100,7 @@ Proyección 30/60/90: CxC por vencer (por `invoice_date_due`) − CxP por vencer
 ./odoo search product.product -d '[["sale_ok","=",true],["virtual_available","<=",0]]' -f default_code,name,qty_available,virtual_available -l 200
 
 # Lento movimiento: productos con stock y sin ventas desde INI
-#  1) productos vendidos:  ./odoo group sale.report -g product_id -a product_uom_qty:sum -d '[["state","=","sale"],["date",">=","INI"]]' -F json
+#  1) productos vendidos:  ./odoo group sale.report -g product_id -a product_uom_qty:sum -d '[["state","not in",["draft","sent","cancel"]],["date",">=","INI"]]' -F json
 #  2) productos con stock: consulta de valor de inventario
 #  → diferencia = lento movimiento; ordenar por qty_available * standard_price
 ```
@@ -134,7 +134,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 
 ### Clientes y productos
 ```bash
-./odoo call res.partner name_search -k '{"name":"walmart","limit":10}'
+./odoo call res.partner name_search -k '{"name":"NOMBRE","limit":10}'
 ./odoo search res.partner -d '[["customer_rank",">",0]]' -f name,vat,phone,email,city,user_id,property_payment_term_id -l 500 -F csv
 ./odoo search product.template -d '[["default_code","=","SKU"]]' -f name,default_code,barcode,list_price,standard_price,categ_id,qty_available
 ```
@@ -151,8 +151,21 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 | Compras en tránsito | `purchase.order` receipt_status ≠ full |
 | Pipeline CRM ponderado = Σ expected_revenue × probability | `crm.lead` |
 
-## Campos por confirmar en esta instancia
-Revisar con `./odoo fields …` y anotar aquí:
-- Marca del producto (¿`product_brand_id`, tag o atributo?): _pendiente_
-- Canal de venta (equipo de ventas vs. etiqueta): _pendiente_
-- Versión de Odoo / protocolo (`./odoo ping`): _pendiente_
+## Datos de esta instancia (verificado 2026-11-18)
+- **Odoo 18.0 Enterprise en Odoo.sh**, protocolo `xmlrpc`. Compañía única: BUYITWITHUS, S.A., moneda GTQ.
+- Módulos: sale_margin, sale_stock_margin, pos_sale, pos_sale_margin, crm, purchase, stock, mrp, website_sale, point_of_sale, account_accountant, l10n_gt, l10n_gt_edi (FEL).
+- **Ventas confirmadas en `sale.report`**: `["state","not in",["draft","sent","cancel"]]`. Incluye POS (kioscos) porque `pos_sale` está instalado; los pedidos POS aparecen con estados propios (`invoiced`, `paid`, `done`). No usar `state = sale` en `sale.report` porque excluye POS.
+- **Marca**: `brand_id` (many2one a `product.brand`, ~132 marcas), existe en `product.template` y `product.product`. Ignorar los campos Studio `x_studio_marca*` / `x_studio_brand_vg` (duplicados/legacy).
+  - `sale.report` no acepta `product_id.brand_id` en groupby. Ventas por marca en 2 pasos:
+    1. `./odoo group sale.report -g product_id -a price_subtotal:sum,margin:sum,product_uom_qty:sum -d '<dominio>' -l 5000 -F json`
+    2. `./odoo search product.product -d '[["id","in",[IDS]]]' -f brand_id -l 5000 -F json` (con `"active_test": false` si hay archivados vía `call … search_read -k`), luego sumar por marca.
+  - Filtrar ventas de una marca: `["product_id.brand_id.name","=","MARCA"]` sí funciona en el dominio.
+- **Canal de venta = `team_id`** (equipo de ventas). Agrupación por canal:
+  | Canal | Equipos (`crm.team`) |
+  |---|---|
+  | Tiendas / Kioscos (POS) | Point of Sale (3), Tiendas (13), Kiosco Portales K-02 (8), Kiosco Miraflores K-49 (7), Kiosko Miraflores K-08 (6) |
+  | E-commerce | Ventasguate.gt (14), Website (2) |
+  | Redes / chat | Chats Redes (FB/IG/WhatsApp) (20) |
+  | Distribución / mayoreo | Distribuciòn y Mayoreo (5, 10), Distribucion Rudy (11) |
+  | Vendedores (equipo con nombre de persona) | Henry Galindo (9), Estuardo Pineda (21), Luis Guevara (12), Fernando Aguilar (1), Luis Alfredo Cantoral (17), Sebastian Hernandez (18), Glenda Ixcayau (19) |
+  Confirmar con Diego esta clasificación antes de publicar reportes por canal.

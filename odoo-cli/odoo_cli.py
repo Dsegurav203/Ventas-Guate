@@ -85,6 +85,11 @@ class Odoo:
         try:
             with urllib.request.urlopen(req, timeout=self.timeout) as r:
                 raw = r.read()
+                if raw and "json" not in (r.headers.get("Content-Type") or ""):
+                    # route missing (Odoo <=18 redirects to /web/login)
+                    err = OdooError(f"Respuesta no JSON desde {r.geturl()} (¿Odoo <=18? use xmlrpc)")
+                    err.status = 404
+                    raise err
                 return json.loads(raw) if raw else None
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")
@@ -196,9 +201,10 @@ def emit(data, fmt: str, out=None):
         w.writerow(cols)
         w.writerows(rows)
         return
-    srows = [[str(x) if x is not None else "" for x in r] for r in rows]
+    srows = [[f"{x:,.2f}" if isinstance(x, float) else ("" if x is None else str(x)) for x in r] for r in rows]
     widths = [min(max(len(c), *(len(r[i]) for r in srows)), 40) for i, c in enumerate(cols)]
-    line = lambda vals: "  ".join(v[:w].ljust(w) for v, w in zip(vals, widths))
+    num = [all(isinstance(r[i], (int, float)) and not isinstance(r[i], bool) for r in rows) for i in range(len(cols))]
+    line = lambda vals: "  ".join((v[:w].rjust(w) if n else v[:w].ljust(w)) for v, w, n in zip(vals, widths, num))
     print(line(cols), file=out)
     print("  ".join("-" * w for w in widths), file=out)
     for r in srows:
