@@ -167,6 +167,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
   | 14 | E-commerce (ventasguate.gt / Shopify, sitios web) | Luis Hernandez | Luis Hernandez |
   | 5 | Distribución – Mayoreo | Henry Galindo | Henry, Estuardo Pineda, Luis Guevara, Luis Alfredo Cantoral, Mayra González (captura) |
   | 1 | Distribución – Dropship (plataformas digitales) | Henry Galindo | Fernando Aguilar |
+  - Metas mensuales de facturación (`invoiced_target`, sin IVA): Mayoreo Q1,000,000 (mínimo); Dropship Q200,000; Retail y E-commerce sin definir. Avance = facturación neta del mes (`account.move` out_invoice − out_refund, `amount_untaxed_signed`) incluyendo equipos archivados mapeados al canal.
   - Pedidos nuevos: `team_id` ya es el canal. Canal "Distribución" = equipos 5 + 1.
   - Pedidos confirmados antes del 2026-11-18 conservan el equipo viejo (archivado): usar el mapeo histórico de abajo. Para incluir archivados en consultas sobre `crm.team` usar `["active","in",[true,false]]`.
   - Respaldo del estado previo: `ir.attachment` id 356230.
