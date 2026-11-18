@@ -147,3 +147,12 @@ Specs de fichas de distribuidores (el sitio oficial de HiFuture está bloqueado 
 Correcciones de color en descripciones: Pocket S Azul, FlyBuds 4 Matcha, Mega S Silver y Ultra3 Pro Silver decían "Color: Negro"; Vocalist 100 Silver decía "en Negro". GO PRO2 Gold no tenía descripción.
 
 **Fuera de alcance:** 41 productos HiFuture activos con inventario 0 (Colorbuds2, OlymBuds3, Pocket S Gris/Negro/Rosado, Gravity, Ripple, Evo2, Ultra2 Pro, VibeMate Hot Pink, etc.). Siguen con títulos en MAYÚSCULAS y meta vieja. 11 de ellos se ven en la tienda como agotados. Decidir: ocultarlos (UNLISTED + seo.hidden) o arreglarlos cuando se reabastezcan.
+
+## APLICADO — Lote 4 (agotados) — 18 nov 2026
+
+41 productos HiFuture activos con inventario 0 (`productos_lote4.json`): título, SEO title y meta, todos sin errores. Ya no queda ningún título HiFuture en MAYÚSCULAS ni metas con precio o "Guatemala Precio Guatemala".
+
+- 13 descripciones reescritas con el color correcto o creadas donde no había: ColorBuds 2 Rosado, FlyBuds 4 Corinto y Latte, FutureMate Gris, GO PRO2 Silver, OlymBuds3 Blanco, Pocket S Gris y Rosado, Evo2 Negro, VibeMate Hot Pink, Zone3 Rose Gold, Aurora2 Black y Nex Clip Dark Green.
+- **[CONFIRMAR] Event Horizon:** el título dice bocina para fiestas y la descripción describe un smartwatch. Quedó titulada como bocina y la descripción no se tocó. Hay que confirmar qué producto es.
+- **Sin descripción ni especificaciones** (meta genérica): Gravity Azul y Negro, Ripple Azul y Negro, Ultra2 Pro Sport y FutureMate2 Pro. Hay que redactarlas cuando haya ficha técnica o caja.
+- **Revisar datos heredados:** Boombeat (60W, 24 h) y Vela Adventure (14 días) vienen de textos viejos sin fuente confirmada. Las metas nuevas no usan esas cifras.
