@@ -198,6 +198,11 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - Plantilla por defecto (res.users 3) reducida a "Usuario interno": los usuarios nuevos ya no nacen como administradores.
 - Pendiente Fase 2: permisos por rol (tabla propuesta a Diego el 2026-11-18), no aplicar sin su aprobación.
 
+## MCP propio (conector de Odoo para el chat de claude.ai)
+- Código: `mcp-server/` (server.py, deploy-cloudshell.sh). Producción: **https://odoo-mcp-vg-cauirfgxia-uc.a.run.app/mcp** (Google Cloud Run, proyecto `ventasguate-mcp`, us-central1, solo lectura `MCP_ALLOW_WRITE=0`). Desplegado y probado 16/16 el 2026-11-18.
+- Cada usuario entra con su login + API key de Odoo (permisos de Odoo aplican). Actualizar: subir paquete a Cloud Shell y `bash deploy-cloudshell.sh`.
+- Objetivo: reemplazar el MCP de terceros (5 usuarios, US$75–100/mes) tras piloto y Fase 2 de roles.
+
 ## Contexto de negocio (no reportar como anomalía)
 - **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
 - **Margen POS nov‑2026**: 22.2% (ya corregido en Odoo). Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
