@@ -15,5 +15,5 @@ for r in rows:
 tot=sum(r["amount_residual_signed"] for r in rows)
 gtot=sum(g["amount_residual_signed"] for g in grp)
 out={"cut":cut,"hoy":str(hoy),"rows":rows,"group":grp,"total":tot,"group_total":gtot,"secs":round(time.time()-t0,2)}
-json.dump(out,open(f"{os.environ.get("OUT_DIR",".")}/cob_{cut}.json","w"),default=str)
+json.dump(out,open(f"{os.environ.get('OUT_DIR','.')}/cob_{cut}.json","w"),default=str)
 print(f"corte {cut}: {len(rows)} facturas, {len({r['partner_id'][0] for r in rows})} clientes, Q{tot:,.2f} | read_group Q{gtot:,.2f} | dif {tot-gtot:.2f} | {out['secs']}s")
