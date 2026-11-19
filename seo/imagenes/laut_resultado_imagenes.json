@@ -49,9 +49,9 @@
   "name": "LAUT Enduro Pro Watch Band Apple Watch 44/49mm Silver",
   "ean": "4895206943116",
   "shopify_id": null,
-  "estado": "pendiente",
+  "estado": "no cargar (muestra)",
   "fuente_url": null,
-  "motivo": "Color no confirmado: el EAN 4895206943116 en itslaut.com es ENDURO PRO 49/46/45/44mm BLACK (única variante oficial, correa negra), pero Odoo dice Silver. Confirmar color real / corregir nombre antes de cargar"
+  "motivo": "Diego 19/11: son muestras, no cargar"
  },
  {
   "tmpl_id": 13896,
@@ -130,9 +130,9 @@
   "name": "LAUT PRIME GLASS EDGE IPHONE 17 PRO CLEAR",
   "ean": false,
   "shopify_id": null,
-  "estado": "pendiente",
+  "estado": "no cargar (muestra)",
   "fuente_url": null,
-  "motivo": "Sin EAN en Odoo y itslaut.com no tiene PRIME GLASS EDGE para iPhone 17 Pro (solo para iPhone 18 Pro; para 17 solo PRIME GLASS normal, que es otro modelo)"
+  "motivo": "Diego 19/11: son muestras, no cargar"
  },
  {
   "tmpl_id": 13900,
