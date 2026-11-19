@@ -63,4 +63,4 @@ Puntaje: **22/100**. Antes: 27/10/2026, sin puntaje formal; 0 de 6 consultas con
 - /pages/contact con dirección, horario, WhatsApp 4027-3277, marcas oficiales y canales (Pacifiko, Kemik, Max, Walmart, Guatemala Digital).
 - Tema en vivo "Fix Buscador + Error Popup" (187700674773): snippet `store-schema` (ElectronicsStore) en inicio + JSON-LD del blog corregido. Guardado; pendiente de publicar (theme_publish).
 - Nota: el JSON-LD del blog del 18/11 se había guardado en el tema no publicado "Fix Galería + Popups"; ahora está en el tema en vivo.
-- Pendiente de aprobación: quitar "distribuidores oficiales" de las colecciones JBL y Reebok.
+- JBL y Reebok confirmados como marcas oficiales (14 en total); agregados a schema, contacto y garantía. Textos de colecciones JBL y Reebok se mantienen.
