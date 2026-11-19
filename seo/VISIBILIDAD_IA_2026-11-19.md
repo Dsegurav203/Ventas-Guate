@@ -66,3 +66,4 @@ Puntaje: **22/100**. Antes: 27/10/2026, sin puntaje formal; 0 de 6 consultas con
 - JBL y Reebok confirmados como marcas oficiales (14 en total); agregados a schema, contacto y garantía. Textos de colecciones JBL y Reebok se mantienen.
 - Footer "Información importante": agregados Contacto y horario, Envíos y formas de pago, Garantía y devoluciones.
 - Footer: quitado "Contactos" (/policies/contact-information); queda "Contacto y horario" (/pages/contact).
+- Odoo: tarea #15 asignada a Luis Hernandez (lhernandez@ventasguate.com) con el paso a paso del schema y blog; fecha límite 21/11/2026.
