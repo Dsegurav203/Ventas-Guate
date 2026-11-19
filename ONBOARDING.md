@@ -21,6 +21,25 @@ Bienvenido. Este repositorio concentra todo el trabajo de SEO y catálogo de **v
 
 Sin la clave, Claude hace lo mismo por el conector, solo que más lento en lotes grandes.
 
+### Revisar los conectores (paso a paso)
+
+1. **Ver qué tienes conectado:** claude.ai → https://claude.ai/customize/connectors (o tu nombre → Configuración → Conectores). Deben decir **Conectado**: **Odoo Ventas Guate** y **Shopify**.
+2. **Si falta Shopify:** Explorar/Agregar conector → buscar **Shopify** → Conectar → iniciar sesión con tu usuario de staff → elegir la tienda **ventas-guate-1** (ventasguate.gt) → aceptar permisos. Si no te deja aceptar, Diego revisa que tu usuario de staff tenga acceso a productos, colecciones, páginas, tema y análisis.
+3. **Si Odoo Ventas Guate dice Desconectado:** Conectar/Reconectar con **lhernandez@ventasguate.com**. Si no aparece en la lista, avisa a Diego (es un conector propio; lo habilita el administrador de la organización).
+4. **Probar:** abre una **sesión nueva** de Claude Code en el repositorio **dsegurav203/Ventas-Guate** (los conectores se cargan al iniciar la sesión) y escribe:
+   - "¿Cuántos productos activos tiene la tienda en Shopify?" → debe responder con un número.
+   - "¿Cuántas unidades de LAUT vendimos este mes según Odoo?" → debe responder con datos.
+   - Escribe `/` → deben aparecer `/seo-ficha-producto`, `/seo-coleccion`, `/imagenes-catalogo`, `/catalogo-faltante` y `/velocidad-tema`.
+5. **Si algo falla:**
+
+| Problema | Solución |
+|---|---|
+| "No tengo acceso a Shopify/Odoo" | Revisar el paso 1 y abrir una sesión nueva |
+| No aparecen los comandos `/seo-…` | Confirmar que la sesión está en el repositorio Ventas-Guate (rama `claude/claude-seo-repo-bq1b6l` o `main`) |
+| Error de permisos en Shopify | Diego revisa los permisos de tu usuario de staff |
+
+Nota: un conector configurado solo en tu computadora (`claude mcp add`) no funciona en Claude Code en la nube; tiene que estar conectado desde claude.ai.
+
 ## 2. Reglas de oro (resumen de `CLAUDE.md`)
 
 - Nada se escribe en Shopify u Odoo sin propuesta y "aprobado".
