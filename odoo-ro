@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Odoo CLI en modo SOLO LECTURA (auditores y reportes). Bloquea create/write/unlink/acciones.
+# Si ODOO_RO_API_KEY / ODOO_RO_USER están definidos, usa ese usuario de Odoo sin permisos de escritura.
+export ODOO_READONLY=1
+exec python3 "$(dirname "$0")/odoo-cli/odoo_cli.py" "$@"
