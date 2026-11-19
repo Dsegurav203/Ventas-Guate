@@ -64,7 +64,7 @@ Idioma: español. Sin saludos ni cierres.
 
 ## Datos de referencia
 
-- Usuarios autorizados como **Inventario / Administrador** (únicos que pueden aplicar ajustes): Diego Segura (id 2), Glenda Ixcayau (id 27), SOPORTE NODUU (id 229).
+- Usuarios autorizados como **Inventario / Administrador** (únicos que pueden aplicar ajustes): Diego Segura (id 2), Glenda Ixcayau (id 27), SOPORTE NODUU (id 229) y Mayra González (id 30, desde 2026-11-18). Sus ajustes se reportan como métrica, no como alerta, salvo montos > Q25,000 en un día (MEDIA, para que Glenda valide contra el físico).
 - Grupo Inventario / Administrador: `res.groups` id 47. Shopify / Manager (id 148) implica id 47.
 - Grupo "Consulta de costos de inventario" (`res.groups` id 154): solo lectura de valoración, sin ajustes. Autorizado: Henry Galindo (id 7). Reportar cualquier otro miembro.
 - Grupo "Bloqueo de creación de productos" (`res.groups` id 156, reglas `ir.rule` 639 y 640): miembros no pueden crear productos. Deben estar Bodega Central (17) y Auxiliar de bodega (28). ALTA si faltan, si las reglas se desactivan o si cualquiera de los dos crea un `product.template`.
@@ -73,7 +73,7 @@ Idioma: español. Sin saludos ni cierres.
 - Menú Inventario / Reportes (`ir.ui.menu` 289) abierto a Inventario / Usuario (46); Valoración (317) solo grupos 47 y 154. Si se revierte tras una actualización, reportarlo como ALTA.
 - Obitech (res.partner 49): 14 pedidos entregados sin facturar (~Q226,418) pendientes de validación contra FEL por Glenda. Reportar como SIGUE hasta que se resuelva.
 - Canales de venta, metas mensuales, margen POS y cartera de Chicas → Estuardo: ver "Datos de esta instancia" en `CLAUDE.md`.
-- Devoluciones POS con `total_cost` positivo (`./odoo-ro count pos.order.line -d '[["qty","<",0],["total_cost",">",0]]'`): debe ser 0 si la tarea nocturna de corrección existe en Odoo. Si es mayor a 0, reportarlo como alerta MEDIA (afecta margen de Retail).
-- **Administradores autorizados** (Ajustes / Derechos de acceso, `base.group_system` / `base.group_erp_manager`): Diego (2), Glenda (27), SOPORTE NODUU (229) y **María Fernanda Paredes (15, esposa y dueña: cuenta de emergencia; no reportar como inactiva ni proponer desactivarla)**. Cualquier otro usuario con esos grupos: ALTA. Fase 1 aplicada el 2026-11-18 (respaldo `ir.attachment` 356233).
+- Devoluciones POS con `total_cost` positivo (`./odoo-ro count pos.order.line -d '[["qty","<",0],["total_cost",">",0]]'`): debe ser 0 si la tarea nocturna de corrección existe en Odoo. Desde 2026-11-19 la acción planificada `ir.cron` 112 los corrige cada noche: solo reportar si quedan líneas de sesiones cerradas hace más de 1 día (MEDIA), o si el cron 112 está inactivo o falló (ALTA).
+- **Administradores autorizados** (Ajustes / Derechos de acceso, `base.group_system` / `base.group_erp_manager`): Diego (2), Glenda (27), SOPORTE NODUU (229) y **María Fernanda Paredes (15, esposa y dueña: cuenta de emergencia; no reportar como inactiva ni proponer desactivarla)** y **Mayra González (30), autorizada por Diego el 2026-11-18** (recomendaciones de bodegas: grupo 160 y reglas 643/644 aprobados). Cualquier otro usuario con esos grupos: ALTA. Fase 1 aplicada el 2026-11-18 (respaldo `ir.attachment` 356233).
 - **Plantilla de usuario por defecto** (`base.default_user`, res.users 3): debe tener solo "Usuario interno" y grupos técnicos, ningún grupo de administrador de módulo. Si aparece alguno: ALTA (todo usuario nuevo nacería como administrador).
 - **Alta de usuarios:** solo Diego o Glenda crean usuarios y asignan un rol definido. Usuario nuevo creado por otra persona, o con grupos de administrador de módulo sin aprobación: ALTA.
