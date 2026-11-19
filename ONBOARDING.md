@@ -4,13 +4,22 @@ Bienvenido. Este repositorio concentra todo el trabajo de SEO y catálogo de **v
 
 ## 1. Configuración (una sola vez)
 
-1. **Claude Code**: abre este repositorio (`dsegurav203/Ventas-Guate`, rama de trabajo indicada por Diego) en claude.ai/code o en la app de escritorio.
-2. **Conectores** en claude.ai → Configuración → Conectores:
-   - **Shopify** (tienda ventas-guate-1) con tu usuario de staff.
-   - **Odoo Ventas Guate** con tu usuario.
-3. **Tus credenciales de Odoo** (para los scripts): en Odoo → Mi perfil → Seguridad de la cuenta → Nueva clave API. Configúralas como variables de entorno del entorno de Claude (no en archivos):
-   `ODOO_URL=https://ventasguate.odoo.com`, `ODOO_DB=…`, `ODOO_USER=lhernandez@ventasguate.com`, `ODOO_API_KEY=<tu clave>`.
-   Así cada cambio queda registrado a tu nombre.
+| Paso | Estado |
+|---|---|
+| Conector **Odoo Ventas Guate** (MCP) | ✅ Ya lo tienes |
+| Conector **Shopify** (tienda ventas-guate-1) con tu usuario de staff | Verificar en claude.ai → Configuración → Conectores |
+| Abrir este repositorio en **Claude Code** (claude.ai/code o app de escritorio) | Para el trabajo del proyecto: ahí Claude lee `CLAUDE.md` y los comandos `/seo-…` |
+| Clave API de Odoo para scripts | Opcional, solo para cambios masivos (ver abajo) |
+
+**Dónde trabajar:** el trabajo de SEO y catálogo en **Claude Code** (lee las reglas y los comandos del proyecto). Consultas rápidas ("¿cuánto vendimos de LAUT?") también funcionan en el chat de claude.ai con el conector.
+
+**Clave API (solo cuando haga falta un script masivo**, p. ej. sincronizar títulos con Odoo o revisar stock por bodega):
+1. Odoo → Mi perfil → Seguridad de la cuenta → Nueva clave API.
+2. Claude Code → menú del entorno en la nube (barra de título) → Editar → Variables de entorno:
+   `ODOO_URL=https://ventasguate.odoo.com`, `ODOO_DB=rocketgithub-ventasguate-odoo-sh-main-5436798`, `ODOO_USER=lhernandez@ventasguate.com`, `ODOO_API_KEY=<tu clave>`.
+3. Abrir una sesión nueva. Usa tu propio entorno (no el de Diego) y nunca pegues la clave en el chat ni en archivos.
+
+Sin la clave, Claude hace lo mismo por el conector, solo que más lento en lotes grandes.
 
 ## 2. Reglas de oro (resumen de `CLAUDE.md`)
 
