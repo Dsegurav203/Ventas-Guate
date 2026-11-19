@@ -9,3 +9,11 @@ Fuente de ventas: Odoo `sale.report` (incluye PdV), 19/11/2025–19/11/2026, ord
 Fases:
 1. 35 descripciones vacías o mínimas (en redacción).
 2. 53 de 60–150 palabras: completar compatibilidad, FAQ y meta.
+
+## Fase 1 aplicada (19/11/2026)
+- 32 productos: descripción con H2 (Características, Compatibilidad), SEO title y meta. 0 userErrors. Verificado Milanese (44/45/46/49 mm).
+- Marcas corregidas: Apple 20W → Apple, Samsung 45W → Samsung, Neo Bundle y Phantom Glass 17 Pro → LOGiiX, Baseline Stand → Baseline.
+- Títulos corregidos en Shopify y Odoo: Piston Power 10000 Negro, Slim Folio Blush / Cornflower Blue, Milanese 44/45/46/49mm.
+- Pendientes sin fuente: Prodigee Orbit 360, Geo y Torte (iPhone 18 Pro Max/17 Pro Max).
+- Títulos aún mejorables: "Precision Lapiz" (tilde), "Baseline Stand ... Telefonos" (tilde), "Superstar para Samsung Galaxy S26 Ultra" (sin marca), "Prodigee Glow S24 Ultra Clear" (falta Galaxy).
+- Respaldo: fase1_respaldo.json.
