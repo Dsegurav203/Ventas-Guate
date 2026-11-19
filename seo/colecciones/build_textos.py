@@ -18,8 +18,8 @@ def faq(*pares):
     return "\n".join(out)
 
 
-ORIG = ("¿Son productos originales?", "Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.")
-ENVIO = ("¿Hacen envíos?", "Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.")
+ORIG = ("¿Son productos originales?", "Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.")
+ENVIO = ("¿Cómo funciona el envío?", "Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.")
 TIENDA_Q = ("¿Dónde puedo verlos en persona?", f"En nuestra tienda: {TIENDA}.")
 
 
@@ -46,8 +46,8 @@ add(None, "seminuevos", "iPhone Seminuevos",
 <h2>Modelos disponibles</h2>
 <p>Tenemos iPhone 13 Pro Max, iPhone 14, 14 Plus y 14 Pro, iPhone 15, 15 Plus y 15 Pro Max, iPhone 16, 16E, 16 Plus, 16 Pro y 16 Pro Max, y los más recientes iPhone 17, 17 Pro y 17 Pro Max, en capacidades de 128 GB hasta 1 TB. La disponibilidad cambia rápido: cada equipo es una unidad única.</p>
 <h2>Protégelo desde el primer día</h2>
-<p>Encuentra la funda para tu modelo en {L('cases-iphone','fundas para iPhone')} y carga rápida en {L('cubos','cargadores de pared')}.</p>
-{faq(("¿Los equipos están revisados?", "Sí, cada iPhone seminuevo pasa por revisión de nuestro equipo técnico antes de publicarse."), ENVIO, TIENDA_Q)}
+<p>¿Buscas un iPhone nuevo de lanzamiento? Visita {L('reservas','Reservas')}. Encuentra la funda para tu modelo en {L('cases-iphone','fundas para iPhone')} y carga rápida en {L('cubos','cargadores de pared')}.</p>
+{faq(("¿Los equipos están revisados?", "Sí, cada iPhone seminuevo pasa por revisión de nuestro equipo técnico antes de publicarse."), ("¿Tienen garantía?", "Sí, los equipos seminuevos tienen 30 días de garantía."), ENVIO, TIENDA_Q)}
 """)
 
 # 2. Alexa (948)
@@ -193,7 +193,7 @@ add(None, "cases-iphone-17", "Fundas iPhone 17",
 <p>Jogger, Super Hero, Flow, Magneteek, Kickit, Edge, Blackout, Glow, Hero+M y Superstar en varios colores. Ver por modelo: {L('iphone-17-pro','iPhone 17 Pro')}.</p>
 <h2>Protector de cámara</h2>
 <p>CaseCo Screen Patrol para iPhone 17 Pro y 17 Pro Max, y Prodigee Super Glass Camera para iPhone Air.</p>
-<p>Si tu funda dice "18 Pro Max/17 Pro Max", también sirve para tu iPhone 17: mira {L('iphone-18','fundas iPhone 18')}.</p>
+<p>Si tu funda dice "18 Pro Max/17 Pro Max", también sirve para tu iPhone 17 Pro Max: mira {L('iphone-18','fundas iPhone 18')}.</p>
 {faq(ORIG, ENVIO)}
 """)
 
@@ -503,6 +503,20 @@ add(None, "auto", "Accesorios para Carro",
 </ul>
 <p>Ver más en {L('carga','accesorios de carga')}.</p>
 {faq(ORIG, ENVIO)}
+""")
+
+# 30. Reservas (11,705 sesiones)
+add(528406511829, "reservas", "Reservas iPhone",
+    "Reserva tu iPhone Nuevo de Lanzamiento en Guatemala | Ventas Guate",
+    "Reserva tu iPhone nuevo de lanzamiento en Guatemala con Ventas Guate. Aparta modelo, capacidad y color. Equipos nuevos con 1 año de garantía.",
+    f"""
+<p>¿Quieres el <strong>iPhone nuevo apenas salga</strong>? En esta sección puedes reservar los modelos de lanzamiento para asegurar tu equipo con Ventas Guate.</p>
+<h2>Aparta tu modelo</h2>
+<p>Elige el modelo, la capacidad y el color que quieres y aparta tu iPhone de lanzamiento.</p>
+<h2>Prepárate para tu nuevo iPhone</h2>
+<p>Ten lista la protección desde el primer día: {L('iphone-18','fundas iPhone 18')}, {L('accesorios-iphone-18-pro-max','accesorios para iPhone 18 Pro Max')} y {L('cubos','cargadores de pared')}.</p>
+<p>¿Prefieres un equipo disponible hoy? Mira nuestros {L('seminuevos','iPhone seminuevos')}.</p>
+{faq(("¿Los iPhone son nuevos?", "Sí, los equipos de esta sección son nuevos y tienen 1 año de garantía."), ("¿Hacen envíos?", "Sí, enviamos a toda Guatemala con entrega garantizada. También puedes comprar en nuestra tienda en zona 13."), TIENDA_Q)}
 """)
 
 if __name__ == "__main__":

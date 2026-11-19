@@ -1,11 +1,11 @@
-# Textos SEO: 30 colecciones principales (propuesta)
+# Textos SEO: 30 colecciones principales (propuesta v2)
 
-Orden por sesiones de los últimos 90 días. Sin precios. Hechos usados: 1 año de garantía (política de devoluciones), tienda zona 13, envío a toda Guatemala.
+Incluye: reservas, garantía seminuevos 30 días, pago contra entrega y entrega garantizada.
 
 
 ---
 ## /collections/seminuevos
-- **Título:** Seminuevos → **iPhone Seminuevos**
+- **Título:** iPhone Seminuevos
 - **SEO title:** iPhone Seminuevos en Guatemala | Revisados | Ventas Guate
 - **Meta:** iPhone seminuevos en Guatemala: iPhone 13, 14, 15, 16 y 17 revisados por nuestro equipo técnico. Varias capacidades y colores. Envío a todo el país.
 
@@ -17,21 +17,23 @@ Tenemos iPhone 13 Pro Max, iPhone 14, 14 Plus y 14 Pro, iPhone 15, 15 Plus y 15 
 
 **Protégelo desde el primer día**
 
-Encuentra la funda para tu modelo en fundas para iPhone y carga rápida en cargadores de pared.
+¿Buscas un iPhone nuevo de lanzamiento? Visita Reservas. Encuentra la funda para tu modelo en fundas para iPhone y carga rápida en cargadores de pared.
 
 **Preguntas frecuentes**
 
 ¿Los equipos están revisados?
 Sí, cada iPhone seminuevo pasa por revisión de nuestro equipo técnico antes de publicarse.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+¿Tienen garantía?
+Sí, los equipos seminuevos tienen 30 días de garantía.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 ¿Dónde puedo verlos en persona?
 En nuestra tienda: 9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala.
 
 
 ---
 ## /collections/alexa
-- **Título:** Alexa → **Alexa y Amazon Echo**
+- **Título:** Alexa y Amazon Echo
 - **SEO title:** Alexa en Guatemala: Echo Dot, Echo Spot y Combos | Ventas Guate
 - **Meta:** Amazon Echo con Alexa en Guatemala: Echo Dot 5ta generación, Echo Dot Max, Echo Spot y combos con bombillos smart. Originales y con envío a todo el país.
 
@@ -56,14 +58,14 @@ Sí. Se configura con la app Amazon Alexa en tu celular y una red Wi-Fi.
 ¿Los bombillos funcionan con Alexa?
 Sí, los bombillos de esta colección son compatibles con Alexa.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/mondo
-- **Título:** Mondo → **Mondo**
+- **Título:** Mondo
 - **SEO title:** Mondo Guatemala: Bocinas y Audífonos Bluetooth | Ventas Guate
 - **Meta:** Bocinas y audífonos Mondo en Guatemala: Speaker Small y Medium, audífonos Freestyle y Mondo ANC con cancelación de ruido. Originales, 1 año de garantía.
 
@@ -81,16 +83,16 @@ Compara con otras marcas en bocinas Bluetooth y audífonos over-ear.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 ¿Dónde puedo verlos en persona?
 En nuestra tienda: 9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala.
 
 
 ---
 ## /collections/iphone-18
-- **Título:** iPhone 18 → **Fundas y Accesorios iPhone 18**
+- **Título:** Fundas y Accesorios iPhone 18
 - **SEO title:** Fundas iPhone 18 Pro y 18 Pro Max en Guatemala | Ventas Guate
 - **Meta:** Fundas para iPhone 18 Pro y 18 Pro Max en Guatemala: Prodigee Jogger, Kickit, Blackout, Orbit 360, Superstar y más. Compatibles también con iPhone 17 Pro.
 
@@ -115,14 +117,14 @@ Complementa con accesorios para iPhone 18 Pro Max y accesorios MagSafe.
 ¿Una funda de iPhone 17 Pro Max le queda al 18 Pro Max?
 Solo si el producto indica ambos modelos (por ejemplo, "iPhone 18 Pro Max/17 Pro Max").
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/cases-iphone
-- **Título:** cases iPhone → **Fundas para iPhone**
+- **Título:** Fundas para iPhone
 - **SEO title:** Fundas para iPhone en Guatemala | Todos los Modelos | Ventas Guate
 - **Meta:** Fundas y protectores para iPhone 13 al 18 en Guatemala: Prodigee, ZAGG, Spigen, Nimbus9, MyBat, Click y más. Originales, 1 año de garantía.
 
@@ -150,14 +152,14 @@ Vidrios templados Gadget Guard y MyBat, y protectores de cámara CaseCo Screen P
 ¿Cómo sé si la funda es para mi modelo?
 Cada producto indica el modelo exacto en el nombre. Si dice varios modelos (por ejemplo, 15/14/13), sirve para todos ellos.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/promociones
-- **Título:** Promociones → **Promociones**
+- **Título:** Promociones
 - **SEO title:** Promociones y Ofertas en Tecnología | Ventas Guate
 - **Meta:** Promociones en fundas, audífonos, bocinas, smart home y accesorios originales en Guatemala. Skullcandy, Prodigee, ZAGG, Govee, Alexa y más.
 
@@ -176,13 +178,13 @@ Las promociones cambian según inventario. Para precios de remate, revisa tambi�
 
 ¿Los productos en promoción tienen garantía?
 Sí, tienen 1 año de garantía por defectos de fabricación. Los productos en oferta no tienen cambio ni devolución.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/s26-cases
-- **Título:** S26 cases → **Fundas Galaxy S26**
+- **Título:** Fundas Galaxy S26
 - **SEO title:** Fundas Samsung Galaxy S26, S26 Plus y S26 Ultra | Ventas Guate
 - **Meta:** Fundas para Samsung Galaxy S26, S26 Plus y S26 Ultra en Guatemala: Prodigee Kickit, Jogger, Formula K1, Hero + Mag y protectores de cámara.
 
@@ -204,14 +206,14 @@ Más modelos en fundas Samsung.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/accesorios-iphone-18-pro-max
-- **Título:** Accesorios iPhone 18 Pro Max → **Accesorios iPhone 18 Pro Max**
+- **Título:** Accesorios iPhone 18 Pro Max
 - **SEO title:** Accesorios iPhone 18 Pro Max en Guatemala | MagSafe | Ventas Guate
 - **Meta:** Accesorios MagSafe para iPhone 18 Pro Max: grips y billeteras OhSnap, soporte para carro, power bank MagPower y base de carga Qi2 Prodigee.
 
@@ -231,14 +233,14 @@ OhSnap Snap Car Mount, power bank Prodigee MagPower to-Go + Watch 5K y base de c
 ¿Funcionan con funda?
 Funcionan con fundas compatibles con MagSafe.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/s25-cases
-- **Título:** S25 cases → **Fundas Galaxy S25**
+- **Título:** Fundas Galaxy S25
 - **SEO title:** Fundas Samsung Galaxy S25, S25 Plus y S25 Ultra | Ventas Guate
 - **Meta:** Fundas para Samsung Galaxy S25, S25 Plus y S25 Ultra en Guatemala: Prodigee Kickit, Superstar, Safetee Flow, Balance, Glow y Super Hero.
 
@@ -257,14 +259,14 @@ Para otros Galaxy visita fundas Samsung o fundas Galaxy S26.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/cases-iphone-17
-- **Título:** cases iPhone 17 → **Fundas iPhone 17**
+- **Título:** Fundas iPhone 17
 - **SEO title:** Fundas iPhone 17, 17 Pro, 17 Pro Max y Air | Ventas Guate
 - **Meta:** Fundas para iPhone 17, 17 Pro, 17 Pro Max y iPhone Air en Guatemala: Prodigee Jogger, Super Hero, Flow, Magneteek y protectores CaseCo.
 
@@ -277,19 +279,19 @@ Jogger, Super Hero, Flow, Magneteek, Kickit, Edge, Blackout, Glow, Hero+M y Supe
 **Protector de cámara**
 
 CaseCo Screen Patrol para iPhone 17 Pro y 17 Pro Max, y Prodigee Super Glass Camera para iPhone Air.
-Si tu funda dice "18 Pro Max/17 Pro Max", también sirve para tu iPhone 17: mira fundas iPhone 18.
+Si tu funda dice "18 Pro Max/17 Pro Max", también sirve para tu iPhone 17 Pro Max: mira fundas iPhone 18.
 
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/popsockets
-- **Título:** POPSOCKETS → **PopSockets**
+- **Título:** PopSockets
 - **SEO title:** PopSockets Guatemala: Grips y Billeteras MagSafe | Ventas Guate
 - **Meta:** PopSockets originales en Guatemala: grips MagSafe y billeteras Wallet y Wallet+ MagSafe en varios colores. Envío a todo el país.
 
@@ -308,14 +310,14 @@ Alternativas magnéticas en OhSnap y MagSafe.
 ¿Funcionan con cualquier iPhone?
 Las versiones MagSafe se pegan a iPhone con MagSafe o a fundas compatibles con MagSafe.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/powerbanks
-- **Título:** Powerbanks → **Power Banks**
+- **Título:** Power Banks
 - **SEO title:** Power Banks en Guatemala: Baterías Portátiles | Ventas Guate
 - **Meta:** Power banks y baterías portátiles en Guatemala: Prodigee MagPower, LOGiiX Piston Power, Belkin, MyBat y Battarix. MagSafe y de 5,000 a 10,000 mAh.
 
@@ -335,14 +337,14 @@ Completa con cables y cargadores de pared.
 ¿Qué capacidad necesito?
 5,000 mAh es para un refuerzo durante el día; 10,000 mAh da más cargas completas para viajes.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/govee
-- **Título:** Govee → **Govee**
+- **Título:** Govee
 - **SEO title:** Govee Guatemala: Tiras LED, Paneles y Lámparas RGBIC | Ventas Guate
 - **Meta:** Luces inteligentes Govee en Guatemala: tiras LED RGBIC de 3 y 5 m, TV Backlight, paneles Glide Hexagon, lámpara Lyra y barras LED. Control por app y voz.
 
@@ -363,14 +365,14 @@ Suma control por voz con Alexa o mira más en Smart Home.
 ¿Qué significa RGBIC?
 Que la tira puede mostrar varios colores al mismo tiempo en distintos segmentos.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/cases-iphone-15
-- **Título:** cases iphone 15 → **Fundas iPhone 15**
+- **Título:** Fundas iPhone 15
 - **SEO title:** Fundas iPhone 15, 15 Plus, 15 Pro y 15 Pro Max | Ventas Guate
 - **Meta:** Fundas para iPhone 15, 15 Plus, 15 Pro y 15 Pro Max en Guatemala: Prodigee, Spigen, Nimbus9, CLCKR, ITSkins, SwitchEasy y vidrios templados.
 
@@ -388,14 +390,14 @@ Algunas fundas dicen "15/14/13": sirven para los tres modelos. Ver todos los mod
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/s26-ultra
-- **Título:** S26 Ultra → **Fundas Galaxy S26 Ultra**
+- **Título:** Fundas Galaxy S26 Ultra
 - **SEO title:** Fundas Samsung Galaxy S26 Ultra en Guatemala | Ventas Guate
 - **Meta:** Fundas para Galaxy S26 Ultra: Prodigee Kickit, Jogger, Blackout, Formula K1, Superstar, Hero + Mag y Click Latch. Vidrio Super Glass Privacy.
 
@@ -412,14 +414,14 @@ Protege la pantalla con Prodigee Super Glass Privacy. Ver S26 y S26 Plus en fund
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/cases-iphone-16
-- **Título:** cases iphone 16 → **Fundas iPhone 16**
+- **Título:** Fundas iPhone 16
 - **SEO title:** Fundas iPhone 16, 16 Plus, 16 Pro y 16 Pro Max | Ventas Guate
 - **Meta:** Fundas para iPhone 16, 16 Plus, 16 Pro y 16 Pro Max en Guatemala: ZAGG Santa Cruz y Luxe Snap, Prodigee, MyBat Maverick y Click MagSafe.
 
@@ -438,14 +440,14 @@ Ver solo Pro Max en fundas iPhone 16 Pro Max o todos los modelos en fundas para 
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/conectividad-1
-- **Título:** Conectividad → **Conectividad y Carga**
+- **Título:** Conectividad y Carga
 - **SEO title:** Cables, Cargadores y Organizadores Tech | Ventas Guate
 - **Meta:** Cables USB-C, cargadores de pared, power banks, adaptadores de viaje y organizadores Function101 en Guatemala. Prodigee, LOGiiX, Tekya y más.
 
@@ -466,14 +468,14 @@ Function Workpad Pro y Desk Mat Pro, organizadores Bentopack y adaptadores unive
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/cases-samsung
-- **Título:** Cases Samsung → **Fundas Samsung Galaxy**
+- **Título:** Fundas Samsung Galaxy
 - **SEO title:** Fundas Samsung Galaxy en Guatemala: S22 a S26 | Ventas Guate
 - **Meta:** Fundas para Samsung Galaxy S22, S23, S24, S25 y S26 en Guatemala: Prodigee, Nimbus9, ITSkins, CLCKR, MyBat, Avana, Click y Spigen.
 
@@ -494,14 +496,14 @@ Prodigee, Nimbus9, ITSkins, CLCKR, MyBat, Avana Velvet MagSafe, Click y Spigen. 
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/iphone-17-pro
-- **Título:** iPhone 17 Pro → **Fundas iPhone 17 Pro**
+- **Título:** Fundas iPhone 17 Pro
 - **SEO title:** Fundas iPhone 17 Pro en Guatemala | Prodigee y Nimbus9 | Ventas Guate
 - **Meta:** Fundas para iPhone 17 Pro: Prodigee Jogger, Flow, Super Hero, Edge, Kickit, Magneteek y Blackout, Nimbus9 Stratus2 y protector de cámara CaseCo.
 
@@ -517,14 +519,14 @@ Protege la cámara con CaseCo Screen Patrol. Ver todos los iPhone 17 en fundas i
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/audio-gaming
-- **Título:** Audio Gaming → **Audífonos Gaming**
+- **Título:** Audífonos Gaming
 - **SEO title:** Audífonos Gaming en Guatemala: PS5, JBL Quantum | Ventas Guate
 - **Meta:** Audífonos gaming en Guatemala: Sony PlayStation Pulse Explore para PS5 y JBL Quantum 360P y 100 M2 con micrófono. Originales, 1 año de garantía.
 
@@ -539,14 +541,14 @@ Más audio en Audio y JBL.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/logiix
-- **Título:** LOGIIX → **LOGiiX**
+- **Título:** LOGiiX
 - **SEO title:** LOGiiX Guatemala: Power Banks, Cargadores y Cables | Ventas Guate
 - **Meta:** Accesorios LOGiiX en Guatemala: power banks Piston Power, cargadores Power Plus, adaptadores World Traveler, cables y pulseras para Apple Watch.
 
@@ -568,14 +570,14 @@ Ver también power banks y cargadores de pared.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/smartwatch-hifuture
-- **Título:** Smartwatch HiFuture → **Smartwatch HiFuture**
+- **Título:** Smartwatch HiFuture
 - **SEO title:** Smartwatch HiFuture en Guatemala | Relojes Inteligentes | Ventas Guate
 - **Meta:** Smartwatches HiFuture en Guatemala: Lume, Aura2, Aurora2, Zone3, Flex2, MIX3 Sport, Ultra3, GO PRO2 y AIX. Originales con 1 año de garantía.
 
@@ -596,14 +598,14 @@ Compara con otras marcas en Smartwatch o mira todo HiFuture.
 ¿Funcionan con iPhone y Android?
 Sí, se sincronizan con la app del fabricante en ambos sistemas.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/over-ear
-- **Título:** Over-ear → **Audífonos Over-Ear**
+- **Título:** Audífonos Over-Ear
 - **SEO title:** Audífonos Over-Ear y de Diadema en Guatemala | Ventas Guate
 - **Meta:** Audífonos over-ear y de diadema en Guatemala: Skullcandy Crusher y Hesh, JBL Tour One M2 y T520, HiFuture Tour MKII, Mondo y Urbanista.
 
@@ -623,14 +625,14 @@ Para niños: Skullcandy Grom. Más en Skullcandy y Audífonos.
 ¿Qué es ANC?
 Cancelación activa de ruido: reduce el ruido de fondo, útil en viajes, oficina o transporte.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/nimbus9
-- **Título:** NIMBUS9 → **Nimbus9**
+- **Título:** Nimbus9
 - **SEO title:** Nimbus9 Guatemala: Fundas iPhone y Galaxy | Ventas Guate
 - **Meta:** Fundas Nimbus9 en Guatemala: Cirrus3, Stratus2, Vantage y Alto2 para iPhone y Galaxy, base de carga Qi2 3 en 1 y pulseras para Apple Watch.
 
@@ -653,14 +655,14 @@ Ver también fundas para iPhone y fundas Samsung.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/cubos
-- **Título:** Cubos → **Cargadores de Pared**
+- **Título:** Cargadores de Pared
 - **SEO title:** Cargadores de Pared USB-C en Guatemala: 20W a 100W | Ventas Guate
 - **Meta:** Cargadores de pared USB-C en Guatemala: Prodigee Energee 20W, 40W y 65W, Wemiss 40W, adaptadores de viaje Tucano GaN 100W y LOGiiX World Traveler.
 
@@ -684,14 +686,14 @@ Combínalo con un cable USB-C.
 ¿Qué potencia necesito para mi iPhone?
 Un cargador USB-C de 20W o más permite la carga rápida en iPhone.
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/cables
-- **Título:** Cables → **Cables USB-C y Lightning**
+- **Título:** Cables USB-C y Lightning
 - **SEO title:** Cables USB-C y Lightning en Guatemala | Function101 | Ventas Guate
 - **Meta:** Cables USB-C y Lightning en Guatemala: Function Smart Cable con pantalla de potencia, Neat Cable magnético, cables retráctiles y Prodigee Energee.
 
@@ -713,14 +715,14 @@ Agrega un cargador de pared.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/carga
-- **Título:** Carga → **Accesorios de Carga**
+- **Título:** Accesorios de Carga
 - **SEO title:** Accesorios de Carga: Cargadores y Power Banks | Ventas Guate
 - **Meta:** Cargadores de pared, cables, power banks, cargadores para carro y bases inalámbricas en Guatemala. Prodigee, Function101, LOGiiX, Belkin y más.
 
@@ -737,14 +739,14 @@ También: arrancador de batería Veratek V6 1000A para el carro.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/iphone-16-pro-max
-- **Título:** iPhone 16 Pro Max → **Fundas iPhone 16 Pro Max**
+- **Título:** Fundas iPhone 16 Pro Max
 - **SEO title:** Fundas iPhone 16 Pro Max en Guatemala | Ventas Guate
 - **Meta:** Fundas para iPhone 16 Pro Max: Prodigee Kickit, Formula, Superstar, Pampas, Magneteek y Glow, ZAGG Luxe Snap, Click y Nimbus9 Stratus2.
 
@@ -760,14 +762,14 @@ Ver todo iPhone 16 en fundas iPhone 16.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
-¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
 
 
 ---
 ## /collections/auto
-- **Título:** Auto → **Accesorios para Carro**
+- **Título:** Accesorios para Carro
 - **SEO title:** Accesorios para Carro: Cargadores y Soportes | Ventas Guate
 - **Meta:** Accesorios para carro en Guatemala: cargadores USB-C 30W y 60W, soportes magnéticos con carga inalámbrica Prodigee y arrancador de batería Veratek.
 
@@ -783,6 +785,33 @@ Ver más en accesorios de carga.
 **Preguntas frecuentes**
 
 ¿Son productos originales?
-Sí. Todo lo que vendemos es original y tiene 1 año de garantía por defectos de fabricación.
+Sí. Son productos originales y nuevos, con 1 año de garantía por defectos de fabricación.
+¿Cómo funciona el envío?
+Enviamos a toda Guatemala con pago contra entrega y entrega garantizada y respaldada por nosotros. También puedes comprar en nuestra tienda en zona 13.
+
+
+---
+## /collections/reservas
+- **Título:** Reservas iPhone
+- **SEO title:** Reserva tu iPhone Nuevo de Lanzamiento en Guatemala | Ventas Guate
+- **Meta:** Reserva tu iPhone nuevo de lanzamiento en Guatemala con Ventas Guate. Aparta modelo, capacidad y color. Equipos nuevos con 1 año de garantía.
+
+¿Quieres el iPhone nuevo apenas salga? En esta sección puedes reservar los modelos de lanzamiento para asegurar tu equipo con Ventas Guate.
+
+**Aparta tu modelo**
+
+Elige el modelo, la capacidad y el color que quieres y aparta tu iPhone de lanzamiento.
+
+**Prepárate para tu nuevo iPhone**
+
+Ten lista la protección desde el primer día: fundas iPhone 18, accesorios para iPhone 18 Pro Max y cargadores de pared.
+¿Prefieres un equipo disponible hoy? Mira nuestros iPhone seminuevos.
+
+**Preguntas frecuentes**
+
+¿Los iPhone son nuevos?
+Sí, los equipos de esta sección son nuevos y tienen 1 año de garantía.
 ¿Hacen envíos?
-Sí, enviamos a toda Guatemala. También puedes comprar en nuestra tienda en zona 13.
+Sí, enviamos a toda Guatemala con entrega garantizada. También puedes comprar en nuestra tienda en zona 13.
+¿Dónde puedo verlos en persona?
+En nuestra tienda: 9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala.
