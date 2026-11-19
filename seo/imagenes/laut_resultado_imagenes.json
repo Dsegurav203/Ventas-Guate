@@ -1,0 +1,227 @@
+[
+ {
+  "tmpl_id": 13952,
+  "name": "LAUT AERO SPARKLE IPHONE 16 PRO CRYSTAL PINK",
+  "ean": "4895206939720",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP24BD_AS_P01_feca696e-296c-40c7-8b3a-ae053633aeb1.jpg?v=1725516979",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13895,
+  "name": "LAUT Aero Holo iPhone 17 Midnight",
+  "ean": "4895206943918",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP25A_AH_UB_01.jpg?v=1772075266",
+  "motivo": "Variante oficial HOLO MIDNIGHT (EAN coincide)"
+ },
+ {
+  "tmpl_id": 13897,
+  "name": "LAUT Aero Protect iPhone 17 Pro Max Future Blue",
+  "ean": "4895206945974",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP25BD_AP_BL_01.jpg?v=1772075244",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13894,
+  "name": "LAUT CRYSTAL FLURO IPHONE 17 CLEAR LIGHT BLUE",
+  "ean": "4895206946568",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP25A_CF_BL_01.jpg?v=1772075032",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13891,
+  "name": "LAUT CRYSTAL FLURO IPHONE 17 PRO CLEAR BRONZE",
+  "ean": "4895206946650",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP25BD_CF_BR_01.jpg?v=1772075032",
+  "motivo": "Variante oficial CLEAR BRONZE (EAN coincide)"
+ },
+ {
+  "tmpl_id": 13889,
+  "name": "LAUT Enduro Pro Watch Band Apple Watch 44/49mm Silver",
+  "ean": "4895206943116",
+  "shopify_id": null,
+  "estado": "pendiente",
+  "fuente_url": null,
+  "motivo": "Color no confirmado: el EAN 4895206943116 en itslaut.com es ENDURO PRO 49/46/45/44mm BLACK (única variante oficial, correa negra), pero Odoo dice Silver. Confirmar color real / corregir nombre antes de cargar"
+ },
+ {
+  "tmpl_id": 13896,
+  "name": "LAUT Holo iPhone 16 Pro Max Midnight",
+  "ean": "4895206940634",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP24BD_HO_BK_01.jpg?v=1724917149",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13899,
+  "name": "LAUT Huex Folio iPad Pro 11\" (2018-2022) Green",
+  "ean": "4895206938891",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPA24_HF_GN03.jpg?v=1718861284",
+  "motivo": "EAN coincide con HUEX FOLIO iPad Air 11-inch (2025-2024) GREEN en itslaut.com; el nombre en Odoo dice iPad Pro 11 (2018-2022), revisar nombre"
+ },
+ {
+  "tmpl_id": 13892,
+  "name": "LAUT Huex Wave iPhone 17 Pro Max Coffee Brown",
+  "ean": "4895206945769",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP25BD_HW_BR_01.jpg?v=1772074446",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13898,
+  "name": "LAUT Kev Protect iPhone 17 Pro Max Black",
+  "ean": "4895206946070",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP25B_KE_BK_01.jpg?v=1772074781",
+  "motivo": "Foto oficial que LAUT usa para la variante 17 Pro Max Black (archivo de 17 Pro, mismo diseño)"
+ },
+ {
+  "tmpl_id": 13888,
+  "name": "LAUT Links Arctic Watch Band Apple Watch 44/42mm Silver",
+  "ean": "4895206942874",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_AW_ARC-01.jpg?v=1740118486",
+  "motivo": "EAN coincide con variante 42/41/40mm SILVER (Odoo dice 44/42mm); misma foto oficial para ambas tallas"
+ },
+ {
+  "tmpl_id": 13887,
+  "name": "LAUT Links March Watch Band Apple Watch 44/42mm Silver",
+  "ean": "4895206942850",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_AW_MAR_SL01.jpg?v=1741919630",
+  "motivo": "EAN coincide con variante 42/41/40mm SILVER (Odoo dice 44/42mm); misma foto oficial para ambas tallas"
+ },
+ {
+  "tmpl_id": 13886,
+  "name": "LAUT Links Noble Watch Band Apple Watch 44/49mm Silver",
+  "ean": "4895206942829",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_AW_NO_SL01.jpg?v=1740115644",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13890,
+  "name": "LAUT Novi Sport Apple Watch 44-49mm Violet",
+  "ean": "4895206942942",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_AW_NS24_PU02.jpg?v=1744611104",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13587,
+  "name": "LAUT PRIME GLASS EDGE IPHONE 17 PRO CLEAR",
+  "ean": false,
+  "shopify_id": null,
+  "estado": "pendiente",
+  "fuente_url": null,
+  "motivo": "Sin EAN en Odoo y itslaut.com no tiene PRIME GLASS EDGE para iPhone 17 Pro (solo para iPhone 18 Pro; para 17 solo PRIME GLASS normal, que es otro modelo)"
+ },
+ {
+  "tmpl_id": 13900,
+  "name": "LAUT Prime Privacy Magnet iPad Pro 11\" (2022-2018) / iPad Air 10.9\" (2022-2020)",
+  "ean": "4895206933278",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPP21S_PPP01.jpg?v=1683769049",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 13893,
+  "name": "LAUT Shield Flux iPhone 17 Pro Max Midnight Blue",
+  "ean": "4895206945875",
+  "shopify_id": null,
+  "estado": "cargada",
+  "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP25BD_SH_BK_01.jpg?v=1772074616",
+  "motivo": "Variante oficial con EAN coincidente en itslaut.com; modelo y color verificados"
+ },
+ {
+  "tmpl_id": 12931,
+  "name": "LAUT Typefolio 2.0 Keyboard iPad 11\" (2024) Black",
+  "ean": "4895206941372",
+  "shopify_id": "15480770953429",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ },
+ {
+  "tmpl_id": 12773,
+  "name": "LAUT Huex Protect AirPods Pro3 Light Pink",
+  "ean": "4895206947398",
+  "shopify_id": "15480769675477",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ },
+ {
+  "tmpl_id": 12786,
+  "name": "LAUT Huex Protect AirPods 4 Black",
+  "ean": "4895206941884",
+  "shopify_id": "15480769872085",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ },
+ {
+  "tmpl_id": 12777,
+  "name": "LAUT Luxedge iPhone 17 Pro Slate Black",
+  "ean": "4895206944663",
+  "shopify_id": "15480769773781",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ },
+ {
+  "tmpl_id": 12778,
+  "name": "LAUT Luxedge iPhone 17 Pro Luxe Brown",
+  "ean": "4895206944656",
+  "shopify_id": "15480769806549",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ },
+ {
+  "tmpl_id": 12932,
+  "name": "LAUT Typefolio 2.0 Keyboard iPad Pro 11\" (M4) Black",
+  "ean": "4895206941433",
+  "shopify_id": "15480770986197",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ },
+ {
+  "tmpl_id": 12689,
+  "name": "LAUT Huex MacBook Air 13.6\"(2022) Negro",
+  "ean": "4895206931816",
+  "shopify_id": "15480769413333",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ },
+ {
+  "tmpl_id": 12930,
+  "name": "LAUT Zentry AirPods 4 Negro",
+  "ean": "4895206942003",
+  "shopify_id": "15480770363605",
+  "estado": "odoo ya tenía",
+  "fuente_url": null,
+  "motivo": "Imagen actual en Odoo revisada: foto real del producto correcto (modelo y color); no se reemplazó"
+ }
+]
