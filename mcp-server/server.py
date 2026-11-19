@@ -49,6 +49,8 @@ ADMIN_WRITE_MODELS = {m.strip() for m in os.environ.get(
 NO_CREATE_MODELS = {"res.users", "stock.picking"}             # se editan, no se crean desde el chat
 FIELD_LIMITS = {"res.users": {"property_warehouse_id"}}      # en usuarios solo el almacén predeterminado
 NEVER_WRITE = {"ir.rule", "ir.model.access", "res.groups", "ir.config_parameter", "res.users.apikeys"}
+# Administradores de Odoo (Ajustes): acceso completo desde el chat (cualquier modelo, campo, acción y borrado).
+ADMIN_FULL = os.environ.get("MCP_ADMIN_FULL", "1") == "1"
 ACTIONS = {tuple(a.strip().rsplit(".", 1)) for a in os.environ.get(
     "MCP_ACTIONS", "stock.picking.action_cancel").replace(";", ",").split(",") if a.strip()}
 ALLOW_LOCAL = os.environ.get("MCP_ALLOW_LOCAL_REDIRECTS", "0") == "1"
@@ -286,6 +288,8 @@ async def _is_admin() -> bool:
 
 
 async def _check_write(model: str, values: dict | None = None, create: bool = False) -> dict | None:
+    if ADMIN_FULL and await _is_admin():
+        return None
     if model in NEVER_WRITE:
         return {"error": f"'{model}' es configuración de seguridad: no se modifica desde el chat. Hazlo en Claude Code con revisión."}
     if model in WRITE_MODELS:
@@ -352,7 +356,7 @@ def _normalize_image(raw: bytes) -> tuple[bytes, bytes, tuple[int, int]]:
 if ALLOW_WRITE:
     @mcp.tool()
     async def odoo_create(model: str, values: dict) -> Any:
-        """Crea un registro. Productos: cualquier usuario con permiso en Odoo. Almacenes y ubicaciones: solo administradores.
+        """Crea un registro. Administradores de Odoo: cualquier modelo. Demás usuarios: solo productos.
         Antes de llamar, muestra al usuario los valores y espera su confirmación. Para imágenes usa odoo_set_image_from_url."""
         if err := await _check_write(model, values, create=True):
             return err
@@ -362,8 +366,8 @@ if ALLOW_WRITE:
 
     @mcp.tool()
     async def odoo_write(model: str, ids: list[int], values: dict) -> Any:
-        """Edita registros. Productos: cualquier usuario con permiso en Odoo. Almacenes, ubicaciones, traslados y el almacén
-        predeterminado de usuarios (property_warehouse_id): solo administradores. Archivar = {"active": false}.
+        """Edita registros. Administradores de Odoo: cualquier modelo y campo (configuración incluida). Demás usuarios: solo
+        productos. Archivar = {"active": false}.
         Antes de llamar, muestra al usuario los cambios y espera su confirmación."""
         if err := await _check_write(model, values):
             return err
@@ -372,14 +376,22 @@ if ALLOW_WRITE:
         return await _call(model, "write", ids=ids, vals=values)
 
     @mcp.tool()
-    async def odoo_action(model: str, method: str, ids: list[int]) -> Any:
-        """Ejecuta una acción de Odoo sobre registros (ej. stock.picking action_cancel para cancelar traslados).
-        Solo acciones permitidas y solo administradores. Antes de llamar, muestra al usuario los registros y espera su confirmación."""
-        if (model, method) not in ACTIONS:
-            return {"error": f"Acción no permitida. Permitidas: {', '.join(f'{m}.{a}' for m, a in sorted(ACTIONS))}"}
+    async def odoo_action(model: str, method: str, ids: list[int], kwargs: dict | None = None) -> Any:
+        """Ejecuta un método de Odoo sobre registros (ej. action_cancel, action_confirm, button_validate, action_post).
+        Solo administradores de Odoo. Antes de llamar, muestra al usuario los registros y la acción y espera su confirmación."""
         if not await _is_admin():
             return {"error": "Solo administradores de Odoo (Ajustes) pueden ejecutar acciones desde el chat"}
-        return await _call(model, method, ids=ids)
+        if not ADMIN_FULL and (model, method) not in ACTIONS:
+            return {"error": f"Acción no permitida. Permitidas: {', '.join(f'{m}.{a}' for m, a in sorted(ACTIONS))}"}
+        return await _call(model, method, ids=ids, **(kwargs or {}))
+
+    @mcp.tool()
+    async def odoo_unlink(model: str, ids: list[int]) -> Any:
+        """Elimina registros (solo administradores de Odoo). Prefiere archivar ({"active": false}) cuando el modelo lo permita.
+        Antes de llamar, muestra al usuario exactamente qué se va a borrar y espera su confirmación explícita."""
+        if not (ADMIN_FULL and await _is_admin()):
+            return {"error": "Solo administradores de Odoo (Ajustes) pueden eliminar registros desde el chat"}
+        return await _call(model, "unlink", ids=ids)
 
     if IMAGE_MODELS:
         from mcp.server.fastmcp import Image as McpImage
