@@ -59,6 +59,7 @@ Por cada elemento de `po_payload.json`:
 3. `odoo_post_note` en la OC: `body` = `nota_html`, `html` = true, `internal` = true, `partner_ids` = `[2762]` (Mayra González, user 30).
 
 ## 3. Notificar a logística
+Si el usuario conectado es Mayra (`logistica@ventasguate.com`), **omitir este paso**: ella es la destinataria y las OC ya quedaron asignadas a ella con la nota interna. El envío de correo (`mail.mail`) solo lo pueden hacer administradores de Odoo.
 1. `correo.html` reemplazando `{OC_i}` por link `https://ventasguate.odoo.com/web#id=<id>&model=purchase.order&view_type=form (NO usar /odoo/purchase/: da 404 en esta versión)` con el nombre de la OC.
 2. `odoo_create` en `mail.mail`: `subject` "Sugerido de compras <semana> — N OC en borrador", `body_html`, `email_to` logistica@ventasguate.com, `auto_delete` false.
 3. `odoo_action` (model `mail.mail`, method `send`) sobre ese id y releer `state` (debe ser `sent`; si es `exception`, reportar `failure_reason`).

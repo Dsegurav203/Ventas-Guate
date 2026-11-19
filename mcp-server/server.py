@@ -49,6 +49,15 @@ ADMIN_WRITE_MODELS = {m.strip() for m in os.environ.get(
 NO_CREATE_MODELS = {"res.users", "stock.picking"}             # se editan, no se crean desde el chat
 FIELD_LIMITS = {"res.users": {"property_warehouse_id"}}      # en usuarios solo el almacén predeterminado
 NEVER_WRITE = {"ir.rule", "ir.model.access", "res.groups", "ir.config_parameter", "res.users.apikeys"}
+# Permisos adicionales por persona (login de Odoo) para quienes no son administradores. Odoo igual valida sus permisos.
+# MCP_ROLE_GRANTS (JSON) reemplaza este valor por defecto.
+ROLE_GRANTS = json.loads(os.environ.get("MCP_ROLE_GRANTS") or json.dumps({
+    "logistica@ventasguate.com": {   # Mayra González: compras (pedido semanal en borrador)
+        "models": ["purchase.order", "purchase.order.line"], "actions": []},
+    "contabilidad@ventasguate.com": {  # Wilber (Auxiliar Contable): costeo de pólizas y tasa de cambio
+        "models": ["stock.landed.cost", "stock.landed.cost.lines", "stock.valuation.adjustment.lines", "res.currency.rate"],
+        "actions": ["stock.landed.cost.compute_landed_cost", "stock.landed.cost.button_validate"]},
+}))
 # Administradores de Odoo (Ajustes): acceso completo desde el chat (cualquier modelo, campo, acción y borrado).
 ADMIN_FULL = os.environ.get("MCP_ADMIN_FULL", "1") == "1"
 ACTIONS = {tuple(a.strip().rsplit(".", 1)) for a in os.environ.get(
@@ -297,6 +306,18 @@ async def odoo_name_search(model: str, text: str, limit: int = 10) -> Any:
     return await _call(model, "name_search", name=text, limit=limit)
 
 
+def _login() -> str:
+    tok = get_access_token()
+    d = unseal("access", tok.token) if tok else None
+    return (d or {}).get("login", "").lower()
+
+
+def _grant() -> dict:
+    g = ROLE_GRANTS.get(_login(), {})
+    return {"models": set(g.get("models", [])),
+            "actions": {tuple(a.rsplit(".", 1)) for a in g.get("actions", [])}}
+
+
 async def _is_admin() -> bool:
     o = _client()
     r = await _call("res.users", "has_group", ids=[o._uid], group_ext_id="base.group_system")
@@ -308,7 +329,7 @@ async def _check_write(model: str, values: dict | None = None, create: bool = Fa
         return None
     if model in NEVER_WRITE:
         return {"error": f"'{model}' es configuración de seguridad: no se modifica desde el chat. Hazlo en Claude Code con revisión."}
-    if model in WRITE_MODELS:
+    if model in WRITE_MODELS or model in _grant()["models"]:
         return None
     if model in ADMIN_WRITE_MODELS:
         if not await _is_admin():
@@ -426,9 +447,12 @@ if ALLOW_WRITE:
     @mcp.tool()
     async def odoo_action(model: str, method: str, ids: list[int], kwargs: dict | None = None) -> Any:
         """Ejecuta un método de Odoo sobre registros (ej. action_cancel, action_confirm, button_validate, action_post).
-        Solo administradores de Odoo. Antes de llamar, muestra al usuario los registros y la acción y espera su confirmación."""
+        Administradores de Odoo: cualquier acción. Otros usuarios: solo las de su función (ej. costeo: compute_landed_cost,
+        button_validate en stock.landed.cost). Antes de llamar, muestra al usuario los registros y la acción y espera su confirmación."""
+        if (model, method) in _grant()["actions"]:
+            return await _call(model, method, ids=ids, **(kwargs or {}))
         if not await _is_admin():
-            return {"error": "Solo administradores de Odoo (Ajustes) pueden ejecutar acciones desde el chat"}
+            return {"error": "Solo administradores de Odoo (Ajustes) pueden ejecutar esta acción desde el chat"}
         if not ADMIN_FULL and (model, method) not in ACTIONS:
             return {"error": f"Acción no permitida. Permitidas: {', '.join(f'{m}.{a}' for m, a in sorted(ACTIONS))}"}
         return await _call(model, method, ids=ids, **(kwargs or {}))
