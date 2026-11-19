@@ -19,3 +19,4 @@ Umbrales de Google: LCP < 2.5 s, CLS < 0.1.
 - JS: jquery 87 KB + vendors 422 KB + sections/app; Facebook pixel 204 KB.
 - CSS `styles.css` 396 KB render-blocking.
 - 600 KB de `link` (preloads) en inicio/producto.
+- Publicación del tema rechazada otra vez (changed_on_shopify, 19/11). Pasos 6-7 de velocidad enviados a Luis en tarea #15.
