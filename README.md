@@ -16,3 +16,11 @@ Plugin [claude-seo](https://github.com/AgriciDaniel/claude-seo) habilitado a niv
 | `/seo page <url>` | Análisis de una página |
 
 Instalación manual: `/plugin marketplace add AgriciDaniel/claude-seo` → `/plugin install claude-seo@agricidaniel-claude-seo`.
+
+## Ecommerce y SEO
+
+- `CLAUDE.md`: reglas y datos oficiales para cualquier sesión de Claude.
+- `ONBOARDING.md`: guía de inicio para el encargado de ecommerce.
+- `.claude/skills/`: habilidades del proyecto (fichas de producto, colecciones, imágenes, catálogo faltante, velocidad).
+- `seo/`: trabajo por tema con respaldos y registros.
+- `scripts/odoo_rpc.py`: cliente de Odoo por JSON-RPC.
