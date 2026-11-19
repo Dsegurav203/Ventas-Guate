@@ -1,0 +1,1 @@
+- Nombres corregidos en Odoo (19/11): 13899 Huex Folio → iPad Air 11" (2024-2025); 13888/13887 Links Arctic/March → 42/41/40mm.
