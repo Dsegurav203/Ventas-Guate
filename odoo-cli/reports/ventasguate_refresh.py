@@ -247,7 +247,7 @@ def main():
             log.append({"tipo": label, "operacion": rel(r["picking_type_id"], 1), "pendientes": r["__count"], "atrasados": late})
     out["logistica"] = sorted(log, key=lambda r: -r["atrasados"])
     out["compras_transito"] = [{"oc": p["name"], "proveedor": rel(p["partner_id"], 1), "fecha_esperada": (p["date_planned"] or "")[:10], "monto": p["amount_untaxed"], "moneda": rel(p["currency_id"], 1)}
-                               for p in o.call("purchase.order", "search_read", domain=[["state", "=", "purchase"], ["receipt_status", "!=", "full"]],
+                               for p in o.call("purchase.order", "search_read", domain=[["state", "=", "purchase"], ["receipt_status", "in", ["pending", "partial"]]],
                                                fields=["name", "partner_id", "date_planned", "amount_untaxed", "currency_id"], order="date_planned asc", limit=50)]
     adj = G("stock.move", ["create_uid"], ["product_uom_qty:sum"], [["is_inventory", "=", True], ["state", "=", "done"], ["date", ">=", utc(cut - dt.timedelta(days=29))]])
     out["ajustes_30d"] = [{"usuario": rel(r["create_uid"], 1), "movimientos": r["__count"], "unidades": round(r["product_uom_qty"] or 0)} for r in adj]

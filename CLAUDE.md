@@ -112,7 +112,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 ./odoo group purchase.order -g partner_id -a amount_total:sum -d '[["state","=","purchase"],["date_order",">=","INI"]]'
 
 # OC con mercadería pendiente de recibir
-./odoo search purchase.order -d '[["state","=","purchase"],["receipt_status","!=","full"]]' -f name,partner_id,date_order,date_planned,amount_total,currency_id
+./odoo search purchase.order -d '[["state","=","purchase"],["receipt_status","in",["pending","partial"]]]' -f name,partner_id,date_order,date_planned,amount_total,currency_id
 
 # Recepciones pendientes
 ./odoo search stock.picking -d '[["picking_type_code","=","incoming"],["state","not in",["done","cancel"]]]' -f name,partner_id,origin,scheduled_date,state
@@ -148,7 +148,7 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 | CxP por vencer 30 días | `account.move` in_invoice |
 | Caja/bancos | `account.move.line` asset_cash |
 | Valor inventario, días de inventario, quiebres, lento movimiento | `product.product`, `stock.quant`, `sale.report` |
-| Compras en tránsito | `purchase.order` receipt_status ≠ full |
+| Compras en tránsito | `purchase.order` receipt_status in (pending, partial); las OC de servicios (p. ej. gastos de póliza) no tienen recepción y quedan fuera |
 | Pipeline CRM ponderado = Σ expected_revenue × probability | `crm.lead` |
 
 ## Datos de esta instancia (verificado 2026-11-18)
