@@ -12,7 +12,8 @@
   "handle": "logiix-vibrance-siicone-iphone-17-pro-max-midnight-blue",
   "odoo_stock": 51.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 48.0
  },
  {
   "tmpl_id": 12125,
@@ -27,7 +28,8 @@
   "handle": "laut-crystal-matter-x-iphone-17-pro-max-negro",
   "odoo_stock": 182.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 181.0
  },
  {
   "tmpl_id": 12799,
@@ -42,7 +44,8 @@
   "handle": "laut-typefolio-2-0-keyboard-ipad-10-9-2022-black",
   "odoo_stock": 142.0,
   "odoo_precio": 899.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 140.0
  },
  {
   "tmpl_id": 12803,
@@ -57,7 +60,8 @@
   "handle": "logiix-vibrance-slim-folio-ipad-11-a16-10-9-10th-gen-black",
   "odoo_stock": 50.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 50.0
  },
  {
   "tmpl_id": 12781,
@@ -72,7 +76,8 @@
   "handle": "laut-luxedge-iphone-17-pro-max-slate-black",
   "odoo_stock": 32.0,
   "odoo_precio": 599.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 24.0
  },
  {
   "tmpl_id": 12605,
@@ -87,7 +92,8 @@
   "handle": "logiix-vibrance-silicone-iphone-17-pro-max-orange",
   "odoo_stock": 14.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 12.0
  },
  {
   "tmpl_id": 12028,
@@ -102,7 +108,8 @@
   "handle": "logiix-vibrance-silicone-iphone-17-pro-max-negro",
   "odoo_stock": 39.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 33.0
  },
  {
   "tmpl_id": 11330,
@@ -117,7 +124,8 @@
   "handle": "prodigee-energee-ultra-slim-cubo-de-carga-de-pared-45w",
   "odoo_stock": 3.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12931,
@@ -132,7 +140,8 @@
   "handle": "laut-typefolio-2-0-keyboard-ipad-11-2024-black",
   "odoo_stock": 140.0,
   "odoo_precio": 899.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 138.0
  },
  {
   "tmpl_id": 12653,
@@ -147,7 +156,8 @@
   "handle": "laut-huex-protect-airpods-pro3-black",
   "odoo_stock": 352.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 352.0
  },
  {
   "tmpl_id": 11396,
@@ -162,7 +172,8 @@
   "handle": "laut-prestige-folio-universal-mag-9-a-11-pulgadas-negro",
   "odoo_stock": 36.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 36.0
  },
  {
   "tmpl_id": 12782,
@@ -177,7 +188,8 @@
   "handle": "laut-luxedge-iphone-17-pro-max-luxe-brown",
   "odoo_stock": 41.0,
   "odoo_precio": 599.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 39.0
  },
  {
   "tmpl_id": 11347,
@@ -192,7 +204,8 @@
   "handle": "hifuture-flex-clip-open-ear-audifono-negro-1",
   "odoo_stock": 257.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 209.0
  },
  {
   "tmpl_id": 12124,
@@ -207,7 +220,8 @@
   "handle": "laut-zentry-airpods-pro-3-negro",
   "odoo_stock": 80.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 80.0
  },
  {
   "tmpl_id": 11392,
@@ -222,7 +236,8 @@
   "handle": "laut-zuro-folio-ipad-air-11-m2-negro",
   "odoo_stock": 0.0,
   "odoo_precio": 499.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12462,
@@ -237,7 +252,8 @@
   "handle": "logiix-air-guard-classic-iphone-17-pro-max-clear-white",
   "odoo_stock": 34.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 31.0
  },
  {
   "tmpl_id": 9932,
@@ -252,7 +268,8 @@
   "handle": "prodigee-cargador-magsafe-3rio-negro",
   "odoo_stock": 3.0,
   "odoo_precio": 595.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12720,
@@ -267,7 +284,8 @@
   "handle": "prodigee-super-hero-s26-ultra-smoke",
   "odoo_stock": 1.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12779,
@@ -282,7 +300,8 @@
   "handle": "laut-crystal-matter-x-iphone-17-pro-max-bronze-crystal",
   "odoo_stock": 90.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 90.0
  },
  {
   "tmpl_id": 11398,
@@ -297,7 +316,8 @@
   "handle": "laut-typefolio-keyboard-case-universal-9-a-11-pulgadas-negro",
   "odoo_stock": 112.0,
   "odoo_precio": 999.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 112.0
  },
  {
   "tmpl_id": 12603,
@@ -312,7 +332,8 @@
   "handle": "logiix-vibrance-silicone-iphone-17-pro-max-sand",
   "odoo_stock": 19.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 19.0
  },
  {
   "tmpl_id": 11348,
@@ -327,7 +348,8 @@
   "handle": "hifuture-flex-clip-open-ear-audifono-beige-1",
   "odoo_stock": 244.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 195.0
  },
  {
   "tmpl_id": 9168,
@@ -342,7 +364,8 @@
   "handle": "cable-tipo-c-a-tipo-c-1m-blanco-apple",
   "odoo_stock": 1.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12773,
@@ -357,7 +380,8 @@
   "handle": "laut-huex-protect-airpods-pro3-light-pink",
   "odoo_stock": 36.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 36.0
  },
  {
   "tmpl_id": 10984,
@@ -372,7 +396,8 @@
   "handle": "samsung-kit-de-carga-rapida-25w-tipo-c-negro-1",
   "odoo_stock": 196.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 184.0
  },
  {
   "tmpl_id": 11942,
@@ -387,7 +412,8 @@
   "handle": "prodigee-teek-360-iphone-17-pro-max-smoke-1",
   "odoo_stock": 1.0,
   "odoo_precio": 379.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12023,
@@ -402,7 +428,8 @@
   "handle": "logiix-air-guard-classic-iphone-17-clear-white",
   "odoo_stock": 41.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 38.0
  },
  {
   "tmpl_id": 1974,
@@ -417,7 +444,8 @@
   "handle": "amazon-alexa-echo-dot-5-0-parlante-inteligente-azul-1",
   "odoo_stock": 102.0,
   "odoo_precio": 599.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 101.0
  },
  {
   "tmpl_id": 12604,
@@ -432,7 +460,8 @@
   "handle": "logiix-vibrance-silicone-iphone-17-pro-midnight-blue",
   "odoo_stock": 75.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 75.0
  },
  {
   "tmpl_id": 11941,
@@ -447,7 +476,8 @@
   "handle": "prodigee-teek360-iphone-17-pro-max-clear",
   "odoo_stock": 1.0,
   "odoo_precio": 379.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 9092,
@@ -462,7 +492,8 @@
   "handle": "prodigee-kickit-iphone-15-14-13-negro-1",
   "odoo_stock": 2.0,
   "odoo_precio": 379.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12786,
@@ -477,7 +508,8 @@
   "handle": "laut-huex-protect-airpods-4-black",
   "odoo_stock": 37.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 36.0
  },
  {
   "tmpl_id": 14049,
@@ -492,7 +524,8 @@
   "handle": "logiix-vibrance-neo-bundle-usb-c-to-usb-c-cable-blush",
   "odoo_stock": 1.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 1.0
  },
  {
   "tmpl_id": 12777,
@@ -507,7 +540,8 @@
   "handle": "laut-luxedge-iphone-17-pro-slate-black",
   "odoo_stock": 46.0,
   "odoo_precio": 599.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 43.0
  },
  {
   "tmpl_id": 12783,
@@ -522,7 +556,8 @@
   "handle": "laut-prestige-folio-mg-ipad-air-11-2024-black",
   "odoo_stock": 0.0,
   "odoo_precio": 449.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12600,
@@ -537,7 +572,8 @@
   "handle": "logiix-vibrance-silicone-iphone-17-lavender",
   "odoo_stock": 0.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 9087,
@@ -552,7 +588,8 @@
   "handle": "prodigee-kickit-iphone-15-pro-max-black",
   "odoo_stock": 2.0,
   "odoo_precio": 379.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12602,
@@ -567,7 +604,8 @@
   "handle": "logiix-vibrance-silicone-iphone-17-pro-lavender",
   "odoo_stock": 22.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 22.0
  },
  {
   "tmpl_id": 12784,
@@ -582,7 +620,8 @@
   "handle": "laut-little-buddy-ipad-10-9-2022-blue",
   "odoo_stock": 24.0,
   "odoo_precio": 449.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 24.0
  },
  {
   "tmpl_id": 12778,
@@ -597,7 +636,8 @@
   "handle": "laut-luxedge-iphone-17-pro-luxe-brown",
   "odoo_stock": 45.0,
   "odoo_precio": 599.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 44.0
  },
  {
   "tmpl_id": 12932,
@@ -612,7 +652,8 @@
   "handle": "laut-typefolio-2-0-keyboard-ipad-pro-11-m4-black",
   "odoo_stock": 12.0,
   "odoo_precio": 899.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 10.0
  },
  {
   "tmpl_id": 12795,
@@ -627,7 +668,8 @@
   "handle": "laut-crystal-matter-x-iphone-17-black",
   "odoo_stock": 0.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12689,
@@ -642,7 +684,8 @@
   "handle": "laut-huex-macbook-air-13-62022-negro",
   "odoo_stock": 10.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 10.0
  },
  {
   "tmpl_id": 12022,
@@ -657,7 +700,8 @@
   "handle": "logiix-air-guard-classic-iphone-17-pro-clear-white",
   "odoo_stock": 0.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12299,
@@ -672,7 +716,8 @@
   "handle": "prodigee-super-glass-iphone-17-pro-max-privacy",
   "odoo_stock": 4.0,
   "odoo_precio": 249.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 11277,
@@ -687,7 +732,8 @@
   "handle": "samsung-cubo-de-carga-tipo-c-45w-negro",
   "odoo_stock": 1.0,
   "odoo_precio": 299.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 11949,
@@ -702,7 +748,8 @@
   "handle": "prodigee-superstar-iphone-17-pro-max-clear",
   "odoo_stock": 1.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12687,
@@ -717,7 +764,8 @@
   "handle": "laut-prestige-folio-mg-ipad-air-13-2024-negro",
   "odoo_stock": 12.0,
   "odoo_precio": 449.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 12.0
  },
  {
   "tmpl_id": 14613,
@@ -732,7 +780,8 @@
   "handle": "195951374017-reloj-apple-42mm-negro-serie-12",
   "odoo_stock": 3.0,
   "odoo_precio": 4499.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 3.0
  },
  {
   "tmpl_id": 12930,
@@ -747,7 +796,8 @@
   "handle": "laut-zentry-airpods-4-negro",
   "odoo_stock": 132.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 132.0
  },
  {
   "tmpl_id": 14734,
@@ -762,7 +812,8 @@
   "handle": "apple-iphone-18-duo-night-sky-512gb-sgjhj6g6dc1",
   "odoo_stock": 0.0,
   "odoo_precio": 25999.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 10454,
@@ -777,7 +828,8 @@
   "handle": "prodigee-formula-iphone-16-pro-max-smoke",
   "odoo_stock": 0.0,
   "odoo_precio": 349.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 0.0
  },
  {
   "tmpl_id": 12822,
@@ -792,6 +844,7 @@
   "handle": "logiix-air-guard-classic-airpods-pro-3-clear",
   "odoo_stock": 14.0,
   "odoo_precio": 199.0,
-  "odoo_img": true
+  "odoo_img": true,
+  "stock_exportable": 14.0
  }
 ]
