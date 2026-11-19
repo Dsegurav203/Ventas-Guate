@@ -1,0 +1,12 @@
+[
+  {
+    "id": 643,
+    "name": "Vendedores: stock solo BD3, OFIBD y consignaciones asignadas",
+    "domain_force": "[('location_id', 'child_of', [8, 223] + {359: [47, 264, 281, 289, 18], 34: [123, 231, 220, 18], 7: [221, 123, 231, 220, 47, 264, 281, 289, 18], 338: [18]}.get(user.id, []))]"
+  },
+  {
+    "id": 644,
+    "name": "Vendedores: kardex solo BD3, OFIBD y consignaciones asignadas",
+    "domain_force": "['|', ('location_id', 'child_of', [8, 223] + {359: [47, 264, 281, 289, 18], 34: [123, 231, 220, 18], 7: [221, 123, 231, 220, 47, 264, 281, 289, 18], 338: [18]}.get(user.id, [])), ('location_dest_id', 'child_of', [8, 223] + {359: [47, 264, 281, 289, 18], 34: [123, 231, 220, 18], 7: [221, 123, 231, 220, 47, 264, 281, 289, 18], 338: [18]}.get(user.id, []))]"
+  }
+]
