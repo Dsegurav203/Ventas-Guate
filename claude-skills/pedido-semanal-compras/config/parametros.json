@@ -1,0 +1,140 @@
+{
+  "odoo_url_default": "https://ventasguate.odoo.com",
+  "correo_logistica": "logistica@ventasguate.com",
+  "comprador_user_id": 30,
+  "picking_type_id": 1,
+  "impuesto_compras_gtq_id": 1,
+  "ubicaciones_vendibles": [
+    "BD3/Stock",
+    "BD3/Input",
+    "OFIBD/BODEGA ATICO",
+    "TVGDC/Stock"
+  ],
+  "ubicaciones_consignacion_prefijos": [
+    "Con/",
+    "TOPC/"
+  ],
+  "marcas_excluidas": [
+    "APPLE",
+    "POPSOCKETS"
+  ],
+  "dias_ventana_corta": 28,
+  "dias_ventana_larga": 90,
+  "cobertura_objetivo_dias": 45,
+  "seguridad_dias": 7,
+  "horizonte_revision_dias": 7,
+  "sobrestock_dias": 120,
+  "default": {
+    "lead_time_dias": 30,
+    "multiplo": 1,
+    "moq_unidades": 0,
+    "confirmado": false
+  },
+  "marcas": {
+    "PRODIGEE": {
+      "lead_time_dias": 25,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": true,
+      "nota": "Tránsito 15–20 d + proceso"
+    },
+    "LAUT": {
+      "lead_time_dias": 25,
+      "multiplo": 5,
+      "moq_unidades": 0,
+      "confirmado": true,
+      "nota": "Tránsito 15–20 d + proceso"
+    },
+    "LOGIIX": {
+      "lead_time_dias": 15,
+      "multiplo": 12,
+      "moq_unidades": 0,
+      "confirmado": true,
+      "nota": "Tránsito 8–10 d + proceso"
+    },
+    "PROTECTION PRO": {
+      "lead_time_dias": 15,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": true,
+      "nota": "Tránsito 10 d + proceso"
+    },
+    "HIFUTURE": {
+      "lead_time_dias": 25,
+      "multiplo": 40,
+      "moq_unidades": 0,
+      "confirmado": true,
+      "nota": "Tránsito 15–20 d + proceso; cajas 40/30",
+      "multiplo_por_palabra": {
+        "SMARTWATCH": 30,
+        "WATCH": 30,
+        "BAND": 30,
+        "STRAP": 30
+      }
+    },
+    "TARGUS": {
+      "lead_time_dias": 30,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    },
+    "HYPER": {
+      "lead_time_dias": 30,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    },
+    "NIMBUS9": {
+      "lead_time_dias": 15,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": true,
+      "nota": "Balaji, tránsito 8 d + proceso"
+    },
+    "SKULLCANDY": {
+      "lead_time_dias": 30,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    },
+    "FUNCTION": {
+      "lead_time_dias": 30,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    },
+    "SAMSUNG": {
+      "lead_time_dias": 21,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    },
+    "TUCANO": {
+      "lead_time_dias": 30,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    },
+    "OHSNAP": {
+      "lead_time_dias": 30,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    },
+    "MOFT": {
+      "lead_time_dias": 30,
+      "multiplo": 1,
+      "moq_unidades": 0,
+      "confirmado": false
+    }
+  },
+  "proveedores_excluidos": [
+    160
+  ],
+  "min_movimientos_90d": 3,
+  "minimo_usd_por_proveedor": {
+    "16416": 20000
+  },
+  "notas_minimo": "16416 = TARGUS US LLC",
+  "nota_cobertura": "Pedido = PO de cliente pendientes + 45 días de venta − (disponible + tránsito + borradores). Instrucción de Diego, 16-nov-2026."
+}

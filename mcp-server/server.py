@@ -276,6 +276,22 @@ async def odoo_models(filter: str | None = None) -> Any:
 
 
 @mcp.tool()
+async def odoo_export(model: str, fields: list[str], domain: list | None = None, order: str | None = None,
+                      limit: int = 500) -> Any:
+    """Exporta registros como en "Exportar" de Odoo: admite campos relacionados con "/", ej. "partner_id/id",
+    "seller_ids/partner_id", "seller_ids/price". Útil para líneas uno-a-muchos. Máx. 2000 registros por llamada."""
+    ids = await _call(model, "search", domain=domain or [], limit=min(limit, 2000), **({"order": order} if order else {}))
+    if not isinstance(ids, list):
+        return ids
+    if not ids:
+        return []
+    res = await _call(model, "export_data", ids=ids, fields_to_export=fields)
+    if isinstance(res, dict) and "datas" in res:
+        return [dict(zip(fields, row)) for row in res["datas"]]
+    return res
+
+
+@mcp.tool()
 async def odoo_name_search(model: str, text: str, limit: int = 10) -> Any:
     """Busca registros por nombre (clientes, productos, proveedores…). Devuelve [id, nombre]."""
     return await _call(model, "name_search", name=text, limit=limit)
@@ -324,6 +340,32 @@ def _safe_url(url: str) -> str | None:
     return None
 
 
+def _download(url: str, max_bytes: int, require_image: bool = False) -> tuple[bytes, str, str]:
+    """Descarga una URL pública (re-valida redirecciones). Devuelve (datos, content-type, nombre sugerido)."""
+    class _SafeRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, req, fp, code, msg, headers, newurl):
+            if _safe_url(newurl):
+                raise ValueError("redirección a una URL no permitida")
+            return super().redirect_request(req, fp, code, msg, headers, newurl)
+    if err := _safe_url(url):
+        raise ValueError(err)
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (VentasGuate MCP)"})
+    with urllib.request.build_opener(_SafeRedirect).open(req, timeout=30) as r:
+        ctype = (r.headers.get("Content-Type") or "application/octet-stream").split(";")[0].strip()
+        if require_image and not ctype.startswith("image/"):
+            raise ValueError(f"La URL no es una imagen ({ctype})")
+        data = r.read(max_bytes + 1)
+        if len(data) > max_bytes:
+            raise ValueError(f"Archivo mayor a {max_bytes // 1_000_000} MB")
+        name = ""
+        cd = r.headers.get("Content-Disposition") or ""
+        if "filename=" in cd:
+            name = cd.split("filename=")[-1].strip().strip('"').split(";")[0]
+        if not name:
+            name = urllib.parse.unquote(urllib.parse.urlparse(r.geturl()).path.rsplit("/", 1)[-1]) or "archivo"
+        return data, ctype, name
+
+
 def _normalize_image(raw: bytes) -> tuple[bytes, bytes, tuple[int, int]]:
     """Estándar Ventas Guate: 1200x1200, fondo blanco, producto al 90 %, JPEG < 350 KB. Devuelve (jpeg, miniatura, tamaño original)."""
     import io
@@ -355,23 +397,29 @@ def _normalize_image(raw: bytes) -> tuple[bytes, bytes, tuple[int, int]]:
 
 if ALLOW_WRITE:
     @mcp.tool()
-    async def odoo_create(model: str, values: dict) -> Any:
-        """Crea un registro. Administradores de Odoo: cualquier modelo. Demás usuarios: solo productos.
+    async def odoo_create(model: str, values: dict | list[dict]) -> Any:
+        """Crea uno o varios registros (values = dict o lista de dicts, máx. 200). Administradores de Odoo: cualquier modelo.
+        Demás usuarios: solo productos.
         Antes de llamar, muestra al usuario los valores y espera su confirmación. Para imágenes usa odoo_set_image_from_url."""
-        if err := await _check_write(model, values, create=True):
-            return err
-        if any(k.startswith("image_") for k in values):
-            return {"error": "Para imágenes usa odoo_set_image_from_url"}
-        return await _call(model, "create", vals_list=[values])
+        vals_list = values if isinstance(values, list) else [values]
+        if len(vals_list) > 200:
+            return {"error": "Máximo 200 registros por llamada; divide en bloques"}
+        admin = ADMIN_FULL and await _is_admin()
+        for v in vals_list:
+            if err := await _check_write(model, v, create=True):
+                return err
+            if not admin and any(k.startswith("image_") for k in v):
+                return {"error": "Para imágenes usa odoo_set_image_from_url"}
+        return await _call(model, "create", vals_list=vals_list)
 
     @mcp.tool()
     async def odoo_write(model: str, ids: list[int], values: dict) -> Any:
-        """Edita registros. Administradores de Odoo: cualquier modelo y campo (configuración incluida). Demás usuarios: solo
-        productos. Archivar = {"active": false}.
+        """Edita registros (varios ids a la vez). Administradores de Odoo: cualquier modelo y campo, incluido image_1920 en
+        base64 para fotos subidas al chat. Demás usuarios: solo productos. Archivar = {"active": false}.
         Antes de llamar, muestra al usuario los cambios y espera su confirmación."""
         if err := await _check_write(model, values):
             return err
-        if any(k.startswith("image_") for k in values):
+        if any(k.startswith("image_") for k in values) and not (ADMIN_FULL and await _is_admin()):
             return {"error": "Para imágenes usa odoo_set_image_from_url"}
         return await _call(model, "write", ids=ids, vals=values)
 
@@ -393,6 +441,63 @@ if ALLOW_WRITE:
             return {"error": "Solo administradores de Odoo (Ajustes) pueden eliminar registros desde el chat"}
         return await _call(model, "unlink", ids=ids)
 
+    @mcp.tool()
+    async def odoo_post_note(model: str, record_id: int, body: str, internal: bool = True,
+                             partner_ids: list[int] | None = None, html: bool = False) -> Any:
+        """Publica en el historial (chatter) de un registro. internal=True: nota interna (no se envía a nadie, salvo los
+        partner_ids que menciones, que reciben notificación). internal=False: mensaje que se ENVÍA por correo a los
+        seguidores del registro (clientes/proveedores incluidos): confirma con el usuario antes. html=True si body es HTML."""
+        kw: dict = {"body": body, "message_type": "comment",
+                    "subtype_xmlid": "mail.mt_note" if internal else "mail.mt_comment", "body_is_html": html}
+        if partner_ids:
+            kw["partner_ids"] = partner_ids
+        res = await _call(model, "message_post", ids=[record_id], **kw)
+        return {"ok": True, "message_id": res} if isinstance(res, int) else res
+
+    @mcp.tool()
+    async def odoo_register_payment(invoice_ids: list[int], amount: float | None = None, payment_date: str | None = None,
+                                    journal_id: int | None = None, memo: str | None = None) -> Any:
+        """Registra el pago de facturas de cliente o proveedor (asistente "Registrar pago" de Odoo). Sin amount paga el
+        saldo completo. journal_id = diario de banco/caja (búscalo en account.journal type in bank,cash). Fecha AAAA-MM-DD.
+        Requiere permisos de facturación en Odoo. Antes de llamar, muestra facturas, monto, fecha y banco y espera confirmación."""
+        o = _client()
+        ok = await _call("res.users", "has_group", ids=[o._uid], group_ext_id="account.group_account_invoice")
+        if ok is not True:
+            return {"error": "Tu usuario de Odoo no tiene permisos de facturación para registrar pagos"}
+        ctx = {"active_model": "account.move", "active_ids": invoice_ids}
+        vals: dict = {}
+        if amount is not None:
+            vals["amount"] = amount
+        if payment_date:
+            vals["payment_date"] = payment_date
+        if journal_id:
+            vals["journal_id"] = journal_id
+        if memo:
+            vals["communication"] = memo
+        wiz = await _call("account.payment.register", "create", vals_list=[vals], context=ctx)
+        if isinstance(wiz, dict):
+            return wiz
+        res = await _call("account.payment.register", "action_create_payments", ids=wiz, context=ctx)
+        if isinstance(res, dict) and "error" in res:
+            return res
+        return await _call("account.move", "read", ids=invoice_ids,
+                           fields=["name", "partner_id", "amount_total", "amount_residual", "payment_state"])
+
+    @mcp.tool()
+    async def odoo_attach_from_url(model: str, record_id: int, url: str, filename: str | None = None) -> Any:
+        """Descarga un archivo desde una URL pública o un link temporal (ej. link de descarga de Dropbox) y lo adjunta al
+        registro (PDF de factura, póliza, cotización, Excel…). Máx. 20 MB. Para imágenes de producto usa odoo_set_image_from_url."""
+        try:
+            data, ctype, name = await anyio.to_thread.run_sync(lambda: _download(url, 20_000_000))
+        except Exception as e:
+            return {"error": f"No se pudo descargar: {e}"}
+        att = await _call("ir.attachment", "create", vals_list=[{
+            "name": filename or name, "datas": base64.b64encode(data).decode(), "mimetype": ctype,
+            "res_model": model, "res_id": record_id}])
+        if isinstance(att, dict):
+            return att
+        return {"ok": True, "attachment_id": att[0], "nombre": filename or name, "kb": round(len(data) / 1024), "tipo": ctype}
+
     if IMAGE_MODELS:
         from mcp.server.fastmcp import Image as McpImage
 
@@ -403,26 +508,8 @@ if ALLOW_WRITE:
             el mismo modelo y color antes de dar por buena la carga. Usa preferentemente el sitio oficial de la marca."""
             if model not in IMAGE_MODELS:
                 return {"error": f"Solo se cargan imágenes en {', '.join(sorted(IMAGE_MODELS))}"}
-            if err := await anyio.to_thread.run_sync(_safe_url, url):
-                return {"error": err}
-
-            class _SafeRedirect(urllib.request.HTTPRedirectHandler):
-                def redirect_request(self, req, fp, code, msg, headers, newurl):
-                    if _safe_url(newurl):  # re-valida cada redirección
-                        raise ValueError("redirección a una URL no permitida")
-                    return super().redirect_request(req, fp, code, msg, headers, newurl)
-
-            def fetch() -> bytes:
-                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (VentasGuate image loader)"})
-                with urllib.request.build_opener(_SafeRedirect).open(req, timeout=20) as r:
-                    if not (r.headers.get("Content-Type") or "").startswith("image/"):
-                        raise ValueError(f"La URL no es una imagen ({r.headers.get('Content-Type')})")
-                    data = r.read(15_000_001)
-                    if len(data) > 15_000_000:
-                        raise ValueError("Imagen mayor a 15 MB")
-                    return data
             try:
-                raw = await anyio.to_thread.run_sync(fetch)
+                raw, _, _ = await anyio.to_thread.run_sync(lambda: _download(url, 15_000_000, require_image=True))
                 jpeg, thumb, orig = await anyio.to_thread.run_sync(_normalize_image, raw)
             except Exception as e:
                 return {"error": f"No se pudo usar la imagen: {e}"}

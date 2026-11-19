@@ -202,7 +202,8 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - Código: `mcp-server/` (server.py, deploy-cloudshell.sh). Producción: **https://odoo-mcp-vg-cauirfgxia-uc.a.run.app/mcp** (Google Cloud Run, proyecto `ventasguate-mcp`, us-central1). Desplegado y probado 16/16 el 2026-11-18. **Escritura solo en productos** (`MCP_WRITE_MODELS`: product.template, product.product, product.category, product.brand) + `odoo_set_image_from_url` (el servidor descarga y normaliza la imagen a 1200×1200, fondo blanco, <350 KB; bloquea URLs internas).
 - **Administradores de Odoo (Ajustes: Diego, Glenda, María Fernanda, Noduu): acceso completo desde el chat** (`MCP_ADMIN_FULL=1`, v4 2026-11-19): crear, editar, ejecutar acciones (`odoo_action`) y eliminar (`odoo_unlink`) en cualquier modelo, configuración incluida, siempre con confirmación previa en el chat. Demás usuarios: solo productos; acciones, borrado y modelos de seguridad bloqueados.
 - Productos: 1–10 por el chat; cargas masivas por Claude Code con el CLI (validación, respaldo, lotes de imágenes).
-- Cada usuario entra con su login + API key de Odoo (permisos de Odoo aplican). Actualizar: subir paquete a Cloud Shell y `bash deploy-cloudshell.sh`.
+- Cada usuario entra con su login + API key de Odoo (permisos de Odoo aplican).
+- **Publicación automática:** activador de Cloud Build `publicar-mcp` (us-central1, repo `Dsegurav203/Ventas-Guate`, rama `^main$`, filtro `mcp-server/**`, config `mcp-server/cloudbuild.yaml`). Flujo: cambio en rama → PR → Diego hace Merge → Cloud Build publica (~2 min) → verificar con `mcp-server/test_flow.py`. Primera corrida exitosa 2026-11-19. Cloud Shell + `deploy-cloudshell.sh` queda solo como respaldo manual.
 - Objetivo: reemplazar el MCP de terceros (5 usuarios, US$75–100/mes) tras piloto y Fase 2 de roles.
 
 ## Contexto de negocio (no reportar como anomalía)
