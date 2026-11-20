@@ -5,7 +5,7 @@ description: Encuentra productos muy vendidos en Odoo que no se venden en la tie
 
 # Catálogo faltante en la tienda
 
-Sigue `CLAUDE.md`. Referencia: `seo/top100/CATALOGO_FALTANTE.md`, `inactivos_shopify.json`, `reactivacion.json`.
+Sigue `ECOMMERCE_SEO.md` (importado en `CLAUDE.md`). Referencia: `seo/top100/CATALOGO_FALTANTE.md`, `inactivos_shopify.json`, `reactivacion.json`.
 
 ## 1. Cruce Odoo ↔ Shopify
 - Ventas 12 meses: `seo/top100/odoo_top_productos.py`.

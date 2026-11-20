@@ -5,7 +5,7 @@ description: Escribe y publica el texto, preguntas frecuentes, título y SEO de 
 
 # Colecciones SEO
 
-Sigue `CLAUDE.md`. Referencia completa del trabajo hecho: `seo/colecciones/` (`build_textos.py`, `textos_colecciones.json`, `APLICADO.md`, respaldo CSV).
+Sigue `ECOMMERCE_SEO.md` (importado en `CLAUDE.md`). Referencia completa del trabajo hecho: `seo/colecciones/` (`build_textos.py`, `textos_colecciones.json`, `APLICADO.md`, respaldo CSV).
 
 ## 1. Priorizar
 - Sesiones por página de entrada (ShopifyQL): `FROM sessions SHOW sessions, conversion_rate GROUP BY landing_page_path SINCE -90d UNTIL today ORDER BY sessions DESC LIMIT 400`.

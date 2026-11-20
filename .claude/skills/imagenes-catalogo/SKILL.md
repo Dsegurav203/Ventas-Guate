@@ -5,7 +5,7 @@ description: Busca la foto oficial de productos sin imagen, la normaliza, la car
 
 # Imágenes del catálogo
 
-Sigue `CLAUDE.md`. Referencia: `seo/imagenes/` (resultado LAUT, notas).
+Sigue `ECOMMERCE_SEO.md` (importado en `CLAUDE.md`). Referencia: `seo/imagenes/` (resultado LAUT, notas).
 
 ## 1. Detectar faltantes
 - Odoo: `product.template` activos de la marca con `image_128` vacío (leer `image_128`, nunca `image_1920` en búsquedas masivas).

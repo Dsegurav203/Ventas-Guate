@@ -5,7 +5,7 @@ description: Mide la velocidad móvil de ventasguate.gt (LCP, CLS, peso), encuen
 
 # Velocidad del tema
 
-Sigue `CLAUDE.md` (tema publicado, no forzar publicación). Referencia: `seo/tema/VELOCIDAD_2026-11-19.md`.
+Sigue `ECOMMERCE_SEO.md` (importado en `CLAUDE.md`) (tema publicado, no forzar publicación). Referencia: `seo/tema/VELOCIDAD_2026-11-19.md`.
 
 ## 1. Medir
 - PageSpeed Insights API (`/pagespeedonline/v5/runPagespeed?strategy=mobile`) si hay cuota.

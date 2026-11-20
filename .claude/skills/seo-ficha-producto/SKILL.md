@@ -5,7 +5,7 @@ description: Redacta y publica descripciones, título SEO y meta de productos de
 
 # Fichas de producto SEO
 
-Sigue las reglas de `CLAUDE.md` (aprobación, respaldo, sin precios, sin inventar).
+Sigue las reglas de `ECOMMERCE_SEO.md` (importado en `CLAUDE.md`) (aprobación, respaldo, sin precios, sin inventar).
 
 ## 1. Elegir productos
 - Por ventas: `python3 seo/top100/odoo_top_productos.py` (Odoo `sale.report`, 12 meses, incluye PdV) → mapea a Shopify por capa del conector y SKU.

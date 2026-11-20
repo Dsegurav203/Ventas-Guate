@@ -40,7 +40,7 @@ Sin la clave, Claude hace lo mismo por el conector, solo que más lento en lotes
 
 Nota: un conector configurado solo en tu computadora (`claude mcp add`) no funciona en Claude Code en la nube; tiene que estar conectado desde claude.ai.
 
-## 2. Reglas de oro (resumen de `CLAUDE.md`)
+## 2. Reglas de oro (resumen de `ECOMMERCE_SEO.md`, que `CLAUDE.md` importa)
 
 - Nada se escribe en Shopify u Odoo sin propuesta y "aprobado".
 - Siempre respaldo antes de cambiar; todo reversible.
