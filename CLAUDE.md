@@ -221,3 +221,8 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
    - Responsable: vendedor de la factura (Henry, Luis Guevara, Estuardo, Fernando, Luis Alfredo); si no es vendedor (Bodega Central, Auxiliar de bodega, Mayra, sin asignar) → **Glenda Ixcayau** (contabilidad).
    - Respuesta del vendedor al marcarla hecha: `COMPROMISO: AAAA-MM-DD Q monto` · `DISPUTA: motivo` · `SIN CONTACTO` · `PAGADO`.
 - Módulo `account_followup` instalado con 5 niveles (−3, 1, 5, 15, 30 días) pero casi no genera actividades: revisar antes de depender de él. Sus correos son al cliente; las tareas de cobranza semanal son internas.
+
+## Ecommerce y SEO (ventasguate.gt)
+Reglas, datos oficiales del negocio, plantillas de contenido y sincronización Shopify ↔ Odoo del ecommerce (responsable: Luis Hernández):
+
+@ECOMMERCE_SEO.md
