@@ -14,3 +14,9 @@
   - A2 (102): en_US tiene otro texto → solo capitalizar es_GT; en_US no cambia.
   - B (1,131): ambos idiomas en mayúsculas → capitalizar los dos por reglas (marcas, siglas, iPhone, MagSafe, mAh…).
 - Solo cambian mayúsculas y espacios: 0 cambios de texto en A2 y B.
+
+## 2026-11-20 · MAYÚSCULAS + ortografía (aplicado, aprobado por Diego)
+- 3,553 escrituras (en_US y es_GT) en 2,373 productos activos, 0 errores. Quedan 0 nombres en MAYÚSCULAS y 0 con "L-" en ambos idiomas.
+- Ortografía y tildes con `ortografia.py`: 159 nombres en es_GT y 156 en en_US (Aple→Apple, Bluethooth→Bluetooth, Garga→Carga, Prodigeee→Prodigee, Lamina→Lámina, Inalambrico→Inalámbrico, etc.).
+- Valores finales en `final_mayusculas_ortografia.csv`; valores anteriores en `mayusculas_actual.json` y en `propuesta_mayusculas.csv` (columnas actual_*).
+- Fuera de alcance: 1 producto "ERROR - SKULLCANDY…" (id 7489, el nombre indica error de captura). Shopify no se tocó.

@@ -1,0 +1,6 @@
+{"fecha":"2026-11-20","motivo":"Apple Watch Series 11 46mm sin inventario en Odoo (productos 12202 y 12203 con 0) y visible en Reservas iPhone",
+ "productos":[
+  {"id":"gid://shopify/Product/9433695092949","titulo":"Apple Watch Series 11 46mm Jet Black","handle":"apple-watch-series-11","status":"ACTIVE","precio":"3999.00","sku":null,
+   "inventoryItem":"gid://shopify/InventoryItem/56256906363093","location":"gid://shopify/Location/84277264597","on_hand":2,"tag_quitado":"Reserva","colecciones":["Reservas iPhone (smart, tag Reserva)","Promociones","Smartwatch","Precio Regular"]},
+  {"id":"gid://shopify/Product/15480769183957","titulo":"Apple Watch Series 11 Jet Black 46mm SDL9TC63GR7","sku":"195950462708","publicado_tienda":false,
+   "inventoryItem":"gid://shopify/InventoryItem/70036347683029","location":"gid://shopify/Location/84277264597","on_hand":1}]}
