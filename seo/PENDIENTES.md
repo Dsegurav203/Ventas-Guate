@@ -5,7 +5,7 @@
 - 564 capas del conector sin "L-" (`seo/handoff/capas_L/`).
 
 ## Nuestros (Diego + Claude)
-1. Fotos de 3 productos ocultos con stock: LOGiiX Air Guard Classic iPhone 17 (38 u., fuente logiix.ca), LOGiiX Vibrance Neo Bundle Blush (1 u.), Apple Watch Serie 12 42mm Negro (3 u.) → luego reactivar. Habilidad `/imagenes-catalogo`.
+1. ~~Fotos LOGiiX Air Guard 17 y Neo Bundle Blush~~ (hecho 20/11). Falta: Apple Watch Serie 12 42mm Negro (3 u.), sin fuente oficial accesible.
 2. Fichas de Prodigee Orbit 360, Geo y Torte (iPhone 18/17 Pro Max): prodigee.com bloqueado desde la nube; intentar con el agente web-fetch o pedir ficha al proveedor.
 3. Revisar 192 productos de Odoo sin coincidencia en Shopify y 8 de liquidación (`seo/handoff/odoo_sync_resultado_final.csv`).
 4. Galaxy Week: quitar aviso de liquidación en 5 fundas cuando termine.

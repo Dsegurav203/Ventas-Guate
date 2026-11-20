@@ -1,2 +1,3 @@
 - Nombres corregidos en Odoo (19/11): 13899 Huex Folio → iPad Air 11" (2024-2025); 13888/13887 Links Arctic/March → 42/41/40mm.
 - Shopify (19/11): 8 LAUT con foto subida desde Odoo (READY): Huex MacBook, Huex Protect AirPods Pro3/4, Luxedge 17 Pro x2, Zentry AirPods 4, Typefolio 2.0 iPad 11 y Pro 11 (misma foto en ambos, revisar).
+- 20/11: LOGiiX Air Guard Classic iPhone 17 y Vibrance Neo Bundle Blush: foto oficial subida a Shopify, reactivados y publicados.
