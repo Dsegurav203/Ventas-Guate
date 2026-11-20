@@ -53,6 +53,7 @@ Cierre estándar de descripciones: `Producto original con 1 año de garantía. E
 - Capa del conector: `shopify.product.template.ept` (`name`, `shopify_tmpl_id`, `product_tmpl_id`). Al cambiar un título: escribir `name` en la capa **y** en `product.template`. Script de referencia: `seo/top100/odoo_titulos_fase1.py`.
 - Productos sin capa: emparejar por SKU (`product.product.default_code`).
 - Inventario hacia Shopify: bodegas **BD3, TVGDC y OFI BODEGA 13** (`shopify.location.ept` id 1). APW queda fuera a propósito.
+- Reservas (colección `reservas`, etiqueta `Reserva`): las fichas "Reserva iPhone …" llevan inventario manual sin SKU a propósito para permitir reservar; no ponerlas en 0. Cualquier otro producto con etiqueta `Reserva` y sin stock en Odoo se saca de la colección.
 - Liquidación: etiqueta de producto "Liquidación" (product.tag id 1) + categoría PdV "Liquidación" (pos.category id 10) en Odoo; etiqueta `liquidacion` en Shopify.
 - Consultas y cambios puntuales en Odoo: usar el CLI `./odoo` (ver `CLAUDE.md` y `odoo-cli/README.md`). Scripts masivos de catálogo en `seo/`: JSON-RPC con `urllib` vía `scripts/odoo_rpc.py` (en la nube: CA `/root/.ccr/ca-bundle.crt`; `xmlrpc` no respeta el proxy).
 
