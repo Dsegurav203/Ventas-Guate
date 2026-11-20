@@ -1,0 +1,1277 @@
+[
+ {
+  "id": 8285,
+  "product_tmpl_id": [
+   8348,
+   "[8020252167285] Tucano Neoprene Desk Pad Blue"
+  ],
+  "name": "Tucano Neoprene Desk Pad Blue",
+  "default_code": "8020252167285",
+  "barcode": "8020252167285",
+  "qty_available": 12.0,
+  "list_price": 249.0,
+  "standard_price": 106.4,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8284,
+  "product_tmpl_id": [
+   8347,
+   "[8020252167308] Tucano Neoprene Desk Pad Pink"
+  ],
+  "name": "Tucano Neoprene Desk Pad Pink",
+  "default_code": "8020252167308",
+  "barcode": false,
+  "qty_available": 14.0,
+  "list_price": 249.0,
+  "standard_price": 106.4,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11031,
+  "product_tmpl_id": [
+   11090,
+   "[8020252184848] Tucano Gommo City Backpack Azul"
+  ],
+  "name": "Tucano Gommo City Backpack Azul",
+  "default_code": "8020252184848",
+  "barcode": "BKGOM15-B",
+  "qty_available": 30.0,
+  "list_price": 699.0,
+  "standard_price": 217.27999999999997,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11089,
+  "product_tmpl_id": [
+   11149,
+   "[8020252184862] Tucano Gommo City Backpack Gris"
+  ],
+  "name": "Tucano Gommo City Backpack Gris",
+  "default_code": "8020252184862",
+  "barcode": "BKGOM15-G",
+  "qty_available": 21.0,
+  "list_price": 699.0,
+  "standard_price": 221.55,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11091,
+  "product_tmpl_id": [
+   11151,
+   "[8020252185142] Tucano Gommo Shopper Bag Azul"
+  ],
+  "name": "Tucano Gommo Shopper Bag Azul",
+  "default_code": "8020252185142",
+  "barcode": "BGOMSH-B",
+  "qty_available": 15.0,
+  "list_price": 549.0,
+  "standard_price": 171.2,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 12480,
+  "product_tmpl_id": [
+   12540,
+   "[8020252185449] Tucano Gommo Shoulder Bag Grey"
+  ],
+  "name": "Tucano Gommo Shoulder Bag Grey",
+  "default_code": "8020252185449",
+  "barcode": "BGOMSB-G",
+  "qty_available": 36.0,
+  "list_price": 249.0,
+  "standard_price": 103.06,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11030,
+  "product_tmpl_id": [
+   11089,
+   "[8020252186798] Tucano Gommo City Backpack Black"
+  ],
+  "name": "Tucano Gommo City Backpack Black",
+  "default_code": "8020252186798",
+  "barcode": "BKGOM15-BK",
+  "qty_available": 25.0,
+  "list_price": 699.0,
+  "standard_price": 231.68,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11090,
+  "product_tmpl_id": [
+   11150,
+   "[8020252186859] Tucano Gommo Shopper Bag Negro"
+  ],
+  "name": "Tucano Gommo Shopper Bag Negro",
+  "default_code": "8020252186859",
+  "barcode": "BGOMSH-BK",
+  "qty_available": 12.0,
+  "list_price": 549.0,
+  "standard_price": 171.19999999999996,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 12478,
+  "product_tmpl_id": [
+   12538,
+   "[8020252194595] Tucano Briefcase Modo Premium Black"
+  ],
+  "name": "Tucano Briefcase Modo Premium Black",
+  "default_code": "8020252194595",
+  "barcode": false,
+  "qty_available": 15.0,
+  "list_price": 1499.0,
+  "standard_price": 488.1499999999999,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 12479,
+  "product_tmpl_id": [
+   12539,
+   "[8020252194908] Tucano Isotta Superslim Bag 13\"/14\" Purple"
+  ],
+  "name": "Tucano Isotta Superslim Bag 13\"/14\" Purple",
+  "default_code": "8020252194908",
+  "barcode": false,
+  "qty_available": 22.0,
+  "list_price": 499.0,
+  "standard_price": 151.89,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 11093,
+  "product_tmpl_id": [
+   11153,
+   "[8020252194960] Tucano Isotta Superslim Bag 13-14 Pulgadas Rosado"
+  ],
+  "name": "Tucano Isotta Superslim Bag 13-14 Pulgadas Rosado",
+  "default_code": "8020252194960",
+  "barcode": "BSISO1314-PK",
+  "qty_available": 15.0,
+  "list_price": 499.0,
+  "standard_price": 146.23864874551967,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11094,
+  "product_tmpl_id": [
+   11154,
+   "[8020252194991] Tucano Isotta Superslim Bag 16 Pulgadas Negro"
+  ],
+  "name": "Tucano Isotta Superslim Bag 16 Pulgadas Negro",
+  "default_code": "8020252194991",
+  "barcode": "BSISO1516-BK",
+  "qty_available": 49.0,
+  "list_price": 599.0,
+  "standard_price": 146.4939583333333,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11099,
+  "product_tmpl_id": [
+   11159,
+   "[8020252195080] Tucano Gommo Sleeve 13\"/14\" GRIS"
+  ],
+  "name": "Tucano Gommo Sleeve 13\"/14\" GRIS",
+  "default_code": "8020252195080",
+  "barcode": "BFGOM1314-G",
+  "qty_available": 1.0,
+  "list_price": 299.0,
+  "standard_price": 86.82,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11034,
+  "product_tmpl_id": [
+   11093,
+   "[8020252195202] Tucano Gommo Sleeve 16 Pulgadas Negro"
+  ],
+  "name": "Tucano Gommo Sleeve 16 Pulgadas Negro",
+  "default_code": "8020252195202",
+  "barcode": "BFGOM1516-BK",
+  "qty_available": 72.0,
+  "list_price": 299.0,
+  "standard_price": 85.28,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11037,
+  "product_tmpl_id": [
+   11096,
+   "[8020252195233] Tucano Gommo slim 13\"/14\" Gris"
+  ],
+  "name": "Tucano Gommo slim 13\"/14\" Gris",
+  "default_code": "8020252195233",
+  "barcode": "BSGOM1314-G",
+  "qty_available": 8.0,
+  "list_price": 399.0,
+  "standard_price": 120.07725,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11038,
+  "product_tmpl_id": [
+   11097,
+   "[8020252195295] Tucano Gommo borsa superslim 16 Pulgadas Negro"
+  ],
+  "name": "Tucano Gommo borsa superslim 16 Pulgadas Negro",
+  "default_code": "8020252195295",
+  "barcode": "BSGOM1516-BK",
+  "qty_available": 1.0,
+  "list_price": 399.0,
+  "standard_price": 117.90027573529419,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11036,
+  "product_tmpl_id": [
+   11095,
+   "[8020252197848] Tucano Gommo borsa superslim 13\"/14\" Negro"
+  ],
+  "name": "Tucano Gommo borsa superslim 13\"/14\" Negro",
+  "default_code": "8020252197848",
+  "barcode": "BSGOM1314-BK",
+  "qty_available": 0.0,
+  "list_price": 399.0,
+  "standard_price": 120.07761666666669,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11039,
+  "product_tmpl_id": [
+   11098,
+   "[8020252197909] Tucano Gommo borsa superslim 16 Pulgadas Gris"
+  ],
+  "name": "Tucano Gommo borsa superslim 16 Pulgadas Gris",
+  "default_code": "8020252197909",
+  "barcode": "BSGOM1516-G",
+  "qty_available": 44.0,
+  "list_price": 399.0,
+  "standard_price": 118.09,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11092,
+  "product_tmpl_id": [
+   11152,
+   "[8020252197930] Tucano Isotta Superslim Bag 13-14 Pulgadas Negro"
+  ],
+  "name": "Tucano Isotta Superslim Bag 13-14 Pulgadas Negro",
+  "default_code": "8020252197930",
+  "barcode": "BSISO1314-BK",
+  "qty_available": 28.0,
+  "list_price": 499.0,
+  "standard_price": 145.32,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11095,
+  "product_tmpl_id": [
+   11155,
+   "[8020252197992] Tucano Isotta Superslim Bag 16 Pulgadas Rosado"
+  ],
+  "name": "Tucano Isotta Superslim Bag 16 Pulgadas Rosado",
+  "default_code": "8020252197992",
+  "barcode": "BSISO1516-PK",
+  "qty_available": 31.0,
+  "list_price": 599.0,
+  "standard_price": 146.36090439276484,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11032,
+  "product_tmpl_id": [
+   11091,
+   "[8020252198326] Tucano Gommo Sleeve 13/14 Pulgadas Negro"
+  ],
+  "name": "Tucano Gommo Sleeve 13/14 Pulgadas Negro",
+  "default_code": "8020252198326",
+  "barcode": "BFGOM1314-BK",
+  "qty_available": 43.0,
+  "list_price": 299.0,
+  "standard_price": 83.59066666666666,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11035,
+  "product_tmpl_id": [
+   11094,
+   "[8020252198388] Tucano Gommo Sleeve 16 Pulgadas Gris"
+  ],
+  "name": "Tucano Gommo Sleeve 16 Pulgadas Gris",
+  "default_code": "8020252198388",
+  "barcode": "BFGOM1516-G",
+  "qty_available": 47.0,
+  "list_price": 299.0,
+  "standard_price": 85.45,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 12477,
+  "product_tmpl_id": [
+   12537,
+   "[8020252203563] Tucano Gommo Roll-Top Backpack 15.6\" Black"
+  ],
+  "name": "Tucano Gommo Roll-Top Backpack 15.6\" Black",
+  "default_code": "8020252203563",
+  "barcode": "BKGOMRT15-BK",
+  "qty_available": 8.0,
+  "list_price": 599.0,
+  "standard_price": 234.95208333333335,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 14068,
+  "product_tmpl_id": [
+   14145,
+   "[8020252237742] Tucano MacBook Neo 13\" Blue"
+  ],
+  "name": "Tucano MacBook Neo 13\" Blue",
+  "default_code": "8020252237742",
+  "barcode": "BFONEMBN13-B",
+  "qty_available": 0.0,
+  "list_price": 309.0,
+  "standard_price": 120.08,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8807,
+  "product_tmpl_id": [
+   8881,
+   "[844668023106] Tucano Tugo M Cabin Luggage 15.6\" PC Black"
+  ],
+  "name": "Tucano Tugo M Cabin Luggage 15.6\" PC Black",
+  "default_code": "844668023106",
+  "barcode": "BKTUG-M-BK",
+  "qty_available": 0.0,
+  "list_price": 699.0,
+  "standard_price": 346.48,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1839,
+  "product_tmpl_id": [
+   1902,
+   "[844668051758] Tucano Vento Case Universal para Tablet 11 Pulgadas Negro"
+  ],
+  "name": "Tucano Vento Case Universal para Tablet 11 Pulgadas Negro",
+  "default_code": "844668051758",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 299.0,
+  "standard_price": 102.28,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1840,
+  "product_tmpl_id": [
+   1903,
+   "[844668051772] Tucano Vento Case Universal para Tablet 9 a 10 Pulgadas Azul"
+  ],
+  "name": "Tucano Vento Case Universal para Tablet 9 a 10 Pulgadas Azul",
+  "default_code": "844668051772",
+  "barcode": "TAB-VT910-B",
+  "qty_available": 6.0,
+  "list_price": 299.0,
+  "standard_price": 96.67,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1831,
+  "product_tmpl_id": [
+   1894,
+   "[844668068961] Tucano Facile Plus Universal para Tablet 11 Pulgadas Negro"
+  ],
+  "name": "Tucano Facile Plus Universal para Tablet 11 Pulgadas Negro",
+  "default_code": "844668068961",
+  "barcode": "TAB-FAP10-BK",
+  "qty_available": 0.0,
+  "list_price": 299.0,
+  "standard_price": 96.3,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1832,
+  "product_tmpl_id": [
+   1895,
+   "[844668068985] Tucano Facile Plus Universal para Tablet 11 Pulgadas Rojo"
+  ],
+  "name": "Tucano Facile Plus Universal para Tablet 11 Pulgadas Rojo",
+  "default_code": "844668068985",
+  "barcode": "TAB-FAP10-R",
+  "qty_available": 9.0,
+  "list_price": 299.0,
+  "standard_price": 102.95,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 10789,
+  "product_tmpl_id": [
+   10878,
+   "[844668069005] Tucano Facile Plus Universal para Tablet 11 Pulgadas Azul"
+  ],
+  "name": "Tucano Facile Plus Universal para Tablet 11 Pulgadas Azul",
+  "default_code": "844668069005",
+  "barcode": "TABFAP10Z",
+  "qty_available": 0.0,
+  "list_price": 299.0,
+  "standard_price": 118.83,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 14063,
+  "product_tmpl_id": [
+   14140,
+   "[844668070544] Tucano Sleeve MacBook Air/Pro 13\" Aqua"
+  ],
+  "name": "Tucano Sleeve MacBook Air/Pro 13\" Aqua",
+  "default_code": "844668070544",
+  "barcode": "8020252081109",
+  "qty_available": 0.0,
+  "list_price": 1.0,
+  "standard_price": 83.59,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 8265,
+  "product_tmpl_id": [
+   8328,
+   "[844668076621] Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Azul"
+  ],
+  "name": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Azul",
+  "default_code": "844668076621",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 299.0,
+  "standard_price": 157.04,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8266,
+  "product_tmpl_id": [
+   8329,
+   "[844668076645] Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Negra"
+  ],
+  "name": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Negra",
+  "default_code": "844668076645",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 299.0,
+  "standard_price": 157.04,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 14065,
+  "product_tmpl_id": [
+   14142,
+   "[844668076690] Tucano Super Slim Bag Smilza MacBook & Laptop 14\" Red"
+  ],
+  "name": "Tucano Super Slim Bag Smilza MacBook & Laptop 14\" Red",
+  "default_code": "844668076690",
+  "barcode": "8020252092150",
+  "qty_available": 0.0,
+  "list_price": 1.0,
+  "standard_price": 120.07,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 10255,
+  "product_tmpl_id": [
+   10418,
+   "[844668096056] Tucano Gancio Case W/Keyboard Universal 11\" Azul"
+  ],
+  "name": "Tucano Gancio Case W/Keyboard Universal 11\" Azul",
+  "default_code": "844668096056",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 595.0,
+  "standard_price": 193.25,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1837,
+  "product_tmpl_id": [
+   1900,
+   "[844668096278] Tucano Scrivo Teclado Bluetooth con Stand Azul"
+  ],
+  "name": "Tucano Scrivo Teclado Bluetooth con Stand Azul",
+  "default_code": "844668096278",
+  "barcode": false,
+  "qty_available": 1.0,
+  "list_price": 599.0,
+  "standard_price": 176.33,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 9296,
+  "product_tmpl_id": [
+   9383,
+   "[844668102900] Tucano Funda iPad 10.2 / 10.5 Rosado"
+  ],
+  "name": "Tucano Funda iPad 10.2 / 10.5 Rosado",
+  "default_code": "844668102900",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 349.0,
+  "standard_price": 131.9,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8053,
+  "product_tmpl_id": [
+   8116,
+   "[844668105901] Tucano Let Me Out Foldable Backpack Negro"
+  ],
+  "name": "Tucano Let Me Out Foldable Backpack Negro",
+  "default_code": "844668105901",
+  "barcode": "BLMO-BK",
+  "qty_available": 14.0,
+  "list_price": 499.0,
+  "standard_price": 237.65,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8051,
+  "product_tmpl_id": [
+   8114,
+   "[844668105925] Tucano Let Me Out Foldable Backpack Azul"
+  ],
+  "name": "Tucano Let Me Out Foldable Backpack Azul",
+  "default_code": "844668105925",
+  "barcode": "BKLMO-B",
+  "qty_available": 3.0,
+  "list_price": 499.0,
+  "standard_price": 233.01,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8480,
+  "product_tmpl_id": [
+   8543,
+   "[844668105963] Tucano Let Me Out Backpack Black"
+  ],
+  "name": "Tucano Let Me Out Backpack Black",
+  "default_code": "844668105963",
+  "barcode": "BLMOSH-BK",
+  "qty_available": 35.0,
+  "list_price": 499.0,
+  "standard_price": 224.99,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8856,
+  "product_tmpl_id": [
+   8931,
+   "[844668105987] Tucano Let Me Out Shopper Bag Blue"
+  ],
+  "name": "Tucano Let Me Out Shopper Bag Blue",
+  "default_code": "844668105987",
+  "barcode": "BLMOSH-B",
+  "qty_available": 4.0,
+  "list_price": 499.0,
+  "standard_price": 227.13999999999996,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 8054,
+  "product_tmpl_id": [
+   8117,
+   "[844668106021] Tucano Let Me Out Foldable Duffle Negro"
+  ],
+  "name": "Tucano Let Me Out Foldable Duffle Negro",
+  "default_code": "844668106021",
+  "barcode": "BLMOWE-BK",
+  "qty_available": 5.0,
+  "list_price": 729.0,
+  "standard_price": 342.71,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8850,
+  "product_tmpl_id": [
+   8925,
+   "[844668106045] Tucano Let Me Out Weekender Bag Blue"
+  ],
+  "name": "Tucano Let Me Out Weekender Bag Blue",
+  "default_code": "844668106045",
+  "barcode": "BLMOWE-B",
+  "qty_available": 1.0,
+  "list_price": 699.0,
+  "standard_price": 342.63,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8049,
+  "product_tmpl_id": [
+   8112,
+   "[844668106083] Tucano Let Me Out Foldable Saddle Bag Negro"
+  ],
+  "name": "Tucano Let Me Out Foldable Saddle Bag Negro",
+  "default_code": "844668106083",
+  "barcode": false,
+  "qty_available": 7.0,
+  "list_price": 649.0,
+  "standard_price": 305.68,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8052,
+  "product_tmpl_id": [
+   8115,
+   "[844668106267] Tucano Let Me Out Foldable Crossbody Negro"
+  ],
+  "name": "Tucano Let Me Out Foldable Crossbody Negro",
+  "default_code": "844668106267",
+  "barcode": "BLMOCB-BK",
+  "qty_available": 23.0,
+  "list_price": 449.0,
+  "standard_price": 190.66,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8050,
+  "product_tmpl_id": [
+   8113,
+   "[844668106281] Tucano Let Me Out Foldable Crossbody Azul"
+  ],
+  "name": "Tucano Let Me Out Foldable Crossbody Azul",
+  "default_code": "844668106281",
+  "barcode": "BLMOCB-B",
+  "qty_available": 25.0,
+  "list_price": 449.0,
+  "standard_price": 192.51,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 8048,
+  "product_tmpl_id": [
+   8111,
+   "[844668106656] Tucano Let Me Out Foldable Duffle Verde"
+  ],
+  "name": "Tucano Let Me Out Foldable Duffle Verde",
+  "default_code": "844668106656",
+  "barcode": "BLMOWE-VM",
+  "qty_available": 0.0,
+  "list_price": 729.0,
+  "standard_price": 343.98,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8047,
+  "product_tmpl_id": [
+   8110,
+   "[844668106731] Tucano Let Me Out Foldable Crossbody Verde"
+  ],
+  "name": "Tucano Let Me Out Foldable Crossbody Verde",
+  "default_code": "844668106731",
+  "barcode": "BLMOCB-VM",
+  "qty_available": 1.0,
+  "list_price": 359.0,
+  "standard_price": 172.23,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 10940,
+  "product_tmpl_id": [
+   10999,
+   "[844668111186] Tucano Tasto iPad 10.9\" a 11\" Black"
+  ],
+  "name": "Tucano Tasto iPad 10.9\" a 11\" Black",
+  "default_code": "844668111186",
+  "barcode": "IPD109TAS-US-BK",
+  "qty_available": 20.0,
+  "list_price": 999.0,
+  "standard_price": 343.68,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8287,
+  "product_tmpl_id": [
+   8350,
+   "[844668114002] Tucano Mini Support Stand"
+  ],
+  "name": "Tucano Mini Support Stand",
+  "default_code": "844668114002",
+  "barcode": false,
+  "qty_available": 11.0,
+  "list_price": 199.0,
+  "standard_price": 88.93,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1834,
+  "product_tmpl_id": [
+   1897,
+   "[844668115139] Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Negro"
+  ],
+  "name": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Negro",
+  "default_code": "844668115139",
+  "barcode": "TAB-UNIS105-BK",
+  "qty_available": 0.0,
+  "list_price": 399.0,
+  "standard_price": 164.82,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1835,
+  "product_tmpl_id": [
+   1898,
+   "[844668115153] Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Verde"
+  ],
+  "name": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Verde",
+  "default_code": "844668115153",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 399.0,
+  "standard_price": 164.82,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1836,
+  "product_tmpl_id": [
+   1899,
+   "[844668115177] Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Amarillo"
+  ],
+  "name": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Amarillo",
+  "default_code": "844668115177",
+  "barcode": "TAB-UNIS105-Y",
+  "qty_available": 0.0,
+  "list_price": 399.0,
+  "standard_price": 164.82,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8286,
+  "product_tmpl_id": [
+   8349,
+   "[844668115979] Tucano Ergonomic Lumbar Cushion"
+  ],
+  "name": "Tucano Ergonomic Lumbar Cushion",
+  "default_code": "844668115979",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 449.0,
+  "standard_price": 226.05,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8803,
+  "product_tmpl_id": [
+   8877,
+   "[844668116693] Tucano Goal Backpack 15.6 Brown"
+  ],
+  "name": "Tucano Goal Backpack 15.6 Brown",
+  "default_code": "844668116693",
+  "barcode": "BKGOAL-CP",
+  "qty_available": 0.0,
+  "list_price": 649.0,
+  "standard_price": 307.98,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8481,
+  "product_tmpl_id": [
+   8544,
+   "[844668116891] Tucano Binario Backpack 15.6l Anthracite Negro"
+  ],
+  "name": "Tucano Binario Backpack 15.6l Anthracite Negro",
+  "default_code": "844668116891",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 999.0,
+  "standard_price": 450.27,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 8804,
+  "product_tmpl_id": [
+   8878,
+   "[844668116952] Tucano Goal Backpack 15.6 Gray"
+  ],
+  "name": "Tucano Goal Backpack 15.6 Gray",
+  "default_code": "844668116952",
+  "barcode": "BKGOAL-G",
+  "qty_available": 0.0,
+  "list_price": 649.0,
+  "standard_price": 307.98,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 14066,
+  "product_tmpl_id": [
+   14143,
+   "[844668118925] Tucano Sleeve MacBook Pro 14\" Green"
+  ],
+  "name": "Tucano Sleeve MacBook Pro 14\" Green",
+  "default_code": "844668118925",
+  "barcode": "8020252177314",
+  "qty_available": 0.0,
+  "list_price": 1.0,
+  "standard_price": 93.62,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 8509,
+  "product_tmpl_id": [
+   8572,
+   "[844668119342] Tucano Binario Backpack 15.6\" W/Ags Blue"
+  ],
+  "name": "Tucano Binario Backpack 15.6\" W/Ags Blue",
+  "default_code": "844668119342",
+  "barcode": "8020252178120",
+  "qty_available": 0.0,
+  "list_price": 999.0,
+  "standard_price": 455.19,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8482,
+  "product_tmpl_id": [
+   8545,
+   "[844668119601] Tucano Workout 4 Mochila para Computador 14 Pulgadas Azul"
+  ],
+  "name": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Azul",
+  "default_code": "844668119601",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 679.0,
+  "standard_price": 279.24,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8612,
+  "product_tmpl_id": [
+   8678,
+   "[844668121192] Tucano Active Pencil Stylus"
+  ],
+  "name": "Tucano Active Pencil Stylus",
+  "default_code": "844668121192",
+  "barcode": false,
+  "qty_available": 1.0,
+  "list_price": 599.0,
+  "standard_price": 262.59,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8845,
+  "product_tmpl_id": [
+   8920,
+   "[844668124025] Tucano Alunno iPad Case 10TH Black"
+  ],
+  "name": "Tucano Alunno iPad Case 10TH Black",
+  "default_code": "844668124025",
+  "barcode": "IPD1022AL-BK",
+  "qty_available": 0.0,
+  "list_price": 499.0,
+  "standard_price": 115.44,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8846,
+  "product_tmpl_id": [
+   8921,
+   "[844668124049] Tucano Alunno iPad 10TH Gener Sky Blue"
+  ],
+  "name": "Tucano Alunno iPad 10TH Gener Sky Blue",
+  "default_code": "844668124049",
+  "barcode": "IPD1022AL-Z",
+  "qty_available": 20.0,
+  "list_price": 449.0,
+  "standard_price": 135.53,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 13787,
+  "product_tmpl_id": [
+   13864,
+   "[844668124063] Tucano Alunno para iPad 10MA Generación Amarillo"
+  ],
+  "name": "Tucano Alunno para iPad 10MA Generación Amarillo",
+  "default_code": "844668124063",
+  "barcode": false,
+  "qty_available": 1.0,
+  "list_price": 149.0,
+  "standard_price": 0.008928571428571428,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 10939,
+  "product_tmpl_id": [
+   10998,
+   "[844668125046] Tucano Tasto iPad 10TH Black"
+  ],
+  "name": "Tucano Tasto iPad 10TH Black",
+  "default_code": "844668125046",
+  "barcode": "IPD1022TAC-TK-US-BK",
+  "qty_available": 6.0,
+  "list_price": 999.0,
+  "standard_price": 343.68,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 10941,
+  "product_tmpl_id": [
+   11000,
+   "[844668126562] Tucano Travel Adapter Gan 65W Blanco"
+  ],
+  "name": "Tucano Travel Adapter Gan 65W Blanco",
+  "default_code": "844668126562",
+  "barcode": "MA-TAGAN65-W",
+  "qty_available": 15.0,
+  "list_price": 699.0,
+  "standard_price": 179.55,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 10942,
+  "product_tmpl_id": [
+   11001,
+   "[844668126586] Tucano Travel Adapter Gan 100W Blanco"
+  ],
+  "name": "Tucano Travel Adapter Gan 100W Blanco",
+  "default_code": "844668126586",
+  "barcode": "MA-TAGAN100-W",
+  "qty_available": 23.0,
+  "list_price": 899.0,
+  "standard_price": 299.5,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8609,
+  "product_tmpl_id": [
+   8675,
+   "[844668127101] Tucano Scrivo Keyboard Spanish Blue"
+  ],
+  "name": "Tucano Scrivo Keyboard Spanish Blue",
+  "default_code": "844668127101",
+  "barcode": "TAB-SC10-ES-B",
+  "qty_available": 31.0,
+  "list_price": 349.0,
+  "standard_price": 138.33,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 10953,
+  "product_tmpl_id": [
+   11012,
+   "[844668127163] Tucano Mouse Inalámbrico Negro"
+  ],
+  "name": "Tucano Mouse Inalámbrico Negro",
+  "default_code": "844668127163",
+  "barcode": "MA-WM-BK",
+  "qty_available": 0.0,
+  "list_price": 79.0,
+  "standard_price": 21.67,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 10952,
+  "product_tmpl_id": [
+   11011,
+   "[844668127187] Tucano Mouse Inalámbrico con Boton de Privacidad Negro"
+  ],
+  "name": "Tucano Mouse Inalámbrico con Boton de Privacidad Negro",
+  "default_code": "844668127187",
+  "barcode": "MA-BDM-BK",
+  "qty_available": 1.0,
+  "list_price": 99.0,
+  "standard_price": 30.42,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11096,
+  "product_tmpl_id": [
+   11156,
+   "[844668129815] Tucano Modo Premium Backpack 16 Pulgadas Negro"
+  ],
+  "name": "Tucano Modo Premium Backpack 16 Pulgadas Negro",
+  "default_code": "844668129815",
+  "barcode": "BMDOKP-BK",
+  "qty_available": 18.0,
+  "list_price": 1499.0,
+  "standard_price": 462.91208695652165,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 12855,
+  "product_tmpl_id": [
+   12915,
+   "[844668129853] Tucano Modo Premium Backpack 14\" Black"
+  ],
+  "name": "Tucano Modo Premium Backpack 14\" Black",
+  "default_code": "844668129853",
+  "barcode": "BMDOKSP-BK",
+  "qty_available": 10.0,
+  "list_price": 1499.0,
+  "standard_price": 416.425294117647,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 14064,
+  "product_tmpl_id": [
+   14141,
+   "[844668130385] Tucano Gommo Slim Bag 16\" Black"
+  ],
+  "name": "Tucano Gommo Slim Bag 16\" Black",
+  "default_code": "844668130385",
+  "barcode": "8020252195295",
+  "qty_available": 0.0,
+  "list_price": 1.0,
+  "standard_price": 0.0,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 11386,
+  "product_tmpl_id": [
+   11457,
+   "[844668132051] Tucano Soft Troelly Mochila Negra"
+  ],
+  "name": "Tucano Soft Troelly Mochila Negra",
+  "default_code": "844668132051",
+  "barcode": "BTRGOM-S-B",
+  "qty_available": 0.0,
+  "list_price": 299.0,
+  "standard_price": 101.41,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 10954,
+  "product_tmpl_id": [
+   11013,
+   "[844668133591] Tucano Mouse Inalámbrico Ergonómico Negro"
+  ],
+  "name": "Tucano Mouse Inalámbrico Ergonómico Negro",
+  "default_code": "844668133591",
+  "barcode": "MA-WMV-BK",
+  "qty_available": 0.0,
+  "list_price": 149.0,
+  "standard_price": 54.25,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 11387,
+  "product_tmpl_id": [
+   11458,
+   "[844668134871] Tucano Gommo Backpack Rolltop Blue"
+  ],
+  "name": "Tucano Gommo Backpack Rolltop Blue",
+  "default_code": "844668134871",
+  "barcode": "BKGOMRT15-B",
+  "qty_available": 41.0,
+  "list_price": 599.0,
+  "standard_price": 240.7,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 10955,
+  "product_tmpl_id": [
+   11014,
+   "[844668135793] Tucano Active Pencil2 para iPad Blanco"
+  ],
+  "name": "Tucano Active Pencil2 para iPad Blanco",
+  "default_code": "844668135793",
+  "barcode": "MA-STY2-W",
+  "qty_available": 0.0,
+  "list_price": 399.0,
+  "standard_price": 130.01,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8855,
+  "product_tmpl_id": [
+   8930,
+   "[L844668067377] Tucano Top Sleeve Mbp 13\" Petroleum Blue"
+  ],
+  "name": "Tucano Top Sleeve Mbp 13\" Petroleum Blue",
+  "default_code": "L844668067377",
+  "barcode": "BFTMB13-B",
+  "qty_available": 0.0,
+  "list_price": 299.0,
+  "standard_price": 153.99,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 8805,
+  "product_tmpl_id": [
+   8879,
+   "[L844668095486] Tucano Lato2 Backpack 13.3/14\" Blue"
+  ],
+  "name": "Tucano Lato2 Backpack 13.3/14\" Blue",
+  "default_code": "L844668095486",
+  "barcode": "BKLT14-B",
+  "qty_available": 0.0,
+  "list_price": 529.0,
+  "standard_price": 230.99,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 1838,
+  "product_tmpl_id": [
+   1901,
+   "[L844668096414] Tucano Unico Case Universal para Tablet 11 Pulgadas Negro"
+  ],
+  "name": "Tucano Unico Case Universal para Tablet 11 Pulgadas Negro",
+  "default_code": "L844668096414",
+  "barcode": "TAB-UN910-BK",
+  "qty_available": 0.0,
+  "list_price": 449.0,
+  "standard_price": 163.68,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8806,
+  "product_tmpl_id": [
+   8880,
+   "[L844668097213] Tucano Lato2 Backpack 13.3/14\" Black"
+  ],
+  "name": "Tucano Lato2 Backpack 13.3/14\" Black",
+  "default_code": "L844668097213",
+  "barcode": "BKLT14-BK",
+  "qty_available": 0.0,
+  "list_price": 529.0,
+  "standard_price": 230.99,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8270,
+  "product_tmpl_id": [
+   8333,
+   "[L844668119564] Tucano Workout 4 Mochila para Computador 16 Pulgadas Negro"
+  ],
+  "name": "Tucano Workout 4 Mochila para Computador 16 Pulgadas Negro",
+  "default_code": "L844668119564",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 679.0,
+  "standard_price": 310.47,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 8483,
+  "product_tmpl_id": [
+   8546,
+   "[L844668119588] Tucano Workout 4 Mochila para Computador 14 Pulgadas Negro"
+  ],
+  "name": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Negro",
+  "default_code": "L844668119588",
+  "barcode": false,
+  "qty_available": 0.0,
+  "list_price": 599.0,
+  "standard_price": 279.24,
+  "sale_ok": true,
+  "tiene_img": false
+ },
+ {
+  "id": 8597,
+  "product_tmpl_id": [
+   8663,
+   "[L844668125183] Tucano Universal Pencil Black"
+  ],
+  "name": "Tucano Universal Pencil Black",
+  "default_code": "L844668125183",
+  "barcode": "MA-USTY-BK",
+  "qty_available": 36.0,
+  "list_price": 499.0,
+  "standard_price": 173.77000000000004,
+  "sale_ok": true,
+  "tiene_img": true
+ },
+ {
+  "id": 14067,
+  "product_tmpl_id": [
+   14144,
+   "Tucano Elements 16 Pulgadas Red/Blue"
+  ],
+  "name": "Tucano Elements 16 Pulgadas Red/Blue",
+  "default_code": false,
+  "barcode": "BF-E-MB213-B",
+  "qty_available": 0.0,
+  "list_price": 1.0,
+  "standard_price": 118.09,
+  "sale_ok": true,
+  "tiene_img": false
+ }
+]

@@ -1,0 +1,47 @@
+variant,product,inv_item,handle,status,publicado,media,price,compare,odoo_code,nombre,qty,precio_regular,precio_promo,costo,margen_promo,img_odoo,ligado_conector
+53930540990677,9386249912533,56068190765269,l-tucano-active-pencil-stylus,ACTIVE,Y,4,599.00,,844668121192,Tucano Active Pencil Stylus,1,599.0,299,262.59,4.37,True,True
+52265163555029,9149955277013,54366960779477,tucano-alunno-ipad-10th-gener-sky-blue,ACTIVE,Y,2,185.00,449.00,844668124049,Tucano Alunno iPad 10TH Gener Sky Blue,20,449.0,185.0,135.53,29.65,True,True
+68045038289109,15480771772629,70036350402773,tucano-alunno-para-ipad-10ma-generacion-amarillo,ACTIVE,N,0,149.00,,844668124063,Tucano Alunno para iPad 10MA Generación Amarillo,1,149.0,74,0.01,66.06,False,False
+53930509861077,9386246930645,56068159635669,tucano-briefcase-modo-premium-black,ACTIVE,N,1,1499.00,,8020252194595,Tucano Briefcase Modo Premium Black,14,1499.0,749,488.15,180.6,True,True
+52237264453845,9142023389397,54338716958933,l-tucano-facile-plus-universal-para-tablet-11-pulgadas-rojo,ACTIVE,Y,2,299.00,299.00,844668068985,Tucano Facile Plus Universal para Tablet 11 Pulgadas Rojo,9,299.0,149,102.95,30.09,True,True
+53930513072341,9386247225557,56068162846933,l-tucano-gommo-backpack-rolltop-blue,ACTIVE,N,5,215.00,599.00,844668134871,Tucano Gommo Backpack Rolltop Blue,40,599.0,215.0,240.7,-48.74,False,True
+52265165455573,9149956751573,54366962680021,tucano-gommo-city-backpack-azul,ACTIVE,N,2,699.00,,8020252184848,Tucano Gommo City Backpack Azul,29,699.0,349,217.28,94.33,True,True
+53930527785173,9386248962261,56068177199317,tucano-gommo-city-backpack-black,ACTIVE,N,1,699.00,,8020252186798,Tucano Gommo City Backpack Black,24,699.0,349,231.68,79.93,True,True
+52265165521109,9149956817109,54366962745557,tucano-gommo-city-backpack-gris,ACTIVE,N,2,699.00,,8020252184862,Tucano Gommo City Backpack Gris,21,699.0,349,221.55,90.06,True,True
+53930513137877,9386247291093,56068162912469,tucano-gommo-roll-top-backpack-15-6-black,ACTIVE,N,1,599.00,,8020252203563,"Tucano Gommo Roll-Top Backpack 15.6"" Black",7,599.0,299,234.95,32.01,True,True
+52265165586645,9149956882645,54366962811093,tucano-gommo-shopper-bag-azul,ACTIVE,N,2,549.00,,8020252185142,Tucano Gommo Shopper Bag Azul,13,549.0,274,171.2,73.44,True,True
+52265165816021,9149956980949,54366963106005,tucano-gommo-shopper-bag-negro,ACTIVE,N,2,149.00,549.00,8020252186859,Tucano Gommo Shopper Bag Negro,11,549.0,149.0,171.2,-38.16,True,True
+53930515169493,9386247520469,56068164911317,tucano-gommo-shoulder-bag-grey,ACTIVE,Y,1,249.00,,8020252185449,Tucano Gommo Shoulder Bag Grey,35,249.0,124,103.06,7.65,True,True
+53930604167381,9386256072917,56068253941973,tucano-gommo-sleeve-13-14-pulgadas-negro-1,ACTIVE,N,2,299.00,,8020252198326,Tucano Gommo Sleeve 13/14 Pulgadas Negro,42,299.0,149,83.59,49.45,True,True
+53930535485653,9386249486549,56068185260245,tucano-gommo-sleeve-16-pulgadas-gris,ACTIVE,N,1,299.00,,8020252198388,Tucano Gommo Sleeve 16 Pulgadas Gris,46,299.0,149,85.45,47.59,True,True
+53930538172629,9386249617621,56068187947221,tucano-gommo-sleeve-16-pulgadas-negro,ACTIVE,N,1,299.00,,8020252195202,Tucano Gommo Sleeve 16 Pulgadas Negro,71,299.0,149,85.28,47.76,True,True
+52265166110933,9149957275861,54366963400917,tucano-gommo-borsa-superslim-16-pulgadas-gris,ACTIVE,N,2,399.00,,8020252197909,Tucano Gommo borsa superslim 16 Pulgadas Gris,43,399.0,199,118.09,59.59,True,True
+52265165979861,9149957144789,54366963269845,tucano-gommo-borsa-superslim-13-14-gris,UNLISTED,Y,2,399.00,,8020252195233,"Tucano Gommo slim 13""/14"" Gris",8,399.0,199,120.08,57.6,True,False
+53930517266645,9386247815381,56068167041237,tucano-isotta-superslim-bag-13-14-purple,ACTIVE,Y,0,499.00,,8020252194908,"Tucano Isotta Superslim Bag 13""/14"" Purple",21,499.0,249,151.89,70.43,False,True
+53930539385045,9386249748693,56068189159637,tucano-isotta-superslim-bag-13-14-pulgadas-negro,ACTIVE,N,1,499.00,,8020252197930,Tucano Isotta Superslim Bag 13-14 Pulgadas Negro,26,499.0,249,145.32,77.0,True,True
+68045025509589,15480768168149,70036337623253,tucano-isotta-superslim-bag-13-14-pulgadas-rosado,ACTIVE,N,0,499.00,,8020252194960,Tucano Isotta Superslim Bag 13-14 Pulgadas Rosado,13,499.0,249,146.24,76.08,True,False
+53930540531925,9386249814229,56068190306517,tucano-isotta-superslim-bag-16-pulgadas-negro,ACTIVE,N,1,599.00,,8020252194991,Tucano Isotta Superslim Bag 16 Pulgadas Negro,47,599.0,299,146.49,120.47,True,True
+53930540925141,9386249846997,56068190699733,tucano-isotta-superslim-bag-16-pulgadas-rosado,ACTIVE,N,1,599.00,,8020252197992,Tucano Isotta Superslim Bag 16 Pulgadas Rosado,31,599.0,299,146.36,120.6,True,True
+53930476077269,9386243784917,56068125491413,l-tucano-let-me-out-backpack-black,ACTIVE,Y,1,499.00,,844668105963,Tucano Let Me Out Backpack Black,35,499.0,249,224.99,-2.67,True,True
+53930478305493,9386243850453,56068128080085,l-tucano-let-me-out-foldable-backpack-azul,ACTIVE,Y,1,275.00,,844668105925,Tucano Let Me Out Foldable Backpack Azul,3,499.0,249,233.01,-10.69,True,True
+53930478698709,9386243883221,56068128473301,l-tucano-let-me-out-foldable-backpack-negro,ACTIVE,Y,1,335.00,,844668105901,Tucano Let Me Out Foldable Backpack Negro,14,499.0,249,237.65,-15.33,True,True
+53930478797013,9386243981525,56068128571605,l-tucano-let-me-out-foldable-crossbody-azul,ACTIVE,N,3,165.00,449.00,844668106281,Tucano Let Me Out Foldable Crossbody Azul,25,449.0,165.0,192.51,-45.19,False,True
+53930478862549,9386244047061,56068128637141,l-tucano-let-me-out-foldable-crossbody-negro,ACTIVE,Y,1,269.00,,844668106267,Tucano Let Me Out Foldable Crossbody Negro,22,449.0,224,190.66,9.34,True,True
+53930480894165,9386244276437,56068130308309,l-tucano-let-me-out-foldable-crossbody-verde,ACTIVE,N,1,155.00,359.00,844668106731,Tucano Let Me Out Foldable Crossbody Verde,1,359.0,155.0,172.23,-33.84,True,True
+53930482434261,9386244374741,56068132208853,l-tucano-let-me-out-foldable-duffle-negro,ACTIVE,Y,1,449.00,,844668106021,Tucano Let Me Out Foldable Duffle Negro,5,729.0,364,342.71,-17.71,True,True
+53930483220693,9386244473045,56068132995285,l-tucano-let-me-out-foldable-saddle-bag-negro,ACTIVE,N,1,275.00,649.00,844668106083,Tucano Let Me Out Foldable Saddle Bag Negro,7,649.0,275.0,305.68,-60.14,True,True
+53930485678293,9386244735189,56068135452885,l-tucano-let-me-out-shopper-bag-blue,ACTIVE,Y,0,499.00,,844668105987,Tucano Let Me Out Shopper Bag Blue,2,499.0,249,227.14,-4.82,False,True
+53930486530261,9386244866261,56068136272085,l-tucano-let-me-out-weekender-bag-blue,ACTIVE,Y,1,699.00,,844668106045,Tucano Let Me Out Weekender Bag Blue,1,699.0,349,342.63,-31.02,True,True
+53148064841941,9264020750549,55255568056533,l-tucano-mini-support-stand,ACTIVE,Y,1,79.00,199.00,844668114002,Tucano Mini Support Stand,11,199.0,79.0,88.93,-18.39,True,True
+53930572972245,9386253025493,56068222746837,tucano-modo-premium-backpack-14-black,UNLISTED,N,5,1.00,,844668129853,"Tucano Modo Premium Backpack 14"" Black",9,1499.0,749,416.43,252.32,True,True
+52265166373077,9149957538005,54366963663061,tucano-modo-premium-backpack-16-pulgadas-negro,ACTIVE,N,0,1499.00,,844668129815,Tucano Modo Premium Backpack 16 Pulgadas Negro,18,1499.0,749,462.91,205.84,True,True
+53930489839829,9386245292245,56068139253973,l-tucano-neoprene-desk-pad-blue,ACTIVE,N,1,95.00,249.00,8020252167285,Tucano Neoprene Desk Pad Blue,11,249.0,95.0,106.4,-21.58,True,True
+53930494296277,9386245783765,56068144038101,l-tucano-neoprene-desk-pad-pink,ACTIVE,N,1,149.00,,8020252167308,Tucano Neoprene Desk Pad Pink,14,249.0,124,106.4,4.31,True,True
+53930498359509,9386246209749,56068148134101,l-tucano-scrivo-keyboard-spanish-blue,ACTIVE,Y,4,279.00,,844668127101,Tucano Scrivo Keyboard Spanish Blue,28,349.0,174,138.33,17.03,True,True
+53930507141333,9386246701269,56068156883157,l-tucano-scrivo-teclado-bluetooth-con-stand-azul,ACTIVE,Y,4,599.00,,844668096278,Tucano Scrivo Teclado Bluetooth con Stand Azul,1,599.0,299,176.33,90.63,True,True
+52265164603605,9149955965141,54366961828053,tucano-tasto-ipad-10-9-a-11-black,ACTIVE,Y,2,999.00,,844668111186,"Tucano Tasto iPad 10.9"" a 11"" Black",20,999.0,499,343.68,101.86,True,True
+52265164701909,9149956063445,54366961926357,tucano-tasto-ipad-10th-black,ACTIVE,Y,2,999.00,,844668125046,Tucano Tasto iPad 10TH Black,6,999.0,499,343.68,101.86,True,True
+52265164800213,9149956128981,54366962024661,tucano-travel-adapter-gan-100w-blanco,ACTIVE,Y,4,435.00,899.00,844668126586,Tucano Travel Adapter Gan 100W Blanco,23,899.0,435.0,299.5,88.89,True,True
+52265164865749,9149956194517,54366962090197,tucano-travel-adapter-gan-65w-blanco,ACTIVE,N,5,299.00,699.00,844668126562,Tucano Travel Adapter Gan 65W Blanco,15,699.0,299.0,179.55,87.41,True,True
+52265164964053,9149956292821,54366962155733,tucano-universal-pencil-black,ACTIVE,Y,2,499.00,,L844668125183,Tucano Universal Pencil Black,36,499.0,249,173.77,48.55,True,True
+52265165258965,9149956554965,54366962483413,tucano-vento-case-universal-para-tablet-9-a-10-pulgadas-azul,ACTIVE,Y,2,299.00,299.00,844668051772,Tucano Vento Case Universal para Tablet 9 a 10 Pulgadas Azul,6,299.0,149,96.67,36.37,True,True
