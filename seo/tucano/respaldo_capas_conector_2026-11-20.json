@@ -1,0 +1,22 @@
+{
+ "pp_3938": [
+  {
+   "id": 3938,
+   "variant_id": false,
+   "inventory_item_id": false,
+   "exported_in_shopify": false
+  }
+ ],
+ "pt_3938": [
+  {
+   "id": 3938,
+   "shopify_tmpl_id": false,
+   "exported_in_shopify": false,
+   "website_published": "unpublished",
+   "product_tmpl_id": [
+    11096,
+    "[8020252195233] Tucano Gommo slim 13\"/14\" Gris"
+   ]
+  }
+ ]
+}

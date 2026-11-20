@@ -17,4 +17,4 @@ Vigencia: hasta el 31/12/2026 o agotar existencias. Solo tienda en línea (Odoo/
 ## Respaldo y reversión
 - Estado previo de Shopify: `shopify_respaldo_2026-11-20.tsv`; Odoo: `odoo_tucano_2026-11-20.json`.
 - Al terminar: `revertir_precios_2027-01-01.json` (precio y compareAt anteriores). Recomendado: regresar al precio de lista Odoo y quitar compareAt, no a los precios viejos bajo costo.
-- Pendiente: 3 fichas sin ligar al conector (Isotta 13/14 rosado, Alunno amarillo, Gommo slim 13/14 gris): su inventario no se actualiza solo.
+- 2026-11-20: ligadas al conector las 3 fichas que faltaban. Gommo slim 13/14 gris: capa 3938 existente, se le escribió shopify_tmpl_id/variant_id/inventory_item_id. Isotta 13-14 rosado y Alunno amarillo: capas nuevas (plantilla 4521/4522, variante 4522/4523). Respaldo en `respaldo_capas_conector_2026-11-20.json` y `capas_creadas_2026-11-20.json`.
