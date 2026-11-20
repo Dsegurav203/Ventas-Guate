@@ -62,6 +62,17 @@ ROLE_GRANTS = json.loads(os.environ.get("MCP_ROLE_GRANTS") or json.dumps({
 ADMIN_FULL = os.environ.get("MCP_ADMIN_FULL", "1") == "1"
 ACTIONS = {tuple(a.strip().rsplit(".", 1)) for a in os.environ.get(
     "MCP_ACTIONS", "stock.picking.action_cancel").replace(";", ",").split(",") if a.strip()}
+# Rol contabilidad (account.group_account_manager, sin Ajustes): escritura y acciones solo en conciliación y pagos.
+ACCOUNTING_GROUP = "account.group_account_manager"
+ACCOUNTING_MODELS = {m.strip() for m in os.environ.get("MCP_ACCOUNTING_MODELS",
+    "account.bank.statement,account.bank.statement.line,account.move,account.move.line,account.payment,"
+    "account.partial.reconcile,account.full.reconcile,account.reconcile.model").replace(";", ",").split(",") if m.strip()}
+# Métodos públicos de conciliación (Odoo 18): reconcile, remove_move_reconcile, action_unreconcile_match_entries y
+# action_register_payment (account.move.line); action_undo_reconciliation (account.bank.statement.line).
+ACCOUNTING_METHODS = {m.strip() for m in os.environ.get("MCP_ACCOUNTING_METHODS",
+    "reconcile,remove_move_reconcile,action_unreconcile_match_entries,action_post,action_register_payment,"
+    "action_payment_items_register_payment,action_undo_reconciliation,button_validate_or_action").replace(";", ",").split(",") if m.strip()}
+ACCOUNTING_FORBIDDEN = {"account.account", "account.journal", "account.tax", "res.company", "res.users", "res.groups"}
 ALLOW_LOCAL = os.environ.get("MCP_ALLOW_LOCAL_REDIRECTS", "0") == "1"
 F = Fernet(SECRET)
 
@@ -318,10 +329,43 @@ def _grant() -> dict:
             "actions": {tuple(a.rsplit(".", 1)) for a in g.get("actions", [])}}
 
 
-async def _is_admin() -> bool:
+async def _has_group(xml_id: str) -> bool:
     o = _client()
-    r = await _call("res.users", "has_group", ids=[o._uid], group_ext_id="base.group_system")
+    r = await _call("res.users", "has_group", ids=[o._uid], group_ext_id=xml_id)
     return r is True
+
+
+async def _is_admin() -> bool:
+    return await _has_group("base.group_system")
+
+
+async def _is_accounting() -> bool:
+    """Rol contabilidad: Contabilidad / Administrador en Odoo y sin Ajustes."""
+    return not await _is_admin() and await _has_group(ACCOUNTING_GROUP)
+
+
+def _accounting_forbidden(model: str) -> bool:
+    return model in ACCOUNTING_FORBIDDEN or model.startswith("ir.")
+
+
+def _short(v: Any) -> Any:
+    if isinstance(v, str) and len(v) > 300:
+        return v[:300] + f"…({len(v)} car.)"
+    if isinstance(v, dict):
+        return {k: _short(x) for k, x in v.items()}
+    if isinstance(v, list):
+        return [_short(x) for x in v[:200]]
+    return v
+
+
+def _audit(model: str, method: str, ids: list[int] | None = None, values: Any = None, result: Any = None) -> None:
+    """Auditoría del rol contabilidad: una línea JSON por escritura en stdout (Cloud Logging la indexa)."""
+    o = _client()
+    ok = not (isinstance(result, dict) and "error" in result)
+    print(json.dumps({"severity": "NOTICE", "message": f"auditoria contabilidad {model}.{method}",
+                      "audit": "contabilidad", "login": _login(), "uid": o._uid, "model": model, "method": method,
+                      "ids": ids, "values": _short(values), "ok": ok,
+                      "error": None if ok else str(result.get("error"))[:500]}, default=str, ensure_ascii=False), flush=True)
 
 
 async def _check_write(model: str, values: dict | None = None, create: bool = False) -> dict | None:
@@ -331,6 +375,11 @@ async def _check_write(model: str, values: dict | None = None, create: bool = Fa
         return {"error": f"'{model}' es configuración de seguridad: no se modifica desde el chat. Hazlo en Claude Code con revisión."}
     if model in WRITE_MODELS or model in _grant()["models"]:
         return None
+    if model in ACCOUNTING_MODELS or _accounting_forbidden(model):
+        if await _is_accounting():
+            if _accounting_forbidden(model) or model not in ACCOUNTING_MODELS:
+                return {"error": f"Rol contabilidad: '{model}' es configuración contable o del sistema; no se modifica desde el chat"}
+            return None
     if model in ADMIN_WRITE_MODELS:
         if not await _is_admin():
             return {"error": f"Solo administradores de Odoo (Ajustes) pueden modificar '{model}' desde el chat"}
@@ -420,7 +469,8 @@ if ALLOW_WRITE:
     @mcp.tool()
     async def odoo_create(model: str, values: dict | list[dict]) -> Any:
         """Crea uno o varios registros (values = dict o lista de dicts, máx. 200). Administradores de Odoo: cualquier modelo.
-        Demás usuarios: solo productos.
+        Contabilidad / Administrador: solo extractos, líneas de extracto, asientos, apuntes, pagos, conciliaciones y modelos
+        de conciliación (nunca plan de cuentas, diarios, impuestos, compañía, usuarios ni ir.*). Demás usuarios: solo productos.
         Antes de llamar, muestra al usuario los valores y espera su confirmación. Para imágenes usa odoo_set_image_from_url."""
         vals_list = values if isinstance(values, list) else [values]
         if len(vals_list) > 200:
@@ -431,26 +481,48 @@ if ALLOW_WRITE:
                 return err
             if not admin and any(k.startswith("image_") for k in v):
                 return {"error": "Para imágenes usa odoo_set_image_from_url"}
-        return await _call(model, "create", vals_list=vals_list)
+        res = await _call(model, "create", vals_list=vals_list)
+        if model in ACCOUNTING_MODELS and not admin and await _is_accounting():
+            _audit(model, "create", res if isinstance(res, list) else None, vals_list, res)
+        return res
 
     @mcp.tool()
     async def odoo_write(model: str, ids: list[int], values: dict) -> Any:
         """Edita registros (varios ids a la vez). Administradores de Odoo: cualquier modelo y campo, incluido image_1920 en
-        base64 para fotos subidas al chat. Demás usuarios: solo productos. Archivar = {"active": false}.
+        base64 para fotos subidas al chat. Contabilidad / Administrador: solo account.bank.statement(.line), account.move(.line),
+        account.payment, account.partial/full.reconcile y account.reconcile.model (queda auditado). Demás usuarios: solo
+        productos. Archivar = {"active": false}.
         Antes de llamar, muestra al usuario los cambios y espera su confirmación."""
         if err := await _check_write(model, values):
             return err
         if any(k.startswith("image_") for k in values) and not (ADMIN_FULL and await _is_admin()):
             return {"error": "Para imágenes usa odoo_set_image_from_url"}
-        return await _call(model, "write", ids=ids, vals=values)
+        res = await _call(model, "write", ids=ids, vals=values)
+        if model in ACCOUNTING_MODELS and await _is_accounting():
+            _audit(model, "write", ids, values, res)
+        return res
 
     @mcp.tool()
     async def odoo_action(model: str, method: str, ids: list[int], kwargs: dict | None = None) -> Any:
         """Ejecuta un método de Odoo sobre registros (ej. action_cancel, action_confirm, button_validate, action_post).
-        Administradores de Odoo: cualquier acción. Otros usuarios: solo las de su función (ej. costeo: compute_landed_cost,
-        button_validate en stock.landed.cost). Antes de llamar, muestra al usuario los registros y la acción y espera su confirmación."""
+        Administradores de Odoo: cualquier acción. Contabilidad / Administrador: en los modelos de conciliación y pagos
+        (account.bank.statement(.line), account.move(.line), account.payment, account.*reconcile*) solo reconcile,
+        remove_move_reconcile, action_unreconcile_match_entries, action_post, action_register_payment,
+        action_undo_reconciliation y button_validate_or_action (queda auditado; nunca unlink). Otros usuarios: solo las de su
+        función (ej. costeo: compute_landed_cost, button_validate en stock.landed.cost).
+        Antes de llamar, muestra al usuario los registros y la acción y espera su confirmación."""
         if (model, method) in _grant()["actions"]:
             return await _call(model, method, ids=ids, **(kwargs or {}))
+        if await _is_accounting():
+            if method == "unlink" or method.startswith("_"):
+                return {"error": "Rol contabilidad: no se eliminan registros ni se llaman métodos privados desde el chat"}
+            if model not in ACCOUNTING_MODELS or _accounting_forbidden(model):
+                return {"error": f"Rol contabilidad: acciones solo en {', '.join(sorted(ACCOUNTING_MODELS))}"}
+            if method not in ACCOUNTING_METHODS:
+                return {"error": f"Rol contabilidad: método no permitido. Permitidos: {', '.join(sorted(ACCOUNTING_METHODS))}"}
+            res = await _call(model, method, ids=ids, **(kwargs or {}))
+            _audit(model, method, ids, kwargs, res)
+            return res
         if not await _is_admin():
             return {"error": "Solo administradores de Odoo (Ajustes) pueden ejecutar esta acción desde el chat"}
         if not ADMIN_FULL and (model, method) not in ACTIONS:
@@ -459,7 +531,7 @@ if ALLOW_WRITE:
 
     @mcp.tool()
     async def odoo_unlink(model: str, ids: list[int]) -> Any:
-        """Elimina registros (solo administradores de Odoo). Prefiere archivar ({"active": false}) cuando el modelo lo permita.
+        """Elimina registros (solo administradores de Odoo; el rol contabilidad nunca elimina). Prefiere archivar ({"active": false}) cuando el modelo lo permita.
         Antes de llamar, muestra al usuario exactamente qué se va a borrar y espera su confirmación explícita."""
         if not (ADMIN_FULL and await _is_admin()):
             return {"error": "Solo administradores de Odoo (Ajustes) pueden eliminar registros desde el chat"}
@@ -476,6 +548,8 @@ if ALLOW_WRITE:
         if partner_ids:
             kw["partner_ids"] = partner_ids
         res = await _call(model, "message_post", ids=[record_id], **kw)
+        if model in ACCOUNTING_MODELS and await _is_accounting():
+            _audit(model, "message_post", [record_id], {"internal": internal, "partner_ids": partner_ids, "body": body}, res)
         return {"ok": True, "message_id": res} if isinstance(res, int) else res
 
     @mcp.tool()
@@ -483,7 +557,7 @@ if ALLOW_WRITE:
                                     journal_id: int | None = None, memo: str | None = None) -> Any:
         """Registra el pago de facturas de cliente o proveedor (asistente "Registrar pago" de Odoo). Sin amount paga el
         saldo completo. journal_id = diario de banco/caja (búscalo en account.journal type in bank,cash). Fecha AAAA-MM-DD.
-        Requiere permisos de facturación en Odoo. Antes de llamar, muestra facturas, monto, fecha y banco y espera confirmación."""
+        Requiere permisos de facturación en Odoo (el rol contabilidad queda auditado). Antes de llamar, muestra facturas, monto, fecha y banco y espera confirmación."""
         o = _client()
         ok = await _call("res.users", "has_group", ids=[o._uid], group_ext_id="account.group_account_invoice")
         if ok is not True:
@@ -502,6 +576,8 @@ if ALLOW_WRITE:
         if isinstance(wiz, dict):
             return wiz
         res = await _call("account.payment.register", "action_create_payments", ids=wiz, context=ctx)
+        if await _is_accounting():
+            _audit("account.move", "register_payment", invoice_ids, vals, res)
         if isinstance(res, dict) and "error" in res:
             return res
         return await _call("account.move", "read", ids=invoice_ids,
