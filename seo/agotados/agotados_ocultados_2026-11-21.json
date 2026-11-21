@@ -1,0 +1,1914 @@
+{
+ "fecha": "2026-11-21",
+ "accion": "publishableUnpublish de Tienda online",
+ "publicationId": "gid://shopify/Publication/164168564949",
+ "criterio": "status:active AND inventory_total<=0, publicado en Tienda online, tracksInventory=true, ninguna variante con inventoryPolicy CONTINUE, sin etiqueta/título Reserva, sin gift cards",
+ "excluidos_por_CONTINUE": [
+  {
+   "id": "gid://shopify/Product/9254595592405",
+   "handle": "govee-tv-backlight-3-lite-h60991-55-a-65",
+   "motivo": "CONTINUE"
+  },
+  {
+   "id": "gid://shopify/Product/9258219110613",
+   "handle": "iphone-pocket-negro",
+   "motivo": "CONTINUE (-1)"
+  },
+  {
+   "id": "gid://shopify/Product/9377151025365",
+   "handle": "spidercase-funda-magnetica-para-samsung-galaxy-s25-fe",
+   "motivo": "CONTINUE"
+  },
+  {
+   "id": "gid://shopify/Product/9378100183253",
+   "handle": "spidercase-funda-magnetica-para-samsung-galaxy-s25-fe-negro",
+   "motivo": "CONTINUE"
+  },
+  {
+   "id": "gid://shopify/Product/15420254322901",
+   "handle": "funda-galaxy-s21-ultra",
+   "motivo": "CONTINUE"
+  },
+  {
+   "id": "gid://shopify/Product/15439858991317",
+   "handle": "amazon-alexa-echo-studio-modelo-mas-reciente",
+   "motivo": "CONTINUE"
+  }
+ ],
+ "total": 234,
+ "productos": [
+  {
+   "id": "gid://shopify/Product/9141942681813",
+   "handle": "nimbus9-cirrus3-iphone-17-negro",
+   "title": "Nimbus9 Cirrus3 iPhone 17 Negro",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9141942780117",
+   "handle": "nimbus9-cirrus3-iphone-17-pro-negro",
+   "title": "Nimbus9 Cirrus3 iPhone 17 Pro Negro",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142008152277",
+   "handle": "blink3-camara-outdoor-full-hd-1080p-negro",
+   "title": "Blink3 Cámara Outdoor Full HD 1080p Negro",
+   "vendor": "Blink",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142008414421",
+   "handle": "botslab-camara-interior-2e-360-blanco",
+   "title": "Botslab Cámara Interior 2E 360° Blanco",
+   "vendor": "Botslab",
+   "totalInventory": 0,
+   "mediaCount": 11
+  },
+  {
+   "id": "gid://shopify/Product/9142008742101",
+   "handle": "cable-usb-c-a-lightning-2-metros-blanco",
+   "title": "Cable USB-C a Lightning 2 Metros Blanco",
+   "vendor": "Cali Peninsula East Corp",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9142010183893",
+   "handle": "clckr-universal-stand-grip-plebbled-lines-negro",
+   "title": "CLCKR Universal Stand & Grip Plebbled Lines Negro",
+   "vendor": "CLCKR",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142011232469",
+   "handle": "click-impact-magsafe-iphone-16-negro",
+   "title": "Click Impact MagSafe iPhone 16 Negro",
+   "vendor": "Click",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142011691221",
+   "handle": "click-latch-galaxy-s25-ultra-clear-purpura",
+   "title": "Click Latch Galaxy S25 Ultra Clear Púrpura",
+   "vendor": "Click",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142013231317",
+   "handle": "click-ultra-slim-magsafe-iphone-16-rosado",
+   "title": "Click Ultra Slim MagSafe iPhone 16 Rosado",
+   "vendor": "Click",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142014804181",
+   "handle": "hifuture-colorbuds2-true-wireless-audifono-rosado",
+   "title": "Audífonos HiFuture ColorBuds 2 – Rosado",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9142015000789",
+   "handle": "hifuture-edge-smartwatch-rosado",
+   "title": "Smartwatch HiFuture Edge – Rosado",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9142015688917",
+   "handle": "hifuture-futuretour-x-hybrid-anc-wireless-champagne-gold",
+   "title": "Audífonos HiFuture FutureTour X Hybrid ANC – Champagne Gold",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9142016999637",
+   "handle": "hp-h100-audiofnos-con-cable-y-microfono-gamer-negro",
+   "title": "Hp H100 Audífonos con Cable y Micrófono Gamer Negro",
+   "vendor": "HP",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142017261781",
+   "handle": "hypergear-powerbank-5000mah",
+   "title": "HyperGear Powerbank 5000mAh",
+   "vendor": "HyperGear",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9142018769109",
+   "handle": "jbl-flip-7-portable-waterproof-bluetooth-purple",
+   "title": "JBL Flip 7 Portable Waterproof Bluetooth Purple",
+   "vendor": "JBL",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9142019326165",
+   "handle": "jbl-tune-770nc-blanco",
+   "title": "JBL Tune 770nc Blanco",
+   "vendor": "JBL",
+   "totalInventory": 0,
+   "mediaCount": 7
+  },
+  {
+   "id": "gid://shopify/Product/9142019457237",
+   "handle": "jbl-tune-buds2-nc-negro",
+   "title": "JBL Tune Buds2 NC Negro",
+   "vendor": "JBL",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9142020210901",
+   "handle": "l-apple-case-original-silicone-con-magsafe-iphone-12-pro-max-blanco",
+   "title": "Apple Case Original Silicone con MagSafe iPhone 12 Pro Max Blanco",
+   "vendor": "Apple",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142020341973",
+   "handle": "l-griffin-survivor-iphone-12-pro-max-azul",
+   "title": "Griffin Survivor iPhone 12 Pro Max Azul",
+   "vendor": "Griffin",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142020440277",
+   "handle": "l-lbt-cable-7ft-usb-c-to-c-black-white",
+   "title": "Lbt Cable 7FT USB-C to C Black/White",
+   "vendor": "LBT",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142024667349",
+   "handle": "lbt-cable-7ft-usb-a-lightning-negro-blanco",
+   "title": "Lbt Cable 7FT USB a Lightning Negro/Blanco",
+   "vendor": "LBT",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142026076373",
+   "handle": "mageasy-strap-20mm-orange",
+   "title": "Mageasy Strap 20mm Orange",
+   "vendor": "MagEasy",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142029713621",
+   "handle": "mybat-base-de-carga-inalambrica-2-en-1-negro",
+   "title": "MyBat Base de Carga Inalámbrica 2 en 1 Negro",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142032826581",
+   "handle": "mybat-pro-vidrio-para-camara-iphone-15-15-plus-negro",
+   "title": "MyBat Pro Vidrio para Cámara iPhone 15/15 Plus Negro",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142034497749",
+   "handle": "nimbus9-alto2-magsafe-galaxy-z-flip-7-azul",
+   "title": "Nimbus9 Alto2 MagSafe Galaxy Z Flip 7 Azul",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142035448021",
+   "handle": "nimbus9-nylon-sport-band-para-aple-watch-45mm-azul-marino",
+   "title": "Nimbus9 Nylon Sport Band para Apple Watch 45mm Azul Marino",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9142035742933",
+   "handle": "nimbus9-phantom3-galaxy-s25-ultra-pacific-blue",
+   "title": "Nimbus9 Phantom3 Galaxy S25 Ultra Pacific Blue",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142039806165",
+   "handle": "popsockets-magsafe-negro",
+   "title": "PopSockets MagSafe Negro",
+   "vendor": "PopSockets",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9142431645909",
+   "handle": "prodigee-balance-galaxy-s25-ultra-lavanda",
+   "title": "Prodigee Balancce Galaxy S25 Ultra Lavanda",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9149920411861",
+   "handle": "prodigee-magwallet-pop-navy",
+   "title": "Prodigee Magwallet Pop Navy",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149922738389",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-max-menta",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Max Menta",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149923983573",
+   "handle": "prodigee-super-hero-galaxy-s24-smoke",
+   "title": "Prodigee Super Hero Galaxy S24 Smoke",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149924147413",
+   "handle": "prodigee-super-hero-galaxy-s25-smoke",
+   "title": "Prodigee Super Hero Galaxy S25 Smoke",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149941088469",
+   "handle": "ringke-galaxy-s22-ultra-flores",
+   "title": "Ringke Galaxy S22 Ultra Flores",
+   "vendor": "Ringke",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149946822869",
+   "handle": "samsung-kit-de-carga-rapida-25w-tipo-c-negro-1",
+   "title": "Samsung Kit de Carga Rápida 25W Tipo C Negro",
+   "vendor": "Samsung",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149948002517",
+   "handle": "skullcandy-cassette-audifono-diadema-bluetooth-negro",
+   "title": "Audífonos Skullcandy Cassette On-Ear Bluetooth – Negro",
+   "vendor": "Skullcandy",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9149954064597",
+   "handle": "sony-playstation-portal-remote-player-blanco",
+   "title": "Sony PlayStation Portal Remote Player Blanco",
+   "vendor": "Sony",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149955047637",
+   "handle": "tekya-standmax-base-de-carga-inalambrica-plegable-3-en-15w-blanco",
+   "title": "Tekya Standmax Base de Carga Inalámbrica Plegable 3 en 15W Blanco",
+   "vendor": "Tekya",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9149957472469",
+   "handle": "tucano-modo-premium-backpack-14-pulgadas-negro",
+   "title": "Tucano Modo Premium Backpack 14 Pulgadas Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9149959110869",
+   "handle": "zizo-bolt-bundle-galaxy-s25-ultra-negro",
+   "title": "ZIZO Bolt Bundle Galaxy S25 Ultra Negro",
+   "vendor": "Zizo",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149965435093",
+   "handle": "prodigee-kickit-galaxy-s25-ultra-negro",
+   "title": "Prodigee Kickit Galaxy S25 Ultra Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149965762773",
+   "handle": "prodigee-safetee-flow-galaxy-s25-ultra-night-frost",
+   "title": "Prodigee Safetee Flow Galaxy S25 Ultra Night Frost",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149968089301",
+   "handle": "skullcandy-grom-kids-wireless-black",
+   "title": "Audífonos para Niños Skullcandy Grom Wireless – Negro",
+   "vendor": "Skullcandy",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9149977755861",
+   "handle": "jbl-soundgear-sense-bluetooth-blanco",
+   "title": "JBL Soundgear Sense Bluetooth Blanco",
+   "vendor": "JBL",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9149978181845",
+   "handle": "jbl-tune-310c-earbuds-usb-c-blanco",
+   "title": "JBL Tune 310C Earbuds USB-C Blanco",
+   "vendor": "JBL",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9149978476757",
+   "handle": "jbl-tune-770nc-black",
+   "title": "JBL Tune 770nc Black",
+   "vendor": "JBL",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9149978804437",
+   "handle": "l-prodigee-hands-free-soporte-universal-negro",
+   "title": "Prodigee Hands Free Soporte Universal Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9150026809557",
+   "handle": "prodigee-magpower-2-go-magsafe-10000-mah-negro",
+   "title": "Prodigee MagPower 2 Go MagSafe 10000 mAh Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9150027006165",
+   "handle": "prodigee-magpower-to-go-powerbank-5mah-negro",
+   "title": "Prodigee MagPower to Go Powerbank 5mAh Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9150027366613",
+   "handle": "prodigee-magpower-to-go-10mil-mah",
+   "title": "Prodigee MagPower to-Go 10mil mAh",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9150254416085",
+   "handle": "prodigee-safetee-neo-iphone-14-pro-max-lila",
+   "title": "Prodigee Safetee Neo iPhone 14 Pro Max Lila",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9150255202517",
+   "handle": "prodigee-safetee-slim-galaxy-s22-plus-negro",
+   "title": "Prodigee Safetee Slim Galaxy S22 Plus Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9150256808149",
+   "handle": "prodigee-the-sleeve-funda-para-macbook-negro",
+   "title": "Prodigee the Sleeve Funda para MacBook Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9170872729813",
+   "handle": "click-impact-series-galaxy-a26-turqueza-rosado",
+   "title": "Click Impact Series Galaxy A26 Turqueza Rosado",
+   "vendor": "Click",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9170874335445",
+   "handle": "prodigee-super-glass-camera-iphone-17-pro-pro-max-negro",
+   "title": "Prodigee Super Glass Camera iPhone 17 Pro/Pro Max Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9256645918933",
+   "handle": "sony-playstation-dualsense-edge-control-inalambrico-blanco",
+   "title": "Sony PlayStation DualSense Edge Control Inalámbrico Blanco",
+   "vendor": "Sony",
+   "totalInventory": 0,
+   "mediaCount": 7
+  },
+  {
+   "id": "gid://shopify/Product/9256656240853",
+   "handle": "sony-playstation-dualsense-control-inalambrico-blanco",
+   "title": "Sony PlayStation DualSense Control Inalámbrico Blanco",
+   "vendor": "Sony",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9262553399509",
+   "handle": "l-itskins-spectrum-iphone-7-8-se-clear",
+   "title": "ITSkins Spectrum iPhone 7/8/Se Clear",
+   "vendor": "ITSKINS",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262560608469",
+   "handle": "l-mybat-vidrio-templado-para-camara-iphone-12-pro-clear",
+   "title": "MyBat Vidrio Templado para Cámara iPhone 12 Pro Clear",
+   "vendor": "Ventas Guate",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262560739541",
+   "handle": "l-mybat-plug-go-powerbank-5000mah-carga-rapida-tipo-c-rosado",
+   "title": "MyBat Plug+Go Powerbank 5000mAh Carga Rápida Tipo C Rosado",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262560903381",
+   "handle": "l-mybat-pro-lux-iphone-12-pro-max-clear",
+   "title": "MyBat Pro Lux iPhone 12 Pro Max Clear",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262561099989",
+   "handle": "l-mybat-pro-mood-magsafe-iphone-12-pro-max-negro",
+   "title": "MyBat Pro Mood MagSafe iPhone 12 Pro Max Negro",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262561296597",
+   "handle": "l-mybat-pro-shade-iphone-13-pro-negro",
+   "title": "MyBat Pro Shade iPhone 13 Pro Negro",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262561362133",
+   "handle": "l-mybat-pro-shade-magsafe-iphone-12-pro-max-negro",
+   "title": "MyBat Pro Shade MagSafe iPhone 12 Pro Max Negro",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262561493205",
+   "handle": "l-mybat-pro-shade-series-iphone-13-morado",
+   "title": "MyBat Pro Shade Series iPhone 13 Morado",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262561951957",
+   "handle": "mybat-pro-mood-magsafe-iphone-13-pro-celeste",
+   "title": "MyBat Pro Mood MagSafe iPhone 13 Pro Celeste",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9262569783509",
+   "handle": "l-switcheasy-magstand-iphone-15-pro-clear",
+   "title": "SwitchEasy Magstand iPhone 15 Pro Clear",
+   "vendor": "SwitchEasy",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9263455174869",
+   "handle": "laut-crystal-matter-x-iphone-17-pro-max-negro",
+   "title": "LAUT Crystal Matter X iPhone 17 Pro Max Negro",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9263456485589",
+   "handle": "laut-huex-protect-airpods-pro3-black",
+   "title": "LAUT Huex Protect AirPods Pro3 Black",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9263456649429",
+   "handle": "laut-zentry-airpods-pro-3-negro",
+   "title": "LAUT Zentry AirPods Pro 3 Negro",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9263665119445",
+   "handle": "l-clckr-magsafe-stand-grip-dark-purple",
+   "title": "CLCKR MagSafe Stand & Grip Dark Purple",
+   "vendor": "CLCKR",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9263665217749",
+   "handle": "l-clckr-magsafe-stand-grip-purpura",
+   "title": "CLCKR MagSafe Stand & Grip Púrpura",
+   "vendor": "CLCKR",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9264050897109",
+   "handle": "bitty-boomers-bocina-bluetooth-star-wars-grogu-in-pram",
+   "title": "Bitty Boomers Bocina Bluetooth Star Wars Grogu in Pram",
+   "vendor": "Bitty Boomers",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9271504699605",
+   "handle": "click-latch-galaxy-s26-ultra-black",
+   "title": "Click Latch Galaxy S26 Ultra Black",
+   "vendor": "Click",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9271504896213",
+   "handle": "click-latch-galaxy-s26-ultra-smoke",
+   "title": "Click Latch Galaxy S26 Ultra Smoke",
+   "vendor": "Click",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9271505649877",
+   "handle": "prodigee-kickit-galaxy-s26-black",
+   "title": "Prodigee Kickit Galaxy S26 Black",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9271505682645",
+   "handle": "prodigee-kickit-galaxy-s26-plus-black",
+   "title": "Prodigee Kickit Galaxy S26 Plus Black",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9271506010325",
+   "handle": "prodigee-super-hero-galaxy-s26-plus-clear",
+   "title": "Prodigee Super Hero Galaxy S26 Plus Clear",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 7
+  },
+  {
+   "id": "gid://shopify/Product/9271506075861",
+   "handle": "prodigee-super-hero-galaxy-s26-plus-smoke",
+   "title": "Prodigee Super Hero Galaxy S26 Plus Smoke",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9287982776533",
+   "handle": "l-urbanista-lisbon-vanilla-cream",
+   "title": "Urbanista Lisbon Vanilla Cream",
+   "vendor": "Urbanista",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9287983366357",
+   "handle": "urbanista-miami-audifono-teal-green",
+   "title": "Urbanista Miami Audífono Teal Green",
+   "vendor": "Urbanista",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9291022401749",
+   "handle": "l-nimbus9-alto2-iphone-15-14-13-rosado",
+   "title": "Nimbus9 Alto2 iPhone 15/14/13 Rosado",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9291042455765",
+   "handle": "logiix-vibrance-slim-folio-ipad-11-a16-10-9-10th-gen-black",
+   "title": "LOGiiX Vibrance Slim Folio iPad 11 (A16)/10.9 (10TH Gen) Black",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9299472646357",
+   "handle": "prodigee-glow-galaxy-s23-ultra-clear",
+   "title": "Prodigee Glow Galaxy S23 Ultra Clear",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9300937933013",
+   "handle": "l-popcase-iphone-13-negro",
+   "title": "Popcase iPhone 13 Negro",
+   "vendor": "PopSockets",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9301002420437",
+   "handle": "l-mybat-cable-premium-usb-c-a-usb-c-verde",
+   "title": "MyBat Cable Premium USB-C a USB-C Verde",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9301030469845",
+   "handle": "tekya-powerbank-10000mah-negro",
+   "title": "Tekya Powerbank 10000mAh Negro",
+   "vendor": "Tekya",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9301031551189",
+   "handle": "prodigee-energee-magstand-base-de-carga-inalambrica-negro",
+   "title": "Prodigee Energee Magstand Base de Carga Inalámbrica Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9309628858581",
+   "handle": "l-nimbus9-alto2-iphone-15-14-13-azul-1",
+   "title": "Nimbus9 Alto2 iPhone 15/14/13 Azul",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 9
+  },
+  {
+   "id": "gid://shopify/Product/9309628891349",
+   "handle": "l-nimbus9-alto2-iphone-15-14-13-negro-1",
+   "title": "Nimbus9 Alto2 iPhone 15/14/13 Negro",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 9
+  },
+  {
+   "id": "gid://shopify/Product/9309628989653",
+   "handle": "nimbus9-stratus-magsafe-iphone-15-14-13-azul-1",
+   "title": "Nimbus9 Stratus MagSafe iPhone 15/14/13 Azul",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9309629055189",
+   "handle": "prodigee-kickit-iphone-15-14-13-rosado",
+   "title": "Prodigee Kickit iPhone 15/14/13 Rosado",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9310361321685",
+   "handle": "nimbus9-phantom3-galaxy-s25-ultra-smoke-1",
+   "title": "Nimbus9 Phantom3 Galaxy S25 Ultra Smoke",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9310361354453",
+   "handle": "prodigee-formula-galaxy-s25-ultra-gris",
+   "title": "Prodigee Formula Galaxy S25 Ultra Gris",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9310361387221",
+   "handle": "prodigee-kickit-galaxy-s25-ultra-rosado",
+   "title": "Prodigee Kickit Galaxy S25 Ultra Rosado",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9310361419989",
+   "handle": "prodigee-safetee-flow-galaxy-s25-ultra-desert",
+   "title": "Prodigee Safetee Flow Galaxy S25 Ultra Desert",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9310361583829",
+   "handle": "prodigee-superstar-galaxy-s25-ultra-clear",
+   "title": "Prodigee Superstar Galaxy S25 Ultra Clear",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9319023640789",
+   "handle": "prodigee-safetee-neo-14-pro-max-ruby",
+   "title": "Prodigee Safetee Neo 14 Pro Max Ruby",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9319023739093",
+   "handle": "gadget-guard-vidrio-para-camara-iphone-15-pro-max-iridescent-compatible-con-14-pro-max-1",
+   "title": "Gadget Guard Vidrio para Cámara iPhone 15 Pro Max Iridescent (Compatible con 14 Pro Max)",
+   "vendor": "ETERNITY WIRELESS",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9319024001237",
+   "handle": "prodigee-magneteek-iphone-14-pro-max-negro-1",
+   "title": "Prodigee Magneteek iPhone 14 Pro Max Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9319024066773",
+   "handle": "prodigee-sparkle-leemonchelo-iphone-14-pro-max-blanco-1",
+   "title": "Prodigee Sparkle Leemonchelo iPhone 14 Pro Max Blanco",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9319065125077",
+   "handle": "mybat-vidrio-templado-para-camara-iphone-11-pro-11-pro-max",
+   "title": "MyBat Vidrio Templado para Cámara iPhone 11 Pro / 11 Pro Max",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9319150256341",
+   "handle": "click-latch-galaxy-a16-negro-1",
+   "title": "Click Latch Galaxy A16 Negro",
+   "vendor": "Click",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9320220557525",
+   "handle": "l-griffin-survivor-iphone-12-12-pro-negro",
+   "title": "Griffin Survivor iPhone 12-12 Pro Negro",
+   "vendor": "Griffin",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9320220721365",
+   "handle": "griffin-survivor-iphone-12-pro-max-negro",
+   "title": "Griffin Survivor iPhone 12 Pro Max Negro",
+   "vendor": "Griffin",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9320224424149",
+   "handle": "l-gunnar-vertex-ony-amber-focusing-power",
+   "title": "Gunnar Vertex Ony/Amber Focusing Power",
+   "vendor": "Gunnar",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9320827125973",
+   "handle": "nimbus9-cirrus3-iphone-17-pro-max-negro-1",
+   "title": "Nimbus9 Cirrus3 iPhone 17 Pro Max Negro",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9320839381205",
+   "handle": "l-nimbus9-stratus-magsafe-iphone-14-pro-frost",
+   "title": "Nimbus9 Stratus MagSafe iPhone 14 Pro Frost",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9320842363093",
+   "handle": "l-nimbus9-stratus-galaxy-s24-ultra-frost",
+   "title": "Nimbus9 Stratus Galaxy S24 Ultra Frost",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9320844624085",
+   "handle": "l-nimbus9-stratus-magsafe-galaxy-s24-ultra-topography",
+   "title": "Nimbus9 Stratus MagSafe Galaxy S24 Ultra Topography",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9320845508821",
+   "handle": "nimbus9-stratus-mafsafe-iphone-15-pro-max-topography-1",
+   "title": "Nimbus9 Stratus Mafsafe iPhone 15 Pro Max Topography",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9321097560277",
+   "handle": "motorola-smartwatch70-rosado",
+   "title": "Motorola Smartwatch70 Rosado",
+   "vendor": "Motorola",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9321432907989",
+   "handle": "rivacase-maletin-7730-para-laptop-15-6-negro",
+   "title": "Rivacase Maletin 7730 para Laptop 15.6'' Negro",
+   "vendor": "Rivacase",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9321433366741",
+   "handle": "rivacase-organizador-de-viaje-8511-negro",
+   "title": "Rivacase Organizador de Viaje 8511 Negro",
+   "vendor": "Rivacase",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9321533669589",
+   "handle": "samsung-kit-de-carga-micro-usb-12-watts-blanco",
+   "title": "Samsung Kit de Carga Micro USB 12 Watts Blanco",
+   "vendor": "Samsung",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9329911726293",
+   "handle": "hifuture-evo2-sport-smartwatch-beige-1",
+   "title": "Smartwatch HiFuture Evo2 Sport – Beige",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 7
+  },
+  {
+   "id": "gid://shopify/Product/9335556440277",
+   "handle": "prodigee-hero-iphone-14-pro-clear",
+   "title": "Prodigee Hero iPhone 14 Pro Clear",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9335556538581",
+   "handle": "prodigee-safetee-smooth-iphone-14-pro-negro-1",
+   "title": "Prodigee Safetee Smooth iPhone 14 Pro Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9335556604117",
+   "handle": "prodigee-safetee-steel-iphone-14-pro-blanco-1",
+   "title": "Prodigee Safetee Steel iPhone 14 Pro Blanco",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9335556636885",
+   "handle": "prodigee-safetee-steel-iphone-14-pro-negro-1",
+   "title": "Prodigee Safetee Steel iPhone 14 Pro Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9337796853973",
+   "handle": "laut-little-buddy-ipad-10-9-2022-blue",
+   "title": "LAUT Little Buddy iPad 10.9\" 2022 Blue",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9337797083349",
+   "handle": "laut-prestige-folio-mg-ipad-air-13-2024-negro",
+   "title": "LAUT Prestige Folio Mg iPad Air 13\" (2024) Negro",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 5
+  },
+  {
+   "id": "gid://shopify/Product/9337797181653",
+   "handle": "laut-typefolio-2-0-keyboard-ipad-10-9-2022-black",
+   "title": "LAUT Typefolio 2.0 Keyboard iPad 10.9\" (2022) Black",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9337797542101",
+   "handle": "tucano-active-pencil2-para-ipad-blanco",
+   "title": "Tucano Active Pencil2 para iPad Blanco",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9337797640405",
+   "handle": "tucano-alunno-ipad-case-10th-black",
+   "title": "Tucano Alunno iPad Case 10TH Black",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9337797673173",
+   "handle": "tucano-funda-ipad-10-2-10-5-rosado",
+   "title": "Tucano Funda iPad 10.2 / 10.5 Rosado",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9339689763029",
+   "handle": "l-energy-sistem-style-2-earphones-tws-navy",
+   "title": "Energy Sistem Style 2 Earphones TWS Navy",
+   "vendor": "Energy Sistem",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9342469144789",
+   "handle": "skullcandy-hesh-wireless-audifno-bluetooth-diadema-negro",
+   "title": "Audífonos Skullcandy Hesh Wireless Over-Ear – Negro",
+   "vendor": "Skullcandy",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9342469603541",
+   "handle": "skullcandy-inkd-audifono-azul-1",
+   "title": "Audífonos Skullcandy Ink'd con Cable – Azul",
+   "vendor": "Skullcandy",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9342469865685",
+   "handle": "skullcandy-jib-con-microfono-azul",
+   "title": "Audífonos Skullcandy Jib con Micrófono – Azul",
+   "vendor": "Skullcandy",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9342470357205",
+   "handle": "skullcandy-jib-true-wireless-2-audifono-bluetooth-gris-1",
+   "title": "Audífonos Skullcandy Jib True 2 – Gris",
+   "vendor": "Skullcandy",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9342526488789",
+   "handle": "samsung-kit-de-carga-rapida-25w-tipo-c-negro-2",
+   "title": "Samsung Kit de Carga Rápida 25W Tipo C Negro",
+   "vendor": "Samsung",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9342526521557",
+   "handle": "samsung-kit-de-carga-rapida-25w-tipo-c-negro-3",
+   "title": "Samsung Kit de Carga Rápida 25W Tipo C Negro",
+   "vendor": "Samsung",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9342530453717",
+   "handle": "argom-tech-adaptador-hdmi-a-vga-15cm",
+   "title": "Argom Tech adaptador HDMI a VGA 15cm",
+   "vendor": "Argom",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9342530486485",
+   "handle": "unno-cable-hdmi-2-0-4k-ultra-hd-1-8-metros",
+   "title": "UNNO Cable HDMI 2.0 4K Ultra HD 1.8 metros",
+   "vendor": "UNNO",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9342530584789",
+   "handle": "unno-cable-hdmi-7-5-metros-hd",
+   "title": "UNNO Cable HDMI 7.5 metros HD",
+   "vendor": "UNNO",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9342530650325",
+   "handle": "unno-tekno-adaptador-tipo-c-a-hdmi",
+   "title": "Unno Tekno Adaptador Tipo C a HDMI",
+   "vendor": "UNNO",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9356378636501",
+   "handle": "caseco-galaxy-s25-ultra-easter-floral",
+   "title": "Caseco Galaxy S25 Ultra Easter Floral",
+   "vendor": "CaseCo",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9356378669269",
+   "handle": "caseco-galaxy-s25-ultra-polka-dots",
+   "title": "Caseco Galaxy S25 Ultra Polka Dots",
+   "vendor": "CaseCo",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9356378898645",
+   "handle": "caseco-iphone-17-pro-max-graffiti",
+   "title": "Caseco iPhone 17 Pro Max Graffiti",
+   "vendor": "CaseCo",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9356378964181",
+   "handle": "caseco-iphone-17-pro-max-pink-wildflower",
+   "title": "Caseco iPhone 17 Pro Max Pink Wildflower",
+   "vendor": "CaseCo",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9372729082069",
+   "handle": "logiix-air-guard-classic-iphone-17-pro-max-clear-white",
+   "title": "LOGiiX Air Guard Classic iPhone 17 Pro Max Clear/White",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9372729180373",
+   "handle": "logiix-vibrance-siicone-iphone-17-pro-max-midnight-blue",
+   "title": "LOGiiX Vibrance Siicone iPhone 17 Pro Max Midnight Blue",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9372729639125",
+   "handle": "logiix-vibrance-silicone-iphone-17-pro-lavender",
+   "title": "LOGiiX Vibrance Silicone iPhone 17 Pro Lavender",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9372729671893",
+   "handle": "logiix-vibrance-silicone-iphone-17-pro-max-negro",
+   "title": "LOGiiX Vibrance Silicone iPhone 17 Pro Max Negro",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9372729704661",
+   "handle": "logiix-vibrance-silicone-iphone-17-pro-max-orange",
+   "title": "LOGiiX Vibrance Silicone iPhone 17 Pro Max Orange",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9372729737429",
+   "handle": "logiix-vibrance-silicone-iphone-17-pro-max-sand",
+   "title": "LOGiiX Vibrance Silicone iPhone 17 Pro Max Sand",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 4
+  },
+  {
+   "id": "gid://shopify/Product/9372729770197",
+   "handle": "logiix-vibrance-silicone-iphone-17-pro-midnight-blue",
+   "title": "LOGiiX Vibrance Silicone iPhone 17 Pro Midnight Blue",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9372729901269",
+   "handle": "logiix-air-guard-classic-airpods-pro-3-clear",
+   "title": "LOGiiX Air Guard Classic AirPods Pro 3 Clear",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9372730130645",
+   "handle": "logiix-piston-power-5000mah-qi2-magsafe-titanium-1",
+   "title": "LOGiiX Piston Power 5000mAh Qi2 MagSafe Titanium",
+   "vendor": "LOGiiX",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9385627877589",
+   "handle": "l-zagg-santa-cruz-snap-iphone-16-pro-negro",
+   "title": "ZAGG Santa Cruz Snap iPhone 16 Pro Negro",
+   "vendor": "ZAGG",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9386247028949",
+   "handle": "tucano-gancio-case-w-keyboard-universal-11-azul",
+   "title": "Tucano Gancio Case W/Keyboard Universal 11\" Azul",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386250174677",
+   "handle": "l-tucano-mouse-inalambrico-ergonomico-negro",
+   "title": "Tucano Mouse Inalámbrico Ergonómico Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9386250436821",
+   "handle": "tucano-binario-backpack-15-6-w-ags-blue",
+   "title": "Tucano Binario Backpack 15.6\" W/Ags Blue",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386250666197",
+   "handle": "tucano-binario-backpack-15-6l-anthracite-negro",
+   "title": "Tucano Binario Backpack 15.6l Anthracite Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9386250895573",
+   "handle": "tucano-ergonomic-lumbar-cushion",
+   "title": "Tucano Ergonomic Lumbar Cushion",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386251092181",
+   "handle": "tucano-facile-plus-universal-para-tablet-11-pulgadas-negro-1",
+   "title": "Tucano Facile Plus Universal para Tablet 11 Pulgadas Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9386251780309",
+   "handle": "tucano-funda-offroad-para-laptop-15-6-negro",
+   "title": "Tucano Funda Offroad para Laptop 15.6'' Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9386252009685",
+   "handle": "tucano-goal-backpack-15-6-brown",
+   "title": "Tucano Goal Backpack 15.6 Brown",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386252304597",
+   "handle": "tucano-goal-backpack-15-6-gray",
+   "title": "Tucano Goal Backpack 15.6 Gray",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386252501205",
+   "handle": "tucano-lato2-backpack-13-3-14-black",
+   "title": "Tucano Lato2 Backpack 13.3/14\" Black",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386252665045",
+   "handle": "tucano-lato2-backpack-13-3-14-blue",
+   "title": "Tucano Lato2 Backpack 13.3/14\" Blue",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386252763349",
+   "handle": "tucano-let-me-out-foldable-duffle-verde",
+   "title": "Tucano Let Me Out Foldable Duffle Verde",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386252927189",
+   "handle": "tucano-let-me-out-mochila",
+   "title": "Tucano Let Me Out Mochila",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386252959957",
+   "handle": "tucano-mochila-ted-14-verde",
+   "title": "Tucano Mochila Ted 14'' Verde",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9386253287637",
+   "handle": "tucano-mouse-inalambrico-negro-1",
+   "title": "Tucano Mouse Inalámbrico Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386253484245",
+   "handle": "tucano-smilza-superslim-funda-para-computadora-14-pulgadas-azul",
+   "title": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Azul",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386253680853",
+   "handle": "tucano-smilza-superslim-funda-para-computadora-14-pulgadas-negra",
+   "title": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Negra",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386253877461",
+   "handle": "tucano-soft-troelly-mochila-negra",
+   "title": "Tucano Soft Troelly Mochila Negra",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9386253975765",
+   "handle": "tucano-top-slevee-mbp-13-petroleum-blue",
+   "title": "Tucano Top Slevee Mbp 13\" Petroleum Blue",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9386254205141",
+   "handle": "tucano-tugo-m-cabin-luggage-15-6-pc-black",
+   "title": "Tucano Tugo M Cabin Luggage 15.6\" PC Black",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386254598357",
+   "handle": "tucano-unico-case-universal-para-tablet-11-pulgadas-negro",
+   "title": "Tucano Unico Case Universal para Tablet 11 Pulgadas Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386255089877",
+   "handle": "tucano-universo-case-universal-para-tablet-samsung-10-5-pulgadas-amarillo-1",
+   "title": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Amarillo",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386255417557",
+   "handle": "tucano-universo-case-universal-para-tablet-samsung-10-5-pulgadas-negro-1",
+   "title": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386255646933",
+   "handle": "tucano-vento-case-universal-para-tablet-11-pulgadas-negro",
+   "title": "Tucano Vento Case Universal para Tablet 11 Pulgadas Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386255745237",
+   "handle": "tucano-workout-4-mochila-para-computador-14-pulgadas-azul-1",
+   "title": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Azul",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9386255974613",
+   "handle": "tucano-workout-4-mochila-para-computador-14-pulgadas-negro",
+   "title": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/9386256007381",
+   "handle": "tucano-workout-4-mochila-para-computador-16-pulgadas-negro-1",
+   "title": "Tucano Workout 4 Mochila para Computador 16 Pulgadas Negro",
+   "vendor": "Tucano",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9389088669909",
+   "handle": "pulsera-applewatch-eslabon-glitter-oro-rosa-38-40-41",
+   "title": "Pulsera Apple Watch Eslabón Glitter Oro Rosa 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389088702677",
+   "handle": "pulsera-applewatch-eslabon-glitter-oro-rosa-42-44-45-49",
+   "title": "Pulsera Apple Watch Eslabón Glitter Oro Rosa 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389088735445",
+   "handle": "pulsera-applewatch-eslabon-glitter-silver-42-44-45-49",
+   "title": "Pulsera Apple Watch Eslabón Glitter Silver 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389088800981",
+   "handle": "pulsera-applewatch-mickey-cafe-38-40-41",
+   "title": "Pulsera Apple Watch Mickey Café 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9389088866517",
+   "handle": "pulsera-applewatch-mickey-y-miney-38-40-41",
+   "title": "Pulsera Apple Watch Mickey y Miney 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389088932053",
+   "handle": "pulsera-applewatch-ocean-con-gancho-gris-claro-42-44-45-49",
+   "title": "Pulsera Apple Watch Ocean con Gancho Gris Claro 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389088964821",
+   "handle": "pulsera-applewatch-ocean-con-gancho-negro-y-amarillo-42-44-45-49",
+   "title": "Pulsera Apple Watch Ocean con Gancho Negro y Amarillo 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089030357",
+   "handle": "pulsera-applewatch-silicon-azul-marino-38-40-41",
+   "title": "Pulsera Apple Watch Silicón Azul Marino 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089095893",
+   "handle": "pulsera-applewatch-silicon-gris-38-40-41",
+   "title": "Pulsera Apple Watch Silicón Gris 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089128661",
+   "handle": "pulsera-applewatch-silicon-gris-42-44-45-49",
+   "title": "Pulsera Apple Watch Silicón Gris 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089161429",
+   "handle": "pulsera-applewatch-silicon-magnetico-beige-42-44-45-49",
+   "title": "Pulsera Apple Watch Silicón Magnético Beige 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089194197",
+   "handle": "pulsera-applewatch-silicon-magnetico-gris-y-rojo-38-40-41",
+   "title": "Pulsera Apple Watch Silicón Magnético Gris y Rojo 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089226965",
+   "handle": "pulsera-applewatch-silicon-magnetico-negro-38-40-41",
+   "title": "Pulsera Apple Watch Silicón Magnético Negro 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089259733",
+   "handle": "pulsera-applewatch-silicon-magnetico-rosa-38-40-41",
+   "title": "Pulsera Apple Watch Silicón Magnético Rosa 38/40/41",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9389089325269",
+   "handle": "pulsera-applewatch-silicon-magnetico-rosa-42-44-45-49",
+   "title": "Pulsera Apple Watch Silicón Magnético Rosa 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9389089358037",
+   "handle": "pulsera-applewatch-silicon-negro-42-44-45-49",
+   "title": "Pulsera Apple Watch Silicón Negro 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089423573",
+   "handle": "pulsera-applewatch-silicon-verde-oscuro-42-44-45-49",
+   "title": "Pulsera Apple Watch Silicón Verde Oscuro 42/44/45/49",
+   "vendor": "ITRONICS GT, SOCIEDAD ANÓNIMA",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9389089489109",
+   "handle": "watch-pulsera-para-apple-watch-42-44mm-amarillo-1",
+   "title": "Watch Pulsera para Apple Watch 42/44mm Amarillo",
+   "vendor": "Ventas Guate",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9391673639125",
+   "handle": "laut-luxedge-iphone-17-pro-max-luxe-brown",
+   "title": "LAUT Luxedge iPhone 17 Pro Max Luxe Brown",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9391673704661",
+   "handle": "laut-luxedge-iphone-17-pro-max-slate-black",
+   "title": "LAUT Luxedge iPhone 17 Pro Max Slate Black",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9400706859221",
+   "handle": "prodigee-balance-iphone-16-pro-max-negro",
+   "title": "Prodigee Balance iPhone 16 Pro Max Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9400707252437",
+   "handle": "prodigee-hero-s24-ultra-clear-1",
+   "title": "Prodigee Hero S24 Ultra Clear",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9400707383509",
+   "handle": "prodigee-kick-it-iphone-14-plus-rosado-1",
+   "title": "Prodigee Kick It iPhone 14 Plus Rosado",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 6
+  },
+  {
+   "id": "gid://shopify/Product/9400707449045",
+   "handle": "prodigee-kickit-iphone-14-plus-negro-1",
+   "title": "Prodigee Kickit iPhone 14 Plus Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 10
+  },
+  {
+   "id": "gid://shopify/Product/9400707612885",
+   "handle": "prodigee-magneteek-iphone-13-pro-max-negro",
+   "title": "Prodigee Magneteek iPhone 13 Pro Max Negro",
+   "vendor": "Prodigee",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9415311130837",
+   "handle": "laut-crystal-matter-x-iphone-17-pro-max-bronze-crystal",
+   "title": "LAUT Crystal Matter X iPhone 18 Pro Max/17 Pro Max Bronze Crystal",
+   "vendor": "LAUT",
+   "totalInventory": 0,
+   "mediaCount": 8
+  },
+  {
+   "id": "gid://shopify/Product/9456816324821",
+   "handle": "l-baseus-bowie-e13-true-wireless-galaxy-negro-1",
+   "title": "Baseus Bowie E13 True Wireless Galaxy Negro",
+   "vendor": "Baseus",
+   "totalInventory": 0,
+   "mediaCount": 10
+  },
+  {
+   "id": "gid://shopify/Product/9456816521429",
+   "handle": "l-baseus-bowie-e13-true-wireless-moon-blanco-1",
+   "title": "Baseus Bowie E13 True Wireless Moon Blanco",
+   "vendor": "Baseus",
+   "totalInventory": 0,
+   "mediaCount": 8
+  },
+  {
+   "id": "gid://shopify/Product/9457216487637",
+   "handle": "jbl-headphone-vibe-buds2-rosado-1",
+   "title": "JBL Headphone Vibe Buds2 Rosado",
+   "vendor": "JBL",
+   "totalInventory": 0,
+   "mediaCount": 13
+  },
+  {
+   "id": "gid://shopify/Product/9464585945301",
+   "handle": "bitty-boomers-bocina-bluetooth-deadpool",
+   "title": "Bitty Boomers Bocina Bluetooth Deadpool",
+   "vendor": "Bitty Boomers",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9464587485397",
+   "handle": "bitty-boomers-bocina-bluetooth-minion-bob",
+   "title": "Bitty Boomers Bocina Bluetooth Minion Bob",
+   "vendor": "Bitty Boomers",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9464587845845",
+   "handle": "bitty-boomers-bocina-bluetooth-star-wars-boba-bbf",
+   "title": "Bitty Boomers Bocina Bluetooth Star Wars Boba Bbf",
+   "vendor": "Bitty Boomers",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9464589156565",
+   "handle": "bitty-boomers-bocina-bluetooth-thanos-marvel",
+   "title": "Bitty Boomers Bocina Bluetooth Thanos Marvel",
+   "vendor": "Bitty Boomers",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/9613269663957",
+   "handle": "hifuture-evo2-sport-smartwatch-negro-1",
+   "title": "Smartwatch HiFuture Evo2 Sport – Negro",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 7
+  },
+  {
+   "id": "gid://shopify/Product/9613271498965",
+   "handle": "hifuture-gravity-bocina-bluetooth-azul-1",
+   "title": "Bocina HiFuture Gravity – Azul",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/9613271859413",
+   "handle": "hifuture-gravity-bocina-bluetooth-negro-1",
+   "title": "Bocina HiFuture Gravity – Negro",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9613272056021",
+   "handle": "hifuture-ripple-bocina-bluetooth-azul-1",
+   "title": "Bocina HiFuture Ripple – Azul",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/9613272187093",
+   "handle": "hifuture-ripple-bocina-bluetooth-negro-1",
+   "title": "Bocina HiFuture Ripple – Negro",
+   "vendor": "HiFuture",
+   "totalInventory": 0,
+   "mediaCount": 3
+  },
+  {
+   "id": "gid://shopify/Product/15401829761237",
+   "handle": "ohsnap-snap-grip-rose",
+   "title": "OhSnap Snap Grip MagSafe – Rose",
+   "vendor": "OhSnap",
+   "totalInventory": 0,
+   "mediaCount": 7
+  },
+  {
+   "id": "gid://shopify/Product/15402874994901",
+   "handle": "ohsnap-snap-grip-blazed-sunset",
+   "title": "OhSnap Snap Grip MagSafe – Blazed Sunset",
+   "vendor": "OhSnap",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/15402875093205",
+   "handle": "ohsnap-snap-grip-gator-fade",
+   "title": "OhSnap Snap Grip MagSafe – Gator Fade",
+   "vendor": "OhSnap",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/15402875388117",
+   "handle": "ohsnap-snap-grip-orchid-slap",
+   "title": "OhSnap Snap Grip MagSafe – Orchid Slap",
+   "vendor": "OhSnap",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/15402875453653",
+   "handle": "ohsnap-snap-grip-pick-me-pink",
+   "title": "OhSnap Snap Grip MagSafe – Pick Me Pink",
+   "vendor": "OhSnap",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/15513933021397",
+   "handle": "l-mybat-vidrio-para-camara-galaxy-s24-clear",
+   "title": "MyBat Vidrio para Cámara Galaxy S24 Clear",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/15513933054165",
+   "handle": "l-mybat-vidrio-para-camara-galaxy-s24-plus-clear",
+   "title": "MyBat Vidrio para Cámara Galaxy S24 Plus Clear",
+   "vendor": "MyBat",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/15513933086933",
+   "handle": "l-nimbus9-stratus-magsafe-galaxy-s23-leaves",
+   "title": "Nimbus9 Stratus MagSafe Galaxy S23 Leaves",
+   "vendor": "Nimbus9",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/15513933152469",
+   "handle": "l-itskins-ballistic-magsafe-galaxy-s24-plus-negro",
+   "title": "ITSkins Ballistic MagSafe Galaxy S24 Plus Negro",
+   "vendor": "ITSKINS",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/15513933185237",
+   "handle": "l-clckr-onyx-galaxy-s24-negro",
+   "title": "CLCKR Onyx Galaxy S24 Negro",
+   "vendor": "CLCKR",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/15513933218005",
+   "handle": "l-itskins-hybrid-clear-magsafe-galaxy-z-fold-5-transparente-morado",
+   "title": "ITSkins Hybrid Clear MagSafe Galaxy Z Fold 5 Transparente/Morado",
+   "vendor": "ITSKINS",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/15529153921237",
+   "handle": "mello-cable-tipo-c-a-lightning-blanco",
+   "title": "Mello Cable Tipo C a Lightning Blanco",
+   "vendor": "MELLO DISTRIBUTION",
+   "totalInventory": 0,
+   "mediaCount": 0
+  },
+  {
+   "id": "gid://shopify/Product/15529154478293",
+   "handle": "mello-vidrio-de-camara-2-en-1-iphone-duo-azul-1",
+   "title": "Mello Vidrio de Cámara 2 en 1 iPhone Duo Azul",
+   "vendor": "MELLO DISTRIBUTION",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/15529154576597",
+   "handle": "mello-vidrio-de-camara-2-en-1-iphone-duo-plata-1",
+   "title": "Mello Vidrio de Cámara 2 en 1 iPhone Duo Plata",
+   "vendor": "MELLO DISTRIBUTION",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/15529154773205",
+   "handle": "mello-vidrio-de-camara-completo-iphone-duo-plata-1",
+   "title": "Mello Vidrio de Cámara Completo iPhone Duo Plata",
+   "vendor": "MELLO DISTRIBUTION",
+   "totalInventory": 0,
+   "mediaCount": 2
+  },
+  {
+   "id": "gid://shopify/Product/15529158967509",
+   "handle": "hifuture-passion-m-lifestyle-wireless-bocina-black",
+   "title": "HiFuture Passion M Lifestyle Wireless Bocina Black",
+   "vendor": "FUTURE ACCESS TECHNOLOGY CO., LIMITED",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/15529159033045",
+   "handle": "hifuture-passion-m-lifestyle-wireless-bocina-latte",
+   "title": "HiFuture Passion M Lifestyle Wireless Bocina Latte",
+   "vendor": "FUTURE ACCESS TECHNOLOGY CO., LIMITED",
+   "totalInventory": 0,
+   "mediaCount": 1
+  },
+  {
+   "id": "gid://shopify/Product/15529159065813",
+   "handle": "hifuture-wm200-microfono-inalambrico-grey",
+   "title": "HiFuture Wm200 Micrófono Inalámbrico Grey",
+   "vendor": "FUTURE ACCESS TECHNOLOGY CO., LIMITED",
+   "totalInventory": 0,
+   "mediaCount": 0
+  }
+ ],
+ "estado": "NO APLICADO: publishableUnpublish bloqueado por la política de seguridad del MCP de Shopify (2026-11-21). Lista lista para ocultar manualmente o con otra vía autorizada."
+}
