@@ -1,0 +1,1089 @@
+{
+ "fecha": "2026-11-21",
+ "aprobado_por": "Diego Segura (chat 2026-11-21: 'corrigamos las 270 descripciones')",
+ "verificacion_previa": "updatedAt de los 270 productos anterior al respaldo (14:39 UTC); ninguno cambió desde el respaldo",
+ "aplicados": [
+  {
+   "id": 9386245292245,
+   "handle": "l-tucano-neoprene-desk-pad-blue"
+  },
+  {
+   "id": 9386244473045,
+   "handle": "l-tucano-let-me-out-foldable-saddle-bag-negro"
+  },
+  {
+   "id": 9386244276437,
+   "handle": "l-tucano-let-me-out-foldable-crossbody-verde"
+  },
+  {
+   "id": 9386243981525,
+   "handle": "l-tucano-let-me-out-foldable-crossbody-azul"
+  },
+  {
+   "id": 9386247225557,
+   "handle": "l-tucano-gommo-backpack-rolltop-blue"
+  },
+  {
+   "id": 15518278779093,
+   "handle": "iphone-17-pro-max-512gb-azul-profundo-seminuevo"
+  },
+  {
+   "id": 15499753849045,
+   "handle": "iphone-16-pro-max-256gb-titanio-natural-seminuevo"
+  },
+  {
+   "id": 15499752046805,
+   "handle": "iphone-15-pro-max-512gb-titanio-negro-seminuevo"
+  },
+  {
+   "id": 15574231318741,
+   "handle": "iphone-15-pro-max-1tb-titanio-negro-seminuevo"
+  },
+  {
+   "id": 15499724783829,
+   "handle": "iphone-14-pro-128gb-negro-espacial-seminuevo"
+  },
+  {
+   "id": 15499722784981,
+   "handle": "iphone-13-128gb-verde-seminuevo"
+  },
+  {
+   "id": 15574231220437,
+   "handle": "iphone-15-pro-max-256gb-titanio-natural-seminuevo"
+  },
+  {
+   "id": 15574231122133,
+   "handle": "iphone-15-pro-256gb-titanio-natural-seminuevo"
+  },
+  {
+   "id": 15546870005973,
+   "handle": "reelcharge-reelsafe-glass-powerbank-magnetico-5000mah-plata"
+  },
+  {
+   "id": 15546869907669,
+   "handle": "reelcharge-reelsafe-glass-powerbank-magnetico-5000mah-gris"
+  },
+  {
+   "id": 15546869874901,
+   "handle": "reelcharge-reelsafe-powerbank-10000mah-semi-solido-gris"
+  },
+  {
+   "id": 15546869842133,
+   "handle": "reelcharge-reelsafe-powerbank-5000mah-semi-solido-gris"
+  },
+  {
+   "id": 15546869809365,
+   "handle": "reelcharge-fusion-powerbank-5000mah-cargador-65w-blanco"
+  },
+  {
+   "id": 15546869776597,
+   "handle": "reelcharge-fusion-powerbank-5000mah-cargador-65w-negro"
+  },
+  {
+   "id": 15546869743829,
+   "handle": "reelcharge-holder-inalambrico-rejilla-15w-cable-retractil-negro"
+  },
+  {
+   "id": 15546869711061,
+   "handle": "reelcharge-cargador-de-pared-smart-45w-tipo-c-gris"
+  },
+  {
+   "id": 15556954980565,
+   "handle": "iphone-13-pro-max-128gb-oro-seminuevo"
+  },
+  {
+   "id": 15548380643541,
+   "handle": "veratek-arrancador-de-bateria-v6-1000a-negro-naranja-1"
+  },
+  {
+   "id": 15518278680789,
+   "handle": "iphone-16-pro-128gb-titanio-desierto-seminuevo"
+  },
+  {
+   "id": 15480759124181,
+   "handle": "l-uag-lucent-samsung-galaxy-s22-ultra-rosado"
+  },
+  {
+   "id": 15513933218005,
+   "handle": "l-itskins-hybrid-clear-magsafe-galaxy-z-fold-5-transparente-morado"
+  },
+  {
+   "id": 15513933185237,
+   "handle": "l-clckr-onyx-galaxy-s24-negro"
+  },
+  {
+   "id": 15513933152469,
+   "handle": "l-itskins-ballistic-magsafe-galaxy-s24-plus-negro"
+  },
+  {
+   "id": 15513933086933,
+   "handle": "l-nimbus9-stratus-magsafe-galaxy-s23-leaves"
+  },
+  {
+   "id": 15513933054165,
+   "handle": "l-mybat-vidrio-para-camara-galaxy-s24-plus-clear"
+  },
+  {
+   "id": 15513933021397,
+   "handle": "l-mybat-vidrio-para-camara-galaxy-s24-clear"
+  },
+  {
+   "id": 15480767578325,
+   "handle": "l-torras-upro-magnetic-magsafe-galaxy-s24-negro"
+  },
+  {
+   "id": 9149923983573,
+   "handle": "prodigee-super-hero-galaxy-s24-smoke"
+  },
+  {
+   "id": 15480763318485,
+   "handle": "ballistic-soft-jacket-galaxy-s20-ultra-negro"
+  },
+  {
+   "id": 15480762794197,
+   "handle": "silicon-case-galaxy-a72-turquesa"
+  },
+  {
+   "id": 9271506075861,
+   "handle": "prodigee-super-hero-galaxy-s26-plus-smoke"
+  },
+  {
+   "id": 9271506010325,
+   "handle": "prodigee-super-hero-galaxy-s26-plus-clear"
+  },
+  {
+   "id": 15480763711701,
+   "handle": "l-itskins-hybrid-spark-galaxy-s23-plus-smoke"
+  },
+  {
+   "id": 9320826634453,
+   "handle": "l-nimbus9-cirrus2-galaxy-s20-ultra-rojo"
+  },
+  {
+   "id": 9263665709269,
+   "handle": "l-clckr-carbon-galaxy-s24-plus-negro"
+  },
+  {
+   "id": 15480759288021,
+   "handle": "l-mybat-maverick-antimicrobial-con-holster-galaxy-s22-negro"
+  },
+  {
+   "id": 9271505649877,
+   "handle": "prodigee-kickit-galaxy-s26-black"
+  },
+  {
+   "id": 15480767054037,
+   "handle": "l-nimbus9-phantom-galaxy-s24-ultra-lila"
+  },
+  {
+   "id": 9271505682645,
+   "handle": "prodigee-kickit-galaxy-s26-plus-black"
+  },
+  {
+   "id": 9320826699989,
+   "handle": "l-nimbus9-cirrus2-galaxy-s23-negro-1"
+  },
+  {
+   "id": 9142022111445,
+   "handle": "l-nimbus9-cirrus2-galaxy-s23-plus-black"
+  },
+  {
+   "id": 9142034497749,
+   "handle": "nimbus9-alto2-magsafe-galaxy-z-flip-7-azul"
+  },
+  {
+   "id": 9310361583829,
+   "handle": "prodigee-superstar-galaxy-s25-ultra-clear"
+  },
+  {
+   "id": 9142011691221,
+   "handle": "click-latch-galaxy-s25-ultra-clear-purpura"
+  },
+  {
+   "id": 15480762597589,
+   "handle": "l-mybat-vidrio-templado-para-camara-galaxy-s20-fan-edition-clear"
+  },
+  {
+   "id": 9149924147413,
+   "handle": "prodigee-super-hero-galaxy-s25-smoke"
+  },
+  {
+   "id": 9149959110869,
+   "handle": "zizo-bolt-bundle-galaxy-s25-ultra-negro"
+  },
+  {
+   "id": 15512910594261,
+   "handle": "iphone-17-pro-256gb-azul-profundo-seminuevo"
+  },
+  {
+   "id": 15512910463189,
+   "handle": "iphone-15-pro-max-256gb-titanio-azul-seminuevo"
+  },
+  {
+   "id": 15510434185429,
+   "handle": "iphone-17-pro-256gb-plata-seminuevo"
+  },
+  {
+   "id": 15499756208341,
+   "handle": "samsung-galaxy-s24-ultra-512gb-gris-titanio"
+  },
+  {
+   "id": 15499756110037,
+   "handle": "samsung-galaxy-s24-ultra-512gb-amarillo-titanio"
+  },
+  {
+   "id": 15499755978965,
+   "handle": "samsung-galaxy-s26-256gb-negro"
+  },
+  {
+   "id": 15499755847893,
+   "handle": "samsung-galaxy-s24-fe-128gb-gris"
+  },
+  {
+   "id": 15499755782357,
+   "handle": "samsung-galaxy-s23-128gb-negro"
+  },
+  {
+   "id": 15499755684053,
+   "handle": "samsung-galaxy-s23-fe-128gb-menta"
+  },
+  {
+   "id": 15499755552981,
+   "handle": "samsung-galaxy-s23-fe-128gb-grafito"
+  },
+  {
+   "id": 15499754963157,
+   "handle": "iphone-17-pro-max-512gb-naranja-cosmico-seminuevo"
+  },
+  {
+   "id": 15499754864853,
+   "handle": "iphone-17-pro-max-256gb-naranja-cosmico-seminuevo"
+  },
+  {
+   "id": 15499754602709,
+   "handle": "iphone-17-pro-max-256gb-azul-profundo-seminuevo"
+  },
+  {
+   "id": 15499754504405,
+   "handle": "iphone-17-air-256gb-azul-cielo-nuevo-sellado"
+  },
+  {
+   "id": 15499754373333,
+   "handle": "iphone-17e-256gb-rosa-seminuevo"
+  },
+  {
+   "id": 15499754307797,
+   "handle": "iphone-16-pro-max-1tb-titanio-blanco-seminuevo"
+  },
+  {
+   "id": 15499754209493,
+   "handle": "iphone-16-pro-max-1tb-titanio-negro-seminuevo"
+  },
+  {
+   "id": 15499754143957,
+   "handle": "iphone-16-pro-max-512gb-titanio-desierto-seminuevo"
+  },
+  {
+   "id": 15499753980117,
+   "handle": "iphone-16-pro-max-512gb-titanio-negro-seminuevo"
+  },
+  {
+   "id": 15499753717973,
+   "handle": "iphone-16-pro-max-256gb-titanio-blanco-seminuevo"
+  },
+  {
+   "id": 15499752997077,
+   "handle": "iphone-16-plus-256gb-ultramar-seminuevo"
+  },
+  {
+   "id": 15499752898773,
+   "handle": "iphone-16-256gb-negro-seminuevo"
+  },
+  {
+   "id": 15499752833237,
+   "handle": "iphone-16-128gb-blanco-seminuevo"
+  },
+  {
+   "id": 15499752702165,
+   "handle": "iphone-16-128gb-rosa-seminuevo"
+  },
+  {
+   "id": 15499752603861,
+   "handle": "iphone-16-128gb-ultramar-seminuevo"
+  },
+  {
+   "id": 15499752505557,
+   "handle": "iphone-16-128gb-verde-azulado-seminuevo"
+  },
+  {
+   "id": 15499752440021,
+   "handle": "iphone-16-128gb-negro-seminuevo"
+  },
+  {
+   "id": 15499752243413,
+   "handle": "iphone-16e-128gb-blanco-seminuevo"
+  },
+  {
+   "id": 15499751817429,
+   "handle": "iphone-15-plus-256gb-azul-seminuevo"
+  },
+  {
+   "id": 15499751751893,
+   "handle": "iphone-15-plus-128gb-azul-seminuevo"
+  },
+  {
+   "id": 15499751620821,
+   "handle": "iphone-15-plus-128gb-amarillo-seminuevo"
+  },
+  {
+   "id": 15499725996245,
+   "handle": "iphone-15-512gb-negro-seminuevo"
+  },
+  {
+   "id": 15499725897941,
+   "handle": "iphone-15-128gb-negro-seminuevo"
+  },
+  {
+   "id": 15499725766869,
+   "handle": "iphone-15-128gb-azul-seminuevo"
+  },
+  {
+   "id": 15499725570261,
+   "handle": "iphone-15-128gb-rosa-seminuevo"
+  },
+  {
+   "id": 15499724947669,
+   "handle": "iphone-14-pro-128gb-morado-oscuro-seminuevo"
+  },
+  {
+   "id": 15499724652757,
+   "handle": "iphone-14-plus-512gb-rojo-seminuevo"
+  },
+  {
+   "id": 15499724521685,
+   "handle": "iphone-14-plus-128gb-rojo-seminuevo"
+  },
+  {
+   "id": 15499724423381,
+   "handle": "iphone-14-plus-128gb-amarillo-seminuevo"
+  },
+  {
+   "id": 15499724292309,
+   "handle": "iphone-14-plus-128gb-morado-seminuevo"
+  },
+  {
+   "id": 15499724194005,
+   "handle": "iphone-14-plus-128gb-azul-seminuevo"
+  },
+  {
+   "id": 15499724030165,
+   "handle": "iphone-14-128gb-azul-seminuevo"
+  },
+  {
+   "id": 15499723735253,
+   "handle": "iphone-13-pro-max-512gb-azul-sierra-seminuevo"
+  },
+  {
+   "id": 15499723571413,
+   "handle": "iphone-13-pro-max-128gb-grafito-seminuevo"
+  },
+  {
+   "id": 15499723276501,
+   "handle": "iphone-13-pro-128gb-verde-alpino-seminuevo"
+  },
+  {
+   "id": 15499723047125,
+   "handle": "iphone-13-pro-128gb-azul-sierra-seminuevo"
+  },
+  {
+   "id": 15499722719445,
+   "handle": "iphone-13-mini-128gb-medianoche-seminuevo"
+  },
+  {
+   "id": 15499722621141,
+   "handle": "iphone-13-mini-128gb-rosa-seminuevo"
+  },
+  {
+   "id": 15499722457301,
+   "handle": "iphone-13-mini-128gb-azul-seminuevo"
+  },
+  {
+   "id": 15499722227925,
+   "handle": "iphone-12-pro-max-256gb-plata-seminuevo"
+  },
+  {
+   "id": 15499722162389,
+   "handle": "iphone-12-pro-max-256gb-azul-pacifico-seminuevo"
+  },
+  {
+   "id": 15499722064085,
+   "handle": "iphone-12-pro-max-256gb-grafito-seminuevo"
+  },
+  {
+   "id": 15499721965781,
+   "handle": "iphone-12-pro-max-128gb-azul-pacifico-seminuevo"
+  },
+  {
+   "id": 15499721867477,
+   "handle": "iphone-12-pro-max-128gb-grafito-seminuevo"
+  },
+  {
+   "id": 15499721638101,
+   "handle": "iphone-12-pro-256gb-azul-pacifico-seminuevo"
+  },
+  {
+   "id": 15499721441493,
+   "handle": "iphone-12-pro-128gb-azul-pacifico-seminuevo"
+  },
+  {
+   "id": 15499721310421,
+   "handle": "iphone-12-pro-128gb-grafito-seminuevo"
+  },
+  {
+   "id": 15499721212117,
+   "handle": "iphone-12-256gb-azul-seminuevo"
+  },
+  {
+   "id": 15499705254101,
+   "handle": "iphone-12-128gb-azul-seminuevo"
+  },
+  {
+   "id": 15499705123029,
+   "handle": "iphone-12-64gb-morado-seminuevo"
+  },
+  {
+   "id": 15499705024725,
+   "handle": "iphone-12-64gb-negro-seminuevo"
+  },
+  {
+   "id": 15499704991957,
+   "handle": "iphone-12-64gb-azul-seminuevo"
+  },
+  {
+   "id": 15499704893653,
+   "handle": "iphone-12-mini-64gb-rojo-seminuevo"
+  },
+  {
+   "id": 15499704860885,
+   "handle": "iphone-12-mini-64gb-verde-seminuevo"
+  },
+  {
+   "id": 15499704664277,
+   "handle": "iphone-11-pro-max-512gb-plata-seminuevo"
+  },
+  {
+   "id": 15499704598741,
+   "handle": "iphone-11-pro-max-512gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499704565973,
+   "handle": "iphone-11-pro-max-512gb-verde-noche-seminuevo"
+  },
+  {
+   "id": 15499704402133,
+   "handle": "iphone-11-pro-max-64gb-plata-seminuevo"
+  },
+  {
+   "id": 15499704336597,
+   "handle": "iphone-11-pro-max-64gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499704271061,
+   "handle": "iphone-11-pro-max-64gb-verde-noche-seminuevo"
+  },
+  {
+   "id": 15499704139989,
+   "handle": "iphone-11-pro-512gb-plata-seminuevo"
+  },
+  {
+   "id": 15499704041685,
+   "handle": "iphone-11-pro-512gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499703943381,
+   "handle": "iphone-11-pro-512gb-verde-noche-seminuevo"
+  },
+  {
+   "id": 15499703845077,
+   "handle": "iphone-11-pro-256gb-oro-seminuevo"
+  },
+  {
+   "id": 15499703779541,
+   "handle": "iphone-11-pro-64gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499703714005,
+   "handle": "iphone-11-pro-64gb-verde-noche-seminuevo"
+  },
+  {
+   "id": 15499703615701,
+   "handle": "iphone-11-pro-64gb-oro-seminuevo"
+  },
+  {
+   "id": 15499703386325,
+   "handle": "iphone-11-256gb-blanco-seminuevo"
+  },
+  {
+   "id": 15499703353557,
+   "handle": "iphone-11-128gb-morado-seminuevo"
+  },
+  {
+   "id": 15499703222485,
+   "handle": "iphone-11-128gb-amarillo-seminuevo"
+  },
+  {
+   "id": 15499703091413,
+   "handle": "iphone-11-128gb-negro-seminuevo"
+  },
+  {
+   "id": 15499702993109,
+   "handle": "iphone-11-64gb-morado-seminuevo"
+  },
+  {
+   "id": 15499702829269,
+   "handle": "iphone-11-64gb-negro-seminuevo"
+  },
+  {
+   "id": 15499702665429,
+   "handle": "iphone-xr-128gb-negro-seminuevo"
+  },
+  {
+   "id": 15499702632661,
+   "handle": "iphone-xr-64gb-negro-seminuevo"
+  },
+  {
+   "id": 15499702501589,
+   "handle": "iphone-xr-64gb-azul-seminuevo"
+  },
+  {
+   "id": 15499702403285,
+   "handle": "iphone-xr-64gb-rojo-seminuevo"
+  },
+  {
+   "id": 15499702304981,
+   "handle": "iphone-se-2020-64gb-rojo-seminuevo"
+  },
+  {
+   "id": 15499702239445,
+   "handle": "iphone-xs-max-64gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499702206677,
+   "handle": "iphone-xs-64gb-oro-seminuevo"
+  },
+  {
+   "id": 15499702075605,
+   "handle": "iphone-xs-64gb-plata-seminuevo"
+  },
+  {
+   "id": 15499702042837,
+   "handle": "iphone-xs-64gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499701911765,
+   "handle": "iphone-x-256gb-plata-seminuevo"
+  },
+  {
+   "id": 15499701813461,
+   "handle": "iphone-x-256gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499701682389,
+   "handle": "iphone-8-plus-256gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 15499682578645,
+   "handle": "iphone-8-plus-64gb-gris-espacial-seminuevo"
+  },
+  {
+   "id": 9142005924053,
+   "handle": "amazon-basics-bombilla-led-inteligente-a19"
+  },
+  {
+   "id": 9142005858517,
+   "handle": "amazon-alexa-echo-spot-2024-negro"
+  },
+  {
+   "id": 15423384912085,
+   "handle": "amazon-alexa-echo-dot-max-glacier-white"
+  },
+  {
+   "id": 9571175727317,
+   "handle": "combo-alexa-echo-dot-5-negro-3-bombillos-smart"
+  },
+  {
+   "id": 9571175629013,
+   "handle": "combo-alexa-echo-dot-5-azul-3-bombillos-smart"
+  },
+  {
+   "id": 9570987409621,
+   "handle": "spigen-ice-shield-galaxy-z-flip-5-clear"
+  },
+  {
+   "id": 9265380720853,
+   "handle": "combo-bombillos-amazon"
+  },
+  {
+   "id": 9271506141397,
+   "handle": "prodigee-super-hero-galaxy-s26-smoke"
+  },
+  {
+   "id": 9149924016341,
+   "handle": "prodigee-super-hero-galaxy-s25-clear"
+  },
+  {
+   "id": 9457094688981,
+   "handle": "l-miesherk-shockcase-galaxy-tab-s8-ultra"
+  },
+  {
+   "id": 9457092952277,
+   "handle": "l-mybat-pro-sleeve-bag-para-laptop-y-macbook-15-pulgadas-gris"
+  },
+  {
+   "id": 9457092362453,
+   "handle": "l-mybat-maverick-antimicrobial-con-holster-galaxy-s22-azul"
+  },
+  {
+   "id": 9457084367061,
+   "handle": "l-mybat-myjacket-case-universal-para-tablet-9-y-10-pulgadas-hot-pink"
+  },
+  {
+   "id": 9457083580629,
+   "handle": "l-mageasy-flipmount-soporte-magnetico-para-ipad-iphone-gris"
+  },
+  {
+   "id": 9400707776725,
+   "handle": "prodigee-rockee-galaxy-a73-negro-1"
+  },
+  {
+   "id": 9339362214101,
+   "handle": "l-prodigee-clear-fit-galaxy-a73-clear"
+  },
+  {
+   "id": 9321599402197,
+   "handle": "l-supersonic-smart-photo-frame-10-negro"
+  },
+  {
+   "id": 9321598451925,
+   "handle": "spigen-crystal-hybrid-galaxy-z-fold-5-clear"
+  },
+  {
+   "id": 9320844361941,
+   "handle": "l-nimbus9-stratus-magsafe-galaxy-s24-topography"
+  },
+  {
+   "id": 9320843935957,
+   "handle": "l-nimbus9-stratus-magsafe-galaxy-s24-plus-topography"
+  },
+  {
+   "id": 9320843378901,
+   "handle": "l-nimbus9-stratus-magsafe-galaxy-s23-plus-frost-1"
+  },
+  {
+   "id": 9320842690773,
+   "handle": "l-nimbus9-stratus-magsafe-galaxy-s23-frost"
+  },
+  {
+   "id": 9320841969877,
+   "handle": "l-nimbus9-stratus-galaxy-s24-plus-frost"
+  },
+  {
+   "id": 9320822767829,
+   "handle": "l-nimbus9-alto2-galaxy-s24-plus-negro"
+  },
+  {
+   "id": 9320822669525,
+   "handle": "l-nimbus9-alto2-galaxy-s24-negro"
+  },
+  {
+   "id": 9320822603989,
+   "handle": "l-nimbus9-alto2-galaxy-s24-clear"
+  },
+  {
+   "id": 9320303755477,
+   "handle": "l-itskins-spectrum-galaxy-s22-plus-clear"
+  },
+  {
+   "id": 9320207581397,
+   "handle": "l-gear-4-bridgetown-galaxy-z-fold-3-negro"
+  },
+  {
+   "id": 9319150354645,
+   "handle": "click-latch-galaxy-a36-clear-purpura-1"
+  },
+  {
+   "id": 9309628924117,
+   "handle": "l-prodigee-balance-iphone-15-14-13-lavanda"
+  },
+  {
+   "id": 9142430990549,
+   "handle": "prodigee-balance-galaxy-s25-plus-lavanda"
+  },
+  {
+   "id": 9142430892245,
+   "handle": "prodigee-balance-galaxy-s25-lavanda"
+  },
+  {
+   "id": 9271506665685,
+   "handle": "prodigee-superstar-galaxy-s26-plus-clear"
+  },
+  {
+   "id": 9271506600149,
+   "handle": "prodigee-superstar-galaxy-s26-clear"
+  },
+  {
+   "id": 9271505879253,
+   "handle": "prodigee-super-glass-camera-galaxy-s26-s26-plus"
+  },
+  {
+   "id": 9271505420501,
+   "handle": "prodigee-hero-mag-galaxy-s26-plus-clear"
+  },
+  {
+   "id": 9271505289429,
+   "handle": "prodigee-hero-mag-galaxy-s26-clear"
+  },
+  {
+   "id": 9263667118293,
+   "handle": "l-clckr-topaz-galaxy-s24-plus-clear-blue"
+  },
+  {
+   "id": 9263666987221,
+   "handle": "l-clckr-topaz-galaxy-s24-clear-blue"
+  },
+  {
+   "id": 9263666528469,
+   "handle": "l-clckr-onyx-galaxy-s24-plus-negro"
+  },
+  {
+   "id": 9262757478613,
+   "handle": "vta-bombillo-smart-wifi"
+  },
+  {
+   "id": 9262562148565,
+   "handle": "mybat-pro-stealth-series-galaxy-a23-azul"
+  },
+  {
+   "id": 9262561722581,
+   "handle": "mybat-anti-drop-hybrid-series-case-con-ring-galaxy-z3-flip-negro"
+  },
+  {
+   "id": 9262561591509,
+   "handle": "l-mybat-pro-x-antimicrobial-galaxy-s22-negro"
+  },
+  {
+   "id": 9262561427669,
+   "handle": "l-mybat-pro-shade-series-case-galaxy-s22-azul"
+  },
+  {
+   "id": 9262553366741,
+   "handle": "l-itskins-spectrum-galaxy-s23-smoke"
+  },
+  {
+   "id": 9262553333973,
+   "handle": "l-itskins-spectrum-galaxy-s23-plus-smoke"
+  },
+  {
+   "id": 9262553301205,
+   "handle": "l-itskins-spectrum-galaxy-s23-plus-morado"
+  },
+  {
+   "id": 9262553268437,
+   "handle": "l-itskins-spectrum-galaxy-s23-plus-clear"
+  },
+  {
+   "id": 9262553235669,
+   "handle": "l-itskins-spectrum-galaxy-s22-plus-smoke"
+  },
+  {
+   "id": 9262553006293,
+   "handle": "l-itskins-hybrid-spark-galaxy-s23-plus-verde"
+  },
+  {
+   "id": 9262552973525,
+   "handle": "l-itskins-hybrid-spark-galaxy-s23-plus-morado-1"
+  },
+  {
+   "id": 9262552940757,
+   "handle": "l-itskins-hybrid-spark-galaxy-s23-plus-morado"
+  },
+  {
+   "id": 9262552907989,
+   "handle": "l-itskins-hybrid-spark-galaxy-s23-plus-gliter-clear"
+  },
+  {
+   "id": 9262552842453,
+   "handle": "l-itskins-hybrid-spark-galaxy-s23-gliter-morado"
+  },
+  {
+   "id": 9262552776917,
+   "handle": "l-itskins-hybrid-spark-galaxy-s23-gliter-clear"
+  },
+  {
+   "id": 9262552744149,
+   "handle": "l-itskins-hybrid-galaxy-s23-plus-negro"
+  },
+  {
+   "id": 9262552711381,
+   "handle": "l-itskins-hybrid-frost-galaxy-s24-plus-negro"
+  },
+  {
+   "id": 9262552678613,
+   "handle": "l-itskins-hybrid-clear-magsafe-galaxy-z-fold-5-transparente-smoke"
+  },
+  {
+   "id": 9262552645845,
+   "handle": "l-itskins-ballistic-nylon-magsafe-galaxy-s24-plus-azul"
+  },
+  {
+   "id": 9262552613077,
+   "handle": "l-itskins-ballistic-galaxy-s23-plus-negro"
+  },
+  {
+   "id": 9262552580309,
+   "handle": "itskins-spectrum-galaxy-s23-morado"
+  },
+  {
+   "id": 9262552547541,
+   "handle": "itskins-spectrum-galaxy-s23-clear"
+  },
+  {
+   "id": 9262552514773,
+   "handle": "itskins-hybrid-spark-galaxy-s23-smoke"
+  },
+  {
+   "id": 9149918347477,
+   "handle": "prodigee-kickit-galaxy-s25-rosado"
+  },
+  {
+   "id": 9149918314709,
+   "handle": "prodigee-kickit-galaxy-s25-plus-rosado"
+  },
+  {
+   "id": 9149918281941,
+   "handle": "prodigee-kickit-galaxy-s25-plus-negro"
+  },
+  {
+   "id": 9149918249173,
+   "handle": "prodigee-kickit-galaxy-s25-negro"
+  },
+  {
+   "id": 9149918150869,
+   "handle": "prodigee-kickit-galaxy-s24-plus-rosado"
+  },
+  {
+   "id": 9149916905685,
+   "handle": "prodigee-hero-galaxy-s24-plus-clear"
+  },
+  {
+   "id": 9149916840149,
+   "handle": "prodigee-hero-galaxy-s24-clear"
+  },
+  {
+   "id": 9149916512469,
+   "handle": "prodigee-glow-galaxy-s25"
+  },
+  {
+   "id": 9149916479701,
+   "handle": "prodigee-glow-galaxy-s24-plus"
+  },
+  {
+   "id": 9149916250325,
+   "handle": "prodigee-glow-galaxy-s23-plus-clear"
+  },
+  {
+   "id": 9149916184789,
+   "handle": "prodigee-glow-galaxy-s23-clear"
+  },
+  {
+   "id": 9142023454933,
+   "handle": "l-uag-case-civilian-galaxy-z-flip-3-azul"
+  },
+  {
+   "id": 9142023028949,
+   "handle": "l-ringke-galaxy-s22-plus-flores"
+  },
+  {
+   "id": 9142021980373,
+   "handle": "l-mybat-pro-x-antimicrobial-galaxy-s22-plus-negro"
+  },
+  {
+   "id": 9142021914837,
+   "handle": "l-mybat-pro-x-antimicrobial-galaxy-s22-azul"
+  },
+  {
+   "id": 9142021849301,
+   "handle": "l-mybat-pro-vidro-templado-para-camara-celular-galaxy-s22-s22-plus"
+  },
+  {
+   "id": 9142021685461,
+   "handle": "l-mybat-pro-vidrio-templado-para-camara-galaxy-s21-plus"
+  },
+  {
+   "id": 9142021619925,
+   "handle": "l-mybat-pro-vidrio-templado-para-camara-galaxy-s21"
+  },
+  {
+   "id": 9142021062869,
+   "handle": "l-mybat-pro-shade-galaxy-s22-plus-negro"
+  },
+  {
+   "id": 9142020997333,
+   "handle": "l-mybat-pro-shade-galaxy-s22-plus-azul"
+  },
+  {
+   "id": 9142020800725,
+   "handle": "l-mybat-pro-executive-wallet-series-galaxy-s22-plus-negro"
+  },
+  {
+   "id": 9142020767957,
+   "handle": "l-mybat-pro-executive-series-wallet-series-galaxy-s22-negro"
+  },
+  {
+   "id": 9142020604117,
+   "handle": "l-mybat-maverick-antimicrobial-con-holster-galaxy-s22-plus-azul"
+  },
+  {
+   "id": 9142020276437,
+   "handle": "l-gear-4-bridgetown-galaxy-z-flip-3-negro"
+  },
+  {
+   "id": 9142020047061,
+   "handle": "kieslect-calling-smartwatch-ks2-space-gray"
+  },
+  {
+   "id": 9142012903637,
+   "handle": "click-radient-galaxy-a16-negro"
+  },
+  {
+   "id": 9142012838101,
+   "handle": "click-radient-galaxy-a16-morado"
+  },
+  {
+   "id": 9142011494613,
+   "handle": "click-latch-galaxy-a36-purpura"
+  },
+  {
+   "id": 9142008545493,
+   "handle": "botslab-doorbell-2-video-r810-180-negro"
+  },
+  {
+   "id": 9142007070933,
+   "handle": "avana-velvet-magsafe-galaxy-s24-plus-negro"
+  },
+  {
+   "id": 9142007005397,
+   "handle": "avana-velvet-magsafe-galaxy-s24-plus-lavender"
+  },
+  {
+   "id": 9170872926421,
+   "handle": "click-latch-galaxy-a16-smoke"
+  },
+  {
+   "id": 9170872664277,
+   "handle": "click-impact-galaxy-a26-negro"
+  },
+  {
+   "id": 9170872598741,
+   "handle": "click-cosmic-series-galaxy-a16-rainbow-swirl"
+  },
+  {
+   "id": 9170872402133,
+   "handle": "click-impact-galaxy-a26-azul"
+  },
+  {
+   "id": 9150255136981,
+   "handle": "prodigee-safetee-slim-galaxy-s20-ultra-blanco"
+  },
+  {
+   "id": 9150023794901,
+   "handle": "prodigee-hero-galaxy-s23-plus-clear"
+  },
+  {
+   "id": 9150023532757,
+   "handle": "prodigee-hero-galaxy-s22-plus-clear"
+  },
+  {
+   "id": 9150019076309,
+   "handle": "prodigee-galaxy-a14-5g-clear-fit-black"
+  },
+  {
+   "id": 9150018355413,
+   "handle": "prodigee-clear-fit-galaxy-a72-negro"
+  },
+  {
+   "id": 9150018322645,
+   "handle": "prodigee-clear-fit-galaxy-a53-clear"
+  },
+  {
+   "id": 9149965893845,
+   "handle": "prodigee-superstar-galaxy-s25-plus-clear"
+  },
+  {
+   "id": 9149965566165,
+   "handle": "prodigee-safetee-flow-galaxy-s25-plus-night-frost"
+  },
+  {
+   "id": 9149957734613,
+   "handle": "uag-case-civilian-galaxy-z-fold-3-azul"
+  },
+  {
+   "id": 9149954687189,
+   "handle": "spigen-tough-armor-pro-galaxy-z-flip-6-negro"
+  },
+  {
+   "id": 9149954523349,
+   "handle": "spigen-slim-amor-pro-galaxy-z-fold-6-gris"
+  },
+  {
+   "id": 9149954392277,
+   "handle": "spigen-crystal-shell-galaxy-z-flip-6-clear"
+  },
+  {
+   "id": 9149938893013,
+   "handle": "prodigee-galaxy-s23-kickit-rose"
+  },
+  {
+   "id": 9149924999381,
+   "handle": "prodigee-superstar-galaxy-s25-clear"
+  },
+  {
+   "id": 9149923360981,
+   "handle": "prodigee-samsung-galaxy-rockee-s23-plus"
+  },
+  {
+   "id": 9149921362133,
+   "handle": "prodigee-safetee-flow-galaxy-s25-plus-desert"
+  },
+  {
+   "id": 9149921263829,
+   "handle": "prodigee-safetee-flow-galaxy-s25-desert"
+  },
+  {
+   "id": 9149920542933,
+   "handle": "prodigee-pampas-galaxy-25-ice"
+  },
+  {
+   "id": 9142036431061,
+   "handle": "pelican-adventure-series-galaxy-note-9-rosa"
+  },
+  {
+   "id": 9525017149653,
+   "handle": "function-smart-cable-60w-usb-c-to-usb-c-digital-display-1-5m-indigo"
+  },
+  {
+   "id": 9525016985813,
+   "handle": "function-smart-cable-60w-usb-c-to-usb-c-digital-display-1-5m-citrus"
+  },
+  {
+   "id": 9525016854741,
+   "handle": "function-smart-cable-60w-usb-c-to-usb-c-digital-display-1-5m-blush"
+  },
+  {
+   "id": 9525016690901,
+   "handle": "function-smart-cable-60w-usb-c-to-usb-c-digital-display-1-5m-black"
+  }
+ ],
+ "omitidos": [],
+ "errores": []
+}
