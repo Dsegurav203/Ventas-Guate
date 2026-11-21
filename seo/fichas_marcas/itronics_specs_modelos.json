@@ -1,0 +1,667 @@
+{
+ "fuente": "https://www.apple.com/la/iphone/compare/",
+ "consultado": "2026-11-21",
+ "nota": "Extraído del comparador oficial de Apple (Latinoamérica). Sin MagSafe = celda vacía en el comparador.",
+ "modelos": {
+  "iPhone 8 Plus": {
+   "chip": "Chip A11 Bionic",
+   "pantalla": "Pantalla Retina HD LCD de 5.5 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y teleobjetivo",
+   "biometria": "Touch ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP67, hasta 1 metro por 30 minutos",
+   "apple_textual": {
+    "camaras": "Dos cámaras Principal de 12 MP Teleobjetivo",
+    "pantalla": "Pantalla widescreen LCD de 5.5 pulgadas (diagonal) con tecnología IPS",
+    "agua": "Clasificación IP67 (hasta 30 minutos a una profundidad máxima de 1 metro) según la norma IEC 60529",
+    "biometria": "Touch ID — Sensor de huellas digitales de segunda generación integrado en el botón de inicio",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone 8 Plus",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone X": {
+   "chip": "Chip A11 Bionic",
+   "pantalla": "Pantalla Super Retina HD OLED de 5.8 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP67, hasta 1 metro por 30 minutos",
+   "apple_textual": {
+    "camaras": "Dos cámaras Principal de 12 MP Teleobjetivo",
+    "pantalla": "Pantalla OLED de 5.8 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP67 (hasta 30 minutos a una profundidad máxima de 1 metro) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone X",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone XS": {
+   "chip": "Chip A12 Bionic",
+   "pantalla": "Pantalla Super Retina HD OLED de 5.8 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP68, hasta 2 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Dos cámaras Principal de 12 MP Teleobjetivo",
+    "pantalla": "Pantalla OLED de 5.8 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 2 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone XS",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone XS Max": {
+   "chip": "Chip A12 Bionic",
+   "pantalla": "Pantalla Super Retina HD OLED de 6.5 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP68, hasta 2 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Dos cámaras Principal de 12 MP Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.5 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 2 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone XS Max",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone XR": {
+   "chip": "Chip A12 Bionic",
+   "pantalla": "Pantalla Liquid Retina HD LCD de 6.1 pulgadas",
+   "camaras": "Cámara principal de 12 MP",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP67, hasta 1 metro por 30 minutos",
+   "apple_textual": {
+    "camaras": "Una cámara Principal de 12 MP",
+    "pantalla": "Pantalla LCD de 6.1 pulgadas (diagonal) sin marco con tecnología IPS 1",
+    "agua": "Clasificación IP67 (hasta 30 minutos a una profundidad máxima de 1 metro) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone XR",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone SE 2020": {
+   "chip": "Chip A13 Bionic",
+   "pantalla": "Pantalla Retina HD LCD de 4.7 pulgadas",
+   "camaras": "Cámara principal de 12 MP",
+   "biometria": "Touch ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP67, hasta 1 metro por 30 minutos",
+   "apple_textual": {
+    "camaras": "Una cámara Principal de 12 MP",
+    "pantalla": "Pantalla widescreen LCD de 4.7 pulgadas (diagonal) con tecnología IPS",
+    "agua": "Clasificación IP67 (hasta 30 minutos a una profundidad máxima de 1 metro) según la norma IEC 60529",
+    "biometria": "Touch ID — Sensor de huellas digitales de segunda generación integrado en el botón de inicio",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone SE (2.ª generación)",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 11": {
+   "chip": "Chip A13 Bionic",
+   "pantalla": "Pantalla Liquid Retina HD LCD de 6.1 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP68, hasta 2 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Dos cámaras Principal de 12 MP Ultra gran angular",
+    "pantalla": "Pantalla LCD de 6.1 pulgadas (diagonal) sin marco con tecnología IPS 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 2 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone 11",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 11 Pro": {
+   "chip": "Chip A13 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 5.8 pulgadas",
+   "camaras": "Sistema de tres cámaras de 12 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP68, hasta 4 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de tres cámaras Principal de 12 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 5.8 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 4 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone 11 Pro",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 11 Pro Max": {
+   "chip": "Chip A13 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.5 pulgadas",
+   "camaras": "Sistema de tres cámaras de 12 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": false,
+   "agua": "IP68, hasta 4 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de tres cámaras Principal de 12 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.5 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 4 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone 11 Pro Max",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 12 mini": {
+   "chip": "Chip A14 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 5.4 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 12 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 5.4 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 12 mini",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 12": {
+   "chip": "Chip A14 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 12 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 12",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 12 Pro": {
+   "chip": "Chip A14 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de cámaras Pro de 12 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Principal de 12 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 12 Pro",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 12 Pro Max": {
+   "chip": "Chip A14 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.7 pulgadas",
+   "camaras": "Sistema de cámaras Pro de 12 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Principal de 12 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.7 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 12 Pro Max",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 13 mini": {
+   "chip": "Chip A15 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 5.4 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 12 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 5.4 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 13 mini",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 13": {
+   "chip": "Chip A15 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 12 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 13",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 13 Pro": {
+   "chip": "Chip A15 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de cámaras Pro de 12 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Principal de 12 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 13 Pro",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 13 Pro Max": {
+   "chip": "Chip A15 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.7 pulgadas",
+   "camaras": "Sistema de cámaras Pro de 12 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Principal de 12 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.7 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 13 Pro Max",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 14": {
+   "chip": "Chip A15 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 12 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 14",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 14 Plus": {
+   "chip": "Chip A15 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.7 pulgadas",
+   "camaras": "Sistema de dos cámaras de 12 MP: principal y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 12 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 6.7 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 14 Plus",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 14 Pro": {
+   "chip": "Chip A16 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de cámaras Pro: principal de 48 MP, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "Lightning",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Principal de 48 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "Lightning Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 14 Pro",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 15": {
+   "chip": "Chip A16 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de dos cámaras: principal de 48 MP y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 48 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 15",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 15 Plus": {
+   "chip": "Chip A16 Bionic",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.7 pulgadas",
+   "camaras": "Sistema de dos cámaras: principal de 48 MP y ultra gran angular",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de dos cámaras Principal de 48 MP Ultra gran angular",
+    "pantalla": "Pantalla OLED de 6.7 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 15 Plus",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 15 Pro": {
+   "chip": "Chip A17 Pro",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de cámaras Pro: principal de 48 MP, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Principal de 48 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB 3 (hasta 10 Gb/s)",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 15 Pro",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 15 Pro Max": {
+   "chip": "Chip A17 Pro",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.7 pulgadas",
+   "camaras": "Sistema de cámaras Pro: principal de 48 MP, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Principal de 48 MP Ultra gran angular Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.7 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB 3 (hasta 10 Gb/s)",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 15 Pro Max",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 16e": {
+   "chip": "Chip A18",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema de cámara dos en uno con cámara Fusion principal de 48 MP",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": false,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámara dos en uno Fusion principal de 48 MP",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB",
+    "magsafe": "(sin MagSafe)"
+   },
+   "nombre_apple": "iPhone 16e",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 16": {
+   "chip": "Chip A18",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Sistema avanzado de dos cámaras: Fusion principal de 48 MP y ultra gran angular de 12 MP",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema avanzado de dos cámaras Fusion principal de 48 MP Ultra gran angular de 12 MP",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 16",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 16 Plus": {
+   "chip": "Chip A18",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.7 pulgadas",
+   "camaras": "Sistema avanzado de dos cámaras: Fusion principal de 48 MP y ultra gran angular de 12 MP",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema avanzado de dos cámaras Fusion principal de 48 MP Ultra gran angular de 12 MP",
+    "pantalla": "Pantalla OLED de 6.7 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 16 Plus",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 16 Pro": {
+   "chip": "Chip A18 Pro",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.3 pulgadas",
+   "camaras": "Sistema de cámaras Pro: Fusion principal de 48 MP, ultra gran angular de 48 MP y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Fusion principal de 48 MP Ultra gran angular de 48 MP Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.3 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB 3 (hasta 10 Gb/s)",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 16 Pro",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 16 Pro Max": {
+   "chip": "Chip A18 Pro",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.9 pulgadas",
+   "camaras": "Sistema de cámaras Pro: Fusion principal de 48 MP, ultra gran angular de 48 MP y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Fusion principal de 48 MP Ultra gran angular de 48 MP Teleobjetivo",
+    "pantalla": "Pantalla OLED de 6.9 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB 3 (hasta 10 Gb/s)",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 16 Pro Max",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 17e": {
+   "chip": "Chip A19",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.1 pulgadas",
+   "camaras": "Cámara Fusion principal de 48 MP",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámara Fusion de 48 MP Fusion principal de 48 MP",
+    "pantalla": "Pantalla OLED de 6.1 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Reconocimiento facial por medio de la cámara frontal TrueDepth",
+    "conector": "USB-C Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 17e",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 17 Air": {
+   "chip": "Chip A19 Pro",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.5 pulgadas",
+   "camaras": "Cámara Fusion principal de 48 MP",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámara Fusion de 48 MP Fusion principal de 48 MP",
+    "pantalla": "Pantalla OLED de 6.5 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Con tecnología TrueDepth mediante la cámara frontal Center Stage",
+    "conector": "USB-C Compatible con USB",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone Air",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 17 Pro": {
+   "chip": "Chip A19 Pro",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.3 pulgadas",
+   "camaras": "Sistema de cámaras Pro Fusion de 48 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Fusion de 48 MP Fusion principal de 48 MP Fusion ultra gran angular de 48 MP Fusion teleobjetivo de 48 MP",
+    "pantalla": "Pantalla OLED de 6.3 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Con tecnología TrueDepth mediante la cámara frontal Center Stage",
+    "conector": "USB-C Compatible con USB 3 (hasta 10 Gb/s)",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 17 Pro",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  },
+  "iPhone 17 Pro Max": {
+   "chip": "Chip A19 Pro",
+   "pantalla": "Pantalla Super Retina XDR OLED de 6.9 pulgadas",
+   "camaras": "Sistema de cámaras Pro Fusion de 48 MP: principal, ultra gran angular y teleobjetivo",
+   "biometria": "Face ID",
+   "conector": "USB-C",
+   "magsafe": true,
+   "agua": "IP68, hasta 6 metros por 30 minutos",
+   "apple_textual": {
+    "camaras": "Sistema de cámaras Pro Fusion de 48 MP Fusion principal de 48 MP Fusion ultra gran angular de 48 MP Fusion teleobjetivo de 48 MP",
+    "pantalla": "Pantalla OLED de 6.9 pulgadas (diagonal) sin marco 1",
+    "agua": "Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529",
+    "biometria": "Face ID — Con tecnología TrueDepth mediante la cámara frontal Center Stage",
+    "conector": "USB-C Compatible con USB 3 (hasta 10 Gb/s)",
+    "magsafe": "Compatible con fundas, carteras, cargadores inalámbricos y otros accesorios MagSafe"
+   },
+   "nombre_apple": "iPhone 17 Pro Max",
+   "fuente": "https://www.apple.com/la/iphone/compare/",
+   "consultado": "2026-11-21"
+  }
+ }
+}
