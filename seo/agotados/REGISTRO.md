@@ -105,4 +105,10 @@ Hasta ~40 alias por documento. La lista de `id` está en `agotados_ocultados_202
 - Otros datos: cron 83 "Process Export Stock Queue" con 37 fallas hoy (iPhones con número de serie que no existen en Shopify, 404); 19,393 líneas fallidas históricas en la cola.
 - 42 agotados más tienen stock solo en bodegas que no se publican (DMO, consignación, garantías, MUESTRAS): correcto que salgan agotados.
 - 62 agotados no tienen capa del conector (no reciben stock de Odoo nunca).
-- Quedan ~208 agotados reales para ocultar (Admin o Shopify Flow).
+- Quedan ~208 agotados reales para ocultar (Admin o Shopify Flow); tras ligar los 22 de abajo quedan ~187.
+
+## 2026-11-21 · Los 62 agotados sin capa del conector
+- 35: capa archivada y **producto archivado en Odoo** (descontinuado, 0 u.). No se ligan: ocultar de la tienda.
+- 5: **duplicados** en Shopify (MyBat Vidrio Galaxy S24 y S24 Plus, Nimbus9 Stratus Galaxy S23 Leaves, ITSkins Ballistic S24 Plus, ITSkins Hybrid Clear Z Fold 5). La ficha original ya está ligada y con stock: ocultar los duplicados (product ids 15513933021397, …054165, …086933, …152469, …218005).
+- 22: ligados (capas plantilla 4523–4544, variante 4524–4545) por SKU/código de barras; detalle en `capas_creadas_2026-11-21.json`. 21 tenían existencia libre en BD3/TVGDC/OFIBD y se subió a Shopify (`inventorySetQuantities`, 1,469 u.; p. ej. LAUT Huex AirPods Pro 3 352, Samsung Kit 25W 184, LAUT Crystal Matter X 17 PM 181, LAUT Typefolio 140). SwitchEasy Magstand iPhone 15 Pro queda en 0.
+- Reversión: archivar las capas creadas y poner el inventario en 0.
