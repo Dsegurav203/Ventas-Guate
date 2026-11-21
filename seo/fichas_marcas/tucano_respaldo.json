@@ -1,0 +1,666 @@
+{
+ "meta": {
+  "fecha": "2026-11-21",
+  "fuente": "Shopify Admin GraphQL (lectura), vendor:Tucano status:active",
+  "nota": "Estado previo de las 73 candidatas (publicadas, descripción < 60 palabras)"
+ },
+ "productos": [
+  {
+   "id": "gid://shopify/Product/9142023389397",
+   "title": "Tucano Facile Plus Universal para Tablet 11 Pulgadas Rojo",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149955277013",
+   "title": "Tucano Alunno iPad 10TH Gener Sky Blue",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149955965141",
+   "title": "Tucano Tasto iPad 10.9\" a 11\" Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149956063445",
+   "title": "Tucano Tasto iPad 10TH Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149956292821",
+   "title": "Tucano Universal Pencil Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149956554965",
+   "title": "Tucano Vento Case Universal para Tablet 9 a 10 Pulgadas Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149956751573",
+   "title": "Tucano Gommo City Backpack Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Mochila Tucano Gommo City Backpack Azul Guatemala | Ventas Guate",
+    "description": "Mochila Tucano Gommo City Backpack azul en Guatemala. Para laptop y uso urbano. Material resistente. ✓ Original. Q699."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149956817109",
+   "title": "Tucano Gommo City Backpack Gris",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Mochila Tucano Gommo City Backpack Gris Guatemala | Ventas Guate",
+    "description": "Mochila Tucano Gommo City Backpack gris en Guatemala. Para laptop y uso urbano diario. Material resistente. ✓ Original. Q699."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149956882645",
+   "title": "Tucano Gommo Shopper Bag Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Bolsa Tucano Gommo Shopper Azul Guatemala | Ventas Guate",
+    "description": "Bolsa Tucano Gommo Shopper azul en Guatemala. Diseño casual y funcional para uso diario. ✓ Original. ✓ Envío GT. Q549."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149956980949",
+   "title": "Tucano Gommo Shopper Bag Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Bolsa Tucano Gommo Shopper Negro Guatemala | Ventas Guate",
+    "description": "Bolsa Tucano Gommo Shopper negro en Guatemala. Diseño casual y funcional para uso diario. ✓ Original. Q149."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149957144789",
+   "title": "Tucano Gommo borsa superslim 13\"/14\" Gris",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149957275861",
+   "title": "Tucano Gommo borsa superslim 16 Pulgadas Gris",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Tucano Gommo Sleeve Superslim 16 Pulgadas Gris Guatemala",
+    "description": "Funda Tucano Gommo Superslim para laptop 16 pulgadas gris en Guatemala. Ultra delgada y protectora. ✓ Original. Q399."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149957472469",
+   "title": "Tucano Modo Premium Backpack 14 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9149957538005",
+   "title": "Tucano Modo Premium Backpack 16 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9264020750549",
+   "title": "Tucano Mini Support Stand",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9337797542101",
+   "title": "Tucano Active Pencil2 para iPad Blanco",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9337797640405",
+   "title": "Tucano Alunno iPad Case 10TH Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9337797673173",
+   "title": "Tucano Funda iPad 10.2 / 10.5 Rosado",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386243784917",
+   "title": "Tucano Let Me Out Backpack Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386243850453",
+   "title": "Tucano Let Me Out Foldable Backpack Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386243883221",
+   "title": "Tucano Let Me Out Foldable Backpack Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386243981525",
+   "title": "Tucano Let Me Out Foldable Crossbody Azul",
+   "descriptionHtml": "<p>Bolso cruzado Tucano Let Me Out Crossbody azul, plegable y ultraliviano. El compañero ideal de viaje: se dobla en su propia funda y lo llevas como bolso extra a donde vayas.</p><ul>\n<li>Plegable y compacto, cabe en cualquier maleta</li>\n<li>Material resistente al agua y liviano</li>\n<li>Correa ajustable estilo crossbody</li>\n<li>Ideal para viaje, paseos y uso diario</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": "Bolso crossbody plegable Tucano Let Me Out azul en liquidación a Q165 (antes Q449). Liviano y resistente al agua. Compra en Ventas Guate."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386244047061",
+   "title": "Tucano Let Me Out Foldable Crossbody Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386244276437",
+   "title": "Tucano Let Me Out Foldable Crossbody Verde",
+   "descriptionHtml": "<p>Bolso cruzado Tucano Let Me Out Crossbody verde, plegable y ultraliviano. Se dobla sobre sí mismo para ocupar mínimo espacio y acompañarte en viajes y salidas.</p><ul>\n<li>Plegable y compacto, cabe en cualquier maleta</li>\n<li>Material resistente al agua y liviano</li>\n<li>Correa ajustable estilo crossbody</li>\n<li>Color verde vibrante</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": "Bolso crossbody plegable Tucano Let Me Out verde en liquidación a Q155 (antes Q359). Última unidad disponible en Ventas Guate."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386244374741",
+   "title": "Tucano Let Me Out Foldable Duffle Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386244473045",
+   "title": "Tucano Let Me Out Foldable Saddle Bag Negro",
+   "descriptionHtml": "<p>Bolso Tucano Let Me Out Saddle Bag negro, plegable y ultraliviano. Perfecto como bolso extra para viajes, compras o el día a día: se dobla sobre sí mismo y ocupa mínimo espacio.</p><ul>\n<li>Plegable: se guarda en su propia funda compacta</li>\n<li>Material resistente al agua y liviano</li>\n<li>Correa ajustable para uso cruzado o al hombro</li>\n<li>Ideal para viaje, trabajo y uso diario</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": "Bolso plegable Tucano Let Me Out Saddle Bag negro en liquidación a Q275 (antes Q649). Liviano y resistente al agua. Compra en Ventas Guate."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386244735189",
+   "title": "Tucano Let Me Out Shopper Bag Blue",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386244866261",
+   "title": "Tucano Let Me Out Weekender Bag Blue",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386245292245",
+   "title": "Tucano Neoprene Desk Pad Blue",
+   "descriptionHtml": "<p>Dale un toque profesional a tu escritorio con el desk pad de neopreno Tucano en color azul. Superficie suave y antideslizante, perfecta como base para mouse, teclado y laptop.</p><ul>\n<li>Neopreno de alta calidad, suave y durable</li>\n<li>Base antideslizante que protege tu escritorio</li>\n<li>Superficie amplia para teclado y mouse</li>\n<li>Fácil de limpiar y enrollar</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": "Desk pad de neopreno Tucano azul para escritorio en liquidación a Q95 (antes Q249). Protege tu espacio de trabajo. Disponible en Ventas Guate."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386245783765",
+   "title": "Tucano Neoprene Desk Pad Pink",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386246209749",
+   "title": "Tucano Scrivo Keyboard Spanish Blue",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386246701269",
+   "title": "Tucano Scrivo Teclado Bluetooth con Stand Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386246930645",
+   "title": "Tucano Briefcase Modo Premium Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386247028949",
+   "title": "Tucano Gancio Case W/Keyboard Universal 11\" Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386247225557",
+   "title": "Tucano Gommo Backpack Rolltop Blue",
+   "descriptionHtml": "<p>Mochila Tucano Gommo Rolltop azul: estilo urbano con cierre enrollable que amplía la capacidad cuando lo necesitas. Protege tu laptop y tus pertenencias con materiales resistentes al agua.</p><ul>\n<li>Cierre rolltop de capacidad expandible</li>\n<li>Compartimento acolchado para laptop</li>\n<li>Material resistente al agua</li>\n<li>Diseño urbano unisex para trabajo y estudio</li>\n</ul>",
+   "seo": {
+    "title": null,
+    "description": "Mochila Tucano Gommo Rolltop azul con compartimento para laptop en liquidación a Q215 (antes Q599). Resistente al agua. Compra en Ventas Guate."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386247520469",
+   "title": "Tucano Gommo Shoulder Bag Grey",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386247815381",
+   "title": "Tucano Isotta Superslim Bag 13\"/14\" Purple",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386249486549",
+   "title": "Tucano Gommo Sleeve 16 Pulgadas Gris",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386249617621",
+   "title": "Tucano Gommo Sleeve 16 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386249748693",
+   "title": "Tucano Isotta Superslim Bag 13-14 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386249814229",
+   "title": "Tucano Isotta Superslim Bag 16 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Tucano Isotta Superslim Bag 16 Pulgadas Negro Guatemala",
+    "description": "Maletín Tucano Isotta Superslim 16 pulgadas en Guatemala. Ultra delgado para laptop y accesorios. ✓ Original. ✓ Envío GT. Q599."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386249846997",
+   "title": "Tucano Isotta Superslim Bag 16 Pulgadas Rosado",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386249912533",
+   "title": "Tucano Active Pencil Stylus",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386250174677",
+   "title": "Tucano Mouse Inalámbrico Ergonómico Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386250436821",
+   "title": "Tucano Binario Backpack 15.6\" W/Ags Blue",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386250666197",
+   "title": "Tucano Binario Backpack 15.6l Anthracite Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386250895573",
+   "title": "Tucano Ergonomic Lumbar Cushion",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386251092181",
+   "title": "Tucano Facile Plus Universal para Tablet 11 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386251780309",
+   "title": "Tucano Funda Offroad para Laptop 15.6'' Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386252009685",
+   "title": "Tucano Goal Backpack 15.6 Brown",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386252304597",
+   "title": "Tucano Goal Backpack 15.6 Gray",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386252501205",
+   "title": "Tucano Lato2 Backpack 13.3/14\" Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386252665045",
+   "title": "Tucano Lato2 Backpack 13.3/14\" Blue",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386252763349",
+   "title": "Tucano Let Me Out Foldable Duffle Verde",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386252927189",
+   "title": "Tucano Let Me Out Mochila",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386252959957",
+   "title": "Tucano Mochila Ted 14'' Verde",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386253025493",
+   "title": "Tucano Modo Premium Backpack 14\" Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Mochila Tucano Modo Premium 14 Pulgadas Negro Guatemala",
+    "description": "Mochila Tucano Modo Premium 14 pulgadas negro en Guatemala. Diseño elegante para laptop y accesorios. ✓ Original."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386253287637",
+   "title": "Tucano Mouse Inalámbrico Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386253484245",
+   "title": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386253680853",
+   "title": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Negra",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386253877461",
+   "title": "Tucano Soft Troelly Mochila Negra",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386253975765",
+   "title": "Tucano Top Slevee Mbp 13\" Petroleum Blue",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386254205141",
+   "title": "Tucano Tugo M Cabin Luggage 15.6\" PC Black",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386254598357",
+   "title": "Tucano Unico Case Universal para Tablet 11 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386255089877",
+   "title": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Amarillo",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386255417557",
+   "title": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386255646933",
+   "title": "Tucano Vento Case Universal para Tablet 11 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386255745237",
+   "title": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Azul",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386255974613",
+   "title": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386256007381",
+   "title": "Tucano Workout 4 Mochila para Computador 16 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/9386256072917",
+   "title": "Tucano Gommo Sleeve 13/14 Pulgadas Negro",
+   "descriptionHtml": "",
+   "seo": {
+    "title": "Tucano Gommo Sleeve 13-14 Pulgadas Negro Guatemala | Ventas Guate",
+    "description": "Funda Tucano Gommo para laptop 13/14 pulgadas negro en Guatemala. Protección superslim. ✓ Original. Q299."
+   }
+  },
+  {
+   "id": "gid://shopify/Product/15480768168149",
+   "title": "Tucano Isotta Superslim Bag 13-14 Pulgadas Rosado",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  },
+  {
+   "id": "gid://shopify/Product/15480771772629",
+   "title": "Tucano Alunno para iPad 10MA Generación Amarillo",
+   "descriptionHtml": "",
+   "seo": {
+    "title": null,
+    "description": null
+   }
+  }
+ ]
+}
