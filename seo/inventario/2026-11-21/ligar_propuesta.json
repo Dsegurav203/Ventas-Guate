@@ -1,0 +1,2198 @@
+{
+ "ligar": [
+  {
+   "variant_id": "52237139411157",
+   "sku": "802118139937",
+   "titulo": "LOGiiX Frost Guard iPhone 17 Air Negro",
+   "shopify_tmpl_id": "9141942354133",
+   "inventory_item_id": "54338591916245",
+   "product_id": 11431,
+   "odoo": "[LGX-13993] LOGiiX Frost Guard iPhone 17 Air Negro",
+   "product_tmpl_id": 11502,
+   "default_code": "LGX-13993",
+   "qty_libre": 61,
+   "qty_shopify": 61
+  },
+  {
+   "variant_id": "52237139476693",
+   "sku": "802118139944",
+   "titulo": "LOGiiX Frost Guard iPhone 17 Pro Black",
+   "shopify_tmpl_id": "9141942419669",
+   "inventory_item_id": "54338591981781",
+   "product_id": 11430,
+   "odoo": "[LGX-13994] LOGiiX Frost Guard iPhone 17 Pro Black",
+   "product_tmpl_id": 11501,
+   "default_code": "LGX-13994",
+   "qty_libre": 96,
+   "qty_shopify": 97
+  },
+  {
+   "variant_id": "52237139542229",
+   "sku": "802118139951",
+   "titulo": "LOGiiX Frost Guard iPhone 17 Pro Max Black",
+   "shopify_tmpl_id": "9141942485205",
+   "inventory_item_id": "54338592047317",
+   "product_id": 11429,
+   "odoo": "[LGX-13995] LOGiiX Frost Guard iPhone 17 Pro Max Black",
+   "product_tmpl_id": 11500,
+   "default_code": "LGX-13995",
+   "qty_libre": 58,
+   "qty_shopify": 100
+  },
+  {
+   "variant_id": "52237261439189",
+   "sku": "4895206916578",
+   "titulo": "LAUT Active 2.0 Pulsera para Apple Watch 38/40mm Coral",
+   "shopify_tmpl_id": "9142020407509",
+   "inventory_item_id": "54338713944277",
+   "product_id": 1996,
+   "odoo": "[L_AWS_A2_P] LAUT Active 2.0 Pulsera para Apple Watch 38/40mm Coral",
+   "product_tmpl_id": 2059,
+   "default_code": "L_AWS_A2_P",
+   "qty_libre": 4,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "52237263143125",
+   "sku": "810058633194",
+   "titulo": "Nimbus9 Cirrus2 Galaxy S23 Plus Black",
+   "shopify_tmpl_id": "9142022111445",
+   "inventory_item_id": "54338715648213",
+   "product_id": 8563,
+   "odoo": "[SAMCS23135] Nimbus9 Cirrus2 Galaxy S23 Plus Black",
+   "product_tmpl_id": 8631,
+   "default_code": "SAMCS23135",
+   "qty_libre": 29,
+   "qty_shopify": 11
+  },
+  {
+   "variant_id": "52237265371349",
+   "sku": "4895206942744",
+   "titulo": "LAUT Magadd 360 Ring Stand MagSafe Negro",
+   "shopify_tmpl_id": "9142024306901",
+   "inventory_item_id": "54338717876437",
+   "product_id": 11332,
+   "odoo": "[L_MAG_360_BK] LAUT Magadd 360 Ring Stand MagSafe Negro",
+   "product_tmpl_id": 11395,
+   "default_code": "L_MAG_360_BK",
+   "qty_libre": 0,
+   "qty_shopify": 9
+  },
+  {
+   "variant_id": "52237265436885",
+   "sku": "4895206937627",
+   "titulo": "LAUT Prestige Folio Universal Mag 9 a 11 Pulgadas Negro",
+   "shopify_tmpl_id": "9142024372437",
+   "inventory_item_id": "54338717941973",
+   "product_id": 11333,
+   "odoo": "[L_UT_PR_BK] LAUT Prestige Folio Universal Mag 9 a 11 Pulgadas Negro",
+   "product_tmpl_id": 11396,
+   "default_code": "L_UT_PR_BK",
+   "qty_libre": 36,
+   "qty_shopify": 71
+  },
+  {
+   "variant_id": "52265131147477",
+   "sku": "856076007654",
+   "titulo": "Protection Pro Infinity Lamina Extra Grande Diseño Matte Rojo",
+   "shopify_tmpl_id": "9149934895317",
+   "inventory_item_id": "54366928306389",
+   "product_id": 409,
+   "odoo": "[856076007654] Protection Pro Infinity Lámina Extra Grande Diseño Matte Rojo",
+   "product_tmpl_id": 416,
+   "default_code": "856076007654",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265131180245",
+   "sku": "856076007302",
+   "titulo": "Protection Pro Infinity Lamina Extra Grande Satin Negro",
+   "shopify_tmpl_id": "9149934960853",
+   "inventory_item_id": "54366928339157",
+   "product_id": 402,
+   "odoo": "[856076007302] Protection Pro Infinity Lámina Extra Grande Satin Negro",
+   "product_tmpl_id": 409,
+   "default_code": "856076007302",
+   "qty_libre": 9,
+   "qty_shopify": 9
+  },
+  {
+   "variant_id": "52265131311317",
+   "sku": "858163005215",
+   "titulo": "Protection Pro Infinity Lamina Grande Diseño Fibra de Carbono Negro",
+   "shopify_tmpl_id": "9149935059157",
+   "inventory_item_id": "54366928470229",
+   "product_id": 422,
+   "odoo": "[858163005215] Protection Pro Infinity Lamina Grande Diseño Fibra de Carbono Negro",
+   "product_tmpl_id": 429,
+   "default_code": "858163005215",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265131409621",
+   "sku": "856076007647",
+   "titulo": "Protection Pro Infinity Lamina Grande Diseño Matte Rojo",
+   "shopify_tmpl_id": "9149935124693",
+   "inventory_item_id": "54366928568533",
+   "product_id": 408,
+   "odoo": "[856076007647] Protection Pro Infinity Lámina Grande Diseño Matte Rojo",
+   "product_tmpl_id": 415,
+   "default_code": "856076007647",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265131475157",
+   "sku": "855821005082",
+   "titulo": "Protection Pro Infinity Lamina Grande Fibra de Carbono Negro",
+   "shopify_tmpl_id": "9149935157461",
+   "inventory_item_id": "54366928634069",
+   "product_id": 393,
+   "odoo": "[855821005082] Protection Pro Infinity Lamina Grande Fibra de Carbono Negro",
+   "product_tmpl_id": 400,
+   "default_code": "855821005082",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265131540693",
+   "sku": "858163005208",
+   "titulo": "Protection Pro Infinity Lamina Mediana Diseño Fibra de Carbono Negro",
+   "shopify_tmpl_id": "9149935222997",
+   "inventory_item_id": "54366928699605",
+   "product_id": 421,
+   "odoo": "[858163005208] Protection Pro Infinity Lamina Mediana Diseño Fibra de Carbono Negro",
+   "product_tmpl_id": 428,
+   "default_code": "858163005208",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265131606229",
+   "sku": "856076007401",
+   "titulo": "Protection Pro Infinity Lamina Mediana Diseño Matte Negro",
+   "shopify_tmpl_id": "9149935255765",
+   "inventory_item_id": "54366928765141",
+   "product_id": 404,
+   "odoo": "[856076007401] Protection Pro Infinity Lamina Mediana Diseño Matte Negro",
+   "product_tmpl_id": 411,
+   "default_code": "856076007401",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265131704533",
+   "sku": "856076007630",
+   "titulo": "Protection Pro Infinity Lamina Mediana Diseño Matte Rojo",
+   "shopify_tmpl_id": "9149935321301",
+   "inventory_item_id": "54366928863445",
+   "product_id": 407,
+   "odoo": "[856076007630] Protection Pro Infinity Lamina Mediana Diseño Matte Rojo",
+   "product_tmpl_id": 414,
+   "default_code": "856076007630",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265131770069",
+   "sku": "856076007289",
+   "titulo": "Protection Pro Infinity Lamina Mediana Diseño Satin Negro",
+   "shopify_tmpl_id": "9149935386837",
+   "inventory_item_id": "54366928896213",
+   "product_id": 401,
+   "odoo": "[856076007289] Protection Pro Infinity Lamina Mediana Diseño Satin Negro",
+   "product_tmpl_id": 408,
+   "default_code": "856076007289",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "52265132130517",
+   "sku": "850058440408",
+   "titulo": "Protection Pro Kit Maquina Procut",
+   "shopify_tmpl_id": "9149935648981",
+   "inventory_item_id": "54366929289429",
+   "product_id": 10082,
+   "odoo": "[850058440408] Protection Pro Kit Máquina Procut",
+   "product_tmpl_id": 10233,
+   "default_code": "850058440408",
+   "qty_libre": 66,
+   "qty_shopify": 82
+  },
+  {
+   "variant_id": "52265132228821",
+   "sku": "857325008231",
+   "titulo": "PROTECTION PRO LAMINA OMNI TC SMALL CLEAR (descontinuado)",
+   "shopify_tmpl_id": "9149935714517",
+   "inventory_item_id": "54366929387733",
+   "product_id": 412,
+   "odoo": "[CP-OMNITC-SML1-EA] Protection Pro Lámina Omni Tc Small Clear",
+   "product_tmpl_id": 419,
+   "default_code": "CP-OMNITC-SML1-EA",
+   "qty_libre": 0,
+   "qty_shopify": 825
+  },
+  {
+   "variant_id": "52265132458197",
+   "sku": "850058440750",
+   "titulo": "Protection Pro Lamina Ultra HD Medium Plus Matte",
+   "shopify_tmpl_id": "9149935878357",
+   "inventory_item_id": "54366929617109",
+   "product_id": 10241,
+   "odoo": "[CP-ULTMAT-MED-EA] Protection Pro Lamina Ultra HD Medium Plus Matte",
+   "product_tmpl_id": 10404,
+   "default_code": "CP-ULTMAT-MED-EA",
+   "qty_libre": 60,
+   "qty_shopify": 80
+  },
+  {
+   "variant_id": "52265132556501",
+   "sku": "850058440545",
+   "titulo": "PROTECTION PRO LAMINA ULTRA MATTE EXTRA LARGE v.1 (descontinuado)",
+   "shopify_tmpl_id": "9149935943893",
+   "inventory_item_id": "54366929715413",
+   "product_id": 11265,
+   "odoo": "[CP-ULTMATB-XL] PROTECTION PRO LAMINA ULTRA MATTE EXTRA LARGE v.1 (descontinuado)",
+   "product_tmpl_id": 11328,
+   "default_code": "CP-ULTMATB-XL",
+   "qty_libre": 20,
+   "qty_shopify": 20
+  },
+  {
+   "variant_id": "52265132589269",
+   "sku": "850058440514",
+   "titulo": "PROTECTION PRO LARGE PLUS MATTE v.1 (descontinuado)",
+   "shopify_tmpl_id": "9149935976661",
+   "inventory_item_id": "54366929748181",
+   "product_id": 11263,
+   "odoo": "[CP-ULTMATB-LRG] Protection Pro Large Plus Matte V.1",
+   "product_tmpl_id": 11326,
+   "default_code": "CP-ULTMATB-LRG",
+   "qty_libre": 252,
+   "qty_shopify": 290
+  },
+  {
+   "variant_id": "52265132753109",
+   "sku": "856076007616",
+   "titulo": "Protection Pro Madico Adaptador Tipo C",
+   "shopify_tmpl_id": "9149936107733",
+   "inventory_item_id": "54366929912021",
+   "product_id": 1156,
+   "odoo": "[856076007616] Protection Pro Madico Adaptador Tipo C",
+   "product_tmpl_id": 1197,
+   "default_code": "856076007616",
+   "qty_libre": 6,
+   "qty_shopify": 8
+  },
+  {
+   "variant_id": "52265133113557",
+   "sku": "850058440484",
+   "titulo": "PROTECTION PRO MEDIUM PLUS MATTE v.1 (descontinuado)",
+   "shopify_tmpl_id": "9149936402645",
+   "inventory_item_id": "54366930272469",
+   "product_id": 11262,
+   "odoo": "[CP-ULTMATB-MED] Protection Pro Medium Plus Matte V.1",
+   "product_tmpl_id": 11325,
+   "default_code": "CP-ULTMATB-MED",
+   "qty_libre": 90,
+   "qty_shopify": 120
+  },
+  {
+   "variant_id": "52265133506773",
+   "sku": "850070394147",
+   "titulo": "Protection Pro New Ultra Matte Extra Large Pro",
+   "shopify_tmpl_id": "9149936697557",
+   "inventory_item_id": "54366930665685",
+   "product_id": 11308,
+   "odoo": "[CP-ULTMATPRO1-XL-EA] Protection Pro New Ultra Matte Extra Large Pro",
+   "product_tmpl_id": 11371,
+   "default_code": "CP-ULTMATPRO1-XL-EA",
+   "qty_libre": 184,
+   "qty_shopify": 178
+  },
+  {
+   "variant_id": "52265133572309",
+   "sku": "850070394116",
+   "titulo": "Protection Pro New Ultra Matte Large Pro",
+   "shopify_tmpl_id": "9149936730325",
+   "inventory_item_id": "54366930731221",
+   "product_id": 11307,
+   "odoo": "[CP-ULTMATPRO1-LRG-EA] Protection Pro New Ultra Matte Large Pro",
+   "product_tmpl_id": 11370,
+   "default_code": "CP-ULTMATPRO1-LRG-EA",
+   "qty_libre": 230,
+   "qty_shopify": 270
+  },
+  {
+   "variant_id": "52265133637845",
+   "sku": "850070394086",
+   "titulo": "Protection Pro New Ultra Matte Mediana Pro",
+   "shopify_tmpl_id": "9149936763093",
+   "inventory_item_id": "54366930796757",
+   "product_id": 11310,
+   "odoo": "[CP-ULTMATPRO1-MED-EA] Protection Pro New Ultra Matte Mediana Pro",
+   "product_tmpl_id": 11373,
+   "default_code": "CP-ULTMATPRO1-MED-EA",
+   "qty_libre": 330,
+   "qty_shopify": 350
+  },
+  {
+   "variant_id": "52265133670613",
+   "sku": "850070394055",
+   "titulo": "Protection Pro New Ultra Matte Small Pro",
+   "shopify_tmpl_id": "9149936795861",
+   "inventory_item_id": "54366930829525",
+   "product_id": 11306,
+   "odoo": "[CP-ULTMATPRO1-SML-EA] Protection Pro New Ultra Matte Small Pro",
+   "product_tmpl_id": 11369,
+   "default_code": "CP-ULTMATPRO1-SML-EA",
+   "qty_libre": 137,
+   "qty_shopify": 1200
+  },
+  {
+   "variant_id": "52265134063829",
+   "sku": "850017783867",
+   "titulo": "Protection Pro Omni Small (Seco)",
+   "shopify_tmpl_id": "9149937058005",
+   "inventory_item_id": "54366931222741",
+   "product_id": 10228,
+   "odoo": "[CP-OMNI-SML-EA] Protection Pro Omni Small (Seco)",
+   "product_tmpl_id": 10391,
+   "default_code": "CP-OMNI-SML-EA",
+   "qty_libre": 1296,
+   "qty_shopify": 2275
+  },
+  {
+   "variant_id": "52265134653653",
+   "sku": "850017783713",
+   "titulo": "Protection Pro Privacy Pro Film Small Gel",
+   "shopify_tmpl_id": "9149937385685",
+   "inventory_item_id": "54366931812565",
+   "product_id": 9983,
+   "odoo": "[CP-PRIVPRO-SML-10PK] Protection Pro Privacy Pro Film Small Gel",
+   "product_tmpl_id": 10134,
+   "default_code": "CP-PRIVPRO-SML-10PK",
+   "qty_libre": 4,
+   "qty_shopify": 170
+  },
+  {
+   "variant_id": "52265134686421",
+   "sku": "850017783775",
+   "titulo": "Protection Pro Privacy Small (Seco)",
+   "shopify_tmpl_id": "9149937451221",
+   "inventory_item_id": "54366931845333",
+   "product_id": 10227,
+   "odoo": "[CP-PRIV-SML-EA] Protection Pro Privacy Small (Seco)",
+   "product_tmpl_id": 10390,
+   "default_code": "CP-PRIV-SML-EA",
+   "qty_libre": 594,
+   "qty_shopify": 460
+  },
+  {
+   "variant_id": "52265135243477",
+   "sku": "850058440606",
+   "titulo": "PROTECTION PRO ULTRA 2 PRO LARGE CLEAR (descontinuado)",
+   "shopify_tmpl_id": "9149937811669",
+   "inventory_item_id": "54366932467925",
+   "product_id": 10341,
+   "odoo": "[CP-ULT2PRO-LRG-EA] Protection Pro Ultra 2 Pro Large Clear",
+   "product_tmpl_id": 10502,
+   "default_code": "CP-ULT2PRO-LRG-EA",
+   "qty_libre": 172,
+   "qty_shopify": 230
+  },
+  {
+   "variant_id": "52265135472853",
+   "sku": "850058440187",
+   "titulo": "Protection Pro Ultra HD Medium Plus (Seco)",
+   "shopify_tmpl_id": "9149937975509",
+   "inventory_item_id": "54366932697301",
+   "product_id": 10240,
+   "odoo": "[CP-ULTHD-MED-EA] Protection Pro Ultra HD Medium Plus (Seco)",
+   "product_tmpl_id": 10403,
+   "default_code": "CP-ULTHD-MED-EA",
+   "qty_libre": 71,
+   "qty_shopify": 20
+  },
+  {
+   "variant_id": "52265135636693",
+   "sku": "850058440040",
+   "titulo": "Protection Pro Ultra HD Pro Small Clear",
+   "shopify_tmpl_id": "9149938106581",
+   "inventory_item_id": "54366932861141",
+   "product_id": 11021,
+   "odoo": "[CP-ULTHDPRO-SML-EA] Protection Pro Ultra HD Pro Small Clear",
+   "product_tmpl_id": 11080,
+   "default_code": "CP-ULTHDPRO-SML-EA",
+   "qty_libre": 319,
+   "qty_shopify": 1775
+  },
+  {
+   "variant_id": "52265135767765",
+   "sku": "850017783744",
+   "titulo": "Protection Pro Ultra Matte Small (Seco)",
+   "shopify_tmpl_id": "9149938204885",
+   "inventory_item_id": "54366932992213",
+   "product_id": 10226,
+   "odoo": "[CP-ULTMAT-SML-EA] Protection Pro Ultra Matte Small (Seco)",
+   "product_tmpl_id": 10389,
+   "default_code": "CP-ULTMAT-SML-EA",
+   "qty_libre": 671,
+   "qty_shopify": 400
+  },
+  {
+   "variant_id": "52265135898837",
+   "sku": "858163005888",
+   "titulo": "Protection Proadaptador Micro USB Negro",
+   "shopify_tmpl_id": "9149938303189",
+   "inventory_item_id": "54366933090517",
+   "product_id": 363,
+   "odoo": "[858163005888] Protection Proadaptador Micro USB Negro",
+   "product_tmpl_id": 370,
+   "default_code": "858163005888",
+   "qty_libre": 23,
+   "qty_shopify": 23
+  },
+  {
+   "variant_id": "53061175967957",
+   "sku": "6974316990536",
+   "titulo": "Govee Glide Wall Light 6+1 Paneles LED RGBIC",
+   "shopify_tmpl_id": "9254595494101",
+   "inventory_item_id": "55168248938709",
+   "product_id": 8113,
+   "odoo": "[6974316990536] Govee glide wall light (6+1)",
+   "product_tmpl_id": 8176,
+   "default_code": "6974316990536",
+   "qty_libre": 5,
+   "qty_shopify": 5
+  },
+  {
+   "variant_id": "53128631976149",
+   "sku": "4895206929394",
+   "titulo": "LAUT Holo iPhone 14-13 Pearl",
+   "shopify_tmpl_id": "9263455437013",
+   "inventory_item_id": "55236132929749",
+   "product_id": 1850,
+   "odoo": "[L_IP22A_HO_W] LAUT Holo iPhone 14-13 Pearl",
+   "product_tmpl_id": 1913,
+   "default_code": "L_IP22A_HO_W",
+   "qty_libre": 0,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "53128632271061",
+   "sku": "4895206923255",
+   "titulo": "LAUT Huex Folio iPad Pro 12.9 (2022) Azul",
+   "shopify_tmpl_id": "9263455600853",
+   "inventory_item_id": "55236133224661",
+   "product_id": 8644,
+   "odoo": "[APPCS23095] LAUT Huex Folio iPad Pro 12.9 (2022) Azul",
+   "product_tmpl_id": 8711,
+   "default_code": "APPCS23095",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "53128632402133",
+   "sku": "4895206923385",
+   "titulo": "LAUT Huex Ink Series Case iPhone 13 Pro Max Blanco",
+   "shopify_tmpl_id": "9263455666389",
+   "inventory_item_id": "55236133322965",
+   "product_id": 958,
+   "odoo": "[4895206923385] LAUT Huex Ink Series Case iPhone 13 Pro Max Blanco",
+   "product_tmpl_id": 977,
+   "default_code": "4895206923385",
+   "qty_libre": 0,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "53128632893653",
+   "sku": "4895206910644",
+   "titulo": "LAUT Liquid Glitter iPhone 11 Pro Love Leon",
+   "shopify_tmpl_id": "9263455895765",
+   "inventory_item_id": "55236133847253",
+   "product_id": 7267,
+   "odoo": "[4895206910644] LAUT Liquid Glitter iPhone 11 Pro Love Leon",
+   "product_tmpl_id": 7330,
+   "default_code": "4895206910644",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "53128632991957",
+   "sku": "4895206938259",
+   "titulo": "LAUT Typefolio Keyboard Case Universal 9 a 11 Pulgadas Negro",
+   "shopify_tmpl_id": "9263455961301",
+   "inventory_item_id": "55236133945557",
+   "product_id": 11335,
+   "odoo": "[L_UT_TY_BK] LAUT Typefolio Keyboard Case Universal 9 a 11 Pulgadas Negro",
+   "product_tmpl_id": 11398,
+   "default_code": "L_UT_TY_BK",
+   "qty_libre": 112,
+   "qty_shopify": 52
+  },
+  {
+   "variant_id": "53128633090261",
+   "sku": "4895206925044",
+   "titulo": "LAUT Crystal Matter iPhone 13 Pro Negro",
+   "shopify_tmpl_id": "9263455994069",
+   "inventory_item_id": "55236134043861",
+   "product_id": 964,
+   "odoo": "[L_IP21M_CM_BK] LAUT Crystal Matter iPhone 13 Pro Negro",
+   "product_tmpl_id": 983,
+   "default_code": "L_IP21M_CM_BK",
+   "qty_libre": 28,
+   "qty_shopify": 5
+  },
+  {
+   "variant_id": "53128633155797",
+   "sku": "4895206925020",
+   "titulo": "LAUT Crystal Matter iPhone 13 Pro Rojo",
+   "shopify_tmpl_id": "9263456026837",
+   "inventory_item_id": "55236134109397",
+   "product_id": 963,
+   "odoo": "[L_IP21M_CM_R] LAUT Crystal Matter iPhone 13 Pro Rojo",
+   "product_tmpl_id": 982,
+   "default_code": "L_IP21M_CM_R",
+   "qty_libre": 42,
+   "qty_shopify": 8
+  },
+  {
+   "variant_id": "53128633188565",
+   "sku": "4895206919333",
+   "titulo": "LAUT Crystal-X Necklace Negro iPhone 12 Pro Max",
+   "shopify_tmpl_id": "9263456059605",
+   "inventory_item_id": "55236134142165",
+   "product_id": 957,
+   "odoo": "[4895206919333] LAUT Crystal-X Necklace Negro iPhone 12 Pro Max",
+   "product_tmpl_id": 976,
+   "default_code": "4895206919333",
+   "qty_libre": 16,
+   "qty_shopify": 8
+  },
+  {
+   "variant_id": "53128633254101",
+   "sku": "4895206917827",
+   "titulo": "LAUT Fade Series iPhone 12 Pro Max Menta",
+   "shopify_tmpl_id": "9263456092373",
+   "inventory_item_id": "55236134207701",
+   "product_id": 955,
+   "odoo": "[4895206917827] LAUT Fade Series iPhone 12 Pro Max Menta",
+   "product_tmpl_id": 974,
+   "default_code": "4895206917827",
+   "qty_libre": 14,
+   "qty_shopify": 14
+  },
+  {
+   "variant_id": "53128633417941",
+   "sku": "4895206924085",
+   "titulo": "LAUT Huex Fade iPhone 13 Pro Azul",
+   "shopify_tmpl_id": "9263456157909",
+   "inventory_item_id": "55236134371541",
+   "product_id": 960,
+   "odoo": "[L_IP21M_HXF_BL] LAUT Huex Fade iPhone 13 Pro Azul",
+   "product_tmpl_id": 979,
+   "default_code": "L_IP21M_HXF_BL",
+   "qty_libre": 6,
+   "qty_shopify": 6
+  },
+  {
+   "variant_id": "53128633450709",
+   "sku": "4895206924108",
+   "titulo": "LAUT Huex Fade iPhone 13 Pro Lila",
+   "shopify_tmpl_id": "9263456190677",
+   "inventory_item_id": "55236134404309",
+   "product_id": 961,
+   "odoo": "[L_IP21M_HXF_PU] LAUT Huex Fade iPhone 13 Pro Lila",
+   "product_tmpl_id": 980,
+   "default_code": "L_IP21M_HXF_PU",
+   "qty_libre": 5,
+   "qty_shopify": 5
+  },
+  {
+   "variant_id": "53128633680085",
+   "sku": "4895206911375",
+   "titulo": "LAUT Huex Pastels Case iPhone 11 Pro Max Spearmint",
+   "shopify_tmpl_id": "9263456288981",
+   "inventory_item_id": "55236134633685",
+   "product_id": 7254,
+   "odoo": "[4895206911375] LAUT Huex Pastels Case iPhone 11 Pro Max Spearmint",
+   "product_tmpl_id": 7317,
+   "default_code": "4895206911375",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "53128635252949",
+   "sku": "4895206916561",
+   "titulo": "LAUT Active 2.0 Pulsera para Apple Watch 42/44mm Coral",
+   "shopify_tmpl_id": "9263456846037",
+   "inventory_item_id": "55236136206549",
+   "product_id": 1995,
+   "odoo": "[L_AWL_A2_P] LAUT Active 2.0 Pulsera para Apple Watch 42/44mm Coral",
+   "product_tmpl_id": 2058,
+   "default_code": "L_AWL_A2_P",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "53134170980565",
+   "sku": "850052633714",
+   "titulo": "CLCKR Carbón MagSafe iPhone 15 Pro Max",
+   "shopify_tmpl_id": "9263666299093",
+   "inventory_item_id": "55241672229077",
+   "product_id": 9122,
+   "odoo": "[850052633714] CLCKR Carbón MagSafe iPhone 15 Pro Max",
+   "product_tmpl_id": 9207,
+   "default_code": "850052633714",
+   "qty_libre": 31,
+   "qty_shopify": 12
+  },
+  {
+   "variant_id": "53397270921429",
+   "sku": "802118139920",
+   "titulo": "LOGiiX Frost Guard iPhone 17 Negro",
+   "shopify_tmpl_id": "9302938583253",
+   "inventory_item_id": "55512585142485",
+   "product_id": 12615,
+   "odoo": "[LGX-13992] LOGiiX Frost Guard iPhone 17 Negro",
+   "product_tmpl_id": 12675,
+   "default_code": "LGX-13992",
+   "qty_libre": 70,
+   "qty_shopify": 100
+  },
+  {
+   "variant_id": "53397271052501",
+   "sku": "802118139951",
+   "titulo": "LOGiiX Frost Guard iPhone 17 Pro Max Black",
+   "shopify_tmpl_id": "9302938714325",
+   "inventory_item_id": "55512585273557",
+   "product_id": 11429,
+   "odoo": "[LGX-13995] LOGiiX Frost Guard iPhone 17 Pro Max Black",
+   "product_tmpl_id": 11500,
+   "default_code": "LGX-13995",
+   "qty_libre": 58,
+   "qty_shopify": 80
+  },
+  {
+   "variant_id": "53578078912725",
+   "sku": "650450077109",
+   "titulo": "Incipio Duo iPhone 14 Plus Clear",
+   "shopify_tmpl_id": "9320296186069",
+   "inventory_item_id": "55712516669653",
+   "product_id": 1893,
+   "odoo": "[IPH-2034-CLR] Incipio Duo iPhone 14 Plus Clear",
+   "product_tmpl_id": 1956,
+   "default_code": "IPH-2034-CLR",
+   "qty_libre": 9,
+   "qty_shopify": 9
+  },
+  {
+   "variant_id": "53578079305941",
+   "sku": "650450077093",
+   "titulo": "Incipio Duo iPhone 14 Plus Negro",
+   "shopify_tmpl_id": "9320296382677",
+   "inventory_item_id": "55712517062869",
+   "product_id": 1894,
+   "odoo": "[IPH-2034-BLK] Incipio Duo iPhone 14 Plus Negro",
+   "product_tmpl_id": 1957,
+   "default_code": "IPH-2034-BLK",
+   "qty_libre": 4,
+   "qty_shopify": 3
+  },
+  {
+   "variant_id": "53578081468629",
+   "sku": "650450076942",
+   "titulo": "Incipio Duo iPhone 14-13 Clear",
+   "shopify_tmpl_id": "9320296579285",
+   "inventory_item_id": "55712519192789",
+   "product_id": 1885,
+   "odoo": "[IPH-2032-CLR] Incipio Duo iPhone 14-13 Clear",
+   "product_tmpl_id": 1948,
+   "default_code": "IPH-2032-CLR",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "53581061390549",
+   "sku": "811433036821",
+   "titulo": "Nimbus9 Cirrus2 Galaxy S20 Ultra Rojo",
+   "shopify_tmpl_id": "9320826634453",
+   "inventory_item_id": "55715580707029",
+   "product_id": 7325,
+   "odoo": "[811433036821] Nimbus9 Cirrus2 Galaxy S20 Ultra Rojo",
+   "product_tmpl_id": 7388,
+   "default_code": "811433036821",
+   "qty_libre": 2,
+   "qty_shopify": 2
+  },
+  {
+   "variant_id": "53581064732885",
+   "sku": "810058633118",
+   "titulo": "Nimbus9 Cirrus2 Galaxy S23 Negro",
+   "shopify_tmpl_id": "9320826699989",
+   "inventory_item_id": "55715580772565",
+   "product_id": 8642,
+   "odoo": "[SAMCS23087] Nimbus9 Cirrus2 Galaxy S23 Negro",
+   "product_tmpl_id": 8709,
+   "default_code": "SAMCS23087",
+   "qty_libre": 13,
+   "qty_shopify": 13
+  },
+  {
+   "variant_id": "53699388014805",
+   "sku": "802118137506",
+   "titulo": "LOGiiX Cabrio+ iPad Air 13 (2024) Midnight Blue",
+   "shopify_tmpl_id": "9337797312725",
+   "inventory_item_id": "55834206437589",
+   "product_id": 12757,
+   "odoo": "[LGX-13750] LOGiiX Cabrio+ iPad Air 13 (2024) Midnight Blue",
+   "product_tmpl_id": 12817,
+   "default_code": "LGX-13750",
+   "qty_libre": 2,
+   "qty_shopify": 2
+  },
+  {
+   "variant_id": "53834865672405",
+   "sku": "802118139883",
+   "titulo": "LOGiiX Air Guard Classic iPhone 17 Clear/White",
+   "shopify_tmpl_id": "9372728983765",
+   "inventory_item_id": "55972278272213",
+   "product_id": 11955,
+   "odoo": "[LGX-13988] LOGiiX Air Guard Classic iPhone 17 Clear/White",
+   "product_tmpl_id": 12023,
+   "default_code": "LGX-13988",
+   "qty_libre": 38,
+   "qty_shopify": 41
+  },
+  {
+   "variant_id": "54193357553877",
+   "sku": "x00378vulv",
+   "titulo": "Miesherk Shockcase Galaxy Tab S8 Ultra",
+   "shopify_tmpl_id": "9457094688981",
+   "inventory_item_id": "56335259795669",
+   "product_id": 1135,
+   "odoo": "[x00378vulv] Miesherk Shockcase Galaxy Tab S8 Ultra",
+   "product_tmpl_id": 1176,
+   "default_code": "x00378vulv",
+   "qty_libre": 12,
+   "qty_shopify": 12
+  },
+  {
+   "variant_id": "68044922421461",
+   "sku": "810070368937",
+   "titulo": "UAG Lucent Samsung Galaxy S22 Ultra Rosado",
+   "shopify_tmpl_id": "15480759124181",
+   "inventory_item_id": "70036234535125",
+   "product_id": 507,
+   "odoo": "[21344N319898] UAG Lucent Samsung Galaxy S22 Ultra Rosado",
+   "product_tmpl_id": 526,
+   "default_code": "21344N319898",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "68044981928149",
+   "sku": "8201004060189",
+   "titulo": "Silicón Case Galaxy A72 Turquesa",
+   "shopify_tmpl_id": "15480762794197",
+   "inventory_item_id": "70036294041813",
+   "product_id": 7133,
+   "odoo": "[8201004060189] Silicón Case Galaxy A72 Turquesa",
+   "product_tmpl_id": 7196,
+   "default_code": "8201004060189",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "68044985270485",
+   "sku": "708689246817",
+   "titulo": "Ballistic Soft Jacket Galaxy S20 Ultra Negro",
+   "shopify_tmpl_id": "15480763318485",
+   "inventory_item_id": "70036297384149",
+   "product_id": 7213,
+   "odoo": "[708689246817] Ballistic Soft Jacket Galaxy S20 Ultra Negro",
+   "product_tmpl_id": 7276,
+   "default_code": "708689246817",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "68045024919765",
+   "sku": "X00427NB95",
+   "titulo": "Torras Upro Magnetic MagSafe Galaxy S24 Negro",
+   "shopify_tmpl_id": "15480767578325",
+   "inventory_item_id": "70036337033429",
+   "product_id": 10256,
+   "odoo": "[X00427NB95] Torras Upro Magnetic MagSafe Galaxy S24 Negro",
+   "product_tmpl_id": 10419,
+   "default_code": "X00427NB95",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  },
+  {
+   "variant_id": "68045035798741",
+   "sku": "4895206931816",
+   "titulo": "LAUT Huex MacBook Air 13.6\"(2022) Negro",
+   "shopify_tmpl_id": "15480769413333",
+   "inventory_item_id": "70036347912405",
+   "product_id": 12629,
+   "odoo": "[L_MA22_HX_BK] LAUT Huex MacBook Air 13.6\"(2022) Negro",
+   "product_tmpl_id": 12689,
+   "default_code": "L_MA22_HX_BK",
+   "qty_libre": 10,
+   "qty_shopify": 10
+  },
+  {
+   "variant_id": "68045036159189",
+   "sku": "4895206944663",
+   "titulo": "LAUT Luxedge iPhone 17 Pro Slate Black",
+   "shopify_tmpl_id": "15480769773781",
+   "inventory_item_id": "70036348272853",
+   "product_id": 12717,
+   "odoo": "[L_IP25B_LX_BK] LAUT Luxedge iPhone 17 Pro Slate Black",
+   "product_tmpl_id": 12777,
+   "default_code": "L_IP25B_LX_BK",
+   "qty_libre": 43,
+   "qty_shopify": 46
+  },
+  {
+   "variant_id": "68045036191957",
+   "sku": "4895206944656",
+   "titulo": "LAUT Luxedge iPhone 17 Pro Luxe Brown",
+   "shopify_tmpl_id": "15480769806549",
+   "inventory_item_id": "70036348305621",
+   "product_id": 12718,
+   "odoo": "[L_IP25B_LX_BR] LAUT Luxedge iPhone 17 Pro Luxe Brown",
+   "product_tmpl_id": 12778,
+   "default_code": "L_IP25B_LX_BR",
+   "qty_libre": 44,
+   "qty_shopify": 45
+  },
+  {
+   "variant_id": "68045036257493",
+   "sku": "4895206941884",
+   "titulo": "LAUT Huex Protect AirPods 4 Black",
+   "shopify_tmpl_id": "15480769872085",
+   "inventory_item_id": "70036348371157",
+   "product_id": 12726,
+   "odoo": "[L_AP5_HPT_BK] LAUT Huex Protect AirPods 4 Black",
+   "product_tmpl_id": 12786,
+   "default_code": "L_AP5_HPT_BK",
+   "qty_libre": 36,
+   "qty_shopify": 71
+  },
+  {
+   "variant_id": "68045036749013",
+   "sku": "4895206942003",
+   "titulo": "LAUT Zentry AirPods 4 Negro",
+   "shopify_tmpl_id": "15480770363605",
+   "inventory_item_id": "70036348862677",
+   "product_id": 12870,
+   "odoo": "[L_AP5_ZE_BK] LAUT Zentry AirPods 4 Negro",
+   "product_tmpl_id": 12930,
+   "default_code": "L_AP5_ZE_BK",
+   "qty_libre": 132,
+   "qty_shopify": 132
+  },
+  {
+   "variant_id": "68045037273301",
+   "sku": "4895206941372",
+   "titulo": "LAUT Typefolio 2.0 Keyboard iPad 11\" (2024) Black",
+   "shopify_tmpl_id": "15480770953429",
+   "inventory_item_id": "70036349386965",
+   "product_id": 12871,
+   "odoo": "[L_IPA24S_TY2_ES_BK] LAUT Typefolio 2.0 Keyboard iPad 11\" (2024) Black",
+   "product_tmpl_id": 12931,
+   "default_code": "L_IPA24S_TY2_ES_BK",
+   "qty_libre": 138,
+   "qty_shopify": 140
+  },
+  {
+   "variant_id": "68045037306069",
+   "sku": "4895206941433",
+   "titulo": "LAUT Typefolio 2.0 Keyboard iPad Pro 11\" (M4) Black",
+   "shopify_tmpl_id": "15480770986197",
+   "inventory_item_id": "70036349419733",
+   "product_id": 12872,
+   "odoo": "[L_IPP24S_TY2_ES_BK] LAUT Typefolio 2.0 Keyboard iPad Pro 11\" (M4) Black",
+   "product_tmpl_id": 12932,
+   "default_code": "L_IPP24S_TY2_ES_BK",
+   "qty_libre": 10,
+   "qty_shopify": 12
+  },
+  {
+   "variant_id": "68224414974165",
+   "sku": "802118141336",
+   "titulo": "LOGiiX Vibrance Neo Bundle USB-C to USB-C Cable Blush",
+   "shopify_tmpl_id": "15526988120277",
+   "inventory_item_id": "70216284340437",
+   "product_id": 13972,
+   "odoo": "[LGX-14133] LOGiiX Vibrance Neo Bundle USB-C to USB-C Cable Blush",
+   "product_tmpl_id": 14049,
+   "default_code": "LGX-14133",
+   "qty_libre": 1,
+   "qty_shopify": 1
+  }
+ ],
+ "omitidos": [
+  {
+   "variant_id": "52237252788437",
+   "sku": "6972576181954",
+   "titulo": "Audífonos HiFuture FlexClip Open Ear",
+   "shopify_tmpl_id": "9142015295701",
+   "inventory_item_id": "54338705293525",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[6972576181954] HiFuture Flex Clip Open Ear Audífono Negro"
+  },
+  {
+   "variant_id": "52237275267285",
+   "sku": "L885126702096",
+   "titulo": "MyBat Pro Sleeve Bag para Laptop y MacBook 13 Pulgadas Gris",
+   "shopify_tmpl_id": "9142032203989",
+   "inventory_item_id": "54338727772373",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RUNLSB102] MyBat Pro Sleeve Bag para Laptop y MacBook 13 Pulgadas Gris"
+  },
+  {
+   "variant_id": "52237275332821",
+   "sku": "L885126702119",
+   "titulo": "MyBat Pro Sleeve Bag para Laptop y MacBook 15 Pulgadas Gris",
+   "shopify_tmpl_id": "9142032269525",
+   "inventory_item_id": "54338727837909",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RUNLSB103] MyBat Pro Sleeve Bag para Laptop y MacBook 15 Pulgadas Gris"
+  },
+  {
+   "variant_id": "52265168732373",
+   "sku": "355413810434122",
+   "titulo": "iPhone 17 Air 256GB Sky Blue SFC27TPXJ42",
+   "shopify_tmpl_id": "9149959700693",
+   "inventory_item_id": "54366966022357",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "52265168797909",
+   "sku": "355413810088746",
+   "titulo": "iPhone 17 Air 256GB Sky Blue SH2R60V4052",
+   "shopify_tmpl_id": "9149959766229",
+   "inventory_item_id": "54366966087893",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "52265168830677",
+   "sku": "358838940618011",
+   "titulo": "iPhone 17 Air 256GB Space Black SHHHH07YK6R",
+   "shopify_tmpl_id": "9149959798997",
+   "inventory_item_id": "54366966120661",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "52265168896213",
+   "sku": "350795040673478",
+   "titulo": "iPhone 17 Air 256GB Space Black SC6FQ7RXFC2",
+   "shopify_tmpl_id": "9149959864533",
+   "inventory_item_id": "54366966186197",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "52265168928981",
+   "sku": "354956974600970",
+   "titulo": "iPhone 17 Pro 256GB Naranja Sdhpkxyp2v7",
+   "shopify_tmpl_id": "9149959897301",
+   "inventory_item_id": "54366966218965",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "52265168961749",
+   "sku": "352591611205404",
+   "titulo": "IPHONE 17 PRO 256GB Silver SCP9G1W0YX6",
+   "shopify_tmpl_id": "9149959930069",
+   "inventory_item_id": "54366966251733",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "52265169649877",
+   "sku": "352591613425935",
+   "titulo": "iPhone 17 Pro 256GB Azul SH2HCRH7W4R",
+   "shopify_tmpl_id": "9149960618197",
+   "inventory_item_id": "54366966939861",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "53097789915349",
+   "sku": "",
+   "titulo": "Duo JLAB Studio +",
+   "shopify_tmpl_id": "9261317718229",
+   "inventory_item_id": "55205238505685",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53128634466517",
+   "sku": "4895206927345",
+   "titulo": "LAUT Huex Series Case iPhone 13 Azul",
+   "shopify_tmpl_id": "9263456551125",
+   "inventory_item_id": "55236135420117",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[4895206927345] LAUT Huex Series Case iPhone 13 Azul"
+  },
+  {
+   "variant_id": "53191430930645",
+   "sku": "",
+   "titulo": "Combo 8 Bombillos Smart Amazon Basics RGB – Compatibles con Alexa",
+   "shopify_tmpl_id": "9265380720853",
+   "inventory_item_id": "55299025600725",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53192174633173",
+   "sku": "",
+   "titulo": "Ipad Air 6 2024 azul",
+   "shopify_tmpl_id": "9265496785109",
+   "inventory_item_id": "55299771498709",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53192180498645",
+   "sku": "",
+   "titulo": "Ipad Air 6 M2 128GB Spacegray",
+   "shopify_tmpl_id": "9265497571541",
+   "inventory_item_id": "55299777396949",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53192188494037",
+   "sku": "",
+   "titulo": "Ipad 5ta Generacion 32GB Spacegray",
+   "shopify_tmpl_id": "9265499111637",
+   "inventory_item_id": "55299785392341",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53192200552661",
+   "sku": "",
+   "titulo": "iPad 7ma Generación 32GB Gris Espacial — Seminuevo",
+   "shopify_tmpl_id": "9265500913877",
+   "inventory_item_id": "55299797450965",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53192207597781",
+   "sku": "",
+   "titulo": "iPad Air 2 64GB Gris Espacial — Seminuevo",
+   "shopify_tmpl_id": "9265502552277",
+   "inventory_item_id": "55299804496085",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53192212381909",
+   "sku": "",
+   "titulo": "Ipad Air 5 64GB Spacegray",
+   "shopify_tmpl_id": "9265502748885",
+   "inventory_item_id": "55299809280213",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53371289272533",
+   "sku": "6932172653002",
+   "titulo": "Baseus Pudding Cable Tipo C a Lightning 20W 1.2m Morado",
+   "shopify_tmpl_id": "9297677353173",
+   "inventory_item_id": "55480884035797",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[P10355701511-B3] Baseus Pudding Cable Tipo C a Lightning 20W 1.2m Morado"
+  },
+  {
+   "variant_id": "53758715134165",
+   "sku": "",
+   "titulo": "Combo Smart Fitness: Smartwatch Kieslect KS Mini + Baseus Eli Sport",
+   "shopify_tmpl_id": "9350586630357",
+   "inventory_item_id": "55895600169173",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "53783767220437",
+   "sku": "",
+   "titulo": "Pack - Gadget Guard Vidrio templado iPhone 15/14/13 - Pack de 5 unidades",
+   "shopify_tmpl_id": "9356552634581",
+   "inventory_item_id": "55920794042581",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "54143748473045",
+   "sku": "",
+   "titulo": "Govee Lyra Lámpara de pie RGBIC H6072",
+   "shopify_tmpl_id": "9440986628309",
+   "inventory_item_id": "56285505192149",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "54143769870549",
+   "sku": "",
+   "titulo": "Govee Glide Hexagon Light Panels RGBIC H6061",
+   "shopify_tmpl_id": "9440988889301",
+   "inventory_item_id": "56285526589653",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "54143793070293",
+   "sku": "",
+   "titulo": "Govee tira LED RGBIC 5 metros H619A",
+   "shopify_tmpl_id": "9440999637205",
+   "inventory_item_id": "56285549789397",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "54143884198101",
+   "sku": "",
+   "titulo": "Govee H6171 Phantasy tira LED RGBIC 10 metros para exterior",
+   "shopify_tmpl_id": "9441008025813",
+   "inventory_item_id": "56285640917205",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "54193331929301",
+   "sku": "4895241112614",
+   "titulo": "Mageasy Flipmount Soporte Magnético para iPad/iPhone Gris",
+   "shopify_tmpl_id": "9457083580629",
+   "inventory_item_id": "56335234171093",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[MPDIHD100SG22] Mageasy Flipmount Soporte Magnético para iPad/iPhone Gris"
+  },
+  {
+   "variant_id": "54193337794773",
+   "sku": "885126617154",
+   "titulo": "MyBat Myjacket Case Universal para Tablet 9 y 10 Pulgadas Hot Pink",
+   "shopify_tmpl_id": "9457084367061",
+   "inventory_item_id": "56335240036565",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[UNIMYJK042] MyBat Myjacket Case Universal para Tablet 9 y 10 Pulgadas Hot Pink"
+  },
+  {
+   "variant_id": "54193352966357",
+   "sku": "885126698962",
+   "titulo": "MyBat Maverick Antimicrobial con Holster Galaxy S22 Azul",
+   "shopify_tmpl_id": "9457092362453",
+   "inventory_item_id": "56335255208149",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RSS22CS3NXS002] MyBat Maverick Antimicrobial con Holster Galaxy S22 Azul"
+  },
+  {
+   "variant_id": "54193354866901",
+   "sku": "885126702119",
+   "titulo": "MyBat Pro Sleeve Bag para Laptop y MacBook 15 Pulgadas Gris",
+   "shopify_tmpl_id": "9457092952277",
+   "inventory_item_id": "56335257108693",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RUNLSB103] MyBat Pro Sleeve Bag para Laptop y MacBook 15 Pulgadas Gris"
+  },
+  {
+   "variant_id": "54728815345877",
+   "sku": "840080523972",
+   "titulo": "Combo Echo Dot 5ta Gen Azul + 3 Bombillos Smart – Alexa",
+   "shopify_tmpl_id": "9571175629013",
+   "inventory_item_id": "56873831399637",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[840080523972] Amazon Alexa Echo Dot 5.0 V2 Parlante Inteligente Azul"
+  },
+  {
+   "variant_id": "54748225306837",
+   "sku": "",
+   "titulo": "Combo Mophie iPhone 15 Pro Max",
+   "shopify_tmpl_id": "9574329876693",
+   "inventory_item_id": "56897278017749",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "54748626059477",
+   "sku": "",
+   "titulo": "Combo Itskins iPhone 15 Pro Max",
+   "shopify_tmpl_id": "9574349766869",
+   "inventory_item_id": "56897814823125",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "54749159686357",
+   "sku": "",
+   "titulo": "Combo Balance iPhone 15 Pro Max",
+   "shopify_tmpl_id": "9574363889877",
+   "inventory_item_id": "56898496626901",
+   "motivo": "sin SKU en Shopify"
+  },
+  {
+   "variant_id": "67997748986069",
+   "sku": "6972576181961",
+   "titulo": "Audífonos HiFuture FlexClip Open Ear",
+   "shopify_tmpl_id": "9142015295701",
+   "inventory_item_id": "69988992024789",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[6972576181961] HiFuture Flex Clip Open Ear Audífono Beige"
+  },
+  {
+   "variant_id": "68044923338965",
+   "sku": "885126698955",
+   "titulo": "MyBat Maverick Antimicrobial con Holster Galaxy S22 Negro",
+   "shopify_tmpl_id": "15480759288021",
+   "inventory_item_id": "70036235419861",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RSS22CS3NXS001] MyBat Maverick Antimicrobial con Holster Galaxy S22 Negro"
+  },
+  {
+   "variant_id": "68044980256981",
+   "sku": "885126673136",
+   "titulo": "MyBat Vidrio Templado para Cámara Galaxy S20 Fan Edition Clear",
+   "shopify_tmpl_id": "15480762597589",
+   "inventory_item_id": "70036292370645",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[885126673136] MyBat Vidrio Templado para Cámara Galaxy S20 Fan Edition Clear"
+  },
+  {
+   "variant_id": "68044986876117",
+   "sku": "888842572325",
+   "titulo": "ITSkins Hybrid Spark Galaxy S23 Plus Smoke",
+   "shopify_tmpl_id": "15480763711701",
+   "inventory_item_id": "70036298989781",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[888842572325] ITSkins Hybrid Spark Galaxy S23 Plus Smoke"
+  },
+  {
+   "variant_id": "68045024395477",
+   "sku": "810058635396",
+   "titulo": "Nimbus9 Phantom Galaxy S24 Ultra Lila",
+   "shopify_tmpl_id": "15480767054037",
+   "inventory_item_id": "70036336509141",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[SAMCS24344] Nimbus9 Phantom Galaxy S24 Ultra Lila"
+  },
+  {
+   "variant_id": "68045036060885",
+   "sku": "4895206947398",
+   "titulo": "LAUT Huex Protect AirPods Pro3 Light Pink",
+   "shopify_tmpl_id": "15480769675477",
+   "inventory_item_id": "70036348174549",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[L_APP3_HPT_P] LAUT Huex Protect AirPods Pro3 Light Pink"
+  },
+  {
+   "variant_id": "68111256486101",
+   "sku": "ITR-IP8PLUS-64GB-GRISESPACIAL",
+   "titulo": "iPhone 8 Plus 64GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499682578645",
+   "inventory_item_id": "70102783066325",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111299477717",
+   "sku": "ITR-IP8PLUS-256GB-GRISESPACIAL",
+   "titulo": "iPhone 8 Plus 256GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499701682389",
+   "inventory_item_id": "70102826057941",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111299576021",
+   "sku": "ITR-IPX-256GB-GRISESPACIAL",
+   "titulo": "iPhone X 256GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499701813461",
+   "inventory_item_id": "70102826156245",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111299674325",
+   "sku": "ITR-IPX-256GB-PLATA",
+   "titulo": "iPhone X 256GB Plata Seminuevo",
+   "shopify_tmpl_id": "15499701911765",
+   "inventory_item_id": "70102826254549",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111299838165",
+   "sku": "ITR-IPXS-64GB-GRISESPACIAL",
+   "titulo": "iPhone XS 64GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499702042837",
+   "inventory_item_id": "70102826418389",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111299870933",
+   "sku": "ITR-IPXS-64GB-PLATA",
+   "titulo": "iPhone XS 64GB Plata Seminuevo",
+   "shopify_tmpl_id": "15499702075605",
+   "inventory_item_id": "70102826451157",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111299936469",
+   "sku": "ITR-IPXS-64GB-ORO",
+   "titulo": "iPhone XS 64GB Oro Seminuevo",
+   "shopify_tmpl_id": "15499702206677",
+   "inventory_item_id": "70102826516693",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300034773",
+   "sku": "ITR-IPXSMAX-64GB-GRISESPACIAL",
+   "titulo": "iPhone XS Max 64GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499702239445",
+   "inventory_item_id": "70102826614997",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300100309",
+   "sku": "ITR-IPSE2020-64GB-ROJO",
+   "titulo": "iPhone Se 2020 64GB Rojo Seminuevo",
+   "shopify_tmpl_id": "15499702304981",
+   "inventory_item_id": "70102826680533",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300165845",
+   "sku": "ITR-IPXR-64GB-ROJO",
+   "titulo": "iPhone XR 64GB Rojo Seminuevo",
+   "shopify_tmpl_id": "15499702403285",
+   "inventory_item_id": "70102826746069",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300264149",
+   "sku": "ITR-IPXR-64GB-AZUL",
+   "titulo": "iPhone XR 64GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499702501589",
+   "inventory_item_id": "70102826811605",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300427989",
+   "sku": "ITR-IPXR-64GB-NEGRO",
+   "titulo": "iPhone XR 64GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499702632661",
+   "inventory_item_id": "70102826975445",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300460757",
+   "sku": "ITR-IPXR-128GB-NEGRO",
+   "titulo": "iPhone XR 128GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499702665429",
+   "inventory_item_id": "70102827040981",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300624597",
+   "sku": "ITR-IP11-64GB-NEGRO",
+   "titulo": "iPhone 11 64GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499702829269",
+   "inventory_item_id": "70102827204821",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300755669",
+   "sku": "ITR-IP11-64GB-MORADO",
+   "titulo": "iPhone 11 64GB Morado Seminuevo",
+   "shopify_tmpl_id": "15499702993109",
+   "inventory_item_id": "70102827335893",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111300853973",
+   "sku": "ITR-IP11-128GB-NEGRO",
+   "titulo": "iPhone 11 128GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499703091413",
+   "inventory_item_id": "70102827434197",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111301017813",
+   "sku": "ITR-IP11-128GB-AMARILLO",
+   "titulo": "iPhone 11 128GB Amarillo Seminuevo",
+   "shopify_tmpl_id": "15499703222485",
+   "inventory_item_id": "70102827598037",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111301443797",
+   "sku": "ITR-IP11-128GB-MORADO",
+   "titulo": "iPhone 11 128GB Morado Seminuevo",
+   "shopify_tmpl_id": "15499703353557",
+   "inventory_item_id": "70102828024021",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111301542101",
+   "sku": "ITR-IP11-256GB-BLANCO",
+   "titulo": "iPhone 11 256GB Blanco Seminuevo",
+   "shopify_tmpl_id": "15499703386325",
+   "inventory_item_id": "70102828122325",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111301869781",
+   "sku": "ITR-IP11PRO-64GB-ORO",
+   "titulo": "iPhone 11 Pro 64GB Oro Seminuevo",
+   "shopify_tmpl_id": "15499703615701",
+   "inventory_item_id": "70102828450005",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111302033621",
+   "sku": "ITR-IP11PRO-64GB-VERDENOCHE",
+   "titulo": "iPhone 11 Pro 64GB Verde Noche Seminuevo",
+   "shopify_tmpl_id": "15499703714005",
+   "inventory_item_id": "70102828581077",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111302230229",
+   "sku": "ITR-IP11PRO-64GB-GRISESPACIAL",
+   "titulo": "iPhone 11 Pro 64GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499703779541",
+   "inventory_item_id": "70102828810453",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111302361301",
+   "sku": "ITR-IP11PRO-256GB-ORO",
+   "titulo": "iPhone 11 Pro 256GB Oro Seminuevo",
+   "shopify_tmpl_id": "15499703845077",
+   "inventory_item_id": "70102828941525",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111302394069",
+   "sku": "ITR-IP11PRO-512GB-VERDENOCHE",
+   "titulo": "iPhone 11 Pro 512GB Verde Noche Seminuevo",
+   "shopify_tmpl_id": "15499703943381",
+   "inventory_item_id": "70102828974293",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111302787285",
+   "sku": "ITR-IP11PRO-512GB-GRISESPACIAL",
+   "titulo": "iPhone 11 Pro 512GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499704041685",
+   "inventory_item_id": "70102829236437",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111302852821",
+   "sku": "ITR-IP11PRO-512GB-PLATA",
+   "titulo": "iPhone 11 Pro 512GB Plata Seminuevo",
+   "shopify_tmpl_id": "15499704139989",
+   "inventory_item_id": "70102829301973",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111303213269",
+   "sku": "ITR-IP11PROMAX-64GB-VERDENOCHE",
+   "titulo": "iPhone 11 Pro Max 64GB Verde Noche Seminuevo",
+   "shopify_tmpl_id": "15499704271061",
+   "inventory_item_id": "70102829793493",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111303409877",
+   "sku": "ITR-IP11PROMAX-64GB-GRISESPACIAL",
+   "titulo": "iPhone 11 Pro Max 64GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499704336597",
+   "inventory_item_id": "70102829990101",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111303442645",
+   "sku": "ITR-IP11PROMAX-64GB-PLATA",
+   "titulo": "iPhone 11 Pro Max 64GB Plata Seminuevo",
+   "shopify_tmpl_id": "15499704402133",
+   "inventory_item_id": "70102830022869",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111303934165",
+   "sku": "ITR-IP11PROMAX-512GB-VERDENOCHE",
+   "titulo": "iPhone 11 Pro Max 512GB Verde Noche Seminuevo",
+   "shopify_tmpl_id": "15499704565973",
+   "inventory_item_id": "70102830514389",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111303966933",
+   "sku": "ITR-IP11PROMAX-512GB-GRISESPACIAL",
+   "titulo": "iPhone 11 Pro Max 512GB Gris Espacial Seminuevo",
+   "shopify_tmpl_id": "15499704598741",
+   "inventory_item_id": "70102830547157",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111303999701",
+   "sku": "ITR-IP11PROMAX-512GB-PLATA",
+   "titulo": "iPhone 11 Pro Max 512GB Plata Seminuevo",
+   "shopify_tmpl_id": "15499704664277",
+   "inventory_item_id": "70102830579925",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111304523989",
+   "sku": "ITR-IP12MINI-64GB-VERDE",
+   "titulo": "iPhone 12 Mini 64GB Verde Seminuevo",
+   "shopify_tmpl_id": "15499704860885",
+   "inventory_item_id": "70102831104213",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111304556757",
+   "sku": "ITR-IP12MINI-64GB-ROJO",
+   "titulo": "iPhone 12 Mini 64GB Rojo Seminuevo",
+   "shopify_tmpl_id": "15499704893653",
+   "inventory_item_id": "70102831136981",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111304622293",
+   "sku": "ITR-IP12-64GB-AZUL",
+   "titulo": "iPhone 12 64GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499704991957",
+   "inventory_item_id": "70102831202517",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111304851669",
+   "sku": "ITR-IP12-64GB-NEGRO",
+   "titulo": "iPhone 12 64GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499705024725",
+   "inventory_item_id": "70102831431893",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111305113813",
+   "sku": "ITR-IP12-64GB-MORADO",
+   "titulo": "iPhone 12 64GB Morado Seminuevo",
+   "shopify_tmpl_id": "15499705123029",
+   "inventory_item_id": "70102831694037",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111305408725",
+   "sku": "ITR-IP12-128GB-AZUL",
+   "titulo": "iPhone 12 128GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499705254101",
+   "inventory_item_id": "70102831988949",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111336472789",
+   "sku": "ITR-IP12-256GB-AZUL",
+   "titulo": "iPhone 12 256GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499721212117",
+   "inventory_item_id": "70102863053013",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111336571093",
+   "sku": "ITR-IP12PRO-128GB-GRAFITO",
+   "titulo": "iPhone 12 Pro 128GB Grafito Seminuevo",
+   "shopify_tmpl_id": "15499721310421",
+   "inventory_item_id": "70102863151317",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111336702165",
+   "sku": "ITR-IP12PRO-128GB-AZULPACIFICO",
+   "titulo": "iPhone 12 Pro 128GB Azul Pacífico Seminuevo",
+   "shopify_tmpl_id": "15499721441493",
+   "inventory_item_id": "70102863282389",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111336866005",
+   "sku": "ITR-IP12PRO-256GB-AZULPACIFICO",
+   "titulo": "iPhone 12 Pro 256GB Azul Pacífico Seminuevo",
+   "shopify_tmpl_id": "15499721638101",
+   "inventory_item_id": "70102863446229",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111337193685",
+   "sku": "ITR-IP12PROMAX-128GB-GRAFITO",
+   "titulo": "iPhone 12 Pro Max 128GB Grafito Seminuevo",
+   "shopify_tmpl_id": "15499721867477",
+   "inventory_item_id": "70102863708373",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111337291989",
+   "sku": "ITR-IP12PROMAX-128GB-AZULPACIFICO",
+   "titulo": "iPhone 12 Pro Max 128GB Azul Pacífico Seminuevo",
+   "shopify_tmpl_id": "15499721965781",
+   "inventory_item_id": "70102863872213",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111337423061",
+   "sku": "ITR-IP12PROMAX-256GB-GRAFITO",
+   "titulo": "iPhone 12 Pro Max 256GB Grafito Seminuevo",
+   "shopify_tmpl_id": "15499722064085",
+   "inventory_item_id": "70102864003285",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111337521365",
+   "sku": "ITR-IP12PROMAX-256GB-AZULPACIFICO",
+   "titulo": "iPhone 12 Pro Max 256GB Azul Pacífico Seminuevo",
+   "shopify_tmpl_id": "15499722162389",
+   "inventory_item_id": "70102864101589",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111337554133",
+   "sku": "ITR-IP12PROMAX-256GB-PLATA",
+   "titulo": "iPhone 12 Pro Max 256GB Plata Seminuevo",
+   "shopify_tmpl_id": "15499722227925",
+   "inventory_item_id": "70102864134357",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111337849045",
+   "sku": "ITR-IP13MINI-128GB-AZUL",
+   "titulo": "iPhone 13 Mini 128GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499722457301",
+   "inventory_item_id": "70102864429269",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111337914581",
+   "sku": "ITR-IP13MINI-128GB-ROSA",
+   "titulo": "iPhone 13 Mini 128GB Rosa Seminuevo",
+   "shopify_tmpl_id": "15499722621141",
+   "inventory_item_id": "70102864494805",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111338143957",
+   "sku": "ITR-IP13MINI-128GB-MEDIANOCHE",
+   "titulo": "iPhone 13 Mini 128GB Medianoche Seminuevo",
+   "shopify_tmpl_id": "15499722719445",
+   "inventory_item_id": "70102864724181",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111338209493",
+   "sku": "ITR-IP13-128GB-VERDE",
+   "titulo": "iPhone 13 128GB Verde Seminuevo",
+   "shopify_tmpl_id": "15499722784981",
+   "inventory_item_id": "70102864789717",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111338504405",
+   "sku": "ITR-IP13PRO-128GB-AZULSIERRA",
+   "titulo": "iPhone 13 Pro 128GB Azul Sierra Seminuevo",
+   "shopify_tmpl_id": "15499723047125",
+   "inventory_item_id": "70102865051861",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111338733781",
+   "sku": "ITR-IP13PRO-128GB-VERDEALPINO",
+   "titulo": "iPhone 13 Pro 128GB Verde Alpino Seminuevo",
+   "shopify_tmpl_id": "15499723276501",
+   "inventory_item_id": "70102865314005",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111339061461",
+   "sku": "ITR-IP13PROMAX-128GB-GRAFITO",
+   "titulo": "iPhone 13 Pro Max 128GB Grafito Seminuevo",
+   "shopify_tmpl_id": "15499723571413",
+   "inventory_item_id": "70102865576149",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111339258069",
+   "sku": "ITR-IP13PROMAX-512GB-AZULSIERRA",
+   "titulo": "iPhone 13 Pro Max 512GB Azul Sierra Seminuevo",
+   "shopify_tmpl_id": "15499723735253",
+   "inventory_item_id": "70102865838293",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111339585749",
+   "sku": "ITR-IP14-128GB-AZUL",
+   "titulo": "iPhone 14 128GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499724030165",
+   "inventory_item_id": "70102866165973",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111339782357",
+   "sku": "ITR-IP14PLUS-128GB-AZUL",
+   "titulo": "iPhone 14 Plus 128GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499724194005",
+   "inventory_item_id": "70102866362581",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111339847893",
+   "sku": "ITR-IP14PLUS-128GB-MORADO",
+   "titulo": "iPhone 14 Plus 128GB Morado Seminuevo",
+   "shopify_tmpl_id": "15499724292309",
+   "inventory_item_id": "70102866428117",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111340011733",
+   "sku": "ITR-IP14PLUS-128GB-AMARILLO",
+   "titulo": "iPhone 14 Plus 128GB Amarillo Seminuevo",
+   "shopify_tmpl_id": "15499724423381",
+   "inventory_item_id": "70102866591957",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111340142805",
+   "sku": "ITR-IP14PLUS-128GB-ROJO",
+   "titulo": "iPhone 14 Plus 128GB Rojo Seminuevo",
+   "shopify_tmpl_id": "15499724521685",
+   "inventory_item_id": "70102866723029",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111340601557",
+   "sku": "ITR-IP14PLUS-512GB-ROJO",
+   "titulo": "iPhone 14 Plus 512GB Rojo Seminuevo",
+   "shopify_tmpl_id": "15499724652757",
+   "inventory_item_id": "70102866919637",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111340667093",
+   "sku": "ITR-IP14PRO-128GB-NEGROESPACIAL",
+   "titulo": "iPhone 14 Pro 128GB Negro Espacial Seminuevo",
+   "shopify_tmpl_id": "15499724783829",
+   "inventory_item_id": "70102867247317",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111340830933",
+   "sku": "ITR-IP14PRO-128GB-MORADOOSCURO",
+   "titulo": "iPhone 14 Pro 128GB Morado Oscuro Seminuevo",
+   "shopify_tmpl_id": "15499724947669",
+   "inventory_item_id": "70102867411157",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111341584597",
+   "sku": "ITR-IP15-128GB-ROSA",
+   "titulo": "iPhone 15 128GB Rosa Seminuevo",
+   "shopify_tmpl_id": "15499725570261",
+   "inventory_item_id": "70102868164821",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111341813973",
+   "sku": "ITR-IP15-128GB-AZUL",
+   "titulo": "iPhone 15 128GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499725766869",
+   "inventory_item_id": "70102868394197",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111341912277",
+   "sku": "ITR-IP15-128GB-NEGRO",
+   "titulo": "iPhone 15 128GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499725897941",
+   "inventory_item_id": "70102868492501",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111342305493",
+   "sku": "ITR-IP15-512GB-NEGRO",
+   "titulo": "iPhone 15 512GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499725996245",
+   "inventory_item_id": "70102868885717",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111417737429",
+   "sku": "ITR-IP15PLUS-128GB-AMARILLO",
+   "titulo": "iPhone 15 Plus 128GB Amarillo Seminuevo",
+   "shopify_tmpl_id": "15499751620821",
+   "inventory_item_id": "70102944317653",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111417802965",
+   "sku": "ITR-IP15PLUS-128GB-AZUL",
+   "titulo": "iPhone 15 Plus 128GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499751751893",
+   "inventory_item_id": "70102944383189",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111417934037",
+   "sku": "ITR-IP15PLUS-256GB-AZUL",
+   "titulo": "iPhone 15 Plus 256GB Azul Seminuevo",
+   "shopify_tmpl_id": "15499751817429",
+   "inventory_item_id": "70102944514261",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111418196181",
+   "sku": "ITR-IP15PROMAX-512GB-TITANIONEGRO",
+   "titulo": "iPhone 15 Pro Max 512GB Titanio Negro Seminuevo",
+   "shopify_tmpl_id": "15499752046805",
+   "inventory_item_id": "70102944776405",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111418720469",
+   "sku": "ITR-IP16E-128GB-BLANCO",
+   "titulo": "iPhone 16E 128GB Blanco Seminuevo",
+   "shopify_tmpl_id": "15499752243413",
+   "inventory_item_id": "70102945300693",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111418917077",
+   "sku": "ITR-IP16-128GB-NEGRO",
+   "titulo": "iPhone 16 128GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499752440021",
+   "inventory_item_id": "70102945431765",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111419015381",
+   "sku": "ITR-IP16-128GB-VERDEAZULADO",
+   "titulo": "iPhone 16 128GB Verde Azulado Seminuevo",
+   "shopify_tmpl_id": "15499752505557",
+   "inventory_item_id": "70102945595605",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111419048149",
+   "sku": "ITR-IP16-128GB-ULTRAMAR",
+   "titulo": "iPhone 16 128GB Ultramar Seminuevo",
+   "shopify_tmpl_id": "15499752603861",
+   "inventory_item_id": "70102945628373",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111419211989",
+   "sku": "ITR-IP16-128GB-ROSA",
+   "titulo": "iPhone 16 128GB Rosa Seminuevo",
+   "shopify_tmpl_id": "15499752702165",
+   "inventory_item_id": "70102945792213",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111419310293",
+   "sku": "ITR-IP16-128GB-BLANCO",
+   "titulo": "iPhone 16 128GB Blanco Seminuevo",
+   "shopify_tmpl_id": "15499752833237",
+   "inventory_item_id": "70102945890517",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111419408597",
+   "sku": "ITR-IP16-256GB-NEGRO",
+   "titulo": "iPhone 16 256GB Negro Seminuevo",
+   "shopify_tmpl_id": "15499752898773",
+   "inventory_item_id": "70102945988821",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111419506901",
+   "sku": "ITR-IP16PLUS-256GB-ULTRAMAR",
+   "titulo": "iPhone 16 Plus 256GB Ultramar Seminuevo",
+   "shopify_tmpl_id": "15499752997077",
+   "inventory_item_id": "70102946087125",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111420621013",
+   "sku": "ITR-IP16PROMAX-256GB-TITANIOBLANCO",
+   "titulo": "iPhone 16 Pro Max 256GB Titanio Blanco Seminuevo",
+   "shopify_tmpl_id": "15499753717973",
+   "inventory_item_id": "70102947201237",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111421472981",
+   "sku": "ITR-IP16PROMAX-256GB-TITANIONATURAL",
+   "titulo": "iPhone 16 Pro Max 256GB Titanio Natural Seminuevo",
+   "shopify_tmpl_id": "15499753849045",
+   "inventory_item_id": "70102948053205",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111421735125",
+   "sku": "ITR-IP16PROMAX-512GB-TITANIONEGRO",
+   "titulo": "iPhone 16 Pro Max 512GB Titanio Negro Seminuevo",
+   "shopify_tmpl_id": "15499753980117",
+   "inventory_item_id": "70102948151509",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111421833429",
+   "sku": "ITR-IP16PROMAX-512GB-TITANIODESIERTO",
+   "titulo": "iPhone 16 Pro Max 512GB Titanio Desierto Seminuevo",
+   "shopify_tmpl_id": "15499754143957",
+   "inventory_item_id": "70102948413653",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111421964501",
+   "sku": "ITR-IP16PROMAX-1TB-TITANIONEGRO",
+   "titulo": "iPhone 16 Pro Max 1TB Titanio Negro Seminuevo",
+   "shopify_tmpl_id": "15499754209493",
+   "inventory_item_id": "70102948544725",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111422030037",
+   "sku": "ITR-IP16PROMAX-1TB-TITANIOBLANCO",
+   "titulo": "iPhone 16 Pro Max 1TB Titanio Blanco Seminuevo",
+   "shopify_tmpl_id": "15499754307797",
+   "inventory_item_id": "70102948577493",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111422128341",
+   "sku": "ITR-IP17E-256GB-ROSA",
+   "titulo": "iPhone 17E 256GB Rosa Seminuevo",
+   "shopify_tmpl_id": "15499754373333",
+   "inventory_item_id": "70102948708565",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111422259413",
+   "sku": "ITR-IP17AIR-256GB-AZULCIELO",
+   "titulo": "iPhone 17 Air 256GB Azul Cielo Nuevo Sellado",
+   "shopify_tmpl_id": "15499754504405",
+   "inventory_item_id": "70102948806869",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111422357717",
+   "sku": "ITR-IP17PROMAX-256GB-AZULPROFUNDO",
+   "titulo": "iPhone 17 Pro Max 256GB Azul Profundo Seminuevo",
+   "shopify_tmpl_id": "15499754602709",
+   "inventory_item_id": "70102948937941",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111422619861",
+   "sku": "ITR-IP17PROMAX-256GB-NARANJACOSMICO",
+   "titulo": "iPhone 17 Pro Max 256GB Naranja Cósmico Seminuevo",
+   "shopify_tmpl_id": "15499754864853",
+   "inventory_item_id": "70102949200085",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111422685397",
+   "sku": "ITR-IP17PROMAX-512GB-NARANJACOSMICO",
+   "titulo": "iPhone 17 Pro Max 512GB Naranja Cósmico Seminuevo",
+   "shopify_tmpl_id": "15499754963157",
+   "inventory_item_id": "70102949265621",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111423635669",
+   "sku": "ITR-SGS23FE-128GB-GRAFITO",
+   "titulo": "Samsung Galaxy S23 FE 128GB Grafito",
+   "shopify_tmpl_id": "15499755552981",
+   "inventory_item_id": "70102950215893",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111423733973",
+   "sku": "ITR-SGS23FE-128GB-MENTA",
+   "titulo": "Samsung Galaxy S23 FE 128GB Menta",
+   "shopify_tmpl_id": "15499755684053",
+   "inventory_item_id": "70102950314197",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111423865045",
+   "sku": "ITR-SGS23-128GB-NEGRO",
+   "titulo": "Samsung Galaxy S23 128GB Negro",
+   "shopify_tmpl_id": "15499755782357",
+   "inventory_item_id": "70102950445269",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111423897813",
+   "sku": "ITR-SGS24FE-128GB-GRIS",
+   "titulo": "Samsung Galaxy S24 FE 128GB Gris",
+   "shopify_tmpl_id": "15499755847893",
+   "inventory_item_id": "70102950478037",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111424028885",
+   "sku": "ITR-SGS26-256GB-NEGRO",
+   "titulo": "Samsung Galaxy S26 256GB Negro",
+   "shopify_tmpl_id": "15499755978965",
+   "inventory_item_id": "70102950609109",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111424356565",
+   "sku": "ITR-SGS24ULTRA-512GB-AMARILLOTITANIO",
+   "titulo": "Samsung Galaxy S24 Ultra 512GB Amarillo Titanio",
+   "shopify_tmpl_id": "15499756110037",
+   "inventory_item_id": "70102950936789",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68111424454869",
+   "sku": "ITR-SGS24ULTRA-512GB-GRISTITANIO",
+   "titulo": "Samsung Galaxy S24 Ultra 512GB Gris Titanio",
+   "shopify_tmpl_id": "15499756208341",
+   "inventory_item_id": "70102951035093",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68146759106773",
+   "sku": "ITR-IP17PRO-256GB-PLATA",
+   "titulo": "iPhone 17 Pro 256GB Plata Seminuevo",
+   "shopify_tmpl_id": "15510434185429",
+   "inventory_item_id": "70138425344213",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68158240391381",
+   "sku": "ITR-IP15PROMAX-256GB-TITANIOAZUL",
+   "titulo": "iPhone 15 Pro Max 256GB Titanio Azul Seminuevo",
+   "shopify_tmpl_id": "15512910463189",
+   "inventory_item_id": "70149939757269",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68158240686293",
+   "sku": "ITR-IP17PRO-256GB-AZULPROFUNDO",
+   "titulo": "iPhone 17 Pro 256GB Azul Profundo Seminuevo",
+   "shopify_tmpl_id": "15512910594261",
+   "inventory_item_id": "70149940052181",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68188746711253",
+   "sku": "ITR-IP16PRO-128GB-TITANIODESIERTO",
+   "titulo": "iPhone 16 Pro 128GB Titanio Desierto Seminuevo",
+   "shopify_tmpl_id": "15518278680789",
+   "inventory_item_id": "70180569710805",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68188747595989",
+   "sku": "ITR-IP17PROMAX-512GB-AZULPROFUNDO",
+   "titulo": "iPhone 17 Pro Max 512GB Azul Profundo Seminuevo",
+   "shopify_tmpl_id": "15518278779093",
+   "inventory_item_id": "70180570202325",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68316626976981",
+   "sku": "850083897307",
+   "titulo": "Reelcharge Cargador de Pared Smart 45W Tipo C Gris",
+   "shopify_tmpl_id": "15546869711061",
+   "inventory_item_id": "70308592976085",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-CH45TFT-1G] Reelcharge Cargador de Pared Smart 45W Tipo C Gris"
+  },
+  {
+   "variant_id": "68316627009749",
+   "sku": "850083897086",
+   "titulo": "Reelcharge Holder Inalámbrico Rejilla 15W Cable Retractil Negro",
+   "shopify_tmpl_id": "15546869743829",
+   "inventory_item_id": "70308593008853",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-CARWRB] Reelcharge Holder Inalámbrico Rejilla 15W Cable Retractil Negro"
+  },
+  {
+   "variant_id": "68316627042517",
+   "sku": "850083897260",
+   "titulo": "Reelcharge Fusion Powerbank 5000mAh + Cargador 65W Negro",
+   "shopify_tmpl_id": "15546869776597",
+   "inventory_item_id": "70308593041621",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-PBC5KB] Reelcharge Fusion Powerbank 5000mAh + Cargador 65W Negro"
+  },
+  {
+   "variant_id": "68316627075285",
+   "sku": "850083897277",
+   "titulo": "Reelcharge Fusion Powerbank 5000mAh + Cargador 65W Blanco",
+   "shopify_tmpl_id": "15546869809365",
+   "inventory_item_id": "70308593074389",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-PBC5KW] Reelcharge Fusion Powerbank 5000mAh + Cargador 65W Blanco"
+  },
+  {
+   "variant_id": "68316627108053",
+   "sku": "850083897185",
+   "titulo": "Reelcharge Reelsafe Powerbank 5000mAh Semi Solido Gris",
+   "shopify_tmpl_id": "15546869842133",
+   "inventory_item_id": "70308593107157",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-SS5K-1G] Reelcharge Reelsafe Powerbank 5000mAh Semi Solido Gris"
+  },
+  {
+   "variant_id": "68316627140821",
+   "sku": "850083897208",
+   "titulo": "Reelcharge Reelsafe Powerbank 10000mAh Semi Solido Gris",
+   "shopify_tmpl_id": "15546869874901",
+   "inventory_item_id": "70308593139925",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-SS10K-1G] Reelcharge Reelsafe Powerbank 10000mAh Semi Solido Gris"
+  },
+  {
+   "variant_id": "68316627173589",
+   "sku": "850083897222",
+   "titulo": "Reelcharge Reelsafe Glass Powerbank Magnético 5000mAh Gris",
+   "shopify_tmpl_id": "15546869907669",
+   "inventory_item_id": "70308593172693",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-PB5KTG-1G] Reelcharge Reelsafe Glass Powerbank Magnético 5000mAh Gris"
+  },
+  {
+   "variant_id": "68316627271893",
+   "sku": "850083897239",
+   "titulo": "Reelcharge Reelsafe Glass Powerbank Magnético 5000mAh Plata",
+   "shopify_tmpl_id": "15546870005973",
+   "inventory_item_id": "70308593270997",
+   "motivo": "el producto de Odoo ya está ligado a otra variante (posible duplicado en Shopify)",
+   "odoo": "[RC-PB5KTG-1S] Reelcharge Reelsafe Glass Powerbank Magnético 5000mAh Plata"
+  },
+  {
+   "variant_id": "68379570438357",
+   "sku": "ITR-IP13PROMAX-128GB-ORO",
+   "titulo": "iPhone 13 Pro Max 128GB Oro Seminuevo",
+   "shopify_tmpl_id": "15556954980565",
+   "inventory_item_id": "70371618816213",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68478070128853",
+   "sku": "ITR-IP15PRO-256GB-TITANIONATURAL",
+   "titulo": "IPHONE 15 PRO 256GB TITANIO NATURAL SEMINUEVO",
+   "shopify_tmpl_id": "15574231122133",
+   "inventory_item_id": "70470261571797",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68478070259925",
+   "sku": "ITR-IP15PROMAX-256GB-TITANIONATURAL",
+   "titulo": "IPHONE 15 PRO MAX 256GB TITANIO NATURAL SEMINUEVO",
+   "shopify_tmpl_id": "15574231220437",
+   "inventory_item_id": "70470261702869",
+   "motivo": "0 productos en Odoo con ese código"
+  },
+  {
+   "variant_id": "68478070358229",
+   "sku": "ITR-IP15PROMAX-1TB-TITANIONEGRO",
+   "titulo": "IPHONE 15 PRO MAX 1TB TITANIO NEGRO SEMINUEVO",
+   "shopify_tmpl_id": "15574231318741",
+   "inventory_item_id": "70470261801173",
+   "motivo": "0 productos en Odoo con ese código"
+  }
+ ]
+}

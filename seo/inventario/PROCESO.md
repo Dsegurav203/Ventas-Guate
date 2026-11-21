@@ -23,3 +23,6 @@ Fichas "Reserva" (inventario manual a propósito), variantes con política CONTI
 ## Pendientes que el cruce reporta (no corrige solo)
 - Variantes publicadas sin capa del conector → ligar por SKU/código de barras (crear `shopify.product.template.ept` + `shopify.product.product.ept`, ver `seo/agotados/capas_creadas_2026-11-21.json`).
 - Variantes ligadas a productos archivados en Odoo → ocultar de la tienda (Diego/Luis en Admin).
+
+## Registro
+- 2026-11-21: primer cruce aplicado (154 ajustes). Ligadas 72 variantes publicadas por SKU (`2026-11-21/ligar_aplicado.json`) y corregidas 39 cantidades (p. ej. Protection Pro Ultra HD Small 1,775 → 319, Omni TC Small 825 → 0). Omitidas 154: 113 sin código en Odoo (102 son iPhone por número de serie/IMEI), 24 cuyo producto de Odoo ya está ligado a otra ficha (duplicados en Shopify, p. ej. HiFuture FlexClip), 17 sin SKU en Shopify. Detalle en `2026-11-21/ligar_propuesta.json`.
