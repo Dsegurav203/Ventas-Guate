@@ -108,3 +108,23 @@ Top entradas desde búsqueda: / (2,165), /collections/seminuevos (197, rebote 65
 5. Blog: 2 guías/mes. Primeras: "Prodigee: qué modelo elegir", "iPhone seminuevo en Guatemala: qué revisar", "Mejor funda para iPhone 17/18", "Cómo saber si un cargador es original", "Mochila por tamaño de laptop (Tucano/Targus)", "JBL Charge 6 vs Flip 7" (Medio–Alto).
 6. Velocidad fase 2: Google Maps solo en /pages/contact, revisar GTM, galería de producto (CLS 0.30) (Medio).
 7. Search Console: revisar posiciones a las 4 y 8 semanas; conectar Ahrefs/Similarweb para datos de Guatemala.
+
+## Verificación en vivo (21/11/2026 tarde, tras publicar tema "21-nov (SEO + logo móvil)")
+| Punto | Estado | Detalle |
+|---|---|---|
+| Colecciones vacías en menú | Corregido | Menú depurado |
+| /collections/tucano texto + meta | Corregido | 658 palabras, título 55, meta 150 |
+| ElectronicsStore en portada | Corregido | sameAs sin vacíos en portada |
+| Reserva iPhone Duo | Corregido | Handle + 301 |
+| Organization sameAs (resto del sitio) | Pendiente | 25 entradas, 23 vacías (ajustes del tema) |
+| Doble meta robots (iphone-1 y ocultas) | Pendiente | index,follow + noindex,nofollow |
+| merchantReturnDays | Pendiente | 2 (política 15) |
+| itemCondition seminuevos | Pendiente | NewCondition |
+| gtin / AggregateRating / Breadcrumb en ficha | Pendiente | Ausentes |
+| H1 portada | Pendiente | 3 H1 (Smartwatches, Smarthome, Cómputo); portada con 60 palabras |
+| Alt de imágenes | Pendiente | Portada 18/45 sin alt; fichas 2–4 |
+| CLS móvil | Parcial | Seminuevos 0.06 ok; portada 0.33, Tucano 0.23, ficha LAUT 0.38 (galería) |
+| Meta description de fichas sin texto | Pendiente | Fichas sin descripción salen sin meta (HiFuture Passion M, LAUT Huex) |
+| Títulos en mayúsculas en seminuevos | Pendiente | "IPHONE 15 PRO MAX 1TB…" |
+| Blog | Parcial | Article + Breadcrumb ok; título 74 car.; /blogs/guias sin meta |
+| robots.txt / sitemap / llms / agents.md | Ok | Shopify estándar + agents.md |
