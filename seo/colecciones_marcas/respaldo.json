@@ -1,0 +1,33 @@
+[
+ {
+  "marca": "OhSnap",
+  "collection_id": "gid://shopify/Collection/522582950101",
+  "handle": "ohsnap",
+  "title": "OhSnap",
+  "fecha_lectura": "2026-11-21",
+  "seo": {
+   "title": "OhSnap Guatemala | Grips Magnéticos y Accesorios MagSafe",
+   "description": "Compra accesorios OhSnap originales en Guatemala: Snap Grip, Grip Stand, Grip Wallet y control gaming MCON. Envío a todo el país, paga al recibir."
+  },
+  "descriptionHtml": "<p>Accesorios magnéticos <strong>OhSnap</strong> originales en Guatemala: grips magnéticos, soportes, billeteras MagSafe y el control gaming MCON. Envíos a todo el país con pago contra entrega y tienda física en zona 13, Ciudad de Guatemala.</p>",
+  "sortOrder": "MOST_RELEVANT",
+  "sources": [
+   {
+    "id": "gid://shopify/CollectionConditionsSource/27019608277",
+    "matchType": "ALL",
+    "conditions": [
+     {
+      "productTag": {
+       "relation": "TAGGED_WITH",
+       "values": [
+        "OhSnap"
+       ]
+      }
+     }
+    ],
+    "selecciones_manuales": 15
+   }
+  ],
+  "publicada_tienda_en_linea": false
+ }
+]
