@@ -98,3 +98,11 @@ mutation { publishableUnpublish(id: "<gid>", input: [{publicationId: "gid://shop
 mutation { publishablePublish(id: "<gid>", input: [{publicationId: "gid://shopify/Publication/164168564949"}]) { userErrors { message } } }
 ```
 Hasta ~40 alias por documento. La lista de `id` está en `agotados_ocultados_2026-11-21.json`.
+
+## 2026-11-21 · Stock no sincronizado (aplicado)
+- Hallazgo: 26 de los 234 "agotados" tenían existencia libre en Odoo (BD3 / TVGDC / OFIBD) pero 0 en Shopify. Nunca entraron a la cola `shopify.export.stock.queue.line.ept`: la exportación automática (cron 96, cada 10 min) solo envía productos con movimientos nuevos; si la capa del conector se crea después de recibir la mercadería, o el último envío fue anterior (muchos con `last_stock_update_date` 2026-10-23), el stock nunca sube.
+- Aplicado: `inventorySetQuantities` (available, motivo correction, `changeFromQuantity: 0` como resguardo) en la ubicación Tienda Ventas Guate con la cantidad libre de Odoo. Detalle y cantidades: `stock_no_sincronizado_2026-11-21.json`. Reversible poniendo 0.
+- Otros datos: cron 83 "Process Export Stock Queue" con 37 fallas hoy (iPhones con número de serie que no existen en Shopify, 404); 19,393 líneas fallidas históricas en la cola.
+- 42 agotados más tienen stock solo en bodegas que no se publican (DMO, consignación, garantías, MUESTRAS): correcto que salgan agotados.
+- 62 agotados no tienen capa del conector (no reciben stock de Odoo nunca).
+- Quedan ~208 agotados reales para ocultar (Admin o Shopify Flow).
