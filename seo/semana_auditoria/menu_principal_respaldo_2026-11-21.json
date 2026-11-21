@@ -1,0 +1,19 @@
+{"menu":"gid://shopify/Menu/241182277845","handle":"main-menu","items":[
+{"title":"iPhone 18","type":"COLLECTION","resourceId":"gid://shopify/Collection/528406511829","items":[
+ {"title":"iPhone Duo","type":"COLLECTION","resourceId":"gid://shopify/Collection/532812103893"},
+ {"title":"iPhone 18 Pro / 18 Pro Max","type":"COLLECTION","url":"/collections/reservas/18-Pro+18-Pro-Max+18-Ultra","resourceId":"gid://shopify/Collection/528406511829"},
+ {"title":"Fundas iPhone 18/18 Pro/ 18 Pro Max / iPhone Duo","type":"COLLECTION","resourceId":"gid://shopify/Collection/528474570965"},
+ {"title":"Accesorios iPhone 18 Pro Max","type":"COLLECTION","resourceId":"gid://shopify/Collection/531095453909"},
+ {"title":"iPhone Seminuevos","type":"COLLECTION","resourceId":"gid://shopify/Collection/511044190421"},
+ {"title":"iPads Seminuevas","type":"COLLECTION","resourceId":"gid://shopify/Collection/511078072533"}]},
+{"title":"Categorías","type":"HTTP","url":"#","items":[
+ {"title":"Almacenamiento","type":"COLLECTION","resourceId":"gid://shopify/Collection/505518948565"},
+ {"title":"Audio","type":"COLLECTION","resourceId":"gid://shopify/Collection/504929747157","items":[{"title":"Bocinas","type":"COLLECTION","resourceId":"gid://shopify/Collection/503713956053"}]},
+ {"title":"Cases","type":"COLLECTION","resourceId":"gid://shopify/Collection/503914463445"},
+ {"title":"Computo","type":"COLLECTION","resourceId":"gid://shopify/Collection/505519079637"},
+ {"title":"Conectividad","type":"COLLECTION","resourceId":"gid://shopify/Collection/516510515413"},
+ {"title":"Holders","type":"COLLECTION","resourceId":"gid://shopify/Collection/505518850261"},
+ {"title":"Viaje","type":"COLLECTION","resourceId":"gid://shopify/Collection/505518981333"}]},
+{"title":"Marcas","type":"PAGE","resourceId":"gid://shopify/Page/582676906197"},
+{"title":"Promociones","type":"COLLECTION","resourceId":"gid://shopify/Collection/509070541013"},
+{"title":"Guías","type":"BLOG","resourceId":"gid://shopify/Blog/99227795669"}]}

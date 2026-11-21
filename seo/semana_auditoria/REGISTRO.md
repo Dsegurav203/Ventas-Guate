@@ -1,0 +1,10 @@
+# Arreglos de la semana (auditoría SEO 21/11/2026)
+
+| Cambio | Estado | Respaldo / reversión |
+|---|---|---|
+| Colección Tucano: condición "proveedor = Tucano" agregada (1 → 91 productos); proveedor Tucano en Isotta 13-14 rosado y Alunno amarillo | Aplicado | Quitar la condición de proveedor (la condición original metafield custom.brand = Tucano se conserva) |
+| Colección Tucano: texto, SEO title/meta e imagen (banner 50%) | Aplicado | Antes: sin texto, sin SEO, sin imagen |
+| Menú principal: quitadas Almacenamiento, Computo, Holders, Viaje (0 productos) e iPads Seminuevas; agregadas Carga MagSafe, Mochilas y maletines Tucano, Smartwatch, Targus | Aplicado | `menu_principal_respaldo_2026-11-21.json` |
+| Ficha reserva: handle `reserva-iphone-18-ultra` → `reserva-iphone-duo-256gb-blanco` (301 automático), proveedor Apple, SEO title | Aplicado | Revertir handle/proveedor |
+| 270 descripciones sin precios ni envío Q35 | **Pendiente de aprobación explícita** | `descripciones_precios_propuesta.json` / `_respaldo.json` |
+| Tema: copia "Ventas Guate 21-nov (SEO + logo móvil)" (gid 188380643541) del tema en vivo con: logo móvil blanco, schema ElectronicsStore, JSON-LD blog, CLS sidebar, popup diferido, banner Tucano primera diapositiva | Listo en vista previa; **publicar desde Admin** (la API no permite publicar temas no creados por el agente) | El tema actual "Fix Buscador + Error Popup" queda sin cambios como respaldo |
