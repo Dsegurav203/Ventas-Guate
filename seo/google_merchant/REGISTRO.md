@@ -42,3 +42,32 @@ El agente no puede despublicar. Diego: Shopify Admin → Productos → seleccion
 - Se aplicó el precio de lista de Odoo (`precios_odoo_q1.json`): Q249–Q1,799. No hubo pedidos a Q1 desde el 20/11.
 - Luego se publicaron en el canal Google & YouTube.
 - Regla: todo producto nuevo en Shopify debe revisarse por precio antes de publicarse.
+
+---
+
+# GTIN en variantes de Shopify (barcodes) — registro
+
+**Fecha:** 2026-11-22 · **Aprobó:** Diego Segura · **Propuesta:** `BARCODES.md` / `barcodes_propuesta.json` (solo `aplicar=true`, casos a y b)
+**Resultado por variante:** `barcodes_aplicado.jsonl` (`variant_id`, `product_id`, `sku`, `antes`, `despues`, `error`, `lote`)
+
+## Método
+- `productVariantsBulkUpdate(productId, variants:[{id, barcodes:[{type, value}]}])`, una llamada por producto, agrupadas con alias (prueba de 3 variantes; luego 1 documento de 40 y 20 documentos de 80 alias + 1 de 36). `barcodes` reemplaza la lista completa: queda **solo el GTIN**.
+- Tipo: `UPC` (12 díg.) 1,357 · `EAN` (13 díg.) 323. Casos: (a) barcode vacío 366 · (b) código interno reemplazado 1,314.
+- `bulkOperationRunMutation` está bloqueado por la política del conector Shopify; por eso se usaron alias.
+
+## Resultado
+| Concepto | Cantidad |
+|---|---|
+| Variantes actualizadas | **1,680** (1,679 productos) |
+| Errores (`userErrors`) | 0 |
+| No tocadas (alertas: duplicados/combos) | 69 (siguen `aplicar=false`) |
+
+Prueba inicial (releída): Prodigee Blackout `52237137314005` → UPC 810192100804 (antes `iPh17P-6 9-BLOT-BLK`); HiFuture `52237240828117` → EAN 6974772421926 (antes vacío); SKU `L4251993300844` `52237242400981` → EAN 4251993300844 (antes `53568`).
+
+## Verificación
+- Muestra aleatoria de 20 variantes (semilla 20261122) con `nodes(ids)`: 20/20 con `barcodes = [GTIN propuesto]` y tipo correcto.
+
+## Cómo revertir
+- El valor anterior está en `barcode_actual` de `barcodes_propuesta.json` (y `antes` en `barcodes_aplicado.jsonl`).
+- Por variante: `productVariantsBulkUpdate(productId, variants:[{id, barcodes:[{value:"<antes>"}]}])` (sin `type`, como estaban); si `antes` es null → `barcodes: []`.
+- Riesgo pendiente: si el conector Odoo→Shopify exporta `barcode`, podría volver a escribir el código interno. Revisar la próxima exportación (cron 96) y, si pasa, cargar el GTIN en `product.product.barcode` de Odoo.
