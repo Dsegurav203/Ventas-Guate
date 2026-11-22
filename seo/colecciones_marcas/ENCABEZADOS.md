@@ -14,3 +14,9 @@
 ## Targus y Apple (22/11/2026)
 - Apple (`/collections/apple`, id 505692225749): la condición era solo el metacampo de marca (vacío) → 0 productos. Se agregó "vendor = Apple" (matchType ANY) → 58.
 - Targus (`/collections/targus`, título contiene TARGUS + inventario > 0): mostraba solo lo publicado. 37 de 56 sin publicar. Publicados 6 con fotos y stock (Classic Topload Grey, Protek iPad Blue, Safe Fit 360, Strata Slipcase, Versavu teclado, Folding Keyboard). 24 sin fotos/descripción (vendor "Ventas Guate"): propuesta en `seo/targus_fichas/`.
+
+## LAUT y Mello (22/11/2026)
+- Vendor corregido: 12 LAUT ("Ventas Guate" → "LAUT") y 14 Mello ("MELLO DISTRIBUTION" → "Mello").
+- Colecciones nuevas publicadas: `/collections/laut` (id 536141594837) y `/collections/mello` (id 536141627605), automáticas por vendor, más vendidos, con texto y SEO de `propuesta.json`.
+- 4 LAUT con stock sin publicar por no tener fotos: Huex MacBook Neo Pink y Yellow, Links 2.0 Silver, Huex Protect MacBook Air Black.
+- Marcas en Odoo ya existen: Laut (127), Mello (264).
