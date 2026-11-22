@@ -75,3 +75,4 @@ Prueba inicial (releída): Prodigee Blackout `52237137314005` → UPC 8101921008
 ## 2026-11-22 · Quitar de Google & YouTube (17 productos)
 - 16 sin imagen + Reserva iPhone Duo, ya estaban en el canal. `publishableUnpublish` bloqueado por el MCP → etiqueta `quitar-google` aplicada a los 17 para que Diego los excluya en Admin (Productos → filtro etiqueta `quitar-google` → Seleccionar todo → Más acciones → Excluir de canales de venta → Google & YouTube).
 - Reversible: quitar la etiqueta (`tagsRemove`) y volver a incluir el canal.
+- Verificado 2026-11-22: los 17 fuera de Google & YouTube y siguen en Tienda online. La etiqueta se deja como marca.
