@@ -1,0 +1,102 @@
+{
+ "fecha": "2026-11-22",
+ "nota": "Todas las plantillas ya tenían image_1920; no se escribió nada en Odoo.",
+ "productos": [
+  {
+   "product_product_id": 14101,
+   "product_tmpl_id": 14178,
+   "default_code": "6972576182838",
+   "nombre_odoo": "[6972576182838] HiFuture Lino S Compact Wireless Speaker Black",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14102,
+   "product_tmpl_id": 14179,
+   "default_code": "6972576182845",
+   "nombre_odoo": "[6972576182845] HiFuture Lino S Compact Wireless Speaker Green",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14103,
+   "product_tmpl_id": 14180,
+   "default_code": "6972576182869",
+   "nombre_odoo": "[6972576182869] HiFuture Lino S Compact Wireless Speaker Blue",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14099,
+   "product_tmpl_id": 14176,
+   "default_code": "6972576182944",
+   "nombre_odoo": "[6972576182944] HiFuture Passion S Lifestyle Wireless Bocina Latte",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14100,
+   "product_tmpl_id": 14177,
+   "default_code": "6972576182951",
+   "nombre_odoo": "[6972576182951] HiFuture Passion S Lifestyle Wireless Bocina Black",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 12808,
+   "product_tmpl_id": 12868,
+   "default_code": "6972576182975",
+   "nombre_odoo": "[6972576182975] HiFuture Sonicore ANC True Wireless Azul",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 13761,
+   "product_tmpl_id": 13838,
+   "default_code": "6972576183248",
+   "nombre_odoo": "[6972576183248] HiFuture Sonify2 ANC True Wireless Latte",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 13763,
+   "product_tmpl_id": 13840,
+   "default_code": "6972576183255",
+   "nombre_odoo": "[6972576183255] HiFuture Sonify2 ANC True Wireless Navy Blue",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14104,
+   "product_tmpl_id": 14181,
+   "default_code": "6972576183408",
+   "nombre_odoo": "[6972576183408] HiFuture EVO3 Smart Band Black",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14105,
+   "product_tmpl_id": 14182,
+   "default_code": "6972576183415",
+   "nombre_odoo": "[6972576183415] HiFuture EVO3 Smart Band Silver",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14106,
+   "product_tmpl_id": 14183,
+   "default_code": "6972576183422",
+   "nombre_odoo": "[6972576183422] HiFuture EVO3 Smart Band Rose Gold",
+   "tenia_imagen": true,
+   "actualizado": false
+  },
+  {
+   "product_product_id": 14859,
+   "product_tmpl_id": 14938,
+   "default_code": "6972576183545",
+   "nombre_odoo": "[6972576183545] HiFuture Wm200 Micrófono Inalámbrico Grey",
+   "tenia_imagen": true,
+   "actualizado": false
+  }
+ ]
+}

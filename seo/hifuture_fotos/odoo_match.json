@@ -1,0 +1,170 @@
+[
+ {
+  "id": 14101,
+  "default_code": "6972576182838",
+  "barcode": "6972576182838",
+  "name": "HiFuture Lino S Compact Wireless Speaker Black",
+  "product_tmpl_id": [
+   14178,
+   "[6972576182838] HiFuture Lino S Compact Wireless Speaker Black"
+  ],
+  "active": true,
+  "qty_available": 36.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14102,
+  "default_code": "6972576182845",
+  "barcode": "6972576182845",
+  "name": "HiFuture Lino S Compact Wireless Speaker Green",
+  "product_tmpl_id": [
+   14179,
+   "[6972576182845] HiFuture Lino S Compact Wireless Speaker Green"
+  ],
+  "active": true,
+  "qty_available": 17.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14103,
+  "default_code": "6972576182869",
+  "barcode": "6972576182869",
+  "name": "HiFuture Lino S Compact Wireless Speaker Blue",
+  "product_tmpl_id": [
+   14180,
+   "[6972576182869] HiFuture Lino S Compact Wireless Speaker Blue"
+  ],
+  "active": true,
+  "qty_available": 17.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14099,
+  "default_code": "6972576182944",
+  "barcode": "6972576182944",
+  "name": "HiFuture Passion S Lifestyle Wireless Bocina Latte",
+  "product_tmpl_id": [
+   14176,
+   "[6972576182944] HiFuture Passion S Lifestyle Wireless Bocina Latte"
+  ],
+  "active": true,
+  "qty_available": 39.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14100,
+  "default_code": "6972576182951",
+  "barcode": "6972576182951",
+  "name": "HiFuture Passion S Lifestyle Wireless Bocina Black",
+  "product_tmpl_id": [
+   14177,
+   "[6972576182951] HiFuture Passion S Lifestyle Wireless Bocina Black"
+  ],
+  "active": true,
+  "qty_available": 39.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 12808,
+  "default_code": "6972576182975",
+  "barcode": "6972576182975",
+  "name": "HiFuture Sonicore ANC True Wireless Azul",
+  "product_tmpl_id": [
+   12868,
+   "[6972576182975] HiFuture Sonicore ANC True Wireless Azul"
+  ],
+  "active": true,
+  "qty_available": 46.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 13761,
+  "default_code": "6972576183248",
+  "barcode": "6972576183248",
+  "name": "HiFuture Sonify2 ANC True Wireless Latte",
+  "product_tmpl_id": [
+   13838,
+   "[6972576183248] HiFuture Sonify2 ANC True Wireless Latte"
+  ],
+  "active": true,
+  "qty_available": 31.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 13763,
+  "default_code": "6972576183255",
+  "barcode": "6972576183255",
+  "name": "HiFuture Sonify2 ANC True Wireless Navy Blue",
+  "product_tmpl_id": [
+   13840,
+   "[6972576183255] HiFuture Sonify2 ANC True Wireless Navy Blue"
+  ],
+  "active": true,
+  "qty_available": 26.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14104,
+  "default_code": "6972576183408",
+  "barcode": "6972576183408",
+  "name": "HiFuture EVO3 Smart Band Black",
+  "product_tmpl_id": [
+   14181,
+   "[6972576183408] HiFuture EVO3 Smart Band Black"
+  ],
+  "active": true,
+  "qty_available": 67.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14105,
+  "default_code": "6972576183415",
+  "barcode": "6972576183415",
+  "name": "HiFuture EVO3 Smart Band Silver",
+  "product_tmpl_id": [
+   14182,
+   "[6972576183415] HiFuture EVO3 Smart Band Silver"
+  ],
+  "active": true,
+  "qty_available": 25.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14106,
+  "default_code": "6972576183422",
+  "barcode": "6972576183422",
+  "name": "HiFuture EVO3 Smart Band Rose Gold",
+  "product_tmpl_id": [
+   14183,
+   "[6972576183422] HiFuture EVO3 Smart Band Rose Gold"
+  ],
+  "active": true,
+  "qty_available": 17.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ },
+ {
+  "id": 14859,
+  "default_code": "6972576183545",
+  "barcode": "6972576183545",
+  "name": "HiFuture Wm200 Micrófono Inalámbrico Grey",
+  "product_tmpl_id": [
+   14938,
+   "[6972576183545] HiFuture Wm200 Micrófono Inalámbrico Grey"
+  ],
+  "active": true,
+  "qty_available": 20.0,
+  "tmpl_img": true,
+  "tmpl_active": true
+ }
+]
