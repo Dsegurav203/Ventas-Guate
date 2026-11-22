@@ -1,0 +1,74 @@
+[
+ {
+  "handle": "promociones",
+  "id": "gid://shopify/Collection/509070541013",
+  "seo": {
+   "title": "Promociones y Ofertas en Tecnología | Ventas Guate",
+   "description": "Promociones en fundas, audífonos, bocinas, smart home y accesorios originales en Guatemala. Skullcandy, Prodigee, ZAGG, Govee, Alexa y más."
+  }
+ },
+ {
+  "handle": "alexa",
+  "id": "gid://shopify/Collection/511547113685",
+  "seo": {
+   "title": "Alexa en Guatemala: Echo Dot, Echo Spot y Combos | Ventas Guate",
+   "description": "Amazon Echo con Alexa en Guatemala: Echo Dot 5ta generación, Echo Dot Max, Echo Spot y combos con bombillos smart. Originales y con envío a todo el país."
+  }
+ },
+ {
+  "handle": "cases",
+  "id": "gid://shopify/Collection/503914463445",
+  "seo": {
+   "title": "Fundas y Estuches para Celular en Guatemala | Ventas Guate",
+   "description": "Fundas y estuches para iPhone y Samsung en Guatemala. OtterBox, Spigen, Prodigee. ✓ Protección certificada. Desde Q79."
+  }
+ },
+ {
+  "handle": "smartwatch",
+  "id": "gid://shopify/Collection/511661146325",
+  "seo": {
+   "title": "Smartwatch Guatemala: Mujer, GPS y Llamadas | Ventas Guate",
+   "description": "Smartwatches y relojes inteligentes originales en Guatemala: HiFuture, Reebok y Apple Watch. Modelos para mujer, con GPS para correr y con llamadas."
+  }
+ },
+ {
+  "handle": "gadgets",
+  "id": "gid://shopify/Collection/521306407125",
+  "seo": {
+   "title": null,
+   "description": null
+  }
+ },
+ {
+  "handle": "skullcandy",
+  "id": "gid://shopify/Collection/504910217429",
+  "seo": {
+   "title": "Skullcandy Guatemala: Audífonos y Bocinas | Ventas Guate",
+   "description": "Audífonos y bocinas Skullcandy originales en Guatemala: Dime, Smokin' Buds, Method 360 ANC, Crusher ANC 2, Hesh y Terrain. Garantía 1 año. Tienda zona 13."
+  }
+ },
+ {
+  "handle": "bocinas",
+  "id": "gid://shopify/Collection/503713956053",
+  "seo": {
+   "title": "Bocinas Bluetooth Guatemala — Portátiles y de Casa | Ventas Guate",
+   "description": "Bocinas bluetooth portátiles y de escritorio en Guatemala. JBL, HiFuture, Skullcandy. Envío rápido. Recogida en tienda zona 13 en 2 horas."
+  }
+ },
+ {
+  "handle": "audio",
+  "id": "gid://shopify/Collection/504929747157",
+  "seo": {
+   "title": "Audífonos y Bocinas Bluetooth en Guatemala | Ventas Guate",
+   "description": "Audífonos y bocinas bluetooth en Guatemala. JBL, Skullcandy, HiFuture y más. Envío a todo el país. Recogida en tienda zona 13."
+  }
+ },
+ {
+  "handle": "iphone-11-pro-max",
+  "id": "gid://shopify/Collection/517009539285",
+  "seo": {
+   "title": null,
+   "description": null
+  }
+ }
+]
