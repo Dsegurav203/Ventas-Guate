@@ -20,3 +20,8 @@
 - Colecciones nuevas publicadas: `/collections/laut` (id 536141594837) y `/collections/mello` (id 536141627605), automáticas por vendor, más vendidos, con texto y SEO de `propuesta.json`.
 - 4 LAUT con stock sin publicar por no tener fotos: Huex MacBook Neo Pink y Yellow, Links 2.0 Silver, Huex Protect MacBook Air Black.
 - Marcas en Odoo ya existen: Laut (127), Mello (264).
+
+## Tucano, HiFuture, LAUT y Mello (22/11/2026, aprobado por Diego)
+- Área de marca publicada con textos de `encabezados_4_marcas.json` (fuentes oficiales). Mello con texto corto aprobado.
+- Banners nuevos: HiFuture (smartwatches), LAUT (iPhone con funda, recorte sin texto), Mello (fundas iPhone Duo, recorte sin texto). Tucano conserva el banner cargado antes (misma imagen oficial).
+- Verificado en vivo: un H1 por colección.

@@ -1,0 +1,114 @@
+[
+ {
+  "shopify_id": "15480780456149",
+  "default_code": "AMM174AMGL",
+  "titulo_shopify_anterior": "Targus Activen Stylus iPad White",
+  "titulo_nuevo": "Targus Active Stylus iPad White",
+  "capas": [
+   {
+    "capa_id": 4631,
+    "capa_name": "Targus Activen Stylus iPad White",
+    "product_tmpl_id": 14641,
+    "default_code": "AMM174AMGL",
+    "name_es_GT": "Targus Activen Stylus iPad White",
+    "name_en_US": "Targus Activen Stylus iPad White"
+   }
+  ]
+ },
+ {
+  "shopify_id": "15480780718293",
+  "default_code": "THZ784GL-70",
+  "titulo_shopify_anterior": "Targus Safe Fit 6.8-9\" 360° Rotating Tablet Black",
+  "titulo_nuevo": "Targus Safe Fit 6.8-9\" 360° Rotating Tablet Case Black",
+  "capas": [
+   {
+    "capa_id": 4633,
+    "capa_name": "Targus Safe Fit 6.8-9\" 360° Rotating Tablet Black",
+    "product_tmpl_id": 14649,
+    "default_code": "THZ784GL-70",
+    "name_es_GT": "Targus Safe Fit 6.8-9\" 360° Rotating Tablet Black",
+    "name_en_US": "Targus Safe Fit 6.8-9\" 360° Rotating Tablet Black"
+   }
+  ]
+ },
+ {
+  "shopify_id": "15480780914901",
+  "default_code": "TSS898-93",
+  "titulo_shopify_anterior": "Targus 15-16\" Business Cacual Slipcase Black",
+  "titulo_nuevo": "Targus 15-16\" Business Casual Slipcase Black",
+  "capas": [
+   {
+    "capa_id": 4640,
+    "capa_name": "Targus 15-16\" Business Cacual Slipcase Black",
+    "product_tmpl_id": 14655,
+    "default_code": "TSS898-93",
+    "name_es_GT": "Targus 15-16\" Business Cacual Slipcase Black",
+    "name_en_US": "Targus 15-16\" Business Cacual Slipcase Black"
+   }
+  ]
+ },
+ {
+  "shopify_id": "15480781996245",
+  "default_code": "TBB663GL-90",
+  "titulo_shopify_anterior": "Targus Pro-Tek(R) 16\" Backpack Black",
+  "titulo_nuevo": "Targus Pro-Tek 16\" Tech Backpack Black",
+  "capas": [
+   {
+    "capa_id": 4636,
+    "capa_name": "Targus Pro-Tek(R) 16\" Backpack Black",
+    "product_tmpl_id": 14658,
+    "default_code": "TBB663GL-90",
+    "name_es_GT": "Targus Pro-Tek(R) 16\" Backpack Black",
+    "name_en_US": "Targus Pro-Tek(R) 16\" Backpack Black"
+   }
+  ]
+ },
+ {
+  "shopify_id": "15480782323925",
+  "default_code": "AKB871US-51",
+  "titulo_shopify_anterior": "Targus Sustainable Ergonomic Wireless EcoSmart Keyboard",
+  "titulo_nuevo": "Targus Sustainable Ergonomic Wireless EcoSmart Keyboard Black",
+  "capas": [
+   {
+    "capa_id": 4630,
+    "capa_name": "Targus Sustainable Ergonomic Wireless EcoSmart Keyboard",
+    "product_tmpl_id": 14666,
+    "default_code": "AKB871US-51",
+    "name_es_GT": "Targus Sustainable Ergonomic Wireless EcoSmart Keyboard",
+    "name_en_US": "Targus Sustainable Ergonomic Wireless EcoSmart Keyboard"
+   }
+  ]
+ },
+ {
+  "shopify_id": "15480782356693",
+  "default_code": "AWE81US-54",
+  "titulo_shopify_anterior": "Targus Chill Mat 4-Port Hub Blueberry",
+  "titulo_nuevo": "Targus 17\" Chill Mat+ with 4-Port Hub Black",
+  "capas": [
+   {
+    "capa_id": 4619,
+    "capa_name": "Targus Chill Mat 4-Port Hub Blueberry",
+    "product_tmpl_id": 14667,
+    "default_code": "AWE81US-54",
+    "name_es_GT": "Targus Chill Mat 4-Port Hub Blueberry",
+    "name_en_US": "Targus Chill Mat 4-Port Hub Blueberry"
+   }
+  ]
+ },
+ {
+  "shopify_id": "15480782422229",
+  "default_code": "TBS975GL-90",
+  "titulo_shopify_anterior": "Targus 15-16\" Chromatic Sleeve Black",
+  "titulo_nuevo": "Targus 15-16\" Puffer Sleeve Black",
+  "capas": [
+   {
+    "capa_id": 4628,
+    "capa_name": "Targus 15-16\" Chromatic Sleeve Black",
+    "product_tmpl_id": 14669,
+    "default_code": "TBS975GL-90",
+    "name_es_GT": "Targus 15-16\" Chromatic Sleeve Black",
+    "name_en_US": "Targus 15-16\" Chromatic Sleeve Black"
+   }
+  ]
+ }
+]
