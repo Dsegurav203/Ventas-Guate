@@ -35,3 +35,4 @@ Aprobado por Diego Segura (dueño) el 22/11/2026. Regla 5 de `ECOMMERCE_SEO.md`.
 
 ## Reversión
 Shopify: reescribir `antes` de `propuesta.json`. Odoo: reescribir `capas[].name` y `product_template[id][lang]` de `respaldo_odoo.json`.
+- 22/11: restaurada la compatibilidad "iPhone 18 Pro Max/17 Pro Max" en 11 fundas (Odoo la tenía; la corrección la había quitado) en Shopify, capa y plantilla. Super Hero 9141946450133: Azul → Navy (código SHR-NVY). Detalle en restaurar_18.json.
