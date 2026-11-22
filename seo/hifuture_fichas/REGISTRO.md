@@ -72,3 +72,27 @@
 | Bocina HiFuture Boombeat Outdoor – Negro | `9329907335381` | voseo | — |
 | HiFuture Wm200 Micrófono Inalámbrico Grey | `15529159065813` | SIN FUENTE (no publicada) | FUTURE ACCESS → HiFuture |
 - 22/11: corregidas erratas posteriores: Anchor-E Rosado ("compatibble" → "No es compatible") y Vocalist 100 Negro ("emparejá" → "empareja").
+
+## 2026-11-22 · Fichas largas reescritas publicadas en Shopify (aprobado por Diego Segura)
+
+Campo cambiado: solo `descriptionHtml` (título, SEO, etiquetas y demás sin tocar). Fuente: `largas_propuesta.json`. Antes de publicar se agregó a las 2 Flex2 la viñeta "Batería de hasta 10 días." (ficha oficial hifuturegroup.com/products/flex2); Silver queda en 102 palabras / 6 viñetas, Negro en 100 / 7.
+
+Respaldo real leído de Shopify justo antes: `largas_respaldo_previo.json` (idéntico a `largas_respaldo.json`). Publicado con 2 mutaciones `productUpdate` en alias (5 + 5), 0 userErrors, ~03:17–03:18 UTC. Verificadas releyendo: Flex2 Negro, Anchor-E Rosado, Tour MKII Offwhite (coinciden con la propuesta).
+
+| Producto | ID | Palabras |
+|---|---|---|
+| Audífonos HiFuture FlyBuds 4 ANC – Negro | `9142015492309` | 103 |
+| Correa HiFuture Anchor-E para Smartwatch – Rosado | `9329902846165` | 91 |
+| Smartwatch HiFuture Flex2 – Silver | `9142015361237` | 102 |
+| Bocina HiFuture Vocalist 100 con Micrófono – Negro | `9142016770261` | 91 |
+| Audífonos HiFuture Tour MKII Over-Ear ANC – Negro | `9329900454101` | 97 |
+| Audífonos HiFuture Tour MKII Over-Ear ANC – Offwhite | `9329900650709` | 97 |
+| Smartwatch HiFuture Edge – Púrpura | `9329910874325` | 96 |
+| Smartwatch HiFuture Aura2 – Negro | `9142014279893` | 102 |
+| Smartwatch HiFuture Edge – Negro | `9142014869717` | 96 |
+| Smartwatch HiFuture Flex2 – Negro | `9149965959381` | 100 |
+
+**Cómo revertir:** por cada producto de `largas_respaldo_previo.json` → `productos[]`, ejecutar `productUpdate(product:{id, descriptionHtml})` con su `descriptionHtml` (variables construidas con Python, 5 por mutación en alias). No enviar `seo` ni `title`.
+
+Pendiente detectado: algunas metas SEO aún mencionan funciones quitadas de la descripción (Flex2 Negro: "llamadas Bluetooth"; Anchor-E: "oficial para el smartwatch Anchor-E… sin herramientas"; Tour MKII Offwhite: "modo transparencia"). No se tocaron.
+- 22/11: Anchor-E Rosado: sección Compatibilidad "correa universal de 22 mm con pasador" (dato de Diego) y SEO nuevo (antes decía "oficial para el smartwatch Anchor-E"). Metas corregidas sin datos falsos: Tour MKII Negro y Offwhite (sin "modo transparencia", con BT 5.4 oficial), Flex2 Silver y Negro (sin "llamadas Bluetooth", con 10 días).
