@@ -1,0 +1,86 @@
+[
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036371210453",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 0,
+  "changeFromQuantity": 1
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036382351573",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 5,
+  "changeFromQuantity": 8
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036382318805",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 4,
+  "changeFromQuantity": 8
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036382023893",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 6,
+  "changeFromQuantity": 12
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036370948309",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 149,
+  "changeFromQuantity": 160
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036370850005",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 2,
+  "changeFromQuantity": 5
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036382384341",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 0,
+  "changeFromQuantity": 15
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036381728981",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 230,
+  "changeFromQuantity": 240
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036382286037",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 8,
+  "changeFromQuantity": 10
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036370981077",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 47,
+  "changeFromQuantity": 48
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036371243221",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 36,
+  "changeFromQuantity": 50
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036381794517",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 12,
+  "changeFromQuantity": 15
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036382253269",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 0,
+  "changeFromQuantity": 15
+ },
+ {
+  "inventoryItemId": "gid://shopify/InventoryItem/70036371013845",
+  "locationId": "gid://shopify/Location/84277264597",
+  "quantity": 10,
+  "changeFromQuantity": 20
+ }
+]
