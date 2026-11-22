@@ -34,8 +34,8 @@
   {
     "id": "gid://shopify/Product/9142015361237",
     "title": "Smartwatch HiFuture Flex2 – Silver",
-    "html": "<p>El <strong>HiFuture Flex2</strong> en color Silver es un smartwatch para tu rutina diaria: registra tu actividad, tu ritmo cardíaco y tu sueño. Su diseño en color plateado tiene un look moderno y neutro que combina con cualquier outfit, casual o formal.</p>\n<h2>Características</h2>\n<ul>\n<li>Pantalla táctil de alta definición</li>\n<li>Monitoreo de frecuencia cardíaca</li>\n<li>Seguimiento del sueño y de la actividad diaria (pasos)</li>\n<li>Más de 100 modos deportivos para registrar tus entrenamientos</li>\n<li>Color: Silver</li>\n</ul>\n<p>Producto original con 1 año de garantía. Envío a toda Guatemala con pago contra entrega, o cómpralo en nuestra tienda en zona 13, Ciudad de Guatemala.</p>",
-    "palabras": 97,
+    "html": "<p>El <strong>HiFuture Flex2</strong> en color Silver es un smartwatch para tu rutina diaria: registra tu actividad, tu ritmo cardíaco y tu sueño. Su diseño en color plateado tiene un look moderno y neutro que combina con cualquier outfit, casual o formal.</p>\n<h2>Características</h2>\n<ul>\n<li>Pantalla táctil de alta definición</li>\n<li>Monitoreo de frecuencia cardíaca</li>\n<li>Seguimiento del sueño y de la actividad diaria (pasos)</li>\n<li>Más de 100 modos deportivos para registrar tus entrenamientos</li>\n<li>Batería de hasta 10 días.</li>\n<li>Color: Silver</li>\n</ul>\n<p>Producto original con 1 año de garantía. Envío a toda Guatemala con pago contra entrega, o cómpralo en nuestra tienda en zona 13, Ciudad de Guatemala.</p>",
+    "palabras": 102,
     "palabras_antes": 250,
     "fuente_url": "https://hifuturegroup.com/products/flex2",
     "dudas": [
@@ -43,7 +43,8 @@
       "Llamadas Bluetooth con altavoz y micrófono: la ficha oficial no las menciona (quitado).",
       "SpO2, calorías y análisis de fases de sueño: no aparecen en la ficha oficial (quitados).",
       "Carga magnética, notificaciones de apps, watchfaces y compatibilidad Android/iOS: no aparecen en la ficha oficial (quitados).",
-      "La ficha oficial indica IP68 y pantalla FHD de 1.39\" (imagen), pero no estaban en el texto actual de esta ficha; no se agregan."
+      "La ficha oficial indica IP68 y pantalla FHD de 1.39\" (imagen), pero no estaban en el texto actual de esta ficha; no se agregan.",
+      "22/11: agregada viñeta 'Batería de hasta 10 días.' (ficha oficial, aprobado por Diego)."
     ]
   },
   {
@@ -144,8 +145,8 @@
   {
     "id": "gid://shopify/Product/9149965959381",
     "title": "Smartwatch HiFuture Flex2 – Negro",
-    "html": "<p>El <strong>HiFuture Flex2</strong> en color Negro es un smartwatch para tu día a día con pantalla de alta definición y resistencia IP68. Está pensado para quienes siempre están en movimiento: registra tu ritmo cardíaco, tu sueño y tus entrenamientos.</p>\n<h2>Características</h2>\n<ul>\n<li>Pantalla táctil de alta definición</li>\n<li>Resistencia IP68 al polvo y al agua del uso diario</li>\n<li>Monitoreo de frecuencia cardíaca</li>\n<li>Seguimiento del sueño</li>\n<li>Más de 100 modos deportivos</li>\n<li>Color: Negro</li>\n</ul>\n<p>Producto original con 1 año de garantía. Envío a toda Guatemala con pago contra entrega, o cómpralo en nuestra tienda en zona 13, Ciudad de Guatemala.</p>",
-    "palabras": 95,
+    "html": "<p>El <strong>HiFuture Flex2</strong> en color Negro es un smartwatch para tu día a día con pantalla de alta definición y resistencia IP68. Está pensado para quienes siempre están en movimiento: registra tu ritmo cardíaco, tu sueño y tus entrenamientos.</p>\n<h2>Características</h2>\n<ul>\n<li>Pantalla táctil de alta definición</li>\n<li>Resistencia IP68 al polvo y al agua del uso diario</li>\n<li>Monitoreo de frecuencia cardíaca</li>\n<li>Seguimiento del sueño</li>\n<li>Más de 100 modos deportivos</li>\n<li>Batería de hasta 10 días.</li>\n<li>Color: Negro</li>\n</ul>\n<p>Producto original con 1 año de garantía. Envío a toda Guatemala con pago contra entrega, o cómpralo en nuestra tienda en zona 13, Ciudad de Guatemala.</p>",
+    "palabras": 100,
     "palabras_antes": 243,
     "fuente_url": "https://hifuturegroup.com/products/flex2",
     "dudas": [
@@ -154,7 +155,8 @@
       "Pantalla \"AMOLED flexible\": la ficha oficial dice pantalla FHD (imagen), no AMOLED (se deja \"alta definición\").",
       "SpO2 y sueño por fases: no aparecen en la ficha oficial (quitados).",
       "IP68 \"sumergible / en la piscina\": la ficha oficial dice protección contra polvo y humedad diaria; se quita \"sumergible\" y \"piscina\".",
-      "Notificaciones, control de música, cámara remota, linterna y compatibilidad iOS/Android: no aparecen en la ficha oficial (quitados)."
+      "Notificaciones, control de música, cámara remota, linterna y compatibilidad iOS/Android: no aparecen en la ficha oficial (quitados).",
+      "22/11: agregada viñeta 'Batería de hasta 10 días.' (ficha oficial, aprobado por Diego)."
     ]
   }
 ]
