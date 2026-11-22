@@ -1,31 +1,39 @@
 # Registro de publicación · fichas iTronics, Prodigee y Tucano
 
-**Fecha:** 2026-11-21/22 · **Aprobación:** Diego Segura (21/11/2026) · **Estado:** PARCIAL (detenida)
+**Fechas:** 2026-11-21 (lotes 00–08) y 2026-11-22 (lotes 09–25 y metas SEO) · **Aprobación:** Diego Segura (21/11/2026; continuación autorizada el 22/11/2026) · **Estado:** COMPLETO
 
 ## Respaldo previo
-- `respaldo_previo_publicacion_2026-11-21.json`: `descriptionHtml` + `seo` + `updatedAt` leídos de Shopify justo antes de publicar, de las 208 fichas de las 3 propuestas + Saddle Bag Tucano; en `solo_meta_seo`, las 2 fichas Tucano con precio en la meta (Saddle Bag y Travel Adapter 100W).
-- Comparación con `*_respaldo.json` (espacios normalizados): **209/209 iguales**. No se omitió ninguna ficha por cambios desde la propuesta.
+- `respaldo_previo_publicacion_2026-11-21.json`: `descriptionHtml`, `seo` y `updatedAt` leídos de Shopify justo antes de publicar. Cubre las 208 fichas de las 3 propuestas más la Saddle Bag Tucano. En `solo_meta_seo` están las 2 fichas Tucano con precio en la meta (Saddle Bag y Travel Adapter 100W).
+- Comparación con `*_respaldo.json` (espacios normalizados): **209/209 iguales**.
+- Antes de retomar el 22/11 se volvió a leer el `updatedAt` de las 136 fichas pendientes. Todas tenían un valor igual o anterior a 2026-11-21T20:54:08Z, es decir, ninguna cambió después del respaldo.
+- No se omitió ninguna ficha por cambios.
 
-## Aplicado (productUpdate, solo `descriptionHtml`)
-| Marca | Propuestas con html | Aplicadas | Pendientes |
+## Aplicado (productUpdate en lotes de 8, 26 lotes)
+| Marca | Campos | Aplicadas | userErrors |
 |---|---|---|---|
-| iTronics (seminuevos) | 99 (7 con html nulo, no se tocan) | **72** (lotes 00–08) | 27 |
-| Prodigee (`descriptionHtml` + SEO) | 64 | 0 | 64 |
-| Tucano (`descriptionHtml` + SEO) | 45 | 0 | 45 |
+| iTronics (seminuevos) | solo `descriptionHtml` | **99** (las 7 con html nulo no se tocaron) | 0 |
+| Prodigee | `descriptionHtml` + `seo.title` + `seo.description` | **64** | 0 |
+| Tucano | `descriptionHtml` + `seo.title` + `seo.description` | **45** | 0 |
+| **Total** | | **208** | **0** |
 
-- userErrors en los lotes aplicados: **0** (72/72 OK).
-- El lote 09 (8 fichas iTronics: iPhone 16 128GB Negro, Verde azulado, Ultramar, Rosa, Blanco; 16 256GB Negro; 16 Plus 256GB Ultramar; 16 Pro Max 256GB Titanio blanco) fue **denegado por el usuario** en la confirmación de la herramienta. Se detuvo la publicación ahí; no se reintentó.
+- No se cambió el título del producto ni otros campos.
+- El lote 09 fue rechazado en la confirmación el 21/11. Se reintentó el 22/11 con autorización expresa de Diego y se aplicó sin errores.
+- Al publicar el SEO de las propuestas se eliminaron los precios de las metas de Prodigee y Tucano: Balance lavanda, Rolltop, Crossbody azul y verde, Desk Pad, Gommo Sleeve, Isotta, City Backpack y Shopper.
 
-## No hecho (pendiente de decisión)
-- 136 fichas restantes (lotes 09–25): 27 iTronics, 64 Prodigee, 45 Tucano.
-- Meta SEO sin precio (paso 3), NO aplicada. Valores propuestos:
-  - Tucano Let Me Out Foldable Saddle Bag Negro (`gid://shopify/Product/9386244473045`): actual "Bolso plegable Tucano Let Me Out Saddle Bag negro en liquidación a Q275 (antes Q649). Liviano y resistente al agua. Compra en Ventas Guate." → propuesta "Bolso plegable Tucano Let Me Out Saddle Bag negro. Liviano y resistente al agua. Compra en Ventas Guate."
-  - Tucano Travel Adapter Gan 100W Blanco (`gid://shopify/Product/9149956128981`): actual "Adaptador de viaje Tucano GaN 100W universal en Guatemala. Carga rápida para laptop, tablet y celular. ✓ Original. Q365." → propuesta "Adaptador de viaje Tucano GaN 100W universal en Guatemala. Carga rápida para laptop, tablet y celular. ✓ Original."
-- Otras metas con precio vistas en el respaldo (se corregirían con la SEO de la propuesta Tucano/Prodigee si se publica): Prodigee Balance lavanda (Q115), Tucano Gommo Rolltop azul (Q215), Let Me Out Crossbody azul (Q165) y verde (Q155), Desk Pad azul (Q95), Gommo Sleeve Superslim 16 gris (Q399), Gommo Sleeve 13/14 negro (Q299), Isotta Superslim 16 (Q599), Gommo City Backpack azul/gris (Q699), Gommo Shopper azul (Q549) y negro (Q149).
+## Metas SEO sin precio (paso 3)
+| Ficha | Antes | Después |
+|---|---|---|
+| Tucano Let Me Out Foldable Saddle Bag Negro (`9386244473045`) | "…Saddle Bag negro en liquidación a Q275 (antes Q649). Liviano y resistente al agua. Compra en Ventas Guate." | "Bolso plegable Tucano Let Me Out Saddle Bag negro. Liviano y resistente al agua. Compra en Ventas Guate." (103 caracteres) |
+| Tucano Travel Adapter Gan 100W Blanco (`9149956128981`) | "…laptop, tablet y celular. ✓ Original. Q365." | "Adaptador de viaje Tucano GaN 100W universal en Guatemala. Carga rápida para laptop, tablet y celular. ✓ Original." (115 caracteres) |
 
-## Verificación
-- iTronics: se leyeron 3 fichas publicadas (iPhone 8 Plus 64GB Gris, iPhone 13 128GB Verde, iPhone 16e 128GB Blanco) y el texto coincide con la propuesta (Shopify solo agrega saltos de línea entre `<li>`). Título y SEO sin cambios.
-- Prodigee y Tucano: sin verificar porque no se publicó nada de esas marcas.
+**Incidente corregido:** en el Travel Adapter, enviar `seo` solo con `description` dejó `seo.title` en null. Se restauró de inmediato con el valor del respaldo ("Adaptador Tucano GaN 100W Universal Blanco Guatemala") y se verificó que quedó bien. La Saddle Bag ya tenía `seo.title` null antes del cambio.
+**Lección:** con `productUpdate`, `seo` reemplaza el objeto completo, así que hay que enviar siempre `title` y `description` juntos.
+
+## Verificación (lectura posterior)
+- Prodigee: KickIt iPhone 17 Negro, Balance 15/14/13 Lavanda y Glow S23 Ultra coinciden con la propuesta en descripción y SEO.
+- Tucano: Gommo Sleeve 16" negro, Gommo Roll-Top azul y Work Out 4 negra coinciden con la propuesta en descripción y SEO.
+- iTronics: iPhone 8 Plus 64GB, 13 128GB Verde, 16e 128GB Blanco y 16 128GB Negro tienen la descripción correcta y el SEO sin cambios.
+- Shopify solo agrega saltos de línea entre `<li>` en el HTML. El título del producto no cambió en ninguna.
 
 ## Cómo revertir
-Para cada id aplicado, `productUpdate(product:{id, descriptionHtml})` con el valor de `respaldo_previo_publicacion_2026-11-21.json` → `productos[]` (las 72 aplicadas son las primeras 72 entradas de iTronics, en el mismo orden). El SEO de iTronics no se modificó.
+Para cada id, aplicar `productUpdate(product:{id, descriptionHtml, seo:{title, description}})` con los valores de `respaldo_previo_publicacion_2026-11-21.json` → `productos[]`. En iTronics basta con `descriptionHtml`, porque su SEO no se tocó. Las 2 metas del paso 3 están en `solo_meta_seo` y en `productos[]` (Saddle Bag). Al revertir hay que enviar siempre `title` y `description` juntos.

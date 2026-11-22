@@ -67,6 +67,7 @@ Cierre estándar de descripciones: `Producto original con 1 año de garantía. E
 - Alt text: `fileUpdate(files:[{id, alt}])` hasta 100 por llamada. Imágenes compartidas entre productos: alt neutro (sin color/talla).
 - Ocultar de Google: metafield `seo.hidden` = 1 (number_integer). Al borrar una página, crear `urlRedirectCreate` 301.
 - Conexiones: máximo 100 por página.
+- `productUpdate(seo:{…})` reemplaza el objeto completo: enviar siempre `title` y `description` juntos (si mandas solo uno, el otro se borra).
 
 ## Dónde está cada cosa
 
