@@ -1,0 +1,495 @@
+[
+ {
+  "shopify_id": "gid://shopify/Product/9141944221909",
+  "sku": "810023959953",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 702,
+    "name": "PRODIGEE FORMULA K1 IPHONE 18 PRO MAX/17 PRO MAX GRIS"
+   }
+  ],
+  "product_template": {
+   "11924": {
+    "es_GT": "Prodigee Formula K1 iPhone 18 Pro Max/17 Pro Max Gris",
+    "en_US": "Prodigee Formula K1 iPhone 18 Pro Max/17 Pro Max Gris"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141944254677",
+  "sku": "810023959960",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 703,
+    "name": "PRODIGEE FORMULA K1 IPHONE 18 PRO MAX/17 PRO MAX SMOKE"
+   }
+  ],
+  "product_template": {
+   "11925": {
+    "es_GT": "Prodigee Formula K1 iPhone 18 Pro Max/17 Pro Max Smoke",
+    "en_US": "Prodigee Formula K1 iPhone 18 Pro Max/17 Pro Max Smoke"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9149960159445",
+  "sku": "810023959977",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 1304,
+    "name": "GLOW para iPhone 17 Pro Max"
+   }
+  ],
+  "product_template": {
+   "11944": {
+    "es_GT": "Prodigee iPhone 17 Pro Max Glow",
+    "en_US": "Prodigee iPhone 17 Pro Max Glow"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141944582357",
+  "sku": "810192100897",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 731,
+    "name": "PRODIGEE HERO+M IPHONE 18 PRO MAX/17 PRO MAX CLEAR"
+   }
+  ],
+  "product_template": {
+   "11945": {
+    "es_GT": "Prodigee Hero+m iPhone 18 Pro Max/17 Pro Max Clear",
+    "en_US": "Prodigee Hero+m iPhone 18 Pro Max/17 Pro Max Clear"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141944877269",
+  "sku": "810023959472",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 746,
+    "name": "JOGGER para iPhone 17 Pro Max"
+   }
+  ],
+  "product_template": {
+   "11932": {
+    "es_GT": "Prodigee Jogger iPhone 17 Pro Max Stone",
+    "en_US": "Prodigee Jogger iPhone 17 Pro Max Stone"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9149960290517",
+  "sku": "810023959465",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 1306,
+    "name": "PRODIGEE JOGGER IPHONE 18 PRO MAX/17 PRO MAX MIDNIGHT"
+   }
+  ],
+  "product_template": {
+   "11931": {
+    "es_GT": "Prodigee Jogger iPhone 18 Pro Max/17 Pro Max Midnight",
+    "en_US": "Prodigee Jogger iPhone 18 Pro Max/17 Pro Max Midnight"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9149960257749",
+  "sku": "810192101382",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 1305,
+    "name": "JOGGER para iPhone 17 Pro Max GRIS"
+   }
+  ],
+  "product_template": {
+   "11934": {
+    "es_GT": "Prodigee Jogger iPhone 17 Pro Max Gris",
+    "en_US": "Prodigee Jogger iPhone 17 Pro Max Gris"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141944811733",
+  "sku": "810023959885",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 744,
+    "name": "PRODIGEE JOGGER IPHONE 18 PRO MAX/17 PRO MAX NEGRO"
+   }
+  ],
+  "product_template": {
+   "11930": {
+    "es_GT": "Prodigee Jogger iPhone 18 Pro Max/17 Pro Max Negro",
+    "en_US": "Prodigee Jogger iPhone 18 Pro Max/17 Pro Max Negro"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141945467093",
+  "sku": "810023959991",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 776,
+    "name": "PRODIGEE KICKIT IPHONE 18 PRO MAX/17 PRO MAX NEGRO"
+   }
+  ],
+  "product_template": {
+   "11936": {
+    "es_GT": "Prodigee Kickit iPhone 18 Pro Max/17 Pro Max Negro",
+    "en_US": "Prodigee Kickit iPhone 18 Pro Max/17 Pro Max Negro"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141945368789",
+  "sku": "810023958550",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 775,
+    "name": "PRODIGEE KICKIT IPHONE 18 PRO MAX/17 PRO MAX CLEAR"
+   }
+  ],
+  "product_template": {
+   "11937": {
+    "es_GT": "Prodigee Kickit iPhone 18 Pro Max/17 Pro Max Clear",
+    "en_US": "Prodigee Kickit iPhone 18 Pro Max/17 Pro Max Clear"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141946056917",
+  "sku": "810023958529",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 816,
+    "name": "PRODIGEE MAGNETEEK IPHONE 18 PRO MAX/17 PRO MAX NEGRO"
+   }
+  ],
+  "product_template": {
+   "11939": {
+    "es_GT": "Prodigee Magneteek iPhone 18 Pro Max/17 Pro Max Negro",
+    "en_US": "Prodigee Magneteek iPhone 18 Pro Max/17 Pro Max Negro"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141943861461",
+  "sku": "810023959946",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 691,
+    "name": "PRODIGEE FLOW IPHONE 17 PRO MAX NIGHT FROST"
+   }
+  ],
+  "product_template": {
+   "11923": {
+    "es_GT": "Prodigee Flow iPhone 17 Pro Max Night Frost",
+    "en_US": "Prodigee Flow iPhone 17 Pro Max Night Frost"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141946515669",
+  "sku": "810023958710",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 931,
+    "name": "PRODIGEE SUPER HERO IPHONE 18 PRO MAX/17 PRO MAX SMOKE"
+   }
+  ],
+  "product_template": {
+   "11938": {
+    "es_GT": "Prodigee Super Hero iPhone 18 Pro Max/17 Pro Max Smoke",
+    "en_US": "Prodigee Super Hero iPhone 18 Pro Max/17 Pro Max Smoke"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141946450133",
+  "sku": "810192101511",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 930,
+    "name": "PRODIGEE SUPER HERO IPHONE 18 PRO MAX/17 PRO MAX NAVY"
+   }
+  ],
+  "product_template": {
+   "11948": {
+    "es_GT": "Prodigee Super Hero iPhone 18 Pro Max/17 Pro Max Navy",
+    "en_US": "Prodigee Super Hero iPhone 18 Pro Max/17 Pro Max Navy"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9141946384597",
+  "sku": "810023958703",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 929,
+    "name": "PRODIGEE SUPER HERO IPHONE 18 PRO MAX/17 PRO MAX CLEAR"
+   }
+  ],
+  "product_template": {
+   "11940": {
+    "es_GT": "Prodigee Super Hero iPhone 18 Pro Max/17 Pro Max Clear",
+    "en_US": "Prodigee Super Hero iPhone 18 Pro Max/17 Pro Max Clear"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9384873132245",
+  "sku": "810192102693",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 3905,
+    "name": "PRODIGEE Glow para Samsung Galaxy S26 Ultra"
+   }
+  ],
+  "product_template": {
+   "12717": {
+    "es_GT": "Prodigee Galaxy S26 Ultra Glow",
+    "en_US": "Prodigee Galaxy S26 Ultra Glow"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9271506731221",
+  "sku": "810192102778",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 3480,
+    "name": "PRODIGEE Superstar para Samsung Galaxy S26 Ultra"
+   }
+  ],
+  "product_template": {
+   "12724": {
+    "es_GT": "Prodigee Superstar Galaxy S26 Ultra Clear",
+    "en_US": "Prodigee Superstar Galaxy S26 Ultra Clear"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9142431645909",
+  "sku": "810023957874",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 650,
+    "name": "Prodigee Balancce Galaxy S25 Ultra Lavanda"
+   }
+  ],
+  "product_template": {
+   "10919": {
+    "es_GT": "Prodigee Balance Galaxy S25 Ultra Lavanda",
+    "en_US": "Prodigee Balance Galaxy S25 Ultra Lavanda"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9310073258197",
+  "sku": "810192101740",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 3617,
+    "name": "Prodigeee MagPower to-Go + Watch 5K Negro"
+   }
+  ],
+  "product_template": {
+   "12876": {
+    "es_GT": "Prodigee Powerbank Magpower to-Go + Watch 5K Negro",
+    "en_US": "Prodigee MagPower to-Go + Watch 5K Negro"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9150029660373",
+  "sku": "810023951261",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 1666,
+    "name": "Prodigee Safete Flow iPhone 12 Pro Max Passion"
+   }
+  ],
+  "product_template": {
+   "7434": {
+    "es_GT": "Prodigee Safetee Flow iPhone 12 Pro Max Passion",
+    "en_US": "Prodigee Safetee Flow iPhone 12 Pro Max Passion"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9149922509013",
+  "sku": "810023955375",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 874,
+    "name": "Prodigee Safetee Neo iPhone 15 Pro Fuschsia"
+   }
+  ],
+  "product_template": {
+   "8951": {
+    "es_GT": "Prodigee Safetee Neo iPhone 15 Pro Fuschsia",
+    "en_US": "Prodigee Safetee Neo iPhone 15 Pro Fuschsia"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9149918970069",
+  "sku": "810023956662",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 778,
+    "name": "Prodigee Mag Da Beat Bocina Magsafee Azul"
+   }
+  ],
+  "product_template": {
+   "10081": {
+    "es_GT": "Prodigee Mag Da Beat Bocina MagSafe Azul",
+    "en_US": "Prodigee Mag Da Beat Bocina MagSafe Azul"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9149923360981",
+  "sku": "810023954316",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 895,
+    "name": "Prodigee Samsung Galaxy Rockee S23 Plus"
+   }
+  ],
+  "product_template": {
+   "8203": {
+    "es_GT": "Prodigee Samsung Galaxy Rockee S23 Plus",
+    "en_US": "Prodigee Samsung Galaxy Rockee S23 Plus"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9150016946389",
+  "sku": "810023950226",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 1548,
+    "name": "Prodigee Safetee Flow Night 11 Pro"
+   }
+  ],
+  "product_template": {
+   "8513": {
+    "es_GT": "Prodigee Safetee Flow Night 11 Pro",
+    "en_US": "Prodigee Safetee Flow Night 11 Pro"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9319023640789",
+  "sku": "810023954019",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 3465,
+    "name": "Prodigee Safetee Neo 14 Pro Max Ruby"
+   }
+  ],
+  "product_template": {
+   "1499": {
+    "es_GT": "Prodigee Safetee Neo 14 Pro Max Ruby",
+    "en_US": "Prodigee Safetee Neo 14 Pro Max Ruby"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9400707252437",
+  "sku": "810023956112",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 4030,
+    "name": "Prodigee Hero S24 Ultra Clear"
+   }
+  ],
+  "product_template": {
+   "9347": {
+    "es_GT": "Prodigee Hero S24 Ultra Clear",
+    "en_US": "Prodigee Hero S24 Ultra Clear"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9170873909461",
+  "sku": "810023957805",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 3155,
+    "name": "Prodigee Revolve iPad 10TH Gen 10.9 Negro"
+   }
+  ],
+  "product_template": {
+   "12280": {
+    "es_GT": "Prodigee Revolve iPad 10TH Gen 10.9 Negro",
+    "en_US": "Prodigee Revolve iPad 10TH Gen 10.9 Negro"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9149920542933",
+  "sku": "810023958369",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 824,
+    "name": "Prodigee Pampas Galaxy 25 Ice"
+   }
+  ],
+  "product_template": {
+   "10903": {
+    "es_GT": "Prodigee Pampas Galaxy 25 Ice",
+    "en_US": "Prodigee Pampas Galaxy 25 Ice"
+   }
+  }
+ },
+ {
+  "shopify_id": "gid://shopify/Product/9150027006165",
+  "sku": "810023953227",
+  "sin_capa": false,
+  "capas": [
+   {
+    "id": 3990,
+    "name": "Prodigee MagPower to Go Powerbank 5mAh Negro"
+   }
+  ],
+  "product_template": {
+   "1504": {
+    "es_GT": "Prodigee MagPower to Go Powerbank 5mAh Negro",
+    "en_US": "Prodigee MagPower to Go Powerbank 5mAh Negro"
+   }
+  }
+ }
+]
