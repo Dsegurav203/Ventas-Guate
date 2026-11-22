@@ -63,7 +63,7 @@ Cierre estándar de descripciones: `Producto original con 1 año de garantía. E
 ## Notas de la API de Shopify (Admin GraphQL 2026-10)
 
 - Documento máximo 16,384 caracteres: mandar el contenido en `variables`, no dentro del query.
-- `productUpdate(product: ProductUpdateInput)`; imágenes nuevas con `productUpdate(product:{id, media:[…]})` tras `stagedUploadsCreate` (`productCreateMedia` ya no existe).
+- `productUpdate(product: ProductUpdateInput)`; imágenes nuevas con `productUpdate(product:{id…}, media:[CreateMediaInput])` (media es argumento aparte, no dentro de product) tras `stagedUploadsCreate` (`productCreateMedia` ya no existe).
 - `collectionUpdate(collection: CollectionUpdateInput)`; `collectionCreate` usa `sources` (ruleSet/input obsoletos).
 - Alt text: `fileUpdate(files:[{id, alt}])` hasta 100 por llamada. Imágenes compartidas entre productos: alt neutro (sin color/talla).
 - Ocultar de Google: metafield `seo.hidden` = 1 (number_integer). Al borrar una página, crear `urlRedirectCreate` 301.

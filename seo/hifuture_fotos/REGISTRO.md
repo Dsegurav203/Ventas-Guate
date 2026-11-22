@@ -34,3 +34,7 @@ Las 12 plantillas ya tenían `image_1920` → **no se escribió nada** (respaldo
 
 ## Errores
 Ninguno (32 uploads HTTP 201; 10 productUpdate sin userErrors).
+
+## 22/11/2026 (aprobado por Diego)
+- Odoo: reemplazada image_1920 (foto oficial) en Lino S Verde (14179), Lino S Azul (14180), Passion S Negro (14177), Evo3 Rose Gold (14183). Respaldo de las anteriores en `odoo_respaldo_imagenes/`.
+- Active2 Black (Shopify 9613273432277): reactivado (ARCHIVED → ACTIVE), título "Smartwatch HiFuture Active2 – Negro" (también en capa 4269 y product.template 13901; respaldo `respaldo_titulo_active2.json`), 4 fotos oficiales (hifuturegroup.com/products/active-2: pro2, pro4, pro8, pro3) y publicado en Tienda online. Sin descripción todavía.
