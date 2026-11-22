@@ -1,0 +1,100 @@
+[
+ {
+  "handle": "marca-apple",
+  "marca": "Apple",
+  "subtitulo": "",
+  "acerca": "",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/Apple-AirPods-Pro-3-lifestyle-01-250909_big.jpg.large_2x_1edc93c1-cb6e-4b59-bee1-068c8ea535d7.jpg?v=1795272683"
+ },
+ {
+  "handle": "marca-click",
+  "marca": "Click",
+  "subtitulo": "Fundas con estilo para cada día",
+  "acerca": "CLICK es una marca de fundas para celular de Balaji Brands, empresa con sede en Chino, California, operada por Balaji Trading, Inc. Ofrece más de 30 series con estampados, acabados con brillo, degradados, texturas suaves al tacto y modelos compatibles con MagSafe, como las series Latch y Radient.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/banner.jpg?v=1795272673"
+ },
+ {
+  "handle": "marca-function101",
+  "marca": "Function101",
+  "subtitulo": "Haga que cada segundo cuente",
+  "acerca": "Function101 es una marca estadounidense con sede en Las Vegas, Nevada, especializada en organización y accesorios para el ecosistema Apple. Su línea incluye cables USB-C con pantalla digital que muestra la potencia de carga, cables que se enrollan solos gracias a imanes y soportes compatibles con MagSafe. Cada producto nace de resolver una pequeña molestia diaria, para que usted trabaje con menos desorden y más enfoque.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/F101_home_page_alternating_rows_BentoStack_on_a_desk.jpg?v=1795298793"
+ },
+ {
+  "handle": "marca-jbl",
+  "marca": "JBL",
+  "subtitulo": "Más de 80 años de sonido JBL",
+  "acerca": "JBL es una marca de audio de HARMAN con más de 80 años de trayectoria en la intersección de la música, el estilo de vida, los videojuegos y los deportes. Combina calidad de sonido con diseños que invitan a la individualidad, respaldada por su experiencia en audio profesional. Su catálogo incluye audífonos, parlantes portátiles, parlantes PartyBox y audífonos para gaming de la línea Quantum.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/JBL_20PARTYBOX_20ULTIMATE_202..jpg?v=1795272677"
+ },
+ {
+  "handle": "marca-logiix",
+  "marca": "LOGiiX",
+  "subtitulo": "Accesorios tecnológicos coloridos, diseñados en Canadá",
+  "acerca": "LOGiiX es una marca canadiense de accesorios tecnológicos fundada en 2005 y con sede en Vancouver, donde diseña sus productos. Se especializa en accesorios coloridos para iPhone, iPad, MacBook y otros dispositivos: baterías portátiles, cargadores, cables, fundas, protectores de pantalla y audio, incluida su colección VIBRANCE. Su propuesta es ofrecer productos innovadores y coloridos a precios accesibles.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/TravelBanner.jpg?v=1795272672"
+ },
+ {
+  "handle": "marca-nimbus9",
+  "marca": "Nimbus9",
+  "subtitulo": "Protección premium con diseño delgado",
+  "acerca": "Nimbus9 diseña fundas para celular desde 2014, con perfiles delgados, acabados refinados y materiales premium, y forma parte de Balaji Brands, empresa con sede en Chino, California. En su gama más alta, sus fundas están clasificadas para resistir 20 caídas desde 20 pies (unos 6 metros), con compatibilidad MagSafe en varias series.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/dn6a2976.jpg?v=1795272678"
+ },
+ {
+  "handle": "marca-prodigee",
+  "marca": "Prodigee",
+  "subtitulo": "Protección, funcionalidad y estilo para su celular",
+  "acerca": "Prodigee es una marca de accesorios para celulares fundada en 2012 en San Diego, California. Diseña fundas para iPhone, Samsung Galaxy y iPad, además de cargadores, cables y baterías portátiles, con líneas como Super Hero, SuperStar y Safetee, muchas compatibles con carga inalámbrica MagSafe. Sus fundas están probadas contra caídas para proteger su dispositivo.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/ip17-desktop-04.jpg?v=1795274293"
+ },
+ {
+  "handle": "marca-protection-pro",
+  "marca": "Protection Pro",
+  "subtitulo": "",
+  "acerca": "",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/6a5f92a8e0bcce341d33599c_ProtectionPro_Slider_Images-D-09.png?v=1795272674"
+ },
+ {
+  "handle": "marca-reebok",
+  "marca": "Reebok",
+  "subtitulo": "El verdadero progreso empieza desde dentro",
+  "acerca": "Los relojes inteligentes Reebok se comercializan bajo licencia oficial de Reebok a través de Vitalist Inc., que gestiona su venta y soporte a nivel global. Con la herencia deportiva de Reebok desde 1895, las líneas Icon, Pulse, Rush y Stride ofrecen hasta 10 días de batería, monitoreo de salud, modos deportivos y resistencia IP68, con compatibilidad para iPhone y Android.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/feature.jpg?v=1795298794"
+ },
+ {
+  "handle": "marca-skullcandy",
+  "marca": "Skullcandy",
+  "subtitulo": "Audio con bajo sensorial Crusher",
+  "acerca": "Skullcandy es una marca de audio con sede en Park City, Utah, Estados Unidos, fundada en la intersección de la música y los deportes de tabla. Es conocida por su tecnología patentada Crusher, un bajo sensorial ajustable que se siente como un subwoofer integrado en los audífonos. Su línea incluye audífonos inalámbricos, earbuds y parlantes, con modelos que integran tecnología Sound by Bose.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/SkullCandy_Gaming_071120224738-2160.1440.jpg?v=1795272675"
+ },
+ {
+  "handle": "marca-sony",
+  "marca": "Sony",
+  "subtitulo": "Audio Sony, del Walkman a la serie 1000X",
+  "acerca": "Sony Electronics, con sede en San Diego, California, es subsidiaria de Sony Group Corporation, empresa japonesa con presencia en electrónica, música, cine y videojuegos. En audio, Sony introdujo en 1979 el Walkman y sus audífonos MDR-3, y hoy su serie 1000X ofrece cancelación de ruido con el procesador HD Noise Canceling Processor QN3 en los audífonos WH-1000XM6.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/Sony-Electronics-MDR-3R-Blue-Orange-Wired-Headphones.jpg?v=1795272680"
+ },
+ {
+  "handle": "marca-tucano",
+  "marca": "Tucano",
+  "subtitulo": "",
+  "acerca": "",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/hf_20261116_104638_29d68a5f-b38c-4e32-abff-c3eb18dbdcf9.jpg?v=1795272684"
+ },
+ {
+  "handle": "marca-urbanista",
+  "marca": "Urbanista",
+  "subtitulo": "",
+  "acerca": "",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/Malibu_BigHero.jpg?v=1795272681"
+ },
+ {
+  "handle": "marca-zizo",
+  "marca": "ZIZO",
+  "subtitulo": "Fundas resistentes, hechas para la aventura",
+  "acerca": "ZIZO diseña fundas y accesorios para personas en constante movimiento, del sendero al trayecto diario, y forma parte de Balaji Brands, empresa con sede en Chino, California. Algunas de sus series superan los estándares de caída MIL-STD 810G, y su catálogo suma más de 400 productos entre fundas, audio y relojes inteligentes.",
+  "imagen": "https://cdn.shopify.com/s/files/1/0708/6361/8108/collections/revolve-magsafe.jpg?v=1795272678"
+ }
+]
