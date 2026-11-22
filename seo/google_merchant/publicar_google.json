@@ -45,242 +45,290 @@
   {
    "id": "gid://shopify/Product/9142026797269",
    "title": "Master Case Anpro Redmi 14C Negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9142027550933",
    "title": "Master Case Protect Redmi 14C Clear",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9142028501205",
    "title": "Master Case Pure Redmi Note 14C Humo",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9142034038997",
    "title": "Mybat pro stealth series galaxy s22 plus negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9150016127189",
    "title": "Prodigee Safetee Transforme iPhone 13 Negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9150016946389",
    "title": "Prodigee Safetee Flow Night 11 Pro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9150018322645",
    "title": "Prodigee Clear Fit Galaxy A53 Clear",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9150018355413",
    "title": "Prodigee Clear Fit Galaxy A72 Negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9150019076309",
    "title": "Prodigee Galaxy A14 5G Clear Fit Black",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9262570668245",
    "title": "Master Case Pure Redmi Note 14C Humo",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9265496785109",
    "title": "Ipad Air 6 2024 azul",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9265497571541",
    "title": "Ipad Air 6 M2 128GB Spacegray",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9265499111637",
    "title": "Ipad 5ta Generacion 32GB Spacegray",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9265500913877",
    "title": "iPad 7ma Generación 32GB Gris Espacial — Seminuevo",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9265502552277",
    "title": "iPad Air 2 64GB Gris Espacial — Seminuevo",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9265502748885",
    "title": "Ipad Air 5 64GB Spacegray",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9474285043925",
    "title": "ZIZO Ion iPhone 15 Plus Verde Menta",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/9474285076693",
    "title": "ZIZO Nebula iPhone 15 Plus",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/9533698539733",
    "title": "Spigen Essential Cable USB a Lightning 2 Metros Blanco",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480759124181",
    "title": "UAG Lucent Samsung Galaxy S22 Ultra Rosado",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480759288021",
    "title": "MyBat Maverick Antimicrobial con Holster Galaxy S22 Negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480762597589",
    "title": "MyBat Vidrio Templado para Cámara Galaxy S20 Fan Edition Clear",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480762794197",
    "title": "Silicón Case Galaxy A72 Turquesa",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480763318485",
    "title": "Ballistic Soft Jacket Galaxy S20 Ultra Negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480763711701",
    "title": "ITSkins Hybrid Spark Galaxy S23 Plus Smoke",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480767578325",
    "title": "Torras Upro Magnetic MagSafe Galaxy S24 Negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480782225621",
    "title": "Targus Bluetooth Keyboard Tablet/Phone Black",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15513933185237",
    "title": "CLCKR Onyx Galaxy S24 Negro",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529153921237",
    "title": "Mello Cable Tipo C a Lightning Blanco",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529159065813",
    "title": "HiFuture Wm200 Micrófono Inalámbrico Grey",
-   "motivo": "sin_imagen (mediaCount = 0)"
+   "motivo": "sin_imagen (mediaCount = 0)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/9583879618773",
    "title": "Reserva iPhone Duo 256GB Blanco",
-   "motivo": "titulo_reserva"
+   "motivo": "titulo_reserva",
+   "ya_estaba_en_google_antes": true
   },
   {
    "id": "gid://shopify/Product/9613273432277",
    "title": "Smartwatch HiFuture Active2 – Negro",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480775442645",
    "title": "LAUT Links 2.0 Apple Watch 42/44/45/49mm Silver",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480775475413",
    "title": "LAUT Huex Protect MacBook Air 13\" (2022) Black",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480780816597",
    "title": "Targus 15-16\" Chromatic Sleeve Grey",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480780882133",
    "title": "Targus 13-14\" Chromatic Sleeve Purple",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480782061781",
    "title": "Targus 13-14\" Chromatic Sleeve Green",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480782127317",
    "title": "Targus 15-16\" Chromatic Sleeve Purple",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15480782192853",
    "title": "Targus 15-16\" Chromatic Sleeve Green",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158672597",
    "title": "HiFuture Flex3 Smartwatch Ultra Slim Metallic Grey",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158705365",
    "title": "HiFuture Flex3 Smartwatch Ultra Slim Titanium",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158770901",
    "title": "HiFuture Flybuds4 Ai ANC True Wireless Black",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158803669",
    "title": "HiFuture Flybuds4 Ai ANC True Wireless Latte",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158836437",
    "title": "HiFuture Lyra Health Tracker Sin Pantalla Black",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158869205",
    "title": "HiFuture Lyra Health Tracker Sin Pantalla Silver Grey",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158934741",
    "title": "HiFuture MUSICSOUL200 Karaoke Wireless Bocina Metallic Grey",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529158967509",
    "title": "HiFuture Passion M Lifestyle Wireless Bocina Black",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   },
   {
    "id": "gid://shopify/Product/15529159033045",
    "title": "HiFuture Passion M Lifestyle Wireless Bocina Latte",
-   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)"
+   "motivo": "precio_simbolico_Q1 (placeholder, no precio real)",
+   "ya_estaba_en_google_antes": false
   }
  ],
  "publicar": [
@@ -1417,5 +1465,11 @@
   "gid://shopify/Product/15574231122133",
   "gid://shopify/Product/15574231220437",
   "gid://shopify/Product/15574231318741"
- ]
+ ],
+ "resultado": {
+  "publicados_ok": 1133,
+  "errores": 0,
+  "lotes": 23,
+  "verificacion": "productsCount(publication_ids:194347630805 + status:active published_status:published)=1150 = 1133 publicados + 17 excluidos que ya estaban en el canal antes de esta corrida; total del canal (cualquier estado) = 1577"
+ }
 }
