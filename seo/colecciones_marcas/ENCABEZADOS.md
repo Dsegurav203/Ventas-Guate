@@ -5,3 +5,8 @@
 - Metacampos de colección (definidos, editables en Admin → Colección → Metacampos): `custom.marca_subtitulo`, `custom.marca_acerca`, `custom.marca_banner` (imagen).
 - Cargados 22/11: JBL, LOGiiX, Nimbus9, Prodigee, Reebok, Skullcandy (texto e imagen tomados de TechStop, `techstop_encabezados.json`, tuteo); Tucano solo banner. Título de colección "PRODIGEE" → "Prodigee".
 - Pendiente texto con fuente oficial: Tucano, HiFuture, Targus, OhSnap, LAUT, Mello, Reelcharge, Protection Pro.
+
+## Reelcharge (22/11/2026)
+- Marca creada en Odoo (`product.brand` id 265). Vendor "Ventas Guate" → "Reelcharge" en los 8 productos de Shopify.
+- Colección nueva `/collections/reelcharge` (id 536141463765, automática vendor = Reelcharge, más vendidos), publicada en la tienda en línea, con SEO y texto de la propuesta.
+- Portada especial: `banner-marca-reelcharge.jpg` (2400×750) hecha con la foto oficial de reelcharge.com + logo + texto en español (`seo/colecciones_marcas/reelcharge_portada/`). Área de marca con la historia oficial (reelcharge.com/pages/our-story).
