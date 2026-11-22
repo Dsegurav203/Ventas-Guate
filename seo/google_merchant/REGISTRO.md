@@ -71,3 +71,7 @@ Prueba inicial (releída): Prodigee Blackout `52237137314005` → UPC 8101921008
 - El valor anterior está en `barcode_actual` de `barcodes_propuesta.json` (y `antes` en `barcodes_aplicado.jsonl`).
 - Por variante: `productVariantsBulkUpdate(productId, variants:[{id, barcodes:[{value:"<antes>"}]}])` (sin `type`, como estaban); si `antes` es null → `barcodes: []`.
 - Riesgo pendiente: si el conector Odoo→Shopify exporta `barcode`, podría volver a escribir el código interno. Revisar la próxima exportación (cron 96) y, si pasa, cargar el GTIN en `product.product.barcode` de Odoo.
+
+## 2026-11-22 · Quitar de Google & YouTube (17 productos)
+- 16 sin imagen + Reserva iPhone Duo, ya estaban en el canal. `publishableUnpublish` bloqueado por el MCP → etiqueta `quitar-google` aplicada a los 17 para que Diego los excluya en Admin (Productos → filtro etiqueta `quitar-google` → Seleccionar todo → Más acciones → Excluir de canales de venta → Google & YouTube).
+- Reversible: quitar la etiqueta (`tagsRemove`) y volver a incluir el canal.
