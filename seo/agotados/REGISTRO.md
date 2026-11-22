@@ -119,3 +119,27 @@ Hasta ~40 alias por documento. La lista de `id` está en `agotados_ocultados_202
 - Tucano: los 31 agotados no tienen existencia en ninguna bodega de Odoo (no es falla de sincronización).
 - Verificado en vivo: 0 "Agotado" en tucano, logiix, nimbus9, smartwatch, iphone-16-pro-max, laut, apple. Los agotados siguen visibles por enlace directo y en el buscador.
 - Al reponer, el producto vuelve solo a la colección (la condición es dinámica).
+
+## 2026-11-22 · Flow + etiqueta Out of stock
+
+Contexto: Diego activó Shopify Flow "Publish and unpublish products based on inventory level" (oculta al agotarse agregando la etiqueta `Out of stock`; republica al reponer solo si tiene esa etiqueta). Se prepararon los productos que ya estaban agotados para que Diego los oculte en bloque y Flow los republique al reponer. Aprobado por Diego Segura.
+
+- Consulta: `status:active published_status:published inventory_total:<=0` → **193 productos** (lista completa con id, título, etiquetas previas, política y acción: `out_of_stock_2026-11-22.json`).
+- Etiqueta **`Out of stock`** agregada (tagsAdd, 4 lotes): **187** productos (variantes con política DENY).
+- Etiqueta **`venta-sin-stock`** agregada (no `Out of stock`, porque alguna variante tiene política CONTINUE y se venden sin inventario): **6**
+  - Govee TV Backlight 3 Lite para TV 55" a 65" | Luz Ambiental RGBIC
+  - iPhone Pocket Negro (Largo)
+  - Spidercase Funda Magnética para Samsung Galaxy S25 FE
+  - Spidercase Funda Magnética para Samsung Galaxy S25 FE - Negro
+  - Funda Galaxy S21 Ultra
+  - Amazon Alexa Echo Studio (modelo más reciente)
+- Reservas omitidas (título "Reserva…" o etiqueta `Reserva`): **0** (ninguna aparecía en la consulta).
+- Errores: 0 (`userErrors` vacío en las 5 mutaciones).
+- No se quitó ninguna etiqueta, no se despublicó nada ni se cambió otro campo.
+
+Verificación: `productsCount(query:"tag:'Out of stock' status:active")` = 187; `tag:'Out of stock' inventory_total:>0` = 0; `tag:'venta-sin-stock'` = 6.
+
+Siguiente paso (Diego, en Admin): filtrar Productos por etiqueta `Out of stock` → seleccionar todos → ocultar de la tienda en línea (o pasar a borrador según lo que haga el Flow). Al reponer stock, Flow los republica y quita la etiqueta.
+
+Cómo revertir: para cada id del JSON con `accion` = `Out of stock` o `venta-sin-stock`, ejecutar
+`tagsRemove(id:"gid://shopify/Product/…", tags:["Out of stock"])` (o `["venta-sin-stock"]`), en lotes de 50 con alias. Las etiquetas previas quedan en el campo `tags` del JSON.

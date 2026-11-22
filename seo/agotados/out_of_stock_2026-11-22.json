@@ -1,0 +1,2101 @@
+{
+ "fecha": "2026-11-22",
+ "query": "status:active published_status:published inventory_total:<=0",
+ "total": 193,
+ "productos": [
+  {
+   "id": "gid://shopify/Product/9141942681813",
+   "title": "Nimbus9 Cirrus3 iPhone 17 Negro",
+   "tags": [
+    "17 normal",
+    "cases iphone",
+    "cases iphone 17",
+    "iPhone",
+    "iPhone 17"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9141942780117",
+   "title": "Nimbus9 Cirrus3 iPhone 17 Pro Negro",
+   "tags": [
+    "cases iphone",
+    "cases iphone 17",
+    "iPhone",
+    "iPhone 17 Pro"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142008152277",
+   "title": "Blink3 Cámara Outdoor Full HD 1080p Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142008742101",
+   "title": "Cable USB-C a Lightning 2 Metros Blanco",
+   "tags": [
+    "Carga",
+    "Conectividad",
+    "Lightning",
+    "Tipo C"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142011232469",
+   "title": "Click Impact MagSafe iPhone 16 Negro",
+   "tags": [
+    "cases iphone",
+    "cases iphone 16",
+    "iPhone",
+    "iPhone 16 (normal)"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142011691221",
+   "title": "Click Latch Galaxy S25 Ultra Clear Púrpura",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142013231317",
+   "title": "Click Ultra Slim MagSafe iPhone 16 Rosado",
+   "tags": [
+    "cases iphone",
+    "cases iphone 16",
+    "iPhone",
+    "iPhone 16 (normal)"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142014804181",
+   "title": "Audífonos HiFuture ColorBuds 2 – Rosado",
+   "tags": [
+    "Audio",
+    "HiFuture"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142015000789",
+   "title": "Smartwatch HiFuture Edge – Rosado",
+   "tags": [
+    "HiFuture",
+    "relojesHiFuture",
+    "Smartwatch",
+    "Smartwatch HiFuture"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142015688917",
+   "title": "Audífonos HiFuture FutureTour X Hybrid ANC – Champagne Gold",
+   "tags": [
+    "Audio",
+    "HiFuture",
+    "Over-ear"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142016999637",
+   "title": "Hp H100 Audífonos con Cable y Micrófono Gamer Negro",
+   "tags": [
+    "Gaming"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142017261781",
+   "title": "HyperGear Powerbank 5000mAh",
+   "tags": [
+    "Carga",
+    "Conectividad",
+    "Powerbanks"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142018769109",
+   "title": "JBL Flip 7 Portable Waterproof Bluetooth Purple",
+   "tags": [
+    "Audio",
+    "Bocinas",
+    "JBL"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142019326165",
+   "title": "JBL Tune 770nc Blanco",
+   "tags": [
+    "ANC",
+    "Audio",
+    "JBL",
+    "Over-ear"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142019457237",
+   "title": "JBL Tune Buds2 NC Negro",
+   "tags": [
+    "ANC",
+    "Audio",
+    "JBL"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142020210901",
+   "title": "Apple Case Original Silicone con MagSafe iPhone 12 Pro Max Blanco",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 12 Pro Max",
+    "iPhone12",
+    "liquidacion",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142020341973",
+   "title": "Griffin Survivor iPhone 12 Pro Max Azul",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 12 Pro Max",
+    "iPhone12",
+    "liquidacion",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142020440277",
+   "title": "Lbt Cable 7FT USB-C to C Black/White",
+   "tags": [
+    "liquidacion",
+    "Tipo C"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142024667349",
+   "title": "Lbt Cable 7FT USB a Lightning Negro/Blanco",
+   "tags": [
+    "Carga",
+    "Conectividad",
+    "Lightning"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142026076373",
+   "title": "Mageasy Strap 20mm Orange",
+   "tags": [
+    "Oferta",
+    "SALE14",
+    "SALE15",
+    "Straps"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142029713621",
+   "title": "MyBat Base de Carga Inalámbrica 2 en 1 Negro",
+   "tags": [
+    "Auto",
+    "Carga",
+    "Carga Magsafe"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142032826581",
+   "title": "MyBat Pro Vidrio para Cámara iPhone 15/15 Plus Negro",
+   "tags": [
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 15 Plus",
+    "Oferta",
+    "SALEACCESORIOS"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142034497749",
+   "title": "Nimbus9 Alto2 MagSafe Galaxy Z Flip 7 Azul",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "Liquidacion",
+    "Samsung",
+    "Z Flip",
+    "ZFlip"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142035448021",
+   "title": "Nimbus9 Nylon Sport Band para Apple Watch 45mm Azul Marino",
+   "tags": [
+    "pulseraapplewatch",
+    "pulserasapplewatch"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142035742933",
+   "title": "Nimbus9 Phantom3 Galaxy S25 Ultra Pacific Blue",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142039806165",
+   "title": "PopSockets MagSafe Negro",
+   "tags": [
+    "Gadgets",
+    "Popsockets"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9142431645909",
+   "title": "Prodigee Balancce Galaxy S25 Ultra Lavanda",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149920411861",
+   "title": "Prodigee Magwallet Pop Navy",
+   "tags": [
+    "accesoriosmagsafe",
+    "iPhone12"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149922738389",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Max Menta",
+   "tags": [
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 15 Pro Max",
+    "Liquidacion",
+    "liquidacioncases"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149923983573",
+   "title": "Prodigee Super Hero Galaxy S24 Smoke",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "Oferta",
+    "S24",
+    "S24 Cases",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149924147413",
+   "title": "Prodigee Super Hero Galaxy S25 Smoke",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S25 Cases",
+    "S25 Normal",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149941088469",
+   "title": "Ringke Galaxy S22 Ultra Flores",
+   "tags": [
+    "casessamsung",
+    "liquidacionsamsung",
+    "S22 ULTRA",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149948002517",
+   "title": "Audífonos Skullcandy Cassette On-Ear Bluetooth – Negro",
+   "tags": [
+    "Audio"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149954064597",
+   "title": "Sony PlayStation Portal Remote Player Blanco",
+   "tags": [
+    "Consolas",
+    "Gaming",
+    "Oferta",
+    "Sony"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149955047637",
+   "title": "Tekya Standmax Base de Carga Inalámbrica Plegable 3 en 15W Blanco",
+   "tags": [
+    "Carga",
+    "Carga Magsafe",
+    "Conectividad",
+    "Liquidacion",
+    "Magsafe"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149957472469",
+   "title": "Tucano Modo Premium Backpack 14 Pulgadas Negro",
+   "tags": [
+    "Chambalentin",
+    "Maletines"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149959110869",
+   "title": "ZIZO Bolt Bundle Galaxy S25 Ultra Negro",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149965435093",
+   "title": "Prodigee Kickit Galaxy S25 Ultra Negro",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149965762773",
+   "title": "Prodigee Safetee Flow Galaxy S25 Ultra Night Frost",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149968089301",
+   "title": "Audífonos para Niños Skullcandy Grom Wireless – Negro",
+   "tags": [
+    "Audio",
+    "Over-ear"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149977755861",
+   "title": "JBL Soundgear Sense Bluetooth Blanco",
+   "tags": [
+    "Audio",
+    "JBL"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149978181845",
+   "title": "JBL Tune 310C Earbuds USB-C Blanco",
+   "tags": [
+    "Audio",
+    "JBL",
+    "Tipo C"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149978476757",
+   "title": "JBL Tune 770nc Black",
+   "tags": [
+    "ANC",
+    "Audio",
+    "JBL",
+    "Over-ear"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9149978804437",
+   "title": "Prodigee Hands Free Soporte Universal Negro",
+   "tags": [
+    "Chambalentin",
+    "liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9150026809557",
+   "title": "Prodigee MagPower 2 Go MagSafe 10000 mAh Negro",
+   "tags": [
+    "accesorios17promax",
+    "accesoriosmagsafe",
+    "Carga",
+    "Carga Magsafe",
+    "Conectividad",
+    "Mags",
+    "Powerbanks"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9150027006165",
+   "title": "Prodigee MagPower to Go Powerbank 5mAh Negro",
+   "tags": [
+    "accesorios17promax",
+    "accesoriosmagsafe",
+    "Carga",
+    "Carga Magsafe",
+    "Conectividad",
+    "Mags",
+    "Powerbanks"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9150027366613",
+   "title": "Prodigee MagPower to-Go 10mil mAh",
+   "tags": [
+    "accesorios17promax",
+    "accesoriosmagsafe",
+    "Carga",
+    "Carga Magsafe",
+    "Conectividad",
+    "Mags",
+    "Powerbanks"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9150254416085",
+   "title": "Prodigee Safetee Neo iPhone 14 Pro Max Lila",
+   "tags": [
+    "14 Pro Max",
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro Max",
+    "iPhone14",
+    "Liquidacion",
+    "liquidacioncases",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9150255202517",
+   "title": "Prodigee Safetee Slim Galaxy S22 Plus Negro",
+   "tags": [
+    "casessamsung",
+    "liquidacionsamsung",
+    "S22 PLUS",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9150256808149",
+   "title": "Prodigee the Sleeve Funda para MacBook Negro",
+   "tags": [
+    "Fundas"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9170872729813",
+   "title": "Click Impact Series Galaxy A26 Turqueza Rosado",
+   "tags": [
+    "casessamsung",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9170874335445",
+   "title": "Prodigee Super Glass Camera iPhone 17 Pro/Pro Max Negro",
+   "tags": [
+    "17 Pro Max",
+    "accesorios17promax",
+    "cases iphone",
+    "cases iphone 17",
+    "iPhone",
+    "iPhone 17 Pro Max"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9254595592405",
+   "title": "Govee TV Backlight 3 Lite para TV 55\" a 65\" | Luz Ambiental RGBIC",
+   "tags": [
+    "Alexa",
+    "Google Home",
+    "Govee",
+    "LED",
+    "Luces TV",
+    "RGBIC",
+    "Smarthome",
+    "TV"
+   ],
+   "inventoryPolicy": "CONTINUE",
+   "accion": "venta-sin-stock"
+  },
+  {
+   "id": "gid://shopify/Product/9256645918933",
+   "title": "Sony PlayStation DualSense Edge Control Inalámbrico Blanco",
+   "tags": [
+    "Controles",
+    "Gaming",
+    "Oferta",
+    "PS5"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9256656240853",
+   "title": "Sony PlayStation DualSense Control Inalámbrico Blanco",
+   "tags": [
+    "Controles",
+    "Gaming",
+    "Oferta"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9258219110613",
+   "title": "iPhone Pocket Negro (Largo)",
+   "tags": [
+    "cases iphone",
+    "iPhone"
+   ],
+   "inventoryPolicy": "CONTINUE",
+   "accion": "venta-sin-stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262553399509",
+   "title": "ITSkins Spectrum iPhone 7/8/Se Clear",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "Liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262560608469",
+   "title": "MyBat Vidrio Templado para Cámara iPhone 12 Pro Clear",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone12",
+    "liquidacion",
+    "liquidacioniphone",
+    "SALEACCESORIOS"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262560739541",
+   "title": "MyBat Plug+Go Powerbank 5000mAh Carga Rápida Tipo C Rosado",
+   "tags": [
+    "Carga",
+    "Conectividad",
+    "liquidacion",
+    "Powerbanks",
+    "Tipo C"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262560903381",
+   "title": "MyBat Pro Lux iPhone 12 Pro Max Clear",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone12",
+    "Liquidacion",
+    "liquidacioncases",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262561099989",
+   "title": "MyBat Pro Mood MagSafe iPhone 12 Pro Max Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone12",
+    "Liquidacion",
+    "liquidacioncases",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262561296597",
+   "title": "MyBat Pro Shade iPhone 13 Pro Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 13 Pro",
+    "iPhone13",
+    "Liquidacion",
+    "liquidacioncases",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262561362133",
+   "title": "MyBat Pro Shade MagSafe iPhone 12 Pro Max Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone12",
+    "Liquidacion",
+    "liquidacioncases",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262561493205",
+   "title": "MyBat Pro Shade Series iPhone 13 Morado",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone13",
+    "Liquidacion",
+    "liquidacioncases",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262561951957",
+   "title": "MyBat Pro Mood MagSafe iPhone 13 Pro Celeste",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 13 Pro",
+    "iPhone13",
+    "Liquidacion",
+    "liquidacioncases",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9262569783509",
+   "title": "SwitchEasy Magstand iPhone 15 Pro Clear",
+   "tags": [
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 15 Pro",
+    "Liquidacion",
+    "liquidacioncases",
+    "Oferta",
+    "SALE15"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9263665119445",
+   "title": "CLCKR MagSafe Stand & Grip Dark Purple",
+   "tags": [
+    "accesoriosmagsafe",
+    "Liquidacion",
+    "Oferta",
+    "SALE14",
+    "SALE15",
+    "SALEACCESORIES",
+    "SALEACCESORIOS"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9263665217749",
+   "title": "CLCKR MagSafe Stand & Grip Púrpura",
+   "tags": [
+    "accesoriosmagsafe",
+    "Liquidacion",
+    "Oferta",
+    "SALE14",
+    "SALE15",
+    "SALEACCESORIES",
+    "SALEACCESORIOS"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9264050897109",
+   "title": "Bitty Boomers Bocina Bluetooth Star Wars Grogu in Pram",
+   "tags": [
+    "Audio",
+    "Bocinas",
+    "Liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9271504699605",
+   "title": "Click Latch Galaxy S26 Ultra Black",
+   "tags": [
+    "casessamsung",
+    "S26 cases",
+    "S26 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9271504896213",
+   "title": "Click Latch Galaxy S26 Ultra Smoke",
+   "tags": [
+    "casessamsung",
+    "S26 cases",
+    "S26 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9271505649877",
+   "title": "Prodigee Kickit Galaxy S26 Black",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S26",
+    "S26 cases",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9271505682645",
+   "title": "Prodigee Kickit Galaxy S26 Plus Black",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S26 cases",
+    "S26 Plus",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9271506010325",
+   "title": "Prodigee Super Hero Galaxy S26 Plus Clear",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S26 cases",
+    "S26 Plus",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9271506075861",
+   "title": "Prodigee Super Hero Galaxy S26 Plus Smoke",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S26 cases",
+    "S26 Plus",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9287982776533",
+   "title": "Urbanista Lisbon Vanilla Cream",
+   "tags": [
+    "Audio",
+    "Liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9287983366357",
+   "title": "Urbanista Miami Audífono Teal Green",
+   "tags": [
+    "Audio",
+    "Liquidacion",
+    "Over Ear"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9291022401749",
+   "title": "Nimbus9 Alto2 iPhone 15/14/13 Rosado",
+   "tags": [
+    "13 Normal",
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 13",
+    "iPhone 14 Normal",
+    "iPhone 15 (normal)",
+    "iPhone13",
+    "iPhone14",
+    "Liquidacion",
+    "liquidacioniphone",
+    "Oferta",
+    "SALE15"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9299472646357",
+   "title": "Prodigee Glow Galaxy S23 Ultra Clear",
+   "tags": [
+    "casessamsung",
+    "liquidacionsamsung",
+    "S23 cases",
+    "S23 ULTRA",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9300937933013",
+   "title": "Popcase iPhone 13 Negro",
+   "tags": [
+    "13 Normal",
+    "cases iphone",
+    "iPhone",
+    "iPhone13",
+    "liquidacion",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9301002420437",
+   "title": "MyBat Cable Premium USB-C a USB-C Verde",
+   "tags": [
+    "carga",
+    "liquidacion",
+    "Tipo C"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9301030469845",
+   "title": "Tekya Powerbank 10000mAh Negro",
+   "tags": [
+    "Carga",
+    "Conectividad",
+    "Liquidacion",
+    "Powerbanks"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9301031551189",
+   "title": "Prodigee Energee Magstand Base de Carga Inalámbrica Negro",
+   "tags": [
+    "accesorios17promax",
+    "Conectividad"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9309628858581",
+   "title": "Nimbus9 Alto2 iPhone 15/14/13 Azul",
+   "tags": [
+    "13 Normal",
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 13",
+    "iPhone 14 Normal",
+    "iPhone13",
+    "iPhone14",
+    "Liquidacion",
+    "liquidacioniphone",
+    "Oferta",
+    "SALE15"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9309628891349",
+   "title": "Nimbus9 Alto2 iPhone 15/14/13 Negro",
+   "tags": [
+    "13 Normal",
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 13",
+    "iPhone 14 Normal",
+    "iPhone13",
+    "iPhone14",
+    "Liquidacion",
+    "liquidacioniphone",
+    "Oferta",
+    "SALE15"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9309628989653",
+   "title": "Nimbus9 Stratus MagSafe iPhone 15/14/13 Azul",
+   "tags": [
+    "13 Normal",
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 13",
+    "iPhone 14 Normal",
+    "iPhone13",
+    "iPhone14",
+    "liquidacioniphone",
+    "SALE15"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9309629055189",
+   "title": "Prodigee Kickit iPhone 15/14/13 Rosado",
+   "tags": [
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 14 Normal",
+    "iPhone14",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9310361321685",
+   "title": "Nimbus9 Phantom3 Galaxy S25 Ultra Smoke",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9310361354453",
+   "title": "Prodigee Formula Galaxy S25 Ultra Gris",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9310361387221",
+   "title": "Prodigee Kickit Galaxy S25 Ultra Rosado",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9310361419989",
+   "title": "Prodigee Safetee Flow Galaxy S25 Ultra Desert",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9310361583829",
+   "title": "Prodigee Superstar Galaxy S25 Ultra Clear",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "S25 Cases",
+    "S25 Ultra",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9319023640789",
+   "title": "Prodigee Safetee Neo 14 Pro Max Ruby",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro Max",
+    "iPhone14",
+    "Liquidacion",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9319023739093",
+   "title": "Gadget Guard Vidrio para Cámara iPhone 15 Pro Max Iridescent (Compatible con 14 Pro Max)",
+   "tags": [
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "iPhone 14 Pro Max",
+    "iPhone14",
+    "Liquidacion",
+    "liquidacioniphone",
+    "Oferta"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9319024001237",
+   "title": "Prodigee Magneteek iPhone 14 Pro Max Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro Max",
+    "iPhone14",
+    "liquidacioniphone",
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9319024066773",
+   "title": "Prodigee Sparkle Leemonchelo iPhone 14 Pro Max Blanco",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro Max",
+    "iPhone14",
+    "liquidacioniphone",
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9319065125077",
+   "title": "MyBat Vidrio Templado para Cámara iPhone 11 Pro / 11 Pro Max",
+   "tags": [
+    "11 Pro Max",
+    "cases iphone",
+    "iPhone",
+    "iPhone 11 Pro Max",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9319150256341",
+   "title": "Click Latch Galaxy A16 Negro",
+   "tags": [
+    "casessamsung",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9320220557525",
+   "title": "Griffin Survivor iPhone 12-12 Pro Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone12",
+    "liquidacion",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9320220721365",
+   "title": "Griffin Survivor iPhone 12 Pro Max Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone12",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9320224424149",
+   "title": "Gunnar Vertex Ony/Amber Focusing Power",
+   "tags": [
+    "liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9320839381205",
+   "title": "Nimbus9 Stratus MagSafe iPhone 14 Pro Frost",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro",
+    "iPhone14",
+    "liquidacion",
+    "liquidacioniphone"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9320842363093",
+   "title": "Nimbus9 Stratus Galaxy S24 Ultra Frost",
+   "tags": [
+    "casessamsung",
+    "liquidacion",
+    "S24 Cases",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9320844624085",
+   "title": "Nimbus9 Stratus MagSafe Galaxy S24 Ultra Topography",
+   "tags": [
+    "casessamsung",
+    "liquidacion",
+    "S24 Cases",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9320845508821",
+   "title": "Nimbus9 Stratus Mafsafe iPhone 15 Pro Max Topography",
+   "tags": [
+    "cases iphone",
+    "cases iphone 15",
+    "iPhone",
+    "SALE15"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9321097560277",
+   "title": "Motorola Smartwatch70 Rosado",
+   "tags": [
+    "Motorola"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9321432907989",
+   "title": "Rivacase Maletin 7730 para Laptop 15.6'' Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9321433366741",
+   "title": "Rivacase Organizador de Viaje 8511 Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9321533669589",
+   "title": "Samsung Kit de Carga Micro USB 12 Watts Blanco",
+   "tags": [
+    "casessamsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9329911726293",
+   "title": "Smartwatch HiFuture Evo2 Sport – Beige",
+   "tags": [
+    "HiFuture"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9335556440277",
+   "title": "Prodigee Hero iPhone 14 Pro Clear",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro",
+    "iPhone14",
+    "liquidacioniphone",
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9335556538581",
+   "title": "Prodigee Safetee Smooth iPhone 14 Pro Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro",
+    "iPhone14",
+    "liquidacioniphone",
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9335556604117",
+   "title": "Prodigee Safetee Steel iPhone 14 Pro Blanco",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro",
+    "iPhone14",
+    "liquidacioniphone",
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9335556636885",
+   "title": "Prodigee Safetee Steel iPhone 14 Pro Negro",
+   "tags": [
+    "cases iphone",
+    "iPhone",
+    "iPhone 14 Pro",
+    "iPhone14",
+    "liquidacioniphone",
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9337797542101",
+   "title": "Tucano Active Pencil2 para iPad Blanco",
+   "tags": [
+    "iPad",
+    "Tablets"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9337797640405",
+   "title": "Tucano Alunno iPad Case 10TH Black",
+   "tags": [
+    "iPad"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9337797673173",
+   "title": "Tucano Funda iPad 10.2 / 10.5 Rosado",
+   "tags": [
+    "iPad"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9339689763029",
+   "title": "Energy Sistem Style 2 Earphones TWS Navy",
+   "tags": [
+    "Liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9342469144789",
+   "title": "Audífonos Skullcandy Hesh Wireless Over-Ear – Negro",
+   "tags": [
+    "Audio"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9342469603541",
+   "title": "Audífonos Skullcandy Ink'd con Cable – Azul",
+   "tags": [
+    "Audio"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9342469865685",
+   "title": "Audífonos Skullcandy Jib con Micrófono – Azul",
+   "tags": [
+    "Audio"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9342470357205",
+   "title": "Audífonos Skullcandy Jib True 2 – Gris",
+   "tags": [
+    "Audio",
+    "True Wireless"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9342526488789",
+   "title": "Samsung Kit de Carga Rápida 25W Tipo C Negro",
+   "tags": [
+    "casessamsung",
+    "Tipo C"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9342526521557",
+   "title": "Samsung Kit de Carga Rápida 25W Tipo C Negro",
+   "tags": [
+    "casessamsung",
+    "Tipo C"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9342530486485",
+   "title": "UNNO Cable HDMI 2.0 4K Ultra HD 1.8 metros",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9356378636501",
+   "title": "Caseco Galaxy S25 Ultra Easter Floral",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9356378669269",
+   "title": "Caseco Galaxy S25 Ultra Polka Dots",
+   "tags": [
+    "casessamsung",
+    "S25 Cases",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9356378898645",
+   "title": "Caseco iPhone 17 Pro Max Graffiti",
+   "tags": [
+    "17 Pro Max",
+    "17promaxcases",
+    "accesorios17promax",
+    "iPhone",
+    "iPhone 17 Pro Max"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9356378964181",
+   "title": "Caseco iPhone 17 Pro Max Pink Wildflower",
+   "tags": [
+    "17 Pro Max",
+    "17promaxcases",
+    "accesorios17promax",
+    "iPhone",
+    "iPhone 17 Pro Max"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9372730130645",
+   "title": "LOGiiX Piston Power 5000mAh Qi2 MagSafe Titanium",
+   "tags": [
+    "accesorios17promax",
+    "Powerbanks"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9377151025365",
+   "title": "Spidercase Funda Magnética para Samsung Galaxy S25 FE",
+   "tags": [
+    "casessamsung",
+    "S25 FE"
+   ],
+   "inventoryPolicy": "CONTINUE",
+   "accion": "venta-sin-stock"
+  },
+  {
+   "id": "gid://shopify/Product/9378100183253",
+   "title": "Spidercase Funda Magnética para Samsung Galaxy S25 FE - Negro",
+   "tags": [
+    "casessamsung",
+    "S25 FE"
+   ],
+   "inventoryPolicy": "CONTINUE",
+   "accion": "venta-sin-stock"
+  },
+  {
+   "id": "gid://shopify/Product/9385627877589",
+   "title": "ZAGG Santa Cruz Snap iPhone 16 Pro Negro",
+   "tags": [
+    "Liquidacion",
+    "SALE16"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386247028949",
+   "title": "Tucano Gancio Case W/Keyboard Universal 11\" Azul",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386250174677",
+   "title": "Tucano Mouse Inalámbrico Ergonómico Negro",
+   "tags": [
+    "liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386250436821",
+   "title": "Tucano Binario Backpack 15.6\" W/Ags Blue",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386250666197",
+   "title": "Tucano Binario Backpack 15.6l Anthracite Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386250895573",
+   "title": "Tucano Ergonomic Lumbar Cushion",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386251092181",
+   "title": "Tucano Facile Plus Universal para Tablet 11 Pulgadas Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386251780309",
+   "title": "Tucano Funda Offroad para Laptop 15.6'' Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386252009685",
+   "title": "Tucano Goal Backpack 15.6 Brown",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386252304597",
+   "title": "Tucano Goal Backpack 15.6 Gray",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386252501205",
+   "title": "Tucano Lato2 Backpack 13.3/14\" Black",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386252665045",
+   "title": "Tucano Lato2 Backpack 13.3/14\" Blue",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386252763349",
+   "title": "Tucano Let Me Out Foldable Duffle Verde",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386252927189",
+   "title": "Tucano Let Me Out Mochila",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386252959957",
+   "title": "Tucano Mochila Ted 14'' Verde",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386253287637",
+   "title": "Tucano Mouse Inalámbrico Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386253484245",
+   "title": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Azul",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386253680853",
+   "title": "Tucano Smilza Superslim Funda para Computadora 14 Pulgadas Negra",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386253877461",
+   "title": "Tucano Soft Troelly Mochila Negra",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386253975765",
+   "title": "Tucano Top Slevee Mbp 13\" Petroleum Blue",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386254205141",
+   "title": "Tucano Tugo M Cabin Luggage 15.6\" PC Black",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386254598357",
+   "title": "Tucano Unico Case Universal para Tablet 11 Pulgadas Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386255089877",
+   "title": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Amarillo",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386255417557",
+   "title": "Tucano Universo Case Universal para Tablet Samsung 10.5 Pulgadas Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386255646933",
+   "title": "Tucano Vento Case Universal para Tablet 11 Pulgadas Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386255745237",
+   "title": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Azul",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386255974613",
+   "title": "Tucano Workout 4 Mochila para Computador 14 Pulgadas Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9386256007381",
+   "title": "Tucano Workout 4 Mochila para Computador 16 Pulgadas Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9389089030357",
+   "title": "Pulsera Apple Watch Silicón Azul Marino 38/40/41",
+   "tags": [
+    "pulseraapplewatch",
+    "pulserasapplewatch"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9389089259733",
+   "title": "Pulsera Apple Watch Silicón Magnético Rosa 38/40/41",
+   "tags": [
+    "pulseraapplewatch",
+    "pulserasapplewatch"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9389089325269",
+   "title": "Pulsera Apple Watch Silicón Magnético Rosa 42/44/45/49",
+   "tags": [
+    "pulseraapplewatch",
+    "pulserasapplewatch"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9389089358037",
+   "title": "Pulsera Apple Watch Silicón Negro 42/44/45/49",
+   "tags": [
+    "pulseraapplewatch",
+    "pulserasapplewatch"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9389089489109",
+   "title": "Watch Pulsera para Apple Watch 42/44mm Amarillo",
+   "tags": [
+    "pulseraapplewatch",
+    "pulserasapplewatch"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9400706859221",
+   "title": "Prodigee Balance iPhone 16 Pro Max Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9400707252437",
+   "title": "Prodigee Hero S24 Ultra Clear",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9400707383509",
+   "title": "Prodigee Kick It iPhone 14 Plus Rosado",
+   "tags": [
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9400707449045",
+   "title": "Prodigee Kickit iPhone 14 Plus Negro",
+   "tags": [
+    "SALE14"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9400707612885",
+   "title": "Prodigee Magneteek iPhone 13 Pro Max Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9456816324821",
+   "title": "Baseus Bowie E13 True Wireless Galaxy Negro",
+   "tags": [
+    "liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9456816521429",
+   "title": "Baseus Bowie E13 True Wireless Moon Blanco",
+   "tags": [
+    "liquidacion"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9457216487637",
+   "title": "JBL Headphone Vibe Buds2 Rosado",
+   "tags": [
+    "Audio"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9464585945301",
+   "title": "Bitty Boomers Bocina Bluetooth Deadpool",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9464587485397",
+   "title": "Bitty Boomers Bocina Bluetooth Minion Bob",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9464587845845",
+   "title": "Bitty Boomers Bocina Bluetooth Star Wars Boba Bbf",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9464589156565",
+   "title": "Bitty Boomers Bocina Bluetooth Thanos Marvel",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9613269663957",
+   "title": "Smartwatch HiFuture Evo2 Sport – Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9613271498965",
+   "title": "Bocina HiFuture Gravity – Azul",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9613271859413",
+   "title": "Bocina HiFuture Gravity – Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9613272056021",
+   "title": "Bocina HiFuture Ripple – Azul",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/9613272187093",
+   "title": "Bocina HiFuture Ripple – Negro",
+   "tags": [],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15402874994901",
+   "title": "OhSnap Snap Grip MagSafe – Blazed Sunset",
+   "tags": [
+    "accesorios18promax"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15402875093205",
+   "title": "OhSnap Snap Grip MagSafe – Gator Fade",
+   "tags": [
+    "accesorios18promax"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15402875388117",
+   "title": "OhSnap Snap Grip MagSafe – Orchid Slap",
+   "tags": [
+    "accesorios18promax"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15402875453653",
+   "title": "OhSnap Snap Grip MagSafe – Pick Me Pink",
+   "tags": [
+    "accesorios18promax"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15420254322901",
+   "title": "Funda Galaxy S21 Ultra",
+   "tags": [],
+   "inventoryPolicy": "CONTINUE",
+   "accion": "venta-sin-stock"
+  },
+  {
+   "id": "gid://shopify/Product/15439858991317",
+   "title": "Amazon Alexa Echo Studio (modelo más reciente)",
+   "tags": [],
+   "inventoryPolicy": "CONTINUE",
+   "accion": "venta-sin-stock"
+  },
+  {
+   "id": "gid://shopify/Product/15513933021397",
+   "title": "MyBat Vidrio para Cámara Galaxy S24 Clear",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "liquidacion",
+    "pendiente-imagen",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15513933054165",
+   "title": "MyBat Vidrio para Cámara Galaxy S24 Plus Clear",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "liquidacion",
+    "pendiente-imagen",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15513933086933",
+   "title": "Nimbus9 Stratus MagSafe Galaxy S23 Leaves",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "liquidacion",
+    "pendiente-imagen",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15513933152469",
+   "title": "ITSkins Ballistic MagSafe Galaxy S24 Plus Negro",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "liquidacion",
+    "pendiente-imagen",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  },
+  {
+   "id": "gid://shopify/Product/15513933218005",
+   "title": "ITSkins Hybrid Clear MagSafe Galaxy Z Fold 5 Transparente/Morado",
+   "tags": [
+    "casessamsung",
+    "Galaxyweek",
+    "liquidacion",
+    "pendiente-imagen",
+    "Samsung"
+   ],
+   "inventoryPolicy": "DENY",
+   "accion": "Out of stock"
+  }
+ ]
+}
