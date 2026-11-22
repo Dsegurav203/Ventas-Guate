@@ -10,3 +10,7 @@
 - Marca creada en Odoo (`product.brand` id 265). Vendor "Ventas Guate" → "Reelcharge" en los 8 productos de Shopify.
 - Colección nueva `/collections/reelcharge` (id 536141463765, automática vendor = Reelcharge, más vendidos), publicada en la tienda en línea, con SEO y texto de la propuesta.
 - Portada especial: `banner-marca-reelcharge.jpg` (2400×750) hecha con la foto oficial de reelcharge.com + logo + texto en español (`seo/colecciones_marcas/reelcharge_portada/`). Área de marca con la historia oficial (reelcharge.com/pages/our-story).
+
+## Targus y Apple (22/11/2026)
+- Apple (`/collections/apple`, id 505692225749): la condición era solo el metacampo de marca (vacío) → 0 productos. Se agregó "vendor = Apple" (matchType ANY) → 58.
+- Targus (`/collections/targus`, título contiene TARGUS + inventario > 0): mostraba solo lo publicado. 37 de 56 sin publicar. Publicados 6 con fotos y stock (Classic Topload Grey, Protek iPad Blue, Safe Fit 360, Strata Slipcase, Versavu teclado, Folding Keyboard). 24 sin fotos/descripción (vendor "Ventas Guate"): propuesta en `seo/targus_fichas/`.
