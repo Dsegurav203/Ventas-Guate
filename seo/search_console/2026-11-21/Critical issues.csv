@@ -1,0 +1,10 @@
+Reason,Source,Validation,Pages
+Blocked due to other 4xx issue,Website,Failed,61
+Alternate page with proper canonical tag,Website,Not Started,3322
+Not found (404),Website,Not Started,1631
+Excluded by ‘noindex’ tag,Website,Not Started,453
+Page with redirect,Website,Not Started,325
+Blocked by robots.txt,Website,Not Started,8
+Server error (5xx),Website,Not Started,6
+Crawled - currently not indexed,Google systems,Not Started,214
+Discovered - currently not indexed,Google systems,Not Started,109
