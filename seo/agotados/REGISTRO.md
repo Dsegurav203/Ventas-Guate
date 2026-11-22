@@ -143,3 +143,4 @@ Siguiente paso (Diego, en Admin): filtrar Productos por etiqueta `Out of stock` 
 
 Cómo revertir: para cada id del JSON con `accion` = `Out of stock` o `venta-sin-stock`, ejecutar
 `tagsRemove(id:"gid://shopify/Product/…", tags:["Out of stock"])` (o `["venta-sin-stock"]`), en lotes de 50 con alias. Las etiquetas previas quedan en el campo `tags` del JSON.
+- 22/11 (cierre): Diego activó Flow (con condición `venta-sin-stock`) y excluyó de la Tienda online los 187 `Out of stock`. Verificado: 0 agotados publicados con esa etiqueta; solo quedan publicados sin stock los 6 `venta-sin-stock` (a propósito). Desde ahora Flow oculta al agotarse y republica al reponer.
