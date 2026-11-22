@@ -47,7 +47,7 @@ def family(complete_name):
 DATASETS = {
     "corte": ("Corte de datos", "Fecha de corte, hora de generación y tipo de cambio del archivo diario."),
     "ventas_dia": ("Venta diaria por canal (90 días)", "Venta sin IVA, margen y tickets por día y canal (pedidos y POS)."),
-    "mensual": ("Venta mensual por canal", "Venta sin IVA y margen por mes y canal desde enero del año anterior."),
+    "mensual": ("Venta mensual por canal", "Venta sin IVA y margen por mes y canal desde enero de hace 3 años."),
     "comparativos": ("Comparativos al mismo corte", "Mes en curso contra mes anterior y mismo mes del año anterior al mismo día; YTD contra año anterior."),
     "familias": ("Margen por familia (90 días)", "Venta, margen y unidades por familia de categoría; Apple separado."),
     "marcas": ("Margen por marca (90 días)", "Las 40 marcas con más venta en 90 días."),
@@ -124,7 +124,7 @@ def main():
         row["tickets"] = tick.get((row["fecha"], row["canal"]), 0)
 
     mens = collections.defaultdict(lambda: {"venta": 0.0, "margen": 0.0})
-    for r in G("sale.report", ["date:month", "team_id"], ["price_subtotal:sum", "margin:sum"], [SALE_OK, ["date", ">=", utc(prev_y0)], ["date", "<", utc(nxt)]]):
+    for r in G("sale.report", ["date:month", "team_id"], ["price_subtotal:sum", "margin:sum"], [SALE_OK, ["date", ">=", utc(ytd0.replace(year=ytd0.year - 3))], ["date", "<", utc(nxt)]]):
         m = r["__range"]["date:month"]["from"][:7]
         k = (m, CANAL.get(rel(r["team_id"]), "Otros"))
         mens[k]["venta"] += r["price_subtotal"] or 0
@@ -247,7 +247,7 @@ def main():
             log.append({"tipo": label, "operacion": rel(r["picking_type_id"], 1), "pendientes": r["__count"], "atrasados": late})
     out["logistica"] = sorted(log, key=lambda r: -r["atrasados"])
     out["compras_transito"] = [{"oc": p["name"], "proveedor": rel(p["partner_id"], 1), "fecha_esperada": (p["date_planned"] or "")[:10], "monto": p["amount_untaxed"], "moneda": rel(p["currency_id"], 1)}
-                               for p in o.call("purchase.order", "search_read", domain=[["state", "=", "purchase"], ["receipt_status", "!=", "full"]],
+                               for p in o.call("purchase.order", "search_read", domain=[["state", "=", "purchase"], ["receipt_status", "in", ["pending", "partial"]]],
                                                fields=["name", "partner_id", "date_planned", "amount_untaxed", "currency_id"], order="date_planned asc", limit=50)]
     adj = G("stock.move", ["create_uid"], ["product_uom_qty:sum"], [["is_inventory", "=", True], ["state", "=", "done"], ["date", ">=", utc(cut - dt.timedelta(days=29))]])
     out["ajustes_30d"] = [{"usuario": rel(r["create_uid"], 1), "movimientos": r["__count"], "unidades": round(r["product_uom_qty"] or 0)} for r in adj]
