@@ -7,3 +7,4 @@
   - 4 LOGiiX Cabrio iPad apuntaban a `/collections/ipads-seminuevas` (que es a su vez una redirección) → creadas hacia `/collections/logiix`.
 - Las redirecciones de Shopify solo actúan si la URL da 404: un producto republicado (Flow) se muestra normal.
 - Revertir: `urlRedirectDelete(id)` con los IDs de `aplicado/`.
+- IDs LOGiiX: 776892154069, 776892186837, 776892219605, 776892252373 (gid://shopify/UrlRedirect/…).
