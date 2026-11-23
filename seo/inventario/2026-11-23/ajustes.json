@@ -1,0 +1,28 @@
+[
+ [
+  {
+   "inventoryItemId": "gid://shopify/InventoryItem/54338716270805",
+   "locationId": "gid://shopify/Location/84277264597",
+   "quantity": 174,
+   "changeFromQuantity": 0
+  },
+  {
+   "inventoryItemId": "gid://shopify/InventoryItem/54338716532949",
+   "locationId": "gid://shopify/Location/84277264597",
+   "quantity": 280,
+   "changeFromQuantity": 0
+  },
+  {
+   "inventoryItemId": "gid://shopify/InventoryItem/54338717384917",
+   "locationId": "gid://shopify/Location/84277264597",
+   "quantity": 1,
+   "changeFromQuantity": 0
+  },
+  {
+   "inventoryItemId": "gid://shopify/InventoryItem/54338717810901",
+   "locationId": "gid://shopify/Location/84277264597",
+   "quantity": 61,
+   "changeFromQuantity": 0
+  }
+ ]
+]

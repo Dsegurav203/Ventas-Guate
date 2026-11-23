@@ -26,3 +26,4 @@ Fichas "Reserva" (inventario manual a propósito), variantes con política CONTI
 
 ## Registro
 - 2026-11-21: primer cruce aplicado (154 ajustes). Ligadas 72 variantes publicadas por SKU (`2026-11-21/ligar_aplicado.json`) y corregidas 39 cantidades (p. ej. Protection Pro Ultra HD Small 1,775 → 319, Omni TC Small 825 → 0). Omitidas 154: 113 sin código en Odoo (102 son iPhone por número de serie/IMEI), 24 cuyo producto de Odoo ya está ligado a otra ficha (duplicados en Shopify, p. ej. HiFuture FlexClip), 17 sin SKU en Shopify. Detalle en `2026-11-21/ligar_propuesta.json`.
+- 2026-11-23: 4 ajustes falta-en-web (516 u.), 0 sobreventa. **No aplicado**: un ajuste > 200 u. (Protection Pro Lámina Ultra XS Matte 0 → 280) activa el umbral; esperando confirmación de Diego. 156 publicadas sin capa (mayoría iPhone/iPad seminuevos por serie, combos, Govee, duplicados HiFuture FlexClip con 524 y 424 u. en Shopify).
