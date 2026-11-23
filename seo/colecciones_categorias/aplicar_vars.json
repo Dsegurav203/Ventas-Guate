@@ -1,0 +1,118 @@
+{
+ "u": {
+  "id": "gid://shopify/Collection/517237080277",
+  "title": "Mochilas y bolsos",
+  "handle": "mochilas-y-bolsos",
+  "redirectNewHandle": true,
+  "descriptionHtml": "<p>Encuentra <strong>mochilas para laptop</strong> y bolsos originales en Guatemala de Targus y Tucano, para la oficina, la universidad o el viaje.</p>\n<h2>Mochilas para laptop</h2>\n<p>De Targus: Ascend, Sport, Mobile Elite, Pro-Tek y Avila para laptops de 15 y 16 pulgadas. De Tucano: Gommo City y Roll-Top, Modo Premium de 14 y 16 pulgadas y Let Me Out, incluidas mochilas plegables.</p>\n<h2>Maletines, bolsos y shoppers</h2>\n<p>Maletín Tucano Modo Premium, Gommo Shoulder Bag, bolsos delgados Isotta Superslim de 13-14 y 16 pulgadas y Targus Classic Topload. Para el día a día, Gommo Shopper Bag y Let Me Out Shopper, Saddle y Weekender Bag.</p>\n<p>¿Solo quieres proteger la laptop? Mira los <a href=\"/collections/sleeves\">sleeves para laptop</a> y completa tu escritorio con <a href=\"/collections/perifericos\">periféricos</a>.</p>\n<h2>Preguntas frecuentes</h2>\n<p><strong>¿Qué tamaño necesito?</strong><br>Revisa las pulgadas de la pantalla de tu laptop: cada modelo indica el tamaño que admite, por ejemplo 13-14\" o 15-16\".</p>\n<p><strong>¿Tienen garantía?</strong><br>Sí, 1 año por defectos de fabricación. Todos los productos son originales.</p>\n<p><strong>¿Hacen envíos?</strong><br>Sí, a toda Guatemala con pago contra entrega: Ciudad de Guatemala el mismo día e interior al día siguiente. También puedes comprar en nuestra tienda en zona 13, Ciudad de Guatemala.</p>",
+  "seo": {
+   "title": "Mochilas para Laptop y Bolsos en Guatemala | Ventas Guate",
+   "description": "Mochilas para laptop, maletines y bolsos originales Targus y Tucano en Guatemala, para oficina, universidad y viaje. Envío a todo el país contra entrega."
+  },
+  "sortOrder": "BEST_SELLING",
+  "sourcesToDelete": [
+   "gid://shopify/CollectionConditionsSource/11722850517"
+  ],
+  "sourcesToCreate": [
+   {
+    "source": {
+     "title": "Categoría",
+     "targetType": "PRODUCTS",
+     "inclusion": {
+      "matchType": "ALL",
+      "conditions": [
+       {
+        "productTag": {
+         "relation": "TAGGED_WITH",
+         "values": [
+          "cat-mochilas-bolsos"
+         ]
+        }
+       },
+       {
+        "variantInventory": {
+         "relation": "GREATER_THAN",
+         "value": 0
+        }
+       }
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "s": {
+  "title": "Sleeves para laptop",
+  "handle": "sleeves",
+  "descriptionHtml": "<p><strong>Sleeves y fundas para laptop</strong> y MacBook en Guatemala: protección delgada para llevar tu computadora sola o dentro de tu mochila.</p>\n<h2>13 y 14 pulgadas</h2>\n<p>Targus Chromatic Sleeve 13-14\", Tucano Gommo Sleeve 13/14, MOFT Carry Sleeve 13.3\" para MacBook Air y 14\", y MyBat Pro Sleeve 13\".</p>\n<h2>15 y 16 pulgadas</h2>\n<p>Targus Chromatic Sleeve 15-16\", Targus Strata Slipcase y Business Casual Slipcase, Tucano Gommo Sleeve 16\", MOFT Carry Sleeve 15/16\" y 16\", y MyBat Pro Sleeve 15\".</p>\n<p>Si necesitas espacio para cargador y documentos, mira <a href=\"/collections/mochilas-y-bolsos\">mochilas y bolsos</a>.</p>\n<h2>Preguntas frecuentes</h2>\n<p><strong>¿Cómo elijo el tamaño?</strong><br>Revisa las pulgadas de la pantalla de tu laptop y elige el sleeve de ese rango, por ejemplo 13-14\" o 15-16\".</p>\n<p><strong>¿Tienen garantía?</strong><br>Sí, 1 año por defectos de fabricación. Todos los productos son originales.</p>\n<p><strong>¿Hacen envíos?</strong><br>Sí, a toda Guatemala con pago contra entrega: Ciudad de Guatemala el mismo día e interior al día siguiente. También puedes comprar en nuestra tienda en zona 13, Ciudad de Guatemala.</p>",
+  "seo": {
+   "title": "Sleeves y Fundas para Laptop en Guatemala | Ventas Guate",
+   "description": "Sleeves y fundas para laptop y MacBook de 13 a 16 pulgadas: Targus, Tucano, MOFT y MyBat originales en Guatemala. Envío a todo el país contra entrega."
+  },
+  "sortOrder": "BEST_SELLING",
+  "sources": [
+   {
+    "source": {
+     "title": "Categoría",
+     "targetType": "PRODUCTS",
+     "inclusion": {
+      "matchType": "ALL",
+      "conditions": [
+       {
+        "productTag": {
+         "relation": "TAGGED_WITH",
+         "values": [
+          "cat-sleeves"
+         ]
+        }
+       },
+       {
+        "variantInventory": {
+         "relation": "GREATER_THAN",
+         "value": 0
+        }
+       }
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "p": {
+  "title": "Periféricos",
+  "handle": "perifericos",
+  "descriptionHtml": "<p><strong>Periféricos</strong> originales en Guatemala para trabajar mejor: mouse, teclados, docking stations y accesorios de escritorio de Targus, JLab, Tucano, Prodigee y HyperGear.</p>\n<h2>Mouse</h2>\n<p>Targus ErgoFlip ergonómico, Hyper Space Bluetooth, ANW50 inalámbrico y Multi Device Compact.</p>\n<h2>Teclados</h2>\n<p>Targus Hyperspace, Multi Device Midsize, Ergonomic EcoSmart, plegable y Bluetooth para tablet y teléfono; JLab Go, solo o en combo con mouse; Tucano Scrivo en español y Prodigee Keeper plegable con touchpad.</p>\n<h2>Docking, bases y escritorio</h2>\n<p>Docking Station USB-C Targus, docks Hyper HD Flex, base Targus Portable Laptop Stand con hub, bases enfriadoras Chill Mat, webcam HyperGear Hyperstream 1080p, cubierta de webcam Spy Guard y presentador Targus Control Plus con láser.</p>\n<p>Para transportar tu equipo, mira <a href=\"/collections/mochilas-y-bolsos\">mochilas y bolsos</a> y <a href=\"/collections/sleeves\">sleeves para laptop</a>.</p>\n<h2>Preguntas frecuentes</h2>\n<p><strong>¿Tienen garantía?</strong><br>Sí, 1 año por defectos de fabricación. Todos los productos son originales.</p>\n<p><strong>¿Hacen envíos?</strong><br>Sí, a toda Guatemala con pago contra entrega: Ciudad de Guatemala el mismo día e interior al día siguiente. También puedes comprar en nuestra tienda en zona 13, Ciudad de Guatemala.</p>",
+  "seo": {
+   "title": "Periféricos: Mouse, Teclados y Docking | Ventas Guate",
+   "description": "Mouse, teclados, docking stations, bases para laptop y webcam originales en Guatemala: Targus, JLab, Tucano, Prodigee y Hyper. Envío a todo el país."
+  },
+  "sortOrder": "BEST_SELLING",
+  "sources": [
+   {
+    "source": {
+     "title": "Categoría",
+     "targetType": "PRODUCTS",
+     "inclusion": {
+      "matchType": "ALL",
+      "conditions": [
+       {
+        "productTag": {
+         "relation": "TAGGED_WITH",
+         "values": [
+          "cat-perifericos"
+         ]
+        }
+       },
+       {
+        "variantInventory": {
+         "relation": "GREATER_THAN",
+         "value": 0
+        }
+       }
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
