@@ -33,3 +33,7 @@ Antes: vendor "Ventas Guate", sin tipo, sin descripción, sin SEO, sin imagen, e
 - **Talla del SKU 6975820900820 (MB002-1-13B-PEWH)**: Odoo lo llama "13.3\" MacBook Air", pero según el fabricante el código 13B es la talla 14" (le queda a MacBook Air 13.3"/13.6"). El título en Shopify refleja ambas cosas. Conviene confirmar físicamente la etiqueta de la caja.
 - **Odoo sin actualizar** (esta tarea era solo lectura en Odoo): replicar los 5 títulos nuevos en `product.template` y en la capa `shopify.product.template.ept` (regla 5 de ECOMMERCE_SEO.md) y, si aplica, la marca/vendor.
 - Hyper Flex 9 en Odoo se llama "White"; el fabricante lo vende como "Brilliant Blue" (blanco con azul).
+
+## 2026-11-23 · Odoo (aprobado por Diego)
+- Títulos replicados en product.template (es_GT y en_US): ids 14024, 14025, 14026, 14028, 14643 (`odoo_titulos_plan.json` con el nombre anterior).
+- Capas del conector creadas por SKU para las 5 variantes (`ligar/ligar_aplicado.json`), stock ya igual a Odoo (sin ajustes).

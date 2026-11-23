@@ -1,0 +1,70 @@
+{
+ "ligar": [
+  {
+   "variant_id": "68045042155733",
+   "sku": "6975820900790",
+   "titulo": "",
+   "shopify_tmpl_id": "15480774623445",
+   "inventory_item_id": "70036354269397",
+   "product_id": 13947,
+   "odoo": "[MB002-1-16-PEWH] MOFT Carry Sleeve para Laptop 15 y 16 Pulgadas Beach White",
+   "product_tmpl_id": 14024,
+   "default_code": "MB002-1-16-PEWH",
+   "qty_libre": 19,
+   "qty_shopify": 19
+  },
+  {
+   "variant_id": "68045042188501",
+   "sku": "6972243542309",
+   "titulo": "",
+   "shopify_tmpl_id": "15480774656213",
+   "inventory_item_id": "70036354302165",
+   "product_id": 13948,
+   "odoo": "[MB002-1-13B-BK] MOFT Carry Sleeve para Laptop 14 Pulgadas Negro",
+   "product_tmpl_id": 14025,
+   "default_code": "MB002-1-13B-BK",
+   "qty_libre": 38,
+   "qty_shopify": 38
+  },
+  {
+   "variant_id": "68045042221269",
+   "sku": "6972243546932",
+   "titulo": "",
+   "shopify_tmpl_id": "15480774688981",
+   "inventory_item_id": "70036354334933",
+   "product_id": 13949,
+   "odoo": "[MB002-1-16-BK] MOFT Carry Sleeve para Laptop 15 y 16 Pulgadas Negro",
+   "product_tmpl_id": 14026,
+   "default_code": "MB002-1-16-BK",
+   "qty_libre": 19,
+   "qty_shopify": 19
+  },
+  {
+   "variant_id": "68045043957973",
+   "sku": "6975820900820",
+   "titulo": "",
+   "shopify_tmpl_id": "15480775409877",
+   "inventory_item_id": "70036356071637",
+   "product_id": 13951,
+   "odoo": "[MB002-1-13B-PEWH] MOFT Carry Sleeve para MacBook Air 13 y Laptop 14 Pulgadas Beach White",
+   "product_tmpl_id": 14028,
+   "default_code": "MB002-1-13B-PEWH",
+   "qty_libre": 40,
+   "qty_shopify": 40
+  },
+  {
+   "variant_id": "68045058932949",
+   "sku": "810156700729",
+   "titulo": "",
+   "shopify_tmpl_id": "15480780521685",
+   "inventory_item_id": "70036371046613",
+   "product_id": 14566,
+   "odoo": "[HD4103BUGL] Hyper HyperDrive Flex Dock USB-C 9 Puertos Dual 4K HDMI Blanco y Azul",
+   "product_tmpl_id": 14643,
+   "default_code": "HD4103BUGL",
+   "qty_libre": 4,
+   "qty_shopify": 4
+  }
+ ],
+ "omitidos": []
+}
