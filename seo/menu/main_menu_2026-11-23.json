@@ -1,0 +1,158 @@
+{
+ "id": "gid://shopify/Menu/241182277845",
+ "title": "Main menu",
+ "handle": "main-menu",
+ "items": [
+  {
+   "title": "iPhone 18",
+   "type": "COLLECTION",
+   "url": "/collections/reservas",
+   "items": [
+    {
+     "title": "iPhone Duo",
+     "type": "COLLECTION",
+     "url": "/collections/iphone-duo",
+     "items": [],
+     "id": "gid://shopify/MenuItem/669042835669",
+     "resourceId": "gid://shopify/Collection/532812103893"
+    },
+    {
+     "title": "iPhone 18 Pro / 18 Pro Max",
+     "type": "COLLECTION",
+     "url": "/collections/reservas",
+     "items": [],
+     "id": "gid://shopify/MenuItem/640401670357",
+     "resourceId": "gid://shopify/Collection/528406511829"
+    },
+    {
+     "title": "Fundas iPhone 18/18 Pro/ 18 Pro Max / iPhone Duo",
+     "type": "COLLECTION",
+     "url": "/collections/iphone-18",
+     "items": [],
+     "id": "gid://shopify/MenuItem/664866619605",
+     "resourceId": "gid://shopify/Collection/528474570965"
+    },
+    {
+     "title": "Accesorios iPhone 18 Pro Max",
+     "type": "COLLECTION",
+     "url": "/collections/accesorios-iphone-18-pro-max",
+     "items": [],
+     "id": "gid://shopify/MenuItem/664866390229",
+     "resourceId": "gid://shopify/Collection/531095453909"
+    },
+    {
+     "title": "iPhone Seminuevos",
+     "type": "COLLECTION",
+     "url": "/collections/seminuevos",
+     "items": [],
+     "id": "gid://shopify/MenuItem/617431859413",
+     "resourceId": "gid://shopify/Collection/511044190421"
+    }
+   ],
+   "id": "gid://shopify/MenuItem/599945740501",
+   "resourceId": "gid://shopify/Collection/528406511829"
+  },
+  {
+   "title": "Categorías",
+   "type": "HTTP",
+   "url": "#",
+   "items": [
+    {
+     "title": "Audio",
+     "type": "COLLECTION",
+     "url": "/collections/audio",
+     "items": [],
+     "id": "gid://shopify/MenuItem/592334422229",
+     "resourceId": "gid://shopify/Collection/504929747157"
+    },
+    {
+     "title": "Cases",
+     "type": "COLLECTION",
+     "url": "/collections/cases",
+     "items": [],
+     "id": "gid://shopify/MenuItem/592334454997",
+     "resourceId": "gid://shopify/Collection/503914463445"
+    },
+    {
+     "title": "Carga MagSafe",
+     "type": "COLLECTION",
+     "url": "/collections/carga-magsafe",
+     "items": [],
+     "id": "gid://shopify/MenuItem/674367504597",
+     "resourceId": "gid://shopify/Collection/509936238805"
+    },
+    {
+     "title": "Conectividad",
+     "type": "COLLECTION",
+     "url": "/collections/conectividad-1",
+     "items": [],
+     "id": "gid://shopify/MenuItem/617431793877",
+     "resourceId": "gid://shopify/Collection/516510515413"
+    },
+    {
+     "title": "Mochilas y bolsos",
+     "type": "COLLECTION",
+     "url": "/collections/mochilas-y-bolsos",
+     "items": [],
+     "id": "gid://shopify/MenuItem/674367537365",
+     "resourceId": "gid://shopify/Collection/517237080277"
+    },
+    {
+     "title": "Sleeves para laptop",
+     "type": "COLLECTION",
+     "url": "/collections/sleeves",
+     "items": [],
+     "resourceId": "gid://shopify/Collection/536262508757"
+    },
+    {
+     "title": "Periféricos",
+     "type": "COLLECTION",
+     "url": "/collections/perifericos",
+     "items": [],
+     "resourceId": "gid://shopify/Collection/536262541525"
+    },
+    {
+     "title": "Smartwatch",
+     "type": "COLLECTION",
+     "url": "/collections/smartwatch",
+     "items": [],
+     "id": "gid://shopify/MenuItem/674367570133",
+     "resourceId": "gid://shopify/Collection/511661146325"
+    },
+    {
+     "title": "Targus",
+     "type": "COLLECTION",
+     "url": "/collections/targus",
+     "items": [],
+     "id": "gid://shopify/MenuItem/674367602901",
+     "resourceId": "gid://shopify/Collection/524668469461"
+    }
+   ],
+   "id": "gid://shopify/MenuItem/592334160085"
+  },
+  {
+   "title": "Marcas",
+   "type": "PAGE",
+   "url": "/pages/marcas",
+   "items": [],
+   "id": "gid://shopify/MenuItem/591737585877",
+   "resourceId": "gid://shopify/Page/582676906197"
+  },
+  {
+   "title": "Promociones",
+   "type": "COLLECTION",
+   "url": "/collections/promociones",
+   "items": [],
+   "id": "gid://shopify/MenuItem/599947477205",
+   "resourceId": "gid://shopify/Collection/509070541013"
+  },
+  {
+   "title": "Guías",
+   "type": "BLOG",
+   "url": "/blogs/guias",
+   "items": [],
+   "id": "gid://shopify/MenuItem/669096378581",
+   "resourceId": "gid://shopify/Blog/99227795669"
+  }
+ ]
+}
