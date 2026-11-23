@@ -1,0 +1,25 @@
+{
+ "res.company/1": [
+  {
+   "id": 1,
+   "company_details": "<p>Buyitwithus, S.A.<br>\nDiagonal 6, 12-42 Edificio Design Center  2 Nivel Local 212, Zona 10<br>\n<br>\nGuatemala GUA 01010<br>\nGuatemala</p>"
+  }
+ ],
+ "res.partner/16323": [
+  {
+   "id": 16323,
+   "name": "9 Calle 15-45 oficina 101 Zona 13, Plaza Trafalgar",
+   "street": false,
+   "street2": false,
+   "city": false,
+   "zip": false,
+   "country_id": false
+  }
+ ],
+ "stock.warehouse/1": [
+  {
+   "id": 1,
+   "name": "Bodega Sotano 3"
+  }
+ ]
+}
