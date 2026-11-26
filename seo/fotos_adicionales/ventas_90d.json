@@ -1,0 +1,508 @@
+{
+ "fecha": "2026-11-26",
+ "query": "FROM sales SHOW net_sales, net_items_sold GROUP BY product_title SINCE -90d UNTIL today ORDER BY net_sales DESC LIMIT 300",
+ "moneda": "GTQ",
+ "nota": "La API devolvió 100 filas (todas las de ventas > 0 incluidas). Fila con título vacío = ventas sin producto (p. ej. montos personalizados).",
+ "rows": [
+  {
+   "product_title": "",
+   "net_sales": 9000.0,
+   "net_items_sold": 6
+  },
+  {
+   "product_title": "Audífonos Skullcandy Sesh ANC Active True Wireless – Negro/Naranja",
+   "net_sales": 1797.0,
+   "net_items_sold": 3
+  },
+  {
+   "product_title": "JBL Tune Flex 2 True Wireless NC Dual Microphone Ghost White",
+   "net_sales": 1497.0,
+   "net_items_sold": 3
+  },
+  {
+   "product_title": "Audífonos Bluetooth Mondo Freestyle Transparent",
+   "net_sales": 1298.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Amazon Echo Dot 5ta Generación con Alexa – Azul",
+   "net_sales": 1198.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Prodigee Kevo iPhone 18 Pro Max/17 Pro Max Black",
+   "net_sales": 1198.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Backbone One PlayStation Android/ USB-C Blanco",
+   "net_sales": 939.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Blackout iPhone 18 Pro Max/17 Pro Max Negro",
+   "net_sales": 897.0,
+   "net_items_sold": 3
+  },
+  {
+   "product_title": "Prodigee MagPower to-Go Slim 5K Metallic",
+   "net_sales": 790.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Skullcandy Rail True Wireless Bone Orange",
+   "net_sales": 710.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Prodigee Edge iPhone 18 Pro Max/17 Pro Max Grey",
+   "net_sales": 698.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "JBL Grip Waterproof Bluetooth Black",
+   "net_sales": 599.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Reelcharge Reelsafe Powerbank 10000mAh Semi Solido Gris",
+   "net_sales": 599.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Caseco Screen Patrol Vidrio para Cámara iPhone 17 Pro Max Silver",
+   "net_sales": 597.0,
+   "net_items_sold": 3
+  },
+  {
+   "product_title": "JBL Endurance Peak 3 Sport Blanco",
+   "net_sales": 541.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Smartwatch HiFuture Aurora Sport – Azul",
+   "net_sales": 530.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "JBL Quantum 360P Audífono Gaming Blanco",
+   "net_sales": 483.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "FNT funda iPhone Duo negro matte con vidrio templado y stand",
+   "net_sales": 449.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Nimbus9 Cirrus3 Galaxy Z Fold 8 Ultra Black",
+   "net_sales": 399.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Duo JLAB Studio +",
+   "net_sales": 399.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Nimbus9 Cirrus3 Galaxy Z Fold 8 Black",
+   "net_sales": 399.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Audífonos Skullcandy Dime Evo – Blanco",
+   "net_sales": 389.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Jogger iPhone 18 Pro Max/17 Pro Max Burgundy",
+   "net_sales": 379.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Kickit iPhone 18 Pro Max/17 Pro Max Orange",
+   "net_sales": 379.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Smartwatch HiFuture Lume – Gold",
+   "net_sales": 369.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Flow iPhone 17 Pro Max Desert",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Flow iPhone 17 Pro Desert",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "PopSockets Wallet+ MagSafe Negro",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Formula iPhone 16 Pro Max Gris",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Superstar iPhone 17 Space",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Orbit 360 iPhone 18 Pro/17 Pro Burgundy",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Edge iPhone 18 Pro Max/17 Pro Max Rosado",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Jogger Galaxy S26 Ultra Blue",
+   "net_sales": 349.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Gunnar Intercept Cristal/Amber Focusing",
+   "net_sales": 345.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Orbit 360 iPhone 18 Pro Max/17 Pro Max Burgundy",
+   "net_sales": 322.15,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Baseus Eli Sport Open-Ear TWS Earbuds Blanco Verde",
+   "net_sales": 315.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Super Hero iPhone 18 Pro Max/17 Pro Max Navy",
+   "net_sales": 299.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Audífonos Skullcandy Dime 3 True Wireless – Negro",
+   "net_sales": 299.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Super Hero iPhone 17 Pro Navy",
+   "net_sales": 299.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Blackout iPhone 18 Pro/17 Pro Black",
+   "net_sales": 299.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Orbit 360 iPhone 18/17 Pro Smoke",
+   "net_sales": 296.65,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Caseco iPhone 17 Pro Max Blue Floral",
+   "net_sales": 296.65,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Orbit 360 iPhone 18 Pro Max/17 Pro Max Smoke",
+   "net_sales": 296.65,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Safetee Flow iPhone 15 Pro Desert",
+   "net_sales": 290.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "PopSockets MagSafe Premium Opalescent Blue",
+   "net_sales": 279.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Magneteek iPhone 18 Pro Max/17 Pro Max Blanco",
+   "net_sales": 254.15,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Magneteek iPhone 18 Pro/17 Pro Negro",
+   "net_sales": 254.15,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Super Hero Galaxy S25 Ultra Clear",
+   "net_sales": 250.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Bombilla LED Inteligente Amazon Basics A19 – Compatible con Alexa - PACK DE 8",
+   "net_sales": 237.0,
+   "net_items_sold": 3
+  },
+  {
+   "product_title": "Prodigee Flow iPhone 17 Air Night Frost",
+   "net_sales": 209.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Avana Velvet MagSafe Galaxy S24 Ultra Lavender",
+   "net_sales": 195.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Bocina HiFuture Mega S con Carga Inalámbrica MagSafe – Negro",
+   "net_sales": 194.65,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Balance Galaxy S25 Plus Negro",
+   "net_sales": 175.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Tucano Scrivo Keyboard Spanish Blue",
+   "net_sales": 174.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Energee Cargador de Pared 40W Negro",
+   "net_sales": 167.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Prodigee Sidekick iPhone 15 Pro Max Negro",
+   "net_sales": 149.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost",
+   "net_sales": 149.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Safetee Neo iPhone 15 Pro Fuchsia",
+   "net_sales": 145.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Spigen Core Armor iPhone 15 Pro Negro",
+   "net_sales": 145.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee iPhone 15 Pro Glow",
+   "net_sales": 145.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Kickit iPhone 15 Pro Rosado",
+   "net_sales": 145.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Super Hero Galaxy S26 Smoke",
+   "net_sales": 135.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Hero + Mag Galaxy S26 Ultra Clear",
+   "net_sales": 125.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Glow Galaxy S25 Ultra",
+   "net_sales": 115.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Glow Galaxy S23 Clear",
+   "net_sales": 115.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "ITSkins Spectrum Galaxy S23 Clear",
+   "net_sales": 115.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "PopSockets MagSafe Premium Verde Neon",
+   "net_sales": 105.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Magneteek iPhone 15 Pro Negro",
+   "net_sales": 99.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Safetee Neo iPhone 15 Pro Ocean",
+   "net_sales": 99.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Kickit iPhone 15 Pro Negro",
+   "net_sales": 99.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Adventurer Case Galaxy S24 FE",
+   "net_sales": 95.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Bitty Boomers Bocina Bluetooth Star Wars Storm Trooper",
+   "net_sales": 95.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "LAUT Link Mini Caja con Cable/Adaptadores 60W Negro",
+   "net_sales": 80.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "CLCKR Carbón MagSafe iPhone 15 Pro Max",
+   "net_sales": 79.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "MyBat Pro Lux con Vidrio Templado iPhone 14 Pro Max Clear",
+   "net_sales": 75.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Prodigee Glow Galaxy S24 Plus",
+   "net_sales": 49.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "MyBat Pro Cable de Carga USB a Micro USB 6 Pies Negro",
+   "net_sales": 19.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "MyBat Pro Vidrio para Cámara iPhone 12 Pro Max Clear",
+   "net_sales": 15.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "MyBat Designed for iPhone 13 Clear",
+   "net_sales": 10.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Mello Cable Tipo C a Tipo C Blanco",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Combo Echo Dot 5ta Gen Negro + 3 Bombillos Smart – Alexa",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Wemiss Cubo de Carga 40W Tipo C",
+   "net_sales": 0.0,
+   "net_items_sold": 2
+  },
+  {
+   "product_title": "Noerden Minimi Bascula de Peso Bluetooth Negro",
+   "net_sales": 0.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "JBL Quantum 100 M2 Gaming con Micrófono Blanco",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Abxylute Consola Portátil 64GB Negro",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "iPhone 13 Pro 128GB Verde Alpino Seminuevo",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Prodigee Formula K1 Galaxy S26 Ultra Smoke",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Estuche Rígido Skullcandy para Backbone One",
+   "net_sales": 0.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "Urbanista Los Angeles Audífono Diadema Bluetooth Solar Negro",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "PopSockets Wallet+ MagSafe Azul",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Audífonos Skullcandy Crusher 540 Active – Coal",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "iPhone 12 Pro 256GB Grafito — Seminuevo",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Prodigee Jogger Galaxy S26 Ultra Midnight",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "MyBat Pro Fuse Galaxy S21 Plus Negro",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Xdoria Spartan iPhone X Púrpura",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "ZIZO Powervault 35W Powerbank 10,000MAH",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Function Smart Cable 60W USB-C to USB-C Digital Display 1.5m Indigo",
+   "net_sales": 0.0,
+   "net_items_sold": 18
+  },
+  {
+   "product_title": "Vidrio templado promocional iPhone 17 Pro Max",
+   "net_sales": 0.0,
+   "net_items_sold": 1
+  },
+  {
+   "product_title": "MyBat Pro Silicone Estuche Pcon Clip para Apple AirPods 2 Negro",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  },
+  {
+   "product_title": "Prodigee Magneteek iPhone 11 Negro",
+   "net_sales": 0.0,
+   "net_items_sold": 0
+  }
+ ]
+}
