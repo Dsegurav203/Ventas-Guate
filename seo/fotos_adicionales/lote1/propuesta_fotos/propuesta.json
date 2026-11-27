@@ -1,0 +1,747 @@
+{
+ "fecha": "2026-11-27",
+ "estado": "PROPUESTA – no aplicada; requiere aprobación de Diego antes de subir a Shopify",
+ "criterio": "Primeros 50 productos de prioridad.csv con vendor distinto de iTronics. Solo fotos oficiales del fabricante o de productos hermanos ya publicados; normalizadas 1200×1200, fondo blanco, JPEG <350 KB.",
+ "resumen": {
+  "productos": 50,
+  "con_fotos_nuevas": 12,
+  "fotos_nuevas": 30,
+  "sin_fuente": 38
+ },
+ "productos": [
+  {
+   "id": "gid://shopify/Product/9473658061013",
+   "handle": "amazon-alexa-echo-dot-5-0-parlante-inteligente-azul",
+   "title": "Amazon Echo Dot 5ta Generación con Alexa – Azul",
+   "vendor": "Amazon",
+   "sku": "840080523972",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/amazon-echo-dot-5ta-generacion-azul-alexa-guatemala.jpg?v=1794242594",
+   "fotos_nuevas": [],
+   "motivo": "amazon.com no es catálogo Shopify; el combo azul publicado solo tiene fotos de bombillos."
+  },
+  {
+   "id": "gid://shopify/Product/9149921722581",
+   "handle": "prodigee-safetee-flow-iphone-15-pro-desert",
+   "title": "Prodigee Safetee Flow iPhone 15 Pro Desert",
+   "vendor": "Prodigee",
+   "sku": "810023955177",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/17ca7381af7dfcb9147a80376d91d448.jpg?v=1783579818",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado desde la nube (HTTP 441); no hay hermano 15 Pro Desert con más fotos."
+  },
+  {
+   "id": "gid://shopify/Product/9149965566165",
+   "handle": "prodigee-safetee-flow-galaxy-s25-plus-night-frost",
+   "title": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost",
+   "vendor": "Prodigee",
+   "sku": "810023958024",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/06e018e5d1714e2aa4f9fb27ebd3c8e1.png?v=1783568967",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos S25 con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9150256021717",
+   "handle": "prodigee-sidekick-iphone-15-pro-max-negro",
+   "title": "Prodigee Sidekick iPhone 15 Pro Max Negro",
+   "vendor": "Prodigee",
+   "sku": "810023955641",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/c6ba3213d64f57f85fbfbaeb9f2e1b87_50dd08c7-bbe8-4c7f-887f-2dda35d5f723.jpg?v=1783566946",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; sin hermanos publicados."
+  },
+  {
+   "id": "gid://shopify/Product/9149922509013",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-fuschsia",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Fuchsia",
+   "vendor": "Prodigee",
+   "sku": "810023955375",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/566d939e982f2451ea2bcc0d374e55bb.jpg?v=1783579558",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos Safetee Neo 15 Pro con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9149954326741",
+   "handle": "spigen-core-armor-iphone-15-pro-negro",
+   "title": "Spigen Core Armor iPhone 15 Pro Negro",
+   "vendor": "Spigen",
+   "sku": "8809896747769",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/51d9bfd78c1c82c15d6e1e667fc27a75.jpg?v=1783571338",
+   "fuente": "spigen.com (catálogo oficial Spigen), iPhone 15 Series – Core Armor, variante iPhone 15 Pro Matte Black (ACS06466)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/spigen-core-armor-iphone-15-pro-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0808/0067/files/detail_web_iphone15_pro_corearmor_02.jpg",
+     "alt": "Spigen Core Armor iPhone 15 Pro negro – vista frontal",
+     "bytes": 195143,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/spigen-core-armor-iphone-15-pro-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0808/0067/files/detail_web_iphone15_pro_corearmor_05.jpg",
+     "alt": "Spigen Core Armor iPhone 15 Pro negro – bordes superior e inferior",
+     "bytes": 78728,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/spigen-core-armor-iphone-15-pro-negro/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0808/0067/files/detail_web_iphone15_pro_corearmor_07.jpg",
+     "alt": "Spigen Core Armor iPhone 15 Pro negro – flexibilidad del material",
+     "bytes": 95701,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Fondo gris claro original (#F6F6F6) convertido a blanco. Se eligieron vistas sin la parte trasera porque la foto actual muestra un aro circular (¿versión MagFit?)."
+  },
+  {
+   "id": "gid://shopify/Product/9149922869461",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-ocean",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Ocean",
+   "vendor": "Prodigee",
+   "sku": "810023954972",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/48ccbc65df1565176552ce1c884f4e2e_ae7e36fe-d2b7-4134-b131-cb1612c3bb43.jpg?v=1783579441",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos Safetee Neo 15 Pro con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9262560772309",
+   "handle": "l-mybat-pro-cable-de-carga-usb-a-micro-usb-6-pies-negro",
+   "title": "MyBat Pro Cable de Carga USB a Micro USB 6 Pies Negro",
+   "vendor": "MyBat",
+   "sku": "885126653282",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/c8fd6d43a9534cb235d06dbd409dcdce.jpg?v=1783551791",
+   "fotos_nuevas": [],
+   "motivo": "mybat.com ya no lista el cable USB-A a Micro USB (solo USB-C). Ojo: la foto actual parece de un cable USB-A a USB-C."
+  },
+  {
+   "id": "gid://shopify/Product/9149946822869",
+   "handle": "samsung-kit-de-carga-rapida-25w-tipo-c-negro-1",
+   "title": "Samsung Kit de Carga Rápida 25W Tipo C Negro",
+   "vendor": "Samsung",
+   "sku": "887276746913",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/8c47d292b2de3cea8f8a06a36709cd6a.png?v=1783577415",
+   "fotos_nuevas": [],
+   "motivo": "samsung.com no es catálogo Shopify descargable; sin hermano publicado."
+  },
+  {
+   "id": "gid://shopify/Product/9337797181653",
+   "handle": "laut-typefolio-2-0-keyboard-ipad-10-9-2022-black",
+   "title": "LAUT Typefolio 2.0 Keyboard iPad 10.9\" (2022) Black",
+   "vendor": "LAUT",
+   "sku": "4895206939270",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a2dff9bc93a1eb40882c2e5a4d516135.webp?v=1776814778",
+   "fuente": "itslaut.com (catálogo oficial LAUT), TYPEFOLIO 2.0 (variante iPad 10.9 2022, L_IPD22_TY2_BK); fotos compartidas entre tamaños",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-typefolio-2-0-keyboard-ipad-10-9-2022-black/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPP21_TF2_BK05_1a8a3001-27e0-44f3-8042-a8b23b845ab5.jpg",
+     "alt": "LAUT Typefolio 2.0 funda con teclado para iPad – vista abierta desde arriba",
+     "bytes": 117040,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-typefolio-2-0-keyboard-ipad-10-9-2022-black/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPP21_TF2_BK06_384163fb-24fd-4f13-8488-28c9fdde7106.jpg",
+     "alt": "LAUT Typefolio 2.0 funda con teclado para iPad – vista lateral con soporte",
+     "bytes": 51064,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-typefolio-2-0-keyboard-ipad-10-9-2022-black/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPP21_TF2_BK07_735ac355-5571-4863-85f6-0121532da17f.jpg",
+     "alt": "LAUT Typefolio 2.0 funda con teclado para iPad – teclado y trackpad",
+     "bytes": 93305,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Fotos compartidas por LAUT para todos los iPad de la línea. Se excluyeron las vistas posteriores (BK01/BK02) porque muestran el corte de cámara del iPad Pro."
+  },
+  {
+   "id": "gid://shopify/Product/9170874237141",
+   "handle": "prodigee-super-glass-camera-iphone-17-negro",
+   "title": "Prodigee Super Glass Camera iPhone 17 Negro",
+   "vendor": "Prodigee",
+   "sku": "810023958277",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0be6c3b105ed639e406b275877442b5e.webp?v=1762986335",
+   "fuente": "Producto hermano publicado en ventasguate.gt: foto actual de prodigee-super-glass-camera-iphone-17-air-black (muestra iPhone 17 con anillos negros)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/prodigee-super-glass-camera-iphone-17-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/fe3b5d93fd06d26ffb943f83d9d0de9b.webp",
+     "alt": "Prodigee Super Glass Camera iPhone 17 negro – protectores instalados en la cámara",
+     "bytes": 68593,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "DUDA: esa foto está hoy en el producto 'iPhone 17 Air Black' pero muestra 2 cámaras (iPhone 17), no el Air (1 cámara). Encaja con este producto."
+  },
+  {
+   "id": "gid://shopify/Product/15480770953429",
+   "handle": "laut-typefolio-2-0-keyboard-ipad-11-2024-black",
+   "title": "LAUT Typefolio 2.0 Keyboard iPad 11\" (2024) Black",
+   "vendor": "LAUT",
+   "sku": "4895206941372",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480770953429.jpg?v=1795062221",
+   "fuente": "itslaut.com (catálogo oficial LAUT), TYPEFOLIO 2.0 (variantes iPad Pro/Air 11 2024); fotos compartidas entre tamaños",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-typefolio-2-0-keyboard-ipad-11-2024-black/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPP21_TF2_BK05_1a8a3001-27e0-44f3-8042-a8b23b845ab5.jpg",
+     "alt": "LAUT Typefolio 2.0 funda con teclado para iPad – vista abierta desde arriba",
+     "bytes": 117040,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-typefolio-2-0-keyboard-ipad-11-2024-black/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPP21_TF2_BK06_384163fb-24fd-4f13-8488-28c9fdde7106.jpg",
+     "alt": "LAUT Typefolio 2.0 funda con teclado para iPad – vista lateral con soporte",
+     "bytes": 51064,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-typefolio-2-0-keyboard-ipad-11-2024-black/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IPP21_TF2_BK07_735ac355-5571-4863-85f6-0121532da17f.jpg",
+     "alt": "LAUT Typefolio 2.0 funda con teclado para iPad – teclado y trackpad",
+     "bytes": 93305,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Mismas 3 fotos que el modelo 10.9 (compartidas; alt sin modelo de iPad)."
+  },
+  {
+   "id": "gid://shopify/Product/15480770363605",
+   "handle": "laut-zentry-airpods-4-negro",
+   "title": "LAUT Zentry AirPods 4 Negro",
+   "vendor": "LAUT",
+   "sku": "4895206942003",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480770363605.jpg?v=1795062221",
+   "fuente": "itslaut.com (catálogo oficial LAUT), ZENTRY for AirPods 4 & 5 BLACK",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-zentry-airpods-4-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_AP5_ZE_BK01.jpg",
+     "alt": "LAUT Zentry AirPods 4 negro – vista frontal y posterior",
+     "bytes": 113158,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-zentry-airpods-4-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_AP5_ZE_BK02.jpg",
+     "alt": "LAUT Zentry AirPods 4 negro – vista posterior",
+     "bytes": 140384,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-zentry-airpods-4-negro/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_AP5_ZE_BK04.jpg",
+     "alt": "LAUT Zentry AirPods 4 negro – estuche abierto con audífonos",
+     "bytes": 100557,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "La foto actual equivale a L_AP5_ZE_BK01A."
+  },
+  {
+   "id": "gid://shopify/Product/9149933486293",
+   "handle": "prodigee-superstar-iphone-16-rosado",
+   "title": "Prodigee Superstar iPhone 16 Rosado",
+   "vendor": "Prodigee",
+   "sku": "810023957034",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/b54e6bfda51cbee1509bd735fc93d02f_31b37b82-8a2f-4e8c-bcaf-d2987f5571a2.jpg?v=1783578348",
+   "fuente": "Producto hermano publicado en ventasguate.gt: prodigee-superstar-iphone-16-plus-rosado (mismo modelo Superstar, mismo color; iPhone 16 y 16 Plus comparten diseño de cámara)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/prodigee-superstar-iphone-16-rosado/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/PRODIGEE-SUPERSTAR-IPHONE-16-PLUS-ROSADO.png",
+     "alt": "Prodigee Superstar iPhone 16 rosado – vista frontal y posterior",
+     "bytes": 171482,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/prodigee-superstar-iphone-16-rosado/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/PRODIGEE-SUPERSTAR-IPHONE-16-PLUS-ROSADO-4.png",
+     "alt": "Prodigee Superstar iPhone 16 rosado – vista posterior",
+     "bytes": 135610,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/prodigee-superstar-iphone-16-rosado/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/PRODIGEE-SUPERSTAR-IPHONE-16-PLUS-ROSADO-3.png",
+     "alt": "Prodigee Superstar iPhone 16 rosado – vistas laterales",
+     "bytes": 180300,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "DUDA: la foto actual muestra un iPhone Pro (3 cámaras), no un iPhone 16; las propuestas muestran el iPhone 16 correcto. Sugerencia: usar la primera como principal."
+  },
+  {
+   "id": "gid://shopify/Product/15480769577173",
+   "handle": "laut-huex-protect-airpods-pro3-frost",
+   "title": "LAUT Huex Protect AirPods Pro3 Frost",
+   "vendor": "LAUT",
+   "sku": "4895206947367",
+   "foto_actual": null,
+   "fuente": "itslaut.com (catálogo oficial LAUT), variante FROST (SKU L_APP3_HPT_F = código en Shopify)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-frost/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_F_01.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Frost – frente y reverso con mosquetón",
+     "bytes": 77224,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-frost/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_F_02.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Frost – vista frontal y posterior",
+     "bytes": 72291,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-frost/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_F_03.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Frost – estuche abierto con audífonos",
+     "bytes": 73715,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Sin foto en Shopify: la primera quedaría como principal."
+  },
+  {
+   "id": "gid://shopify/Product/9149933387989",
+   "handle": "prodigee-superstar-iphone-16-pro-rosado",
+   "title": "Prodigee Superstar iPhone 16 Pro Rosado",
+   "vendor": "Prodigee",
+   "sku": "810023957041",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/b54e6bfda51cbee1509bd735fc93d02f_b8c15914-5ffa-4d83-9edc-7df651fbc87d.jpg?v=1783578362",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; el hermano 16 Pro solo existe en Clear (las fotos muestran el color)."
+  },
+  {
+   "id": "gid://shopify/Product/9149921984725",
+   "handle": "prodigee-safetee-flow-iphone-16-desert",
+   "title": "Prodigee Safetee Flow iPhone 16 Desert",
+   "vendor": "Prodigee",
+   "sku": "810023957522",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/cdd76e74db92c44546d7aa4f85e83548.jpg?v=1783579710",
+   "fotos_nuevas": [],
+   "motivo": "Hermanos: 16 Pro Desert (otro modelo, cámara triple) y 16 Night/Blush (otro color en todas las vistas)."
+  },
+  {
+   "id": "gid://shopify/Product/9263455961301",
+   "handle": "laut-typefolio-keyboard-case-universal-9-a-11-pulgadas-negro",
+   "title": "LAUT Typefolio Keyboard Case Universal 9 a 11 Pulgadas Negro",
+   "vendor": "LAUT",
+   "sku": "4895206938259",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/d7541bd31538bd9a8b58ca2fd04876b4.png?v=1783560256",
+   "fotos_nuevas": [],
+   "motivo": "itslaut.com ya no publica el Typefolio universal (solo Typefolio iPad)."
+  },
+  {
+   "id": "gid://shopify/Product/9337797542101",
+   "handle": "tucano-active-pencil2-para-ipad-blanco",
+   "title": "Tucano Active Pencil2 para iPad Blanco",
+   "vendor": "Tucano",
+   "sku": "844668135793",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/396c9e842fda4455506a0b43b99eeb84.png?v=1783464104",
+   "fotos_nuevas": [],
+   "motivo": "tucano.com rechaza la descarga (HTTP 403)."
+  },
+  {
+   "id": "gid://shopify/Product/9170873974997",
+   "handle": "prodigee-super-glass-camera-iphone-17-air-black",
+   "title": "Prodigee Super Glass Camera iPhone 17 Air Black",
+   "vendor": "Prodigee",
+   "sku": "810023958307",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/fe3b5d93fd06d26ffb943f83d9d0de9b.webp?v=1762986328",
+   "fotos_nuevas": [],
+   "motivo": "Sin foto oficial del Air en negro (hermanos Air solo en plata). DUDA: la foto actual muestra iPhone 17 (2 cámaras), no el Air."
+  },
+  {
+   "id": "gid://shopify/Product/15480769216725",
+   "handle": "laut-shield-iphone-16e-negro",
+   "title": "LAUT Shield iPhone 16E Negro",
+   "vendor": "LAUT",
+   "sku": "4895206942461",
+   "foto_actual": null,
+   "fuente": "itslaut.com (catálogo oficial LAUT), SHIELD iPhone 17e/16e BLACK (L_SE4_MSH_BK; en Shopify L_IPSE4_MSH_BK)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-shield-iphone-16e-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_SE4_MSH_BK01.jpg",
+     "alt": "LAUT Shield iPhone 16e negro – vista posterior",
+     "bytes": 192114,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-shield-iphone-16e-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_SE4_MSH_BK03.jpg",
+     "alt": "LAUT Shield iPhone 16e negro – vista lateral",
+     "bytes": 138086,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-shield-iphone-16e-negro/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_SE4_MSH_BK04.jpg",
+     "alt": "LAUT Shield iPhone 16e negro – vista frontal con botones",
+     "bytes": 70474,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Sin foto en Shopify. Se descartó L_SE4_MSH_BK05 (fondo rosado, no blanco)."
+  },
+  {
+   "id": "gid://shopify/Product/15480769642709",
+   "handle": "laut-huex-protect-airpods-pro3-bronze",
+   "title": "LAUT Huex Protect AirPods Pro3 Bronze",
+   "vendor": "LAUT",
+   "sku": "4895206947381",
+   "foto_actual": null,
+   "fuente": "itslaut.com (catálogo oficial LAUT), variante BRONZE (SKU L_APP3_HPT_O en Shopify; LAUT publica las fotos BRONZE como L_APP3_HPT_BR)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-bronze/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_BR_01.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Bronze – frente y reverso con mosquetón",
+     "bytes": 101590,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-bronze/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_BR_02.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Bronze – vista frontal y posterior",
+     "bytes": 96113,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-bronze/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_BR_03.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Bronze – estuche abierto con audífonos",
+     "bytes": 94842,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Sin foto en Shopify: la primera quedaría como principal. El tono en las fotos oficiales es melocotón/cobre (LAUT lo llama BRONZE)."
+  },
+  {
+   "id": "gid://shopify/Product/15529158836437",
+   "handle": "hifuture-lyra-health-tracker-sin-pantalla-black",
+   "title": "HiFuture Lyra Health Tracker Sin Pantalla Black",
+   "vendor": "HiFuture",
+   "sku": "6972576183521",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/527d9c681fe619a1c1f31cff24fb95c7.jpg?v=1794606373",
+   "fotos_nuevas": [],
+   "motivo": "hifuturegroup.com: la única foto con fondo blanco es la actual; las demás son infografías con fondo oscuro o en otro color (verde)."
+  },
+  {
+   "id": "gid://shopify/Product/9398252732629",
+   "handle": "l-gadget-guard-vidrio-templado-iphone-15-pro",
+   "title": "Gadget Guard Vidrio Templado iPhone 15 Pro",
+   "vendor": "ETERNITY WIRELESS",
+   "sku": "810098733632",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/75933199bef3bcaf739eb0bc5c51634c_40f7620c-f08f-4d56-8f3d-6f1a06399835.jpg?v=1783454174",
+   "fotos_nuevas": [],
+   "motivo": "gadgetguard.com rechaza la descarga (HTTP 403); las fotos del hermano 14 Pro tienen alt de iPhone 15 Plus (modelo dudoso)."
+  },
+  {
+   "id": "gid://shopify/Product/15480770035925",
+   "handle": "laut-holo-iphone-16-pro-pearl",
+   "title": "LAUT Holo iPhone 16 Pro Pearl",
+   "vendor": "LAUT",
+   "sku": "4895206938792",
+   "foto_actual": null,
+   "fuente": "itslaut.com (catálogo oficial LAUT), HOLO iPhone 16 Pro / HOLO PEARL (L_IP24B_HO_W; fotos L_IP24BD = 16 Pro/Pro Max)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-holo-iphone-16-pro-pearl/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP24BD_HO_W_01.jpg",
+     "alt": "LAUT Holo iPhone 16 Pro Pearl – vista posterior",
+     "bytes": 78345,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-holo-iphone-16-pro-pearl/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_IP24BD_HO_W_03.jpg",
+     "alt": "LAUT Holo iPhone 16 Pro Pearl – vista lateral",
+     "bytes": 69307,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Sin foto en Shopify. Se descartó L_IP24AC_HO_W_04 (foto de la versión iPhone 16/16 Plus)."
+  },
+  {
+   "id": "gid://shopify/Product/9456737124565",
+   "handle": "hifuture-sonicair-anc-true-wireless-black",
+   "title": "Audífonos HiFuture SonicAir – Negro",
+   "vendor": "HiFuture",
+   "sku": "6972576181657",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/024a78343e144fa5e726054714d64556.webp?v=1783529844",
+   "fotos_nuevas": [],
+   "motivo": "hifuturegroup.com: la única foto con fondo blanco es la actual; el resto son fotos de estilo de vida con fondo negro."
+  },
+  {
+   "id": "gid://shopify/Product/9386249617621",
+   "handle": "tucano-gommo-sleeve-16-pulgadas-negro",
+   "title": "Tucano Gommo Sleeve 16 Pulgadas Negro",
+   "vendor": "Tucano",
+   "sku": "8020252195202",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/279a0f3a87940ed38382a1b382f3f207.png?v=1783471634",
+   "fotos_nuevas": [],
+   "motivo": "tucano.com rechaza la descarga (HTTP 403)."
+  },
+  {
+   "id": "gid://shopify/Product/9170872664277",
+   "handle": "click-impact-galaxy-a26-negro",
+   "title": "Click Impact Galaxy A26 Negro",
+   "vendor": "Click",
+   "sku": "888488356143",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/1e2af761dcaefdc8d503be73d85c91eb.webp?v=1762986290",
+   "fotos_nuevas": [],
+   "motivo": "clickcases.com no expone catálogo; hermano azul con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9149965893845",
+   "handle": "prodigee-superstar-galaxy-s25-plus-clear",
+   "title": "Prodigee Superstar Galaxy S25 Plus Clear",
+   "vendor": "Prodigee",
+   "sku": "810023958055",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e8aa6d2acad9479555960163e663c766.png?v=1783568909",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos S25 con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9149924999381",
+   "handle": "prodigee-superstar-galaxy-s25-clear",
+   "title": "Prodigee Superstar Galaxy S25 Clear",
+   "vendor": "Prodigee",
+   "sku": "810023958062",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/f847834931ab0ce18fc9575b21c8a06c.png?v=1783578676",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos S25 con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9170874466517",
+   "handle": "prodigee-super-glass-camera-iphone-17-silver",
+   "title": "Prodigee Super Glass Camera iPhone 17 Silver",
+   "vendor": "Prodigee",
+   "sku": "810023958291",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/4a4b17edbd4142dc04f234a4cd973a69_cb3725a7-613f-4542-be2d-3d55b4b2a879.webp?v=1762986341",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos en plata son del iPhone 17 Air (1 cámara) o glitter."
+  },
+  {
+   "id": "gid://shopify/Product/9263667118293",
+   "handle": "l-clckr-topaz-galaxy-s24-plus-clear-blue",
+   "title": "CLCKR Topaz Galaxy S24 Plus Clear Blue",
+   "vendor": "CLCKR",
+   "sku": "850054152459",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a38b85bdb02c73ffd8c44cc62302afaf_ad46aef3-20ab-46f6-9540-5473121f0e89.png?v=1783549787",
+   "fotos_nuevas": [],
+   "motivo": "clckr.com ya no lista fundas Galaxy S24; sin hermanos con más fotos."
+  },
+  {
+   "id": "gid://shopify/Product/9263665709269",
+   "handle": "l-clckr-carbon-galaxy-s24-plus-negro",
+   "title": "CLCKR Carbón Galaxy S24 Plus Negro",
+   "vendor": "CLCKR",
+   "sku": "850054152350",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/9169ea21a95b12bb74b3d93a303c6b5c.png?v=1783550815",
+   "fotos_nuevas": [],
+   "motivo": "clckr.com ya no lista fundas Galaxy S24; los hermanos Carbón son de iPhone 15."
+  },
+  {
+   "id": "gid://shopify/Product/9263666528469",
+   "handle": "l-clckr-onyx-galaxy-s24-plus-negro",
+   "title": "CLCKR Onyx Galaxy S24 Plus Negro",
+   "vendor": "CLCKR",
+   "sku": "850054152367",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/3dae58115fc09c141cb0c0230eda2d6a_cd91dbdb-a613-4c70-a6f1-7b40344b0d54.png?v=1783550662",
+   "fotos_nuevas": [],
+   "motivo": "clckr.com ya no lista fundas Galaxy S24; los hermanos Onyx son de iPhone 15."
+  },
+  {
+   "id": "gid://shopify/Product/9263666987221",
+   "handle": "l-clckr-topaz-galaxy-s24-clear-blue",
+   "title": "CLCKR Topaz Galaxy S24 Clear Blue",
+   "vendor": "CLCKR",
+   "sku": "850054152442",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a38b85bdb02c73ffd8c44cc62302afaf.png?v=1783549802",
+   "fotos_nuevas": [],
+   "motivo": "clckr.com ya no lista fundas Galaxy S24."
+  },
+  {
+   "id": "gid://shopify/Product/9149923721429",
+   "handle": "prodigee-sparkle-leemonchelo-iphone-14-pro-blanco",
+   "title": "Prodigee Sparkle Leemonchelo iPhone 14 Pro Blanco",
+   "vendor": "Prodigee",
+   "sku": "810023954156",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/6ad45101460cf2decb40bf3ef0959bb1.jpg?v=1783579155",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermano 14 Plus con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9271505879253",
+   "handle": "prodigee-super-glass-camera-galaxy-s26-s26-plus",
+   "title": "Prodigee Super Glass Camera Galaxy S26 / S26 Plus",
+   "vendor": "Prodigee",
+   "sku": "810192101979",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/01d6422908fd281d2912c7984b89bcf7.webp?v=1771444866",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; sin hermanos S26."
+  },
+  {
+   "id": "gid://shopify/Product/9321272803541",
+   "handle": "l-prodigee-safetee-neo-mag-iphone-13-menta",
+   "title": "Prodigee Safetee Neo Mag iPhone 13 Menta",
+   "vendor": "Prodigee",
+   "sku": "810023952725",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e5c296dc9213ed2681e6faa438d65d29.jpg?v=1783510093",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos Neo Mag iPhone 13 con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9613273333973",
+   "handle": "hifuture-aurora2-smartwatch-silver",
+   "title": "Smartwatch HiFuture Aurora2 – Silver",
+   "vendor": "HiFuture",
+   "sku": "6972576183279",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/9332b4feb49cff42b2562cf97cd622fd.webp?v=1789758077",
+   "fotos_nuevas": [],
+   "motivo": "hifuturegroup.com no tiene variante Silver (Black/Grey/Purple/Pink); el resto son infografías sin fondo blanco."
+  },
+  {
+   "id": "gid://shopify/Product/9149920182485",
+   "handle": "prodigee-magneteek-iphone-16-pro-negro",
+   "title": "Prodigee Magneteek iPhone 16 Pro Negro",
+   "vendor": "Prodigee",
+   "sku": "810023957409",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0929c1138973b1e8e5a36c5af90c0adb_104a8fb3-32ab-4561-b237-06888bf57b47.jpg?v=1783586192",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos Magneteek con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9149922705621",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-max-lila",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Max Lila",
+   "vendor": "Prodigee",
+   "sku": "810023954910",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/56258ec17d53d6e77a2bcb04061e7dfd_e00f9e67-f869-40d3-8b09-eeafe1cd208e.jpg?v=1783579486",
+   "fotos_nuevas": [],
+   "motivo": "prodigee.com bloqueado; hermanos con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9613272973525",
+   "handle": "hifuture-zone3-sport-smartwatch-silver",
+   "title": "Smartwatch HiFuture Zone3 – Silver",
+   "vendor": "HiFuture",
+   "sku": "6972576183019",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/68c1ef6fde6cef69d088c590b4fac435.webp?v=1789758069",
+   "fotos_nuevas": [],
+   "motivo": "hifuturegroup.com: la foto Silver tiene fondo gris con otro reloj; el resto son infografías con fondo negro."
+  },
+  {
+   "id": "gid://shopify/Product/15480769675477",
+   "handle": "laut-huex-protect-airpods-pro3-light-pink",
+   "title": "LAUT Huex Protect AirPods Pro3 Light Pink",
+   "vendor": "LAUT",
+   "sku": "4895206947398",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769675477.jpg?v=1795062220",
+   "fuente": "itslaut.com (catálogo oficial LAUT), variante LIGHT PINK (L_APP3_HPT_P)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-light-pink/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_P_01.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Light Pink – frente y reverso con mosquetón",
+     "bytes": 87782,
+     "calidad_jpeg": 88
+    },
+    {
+     "archivo": "propuesta_fotos/laut-huex-protect-airpods-pro3-light-pink/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/files/L_APP3_HPT_P_02.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 3 Light Pink – vista frontal y posterior",
+     "bytes": 79095,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "La foto actual equivale a L_APP3_HPT_P_03 (estuche abierto); se proponen las otras 2."
+  },
+  {
+   "id": "gid://shopify/Product/15526988120277",
+   "handle": "logiix-vibrance-neo-bundle-usb-c-to-usb-c-cable-blush",
+   "title": "LOGiiX Vibrance Neo Bundle USB-C to USB-C Cable Blush",
+   "vendor": "LOGiiX",
+   "sku": "802118141336",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15526988120277.jpg?v=1795191754",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto por color (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/15480769478869",
+   "handle": "logiix-phantom-glass-super-tempered-anti-reflective-iphone-17-pro-clear",
+   "title": "LOGiiX Phantom Glass Super Tempered Anti Reflective iPhone 17 Pro Clear",
+   "vendor": "LOGiiX",
+   "sku": "802118140186",
+   "foto_actual": null,
+   "fuente": "logiix.ca (catálogo oficial LOGiiX), Phantom Glass HD Super Tempered Anti-Reflective, variante iPhone 17 Pro (LGX-14018)",
+   "fotos_nuevas": [
+    {
+     "archivo": "propuesta_fotos/logiix-phantom-glass-super-tempered-anti-reflective-iphone-17-pro-clear/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1228/3460/files/logiix_PhantomGlass17_0006_iPhone-17-Pro.png",
+     "alt": "LOGiiX Phantom Glass Super Tempered Anti Reflective iPhone 17 Pro – vidrio sobre la pantalla",
+     "bytes": 80404,
+     "calidad_jpeg": 88
+    }
+   ],
+   "nota": "Sin foto en Shopify. LOGiiX publica una sola foto por modelo."
+  },
+  {
+   "id": "gid://shopify/Product/15529154085077",
+   "handle": "mello-ch64-iphone-duo-negro-1",
+   "title": "Mello Ch64 iPhone Duo Negro",
+   "vendor": "Mello",
+   "sku": "191395162814",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/b19a227b37348d49c4e7c1b292b3ea42.jpg?v=1794606194",
+   "fotos_nuevas": [],
+   "motivo": "Sitio de Mello no accesible / sin catálogo; hermanos iPhone Duo con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9386249814229",
+   "handle": "tucano-isotta-superslim-bag-16-pulgadas-negro",
+   "title": "Tucano Isotta Superslim Bag 16 Pulgadas Negro",
+   "vendor": "Tucano",
+   "sku": "8020252194991",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/99acb9d0351f96df0de0565b3c1500f5_7e8de541-7f08-49f6-b52f-f8c7a5ba85d8.jpg?v=1783471515",
+   "fotos_nuevas": [],
+   "motivo": "tucano.com rechaza la descarga (HTTP 403); hermanos de 16\" con 1 sola foto."
+  },
+  {
+   "id": "gid://shopify/Product/9372730622165",
+   "handle": "logiix-vibrance-charging-kit-lavender",
+   "title": "LOGiiX Vibrance Charging Kit Lavender",
+   "vendor": "LOGiiX",
+   "sku": "802118138770",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/dce60d8f42a05f28216e0a9781a43ce9.webp?v=1783476314",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto por color (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/9386249486549",
+   "handle": "tucano-gommo-sleeve-16-pulgadas-gris",
+   "title": "Tucano Gommo Sleeve 16 Pulgadas Gris",
+   "vendor": "Tucano",
+   "sku": "8020252198388",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/5e71ef16a1bf918a89497e2f6eca347d.png?v=1783471694",
+   "fotos_nuevas": [],
+   "motivo": "tucano.com rechaza la descarga (HTTP 403)."
+  },
+  {
+   "id": "gid://shopify/Product/15529154216149",
+   "handle": "mello-iphone-duo-clear",
+   "title": "Mello iPhone Duo Clear",
+   "vendor": "Mello",
+   "sku": "191395162869",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/8a63314d99902fea136eba541e774f7d.jpg?v=1794606199",
+   "fotos_nuevas": [],
+   "motivo": "Sitio de Mello no accesible / sin catálogo; hermanos con 1 sola foto."
+  }
+ ]
+}
