@@ -1,0 +1,391 @@
+{
+ "cambios": [
+  {
+   "id": "gid://shopify/Product/9319065092309",
+   "title": "Ballistic Urbanite iPhone 11 Pro Max Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Ballistic"
+  },
+  {
+   "id": "gid://shopify/Product/9320207581397",
+   "title": "Gear 4 Bridgetown Galaxy Z Fold 3 Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Gear4"
+  },
+  {
+   "id": "gid://shopify/Product/9533674127573",
+   "title": "Cellhelmet Powerbank con Cable 3000mAh Blanco",
+   "antes": "Ventas Guate",
+   "vendor": "Cellhelmet"
+  },
+  {
+   "id": "gid://shopify/Product/9533714923733",
+   "title": "Wild Flag Bocina Bluetooth Tw125 Azul",
+   "antes": "Ventas Guate",
+   "vendor": "Wild Flag"
+  },
+  {
+   "id": "gid://shopify/Product/9533714956501",
+   "title": "Wild Flag Cargador de Carro con Cable Micro USB",
+   "antes": "Ventas Guate",
+   "vendor": "Wild Flag"
+  },
+  {
+   "id": "gid://shopify/Product/15480752144597",
+   "title": "PopSockets Popmount Vent for MagSafe Negro",
+   "antes": "Ventas Guate",
+   "vendor": "PopSockets"
+  },
+  {
+   "id": "gid://shopify/Product/15480757715157",
+   "title": "Defunc True Go Slim Audífono Bluetooth Blanco",
+   "antes": "Ventas Guate",
+   "vendor": "Defunc"
+  },
+  {
+   "id": "gid://shopify/Product/15480757780693",
+   "title": "Defunc True Talk Audífonos True Wireless Blanco",
+   "antes": "Ventas Guate",
+   "vendor": "Defunc"
+  },
+  {
+   "id": "gid://shopify/Product/15480759124181",
+   "title": "UAG Lucent Samsung Galaxy S22 Ultra Rosado",
+   "antes": "Ventas Guate",
+   "vendor": "UAG"
+  },
+  {
+   "id": "gid://shopify/Product/15480759189717",
+   "title": "MyBat Pro Maverick Series iPhone 13 Negro",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480759222485",
+   "title": "MyBat Pro Maverick Series iPhone 13 Morado",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480759288021",
+   "title": "MyBat Maverick Antimicrobial con Holster Galaxy S22 Negro",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480759419093",
+   "title": "MyBat Vidrio Protector para Cámara iPhone 13 Mini/ 13",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480759484629",
+   "title": "Aukey Cargador de 20 Watts Portátil Blanco",
+   "antes": "Ventas Guate",
+   "vendor": "Aukey"
+  },
+  {
+   "id": "gid://shopify/Product/15480759877845",
+   "title": "Aircomm Audífonos Bluetooth A3B Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Aircomm"
+  },
+  {
+   "id": "gid://shopify/Product/15480762400981",
+   "title": "Broadlink Bombillo Inteligente Bluetooth Lb4e26",
+   "antes": "Ventas Guate",
+   "vendor": "Broadlink"
+  },
+  {
+   "id": "gid://shopify/Product/15480762532053",
+   "title": "Mcdodo Lightning Magnntico Silver",
+   "antes": "Ventas Guate",
+   "vendor": "Mcdodo"
+  },
+  {
+   "id": "gid://shopify/Product/15480762564821",
+   "title": "Mopoint Holder Universal de Vaso Magnético Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Mopoint"
+  },
+  {
+   "id": "gid://shopify/Product/15480762597589",
+   "title": "MyBat Vidrio Templado para Cámara Galaxy S20 Fan Edition Clear",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480762663125",
+   "title": "Naztech Adaptador Lightning a Audio y Cargador",
+   "antes": "Ventas Guate",
+   "vendor": "Naztech"
+  },
+  {
+   "id": "gid://shopify/Product/15480762695893",
+   "title": "Naztech Xpods Pro Bluetooth Rojo",
+   "antes": "Ventas Guate",
+   "vendor": "Naztech"
+  },
+  {
+   "id": "gid://shopify/Product/15480762761429",
+   "title": "Rock Adaptador Lightning a 3.5 2 en 1 Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Rock"
+  },
+  {
+   "id": "gid://shopify/Product/15480762990805",
+   "title": "White Diamonds Jungle Case para iPhone 11 Pro Flower",
+   "antes": "Ventas Guate",
+   "vendor": "White Diamonds"
+  },
+  {
+   "id": "gid://shopify/Product/15480763089109",
+   "title": "Adopted Leather Wrap iPhone 6/6S Plus Blanco",
+   "antes": "Ventas Guate",
+   "vendor": "Adopted"
+  },
+  {
+   "id": "gid://shopify/Product/15480763121877",
+   "title": "Arq1 Impact Unity iPhone XS Max Rosado",
+   "antes": "Ventas Guate",
+   "vendor": "Arq1"
+  },
+  {
+   "id": "gid://shopify/Product/15480763318485",
+   "title": "Ballistic Soft Jacket Galaxy S20 Ultra Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Ballistic"
+  },
+  {
+   "id": "gid://shopify/Product/15480763351253",
+   "title": "Nimbus9 Latitude Series iPhone XS Max Dorado",
+   "antes": "Ventas Guate",
+   "vendor": "Nimbus9"
+  },
+  {
+   "id": "gid://shopify/Product/15480763416789",
+   "title": "Nimbus9 Latitude Series iPhone XS Max Rosado",
+   "antes": "Ventas Guate",
+   "vendor": "Nimbus9"
+  },
+  {
+   "id": "gid://shopify/Product/15480763547861",
+   "title": "ZIZO Shock Metallic Bumper iPhone X/XS Negro",
+   "antes": "Ventas Guate",
+   "vendor": "ZIZO"
+  },
+  {
+   "id": "gid://shopify/Product/15480763711701",
+   "title": "ITSkins Hybrid Spark Galaxy S23 Plus Smoke",
+   "antes": "Ventas Guate",
+   "vendor": "ITSkins"
+  },
+  {
+   "id": "gid://shopify/Product/15480763744469",
+   "title": "MyBat Pro Vidrio Templado para Apple Watch 7 45mm",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480763777237",
+   "title": "MyBat Pro Vidrio Templado para Apple Watch Ultra",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480763810005",
+   "title": "MyBat Pro Vidrio Templado para Apple Watch 7 41mm",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480767021269",
+   "title": "Nimbus9 Satratus S24 Frost",
+   "antes": "Ventas Guate",
+   "vendor": "Nimbus9"
+  },
+  {
+   "id": "gid://shopify/Product/15480767086805",
+   "title": "Defunc True Basic Audífonos Bluetooth Blanco",
+   "antes": "Ventas Guate",
+   "vendor": "Defunc"
+  },
+  {
+   "id": "gid://shopify/Product/15480767119573",
+   "title": "Defunc True Sport Audífono Bluetooth Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Defunc"
+  },
+  {
+   "id": "gid://shopify/Product/15480767152341",
+   "title": "Defunc True Sport Audífono Bluetooth Blanco",
+   "antes": "Ventas Guate",
+   "vendor": "Defunc"
+  },
+  {
+   "id": "gid://shopify/Product/15480767414485",
+   "title": "MyBat Maverick Antimicrobial con Holster iPhone 15 Pro Max Verde",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480767447253",
+   "title": "MyBat Maverick Antimicrobial con Holster iPhone 15 Pro Max Azul",
+   "antes": "Ventas Guate",
+   "vendor": "MyBat"
+  },
+  {
+   "id": "gid://shopify/Product/15480767578325",
+   "title": "Torras Upro Magnetic MagSafe Galaxy S24 Negro",
+   "antes": "Ventas Guate",
+   "vendor": "Torras"
+  },
+  {
+   "id": "gid://shopify/Product/15480768200917",
+   "title": "Nimbus9 Nylon Sport Band para Apple Watch 45mm Verde Olivo",
+   "antes": "Ventas Guate",
+   "vendor": "Nimbus9"
+  },
+  {
+   "id": "gid://shopify/Product/15480768266453",
+   "title": "Nimbus9 Nylon Sport Band para Apple Watch 45mm Ivory",
+   "antes": "Ventas Guate",
+   "vendor": "Nimbus9"
+  },
+  {
+   "id": "gid://shopify/Product/15480768299221",
+   "title": "Nimbus9 Nylon Sport Band para Apple Watch 41mm Ivory",
+   "antes": "Ventas Guate",
+   "vendor": "Nimbus9"
+  },
+  {
+   "id": "gid://shopify/Product/15480769052885",
+   "title": "ZIZO Powervault Link+ Lanyard USB-C Cable Lila",
+   "antes": "Ventas Guate",
+   "vendor": "ZIZO"
+  },
+  {
+   "id": "gid://shopify/Product/15480769216725",
+   "title": "LAUT Shield iPhone 16E Negro",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480769577173",
+   "title": "LAUT Huex Protect AirPods Pro3 Frost",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480769642709",
+   "title": "LAUT Huex Protect AirPods Pro3 Bronze",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480770035925",
+   "title": "LAUT Holo iPhone 16 Pro Pearl",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480770068693",
+   "title": "LAUT Holo iPhone 16 Pro Max Pearl",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480770199765",
+   "title": "LAUT Huex Protect AirPods Pro 2022 Frost",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480770298069",
+   "title": "LAUT Prime Glass Edge iPhone 17 Pro Clear",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480770330837",
+   "title": "LAUT Prime Glass Edge iPhone 17 Pro Privacy",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480771346645",
+   "title": "LAUT Huex MacBook Neo 13\" Black",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480771444949",
+   "title": "Sympl Communter Pack 20L Carbonate",
+   "antes": "Ventas Guate",
+   "vendor": "Sympl"
+  },
+  {
+   "id": "gid://shopify/Product/15480771477717",
+   "title": "Sympl Weekender Pack 25L Black",
+   "antes": "Ventas Guate",
+   "vendor": "Sympl"
+  },
+  {
+   "id": "gid://shopify/Product/15480771510485",
+   "title": "Sympl Tech Kit Xpac Black",
+   "antes": "Ventas Guate",
+   "vendor": "Sympl"
+  },
+  {
+   "id": "gid://shopify/Product/15480771543253",
+   "title": "Sympl Pouch Medium X-Pac Black",
+   "antes": "Ventas Guate",
+   "vendor": "Sympl"
+  },
+  {
+   "id": "gid://shopify/Product/15480771576021",
+   "title": "Sympl Pouch Strap Shoulder Black",
+   "antes": "Ventas Guate",
+   "vendor": "Sympl"
+  },
+  {
+   "id": "gid://shopify/Product/15480774164693",
+   "title": "LAUT Novi Sport Apple Watch 38/40/41mm Black",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480774197461",
+   "title": "LAUT Links 2.0 Apple Watch 42/44/45/49mm Black",
+   "antes": "Ventas Guate",
+   "vendor": "LAUT"
+  },
+  {
+   "id": "gid://shopify/Product/15480774525141",
+   "title": "MOFT Float Folio iPad Pro 11\" (1-4TH Gen) Misty Cove",
+   "antes": "Ventas Guate",
+   "vendor": "MOFT"
+  },
+  {
+   "id": "gid://shopify/Product/15505170301141",
+   "title": "Solo Austin Slim for iPad Air Gris",
+   "antes": "Ventas Guate",
+   "vendor": "Solo"
+  },
+  {
+   "id": "gid://shopify/Product/15526988120277",
+   "title": "LOGiiX Vibrance Neo Bundle USB-C to USB-C Cable Blush",
+   "antes": "Ventas Guate",
+   "vendor": "LOGiiX"
+  }
+ ],
+ "sin_marca": [
+  "Silicón Case A31 Negro",
+  "Silicón Case A71 Gris",
+  "Adaptador Splitter Lightning a Doble Lightning",
+  "Silicón Case Galaxy A72 Turquesa",
+  "Waterproof Bag",
+  "Adaptador 1 Puerto 3.5mm a 2 Puertos Audio y Micrófono",
+  "Vidrio Templado Cámaras 12 Pro Max"
+ ]
+}
