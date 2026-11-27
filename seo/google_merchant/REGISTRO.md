@@ -76,3 +76,8 @@ Prueba inicial (releída): Prodigee Blackout `52237137314005` → UPC 8101921008
 - 16 sin imagen + Reserva iPhone Duo, ya estaban en el canal. `publishableUnpublish` bloqueado por el MCP → etiqueta `quitar-google` aplicada a los 17 para que Diego los excluya en Admin (Productos → filtro etiqueta `quitar-google` → Seleccionar todo → Más acciones → Excluir de canales de venta → Google & YouTube).
 - Reversible: quitar la etiqueta (`tagsRemove`) y volver a incluir el canal.
 - Verificado 2026-11-22: los 17 fuera de Google & YouTube y siguen en Tienda online. La etiqueta se deja como marca.
+
+## 2026-11-27 · Política de devolución completa (Diego, en Merchant Center)
+- Reporte "store quality" nov-2026: Great (oct: Good). Incompletos: return window, return cost, images per offer.
+- Diego actualizó la política de Guatemala: URL /pages/garantia, nuevos sin abrir, 15 días, en tienda y por correo (envío a cargo del cliente), sin restocking fee, GTQ.
+- Pendiente: images per offer (496 publicados con ≤1 foto, ver seo/fotos_adicionales/), excepción final-sale para ofertas.
