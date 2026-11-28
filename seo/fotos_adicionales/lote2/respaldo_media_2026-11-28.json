@@ -1,0 +1,472 @@
+{
+ "fecha": "2026-11-28",
+ "nota": "Media de cada producto ANTES de cargar las fotos del lote 2 (38 productos aprobados; excluidos 4 LAUT pendientes).",
+ "productos": [
+  {
+   "id": "gid://shopify/Product/9149921722581",
+   "title": "Prodigee Safetee Flow iPhone 15 Pro Desert",
+   "handle": "prodigee-safetee-flow-iphone-15-pro-desert",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131395129557",
+     "alt": "Prodigee Safetee Flow iPhone 15 Pro Desert",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/17ca7381af7dfcb9147a80376d91d448.jpg?v=1783579818",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149965566165",
+   "title": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost",
+   "handle": "prodigee-safetee-flow-galaxy-s25-plus-night-frost",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131847655637",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/06e018e5d1714e2aa4f9fb27ebd3c8e1.png?v=1783568967",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149922509013",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Fuchsia",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-fuschsia",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131403649237",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Fuschsia",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/566d939e982f2451ea2bcc0d374e55bb.jpg?v=1783579558",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149922869461",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Ocean",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-ocean",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131408269525",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Ocean",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/48ccbc65df1565176552ce1c884f4e2e_ae7e36fe-d2b7-4134-b131-cb1612c3bb43.jpg?v=1783579441",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149933387989",
+   "title": "Prodigee Superstar iPhone 16 Pro Rosado",
+   "handle": "prodigee-superstar-iphone-16-pro-rosado",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131579646165",
+     "alt": "Prodigee Superstar iPhone 16 Pro Rosado",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/b54e6bfda51cbee1509bd735fc93d02f_b8c15914-5ffa-4d83-9edc-7df651fbc87d.jpg?v=1783578362",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149921984725",
+   "title": "Prodigee Safetee Flow iPhone 16 Desert",
+   "handle": "prodigee-safetee-flow-iphone-16-desert",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131396735189",
+     "alt": "Prodigee Safetee Flow iPhone 16 Desert",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/cdd76e74db92c44546d7aa4f85e83548.jpg?v=1783579710",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9170873974997",
+   "title": "Prodigee Super Glass Camera iPhone 17 Air Black",
+   "handle": "prodigee-super-glass-camera-iphone-17-air-black",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39310370504917",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Air Black",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/fe3b5d93fd06d26ffb943f83d9d0de9b.webp?v=1762986328",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149965893845",
+   "title": "Prodigee Superstar Galaxy S25 Plus Clear",
+   "handle": "prodigee-superstar-galaxy-s25-plus-clear",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131848966357",
+     "alt": "Prodigee Superstar Galaxy S25 Plus Clear",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e8aa6d2acad9479555960163e663c766.png?v=1783568909",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149924999381",
+   "title": "Prodigee Superstar Galaxy S25 Clear",
+   "handle": "prodigee-superstar-galaxy-s25-clear",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131430093013",
+     "alt": "Prodigee Superstar Galaxy S25 Clear",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/f847834931ab0ce18fc9575b21c8a06c.png?v=1783578676",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9170874466517",
+   "title": "Prodigee Super Glass Camera iPhone 17 Silver",
+   "handle": "prodigee-super-glass-camera-iphone-17-silver",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39310372143317",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Silver",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/4a4b17edbd4142dc04f234a4cd973a69_cb3725a7-613f-4542-be2d-3d55b4b2a879.webp?v=1762986341",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9271505879253",
+   "title": "Prodigee Super Glass Camera Galaxy S26 / S26 Plus",
+   "handle": "prodigee-super-glass-camera-galaxy-s26-s26-plus",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/40123462680789",
+     "alt": "Prodigee Super Glass Camera Galaxy S26 / S26 Plus",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/01d6422908fd281d2912c7984b89bcf7.webp?v=1771444866",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9321272803541",
+   "title": "Prodigee Safetee Neo Mag iPhone 13 Menta",
+   "handle": "l-prodigee-safetee-neo-mag-iphone-13-menta",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/40526023688405",
+     "alt": "Prodigee Safetee Neo Mag iPhone 13 Menta",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e5c296dc9213ed2681e6faa438d65d29.jpg?v=1783510093",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149920182485",
+   "title": "Prodigee Magneteek iPhone 16 Pro Negro",
+   "handle": "prodigee-magneteek-iphone-16-pro-negro",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131381891285",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Negro",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0929c1138973b1e8e5a36c5af90c0adb_104a8fb3-32ab-4561-b237-06888bf57b47.jpg?v=1783586192",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149922705621",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Max Lila",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-max-lila",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131406205141",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Max Lila",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/56258ec17d53d6e77a2bcb04061e7dfd_e00f9e67-f869-40d3-8b09-eeafe1cd208e.jpg?v=1783579486",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149920084181",
+   "title": "Prodigee Magneteek iPhone 16 Pro Blanco",
+   "handle": "prodigee-magneteek-iphone-16-pro-blanco",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131381792981",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Blanco",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0a2635bffe7bf5fe86c6cb8c29ebf662_b60cfc2e-ad60-4878-bc4e-d3e31b20b3ac.jpg?v=1783586219",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480769806549",
+   "title": "LAUT Luxedge iPhone 17 Pro Luxe Brown",
+   "handle": "laut-luxedge-iphone-17-pro-luxe-brown",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47090081693909",
+     "alt": "LAUT Luxedge iPhone 17 Pro Luxe Brown",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769806549.jpg?v=1795062221",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480770068693",
+   "title": "LAUT Holo iPhone 16 Pro Max Pearl",
+   "handle": "laut-holo-iphone-16-pro-max-pearl",
+   "media": []
+  },
+  {
+   "id": "gid://shopify/Product/9170874171605",
+   "title": "Prodigee Super Glass Camera iPhone 17 Glitter Silver",
+   "handle": "prodigee-super-glass-camera-iphone-17-glitter-silver",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39310371061973",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Glitter Silver",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/62818b2d8adc31c58209d8552d8d593f_916252e3-120f-41b9-87ac-1273378f0e39.webp?v=1762986333",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480769773781",
+   "title": "LAUT Luxedge iPhone 17 Pro Slate Black",
+   "handle": "laut-luxedge-iphone-17-pro-slate-black",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47090081628373",
+     "alt": "LAUT Luxedge iPhone 17 Pro Slate Black",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769773781.jpg?v=1795062220",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480770199765",
+   "title": "LAUT Huex Protect AirPods Pro 2022 Frost",
+   "handle": "laut-huex-protect-airpods-pro-2022-frost",
+   "media": []
+  },
+  {
+   "id": "gid://shopify/Product/9149921362133",
+   "title": "Prodigee Safetee Flow Galaxy S25 Plus Desert",
+   "handle": "prodigee-safetee-flow-galaxy-s25-plus-desert",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131391164629",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Desert",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/7a17348eed3f947e969f2e70976c96f6_45561001-8604-41d6-9853-7f5524883da9.png?v=1783585557",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149922902229",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Ruby",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-ruby",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131408859349",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Ruby",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/ceedfb04789b7d5bd73527291a101bd7_32e5c718-3613-4341-8c76-41384e342b0e.jpg?v=1783579416",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149919363285",
+   "title": "Prodigee Magneteek iPhone 12-12 Pro Negro",
+   "handle": "prodigee-magneteek-iphone-12-12-pro-negro",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131374780629",
+     "alt": "Prodigee Magneteek iPhone 12-12 Pro Negro",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/dc80a99191d05ed548a1aa66ff78e6b7.jpg?v=1783580096",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480769872085",
+   "title": "LAUT Huex Protect AirPods 4 Black",
+   "handle": "laut-huex-protect-airpods-4-black",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/47090081726677",
+     "alt": "LAUT Huex Protect AirPods 4 Black",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769872085.jpg?v=1795062221",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149922541781",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Lemon",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-lemon",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131404075221",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Lemon",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a01210c7706c6f84630f7c00da62a598.jpg?v=1783579530",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149922377941",
+   "title": "Prodigee Safetee Neo iPhone 14 Plus Menta",
+   "handle": "prodigee-safetee-neo-iphone-14-plus-menta",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131402961109",
+     "alt": "Prodigee Safetee Neo iPhone 14 Plus Menta",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/6ffbade6ccec70babcdbae0a33c8bb39.png?v=1783579575",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9271505912021",
+   "title": "Prodigee Super Glass Galaxy S26 Ultra Privacy",
+   "handle": "prodigee-super-glass-galaxy-s26-ultra-privacy",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/40123463106773",
+     "alt": "Vidrio templado Prodigee Super Glass Privacy con filtro de privacidad para Galaxy S26 Ultra",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/d2d01a946ab14044dbdebbe4b7f1f304.webp?v=1771444868",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9291022106837",
+   "title": "Prodigee Safetee Neo iPhone 15/14/13 Lemon",
+   "handle": "l-prodigee-safetee-neo-iphone-15-14-13-lemon",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/40240128131285",
+     "alt": "Prodigee Safetee Neo iPhone 15/14/13 Lemon",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a01210c7706c6f84630f7c00da62a598_4ce6cae8-79d1-43a8-90a3-d0d7dd041dc3.jpg?v=1783513125",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149925884117",
+   "title": "Prodigee Superstar iPhone 15 Pro Rosado",
+   "handle": "prodigee-superstar-iphone-15-pro-rosado",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131437957333",
+     "alt": "Prodigee Superstar iPhone 15 Pro Rosado",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/fecd930b92ecf573b642d29137a3ce44_caa67e30-66a1-4e2e-9137-2c2845294786.jpg?v=1783578501",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9321273852117",
+   "title": "Prodigee Safetee Neo iPhone 13 Limón",
+   "handle": "l-prodigee-safetee-neo-iphone-13-limon",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/40526026244309",
+     "alt": "Prodigee Safetee Neo iPhone 13 Limón",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e682f79600c3f6aa7a9d799b18274e3e.jpg?v=1783510005",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149920542933",
+   "title": "Prodigee Pampas Galaxy S25 Ice",
+   "handle": "prodigee-pampas-galaxy-25-ice",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131385888981",
+     "alt": "Prodigee Pampas Galaxy 25 Ice",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/320c32ae4d99bdb0403a6912907309e3.png?v=1783585966",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480771346645",
+   "title": "LAUT Huex MacBook Neo 13\" Black",
+   "handle": "laut-huex-macbook-neo-13-black",
+   "media": []
+  },
+  {
+   "id": "gid://shopify/Product/9149921263829",
+   "title": "Prodigee Safetee Flow Galaxy S25 Desert",
+   "handle": "prodigee-safetee-flow-galaxy-s25-desert",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131390836949",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Desert",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/7a17348eed3f947e969f2e70976c96f6.png?v=1783585588",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149924016341",
+   "title": "Prodigee Super Hero Galaxy S25 Clear",
+   "handle": "prodigee-super-hero-galaxy-s25-clear",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131419508949",
+     "alt": "Prodigee Super Hero Galaxy S25 Clear",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/aa7531e3d2d3c7527562e79e70a31c13.png?v=1783579035",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149922672853",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Max Lemon",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-max-lemon",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39131405058261",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Max Lemon",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a01210c7706c6f84630f7c00da62a598_19af08c3-bfc4-4a4a-b8c7-0f56e4d198e3.jpg?v=1783579499",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9291022139605",
+   "title": "Prodigee Safetee Neo iPhone 15/14/13 Ruby",
+   "handle": "l-prodigee-safetee-neo-iphone-15-14-13-ruby",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/40240128196821",
+     "alt": "Prodigee Safetee Neo iPhone 15/14/13 Ruby",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/ceedfb04789b7d5bd73527291a101bd7_828f13d5-4447-402a-91fe-f4e9966d0c7c.jpg?v=1783513099",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9150026481877",
+   "title": "Prodigee Magneteek iPhone 16 Pro Max Negro",
+   "handle": "prodigee-magneteek-iphone-16-pro-max-negro",
+   "media": [
+    {
+     "id": "gid://shopify/MediaImage/39132379742421",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Max Negro",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0929c1138973b1e8e5a36c5af90c0adb_8a7e2579-181d-4931-8270-bcfb9cca12d0.jpg?v=1783556737",
+     "posicion": 0
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9372730523861",
+   "title": "LOGiiX Vibrance Braid USB-A to USB-C White",
+   "handle": "logiix-vibrance-braid-usb-a-to-usb-c-white",
+   "media": []
+  }
+ ]
+}
