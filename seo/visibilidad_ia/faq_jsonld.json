@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo puedo pagar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puedes pagar con tarjeta al finalizar tu compra en línea o con pago contra entrega: pagas al recibir tu pedido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Los productos son originales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Todo lo que vendemos es original. Somos distribuidores oficiales en Guatemala de JBL, Reebok, Prodigee, LAUT, LOGiiX, Tucano, Targus, Sudio, OhSnap, Nimbus9, Click, Mello, Protection Pro y Reelcharge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cuesta el envío y cuánto tarda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ciudad de Guatemala: mismo día, Q25. Interior de la República: próximo día, Q35. Pago contra entrega y entrega garantizada."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué garantía tienen los productos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Productos nuevos: 1 año por defectos de fabricación. iPhone seminuevos: 30 días. No cubre golpes, humedad, mal uso ni reparaciones no autorizadas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo devolver un producto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, dentro de 15 días calendario, sin abrir ni usar y en su empaque original. El reembolso se procesa en 48 a 72 horas hábiles por el mismo método de pago. Los productos en oferta no tienen cambio ni devolución."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde está la tienda y cuál es el horario?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala. Lunes a jueves 9:00–18:00, viernes 9:00–17:00, sábado 9:00–13:00."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Venden al por mayor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, atendemos distribución y mayoreo para comercios. Escríbenos a pedidos@ventasguate.gt o por WhatsApp al 4027-3277."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde más puedo comprar sus productos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "También nos encuentras en Pacifiko, Kemik, Max, Walmart y Guatemala Digital."
+      }
+    }
+  ]
+}

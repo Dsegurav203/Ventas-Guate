@@ -1,0 +1,162 @@
+<title>Visibilidad IA Ventas Guate</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: columna única de trabajo; tabla de prioridades arriba, bloques para copiar abajo */
+:root{--bg:#f6f7f9;--card:#fff;--fg:#17202a;--muted:#5b6673;--line:#dfe3e8;--accent:#0b6bcb;--good:#1e7a46;--warn:#a5620a;--crit:#b42318;--code:#eef1f5;
+--display:"Space Grotesk",system-ui,sans-serif;--body:Inter,system-ui,sans-serif;--mono:ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141a;--card:#161d25;--fg:#e6ebf0;--muted:#9aa6b2;--line:#2a3440;--accent:#5aa8f0;--good:#4cc285;--warn:#e0a24a;--crit:#f07167;--code:#1c242e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f141a;--card:#161d25;--fg:#e6ebf0;--muted:#9aa6b2;--line:#2a3440;--accent:#5aa8f0;--good:#4cc285;--warn:#e0a24a;--crit:#f07167;--code:#1c242e;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 48px}
+main{max-width:880px;margin:0 auto;display:grid;gap:28px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0} h1{font-size:1.9rem} h2{font-size:1.25rem}
+.lead{color:var(--muted);margin:.4rem 0 0}
+section{display:grid;gap:12px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:560px} th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top} th{font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)} tr:last-child td{border-bottom:0}
+.pill{display:inline-block;padding:1px 9px;border-radius:999px;font-size:.78rem;font-weight:600;border:1px solid currentColor}
+.good{color:var(--good)}.warn{color:var(--warn)}.crit{color:var(--crit)}
+.copy{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.copy header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 12px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.copy header span{font-weight:600} .copy header small{color:var(--muted);display:block;font-weight:400}
+button{font:600 .85rem var(--body);color:var(--accent);background:transparent;border:1px solid var(--accent);border-radius:8px;padding:6px 12px;cursor:pointer} button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+pre{margin:0;padding:12px;background:var(--code);overflow-x:auto;font:12.5px/1.5 var(--mono);white-space:pre}
+.note{color:var(--muted);font-size:.9rem}
+</style>
+<main>
+<header><h1>Visibilidad en buscadores e IA · ventasguate.gt</h1><p class="lead">Revisión del 28/11/2026. Objetivo: que Google y los asistentes de IA puedan leer la tienda y den los datos correctos. Nadie puede hacer que una IA recomiende un negocio; lo que sí se puede es que te encuentren y te citen bien.</p></header>
+
+<section><h2>Prueba: qué ve un buscador hoy</h2>
+<div class="tbl"><table><thead><tr><th>Pregunta de cliente</th><th>¿Aparece Ventas Guate?</th><th>Quién aparece</th></tr></thead><tbody>
+<tr><td>Dónde comprar fundas Prodigee en Guatemala</td><td><span class="pill crit">No</span></td><td>Pacifiko, eBay, Cyberpuerta (MX)</td></tr>
+<tr><td>Mochila Targus para laptop Guatemala tienda</td><td><span class="pill crit">No</span></td><td>Pacifiko, tiendas de México</td></tr>
+<tr><td>Ventas Guate tienda zona 13 accesorios celulares</td><td><span class="pill crit">No</span></td><td>Pacifiko, Samsung</td></tr>
+<tr><td>HiFuture smartwatch Guatemala distribuidor oficial</td><td><span class="pill crit">No</span></td><td>Pacifiko (13 fichas HiFuture)</td></tr>
+</tbody></table></div>
+<p class="note">0 de 4, igual que el 19/11 (0 de 6). Pacifiko aparece en todas. Los resultados cambian de una búsqueda a otra: sirven para ver tendencia mes a mes, no como ranking.</p></section>
+
+<section><h2>Estado técnico</h2>
+<div class="tbl"><table><thead><tr><th>Señal</th><th>Estado</th><th>Nota</th></tr></thead><tbody>
+<tr><td>Bots de IA en robots.txt</td><td><span class="pill good">Bien</span></td><td>No bloquea ClaudeBot, GPTBot ni PerplexityBot.</td></tr>
+<tr><td>Contenido sin JavaScript</td><td><span class="pill good">Bien</span></td><td>Inicio, colecciones, productos y páginas muestran el texto en el HTML (600–1,000 palabras).</td></tr>
+<tr><td>Schema de tienda y productos</td><td><span class="pill good">Bien</span></td><td>ElectronicsStore con dirección y horario; Product con oferta, envío y devoluciones.</td></tr>
+<tr><td>Páginas de contacto, envíos, garantía y FAQ</td><td><span class="pill good">Bien</span></td><td>Existen y tienen los datos oficiales.</td></tr>
+<tr><td>Schema FAQPage en Preguntas frecuentes</td><td><span class="pill warn">Falta</span></td><td>Las respuestas están en texto pero no marcadas para máquinas.</td></tr>
+<tr><td>llms.txt</td><td><span class="pill warn">Genérico</span></td><td>Shopify lo genera solo con instrucciones de compra; no dice quién es Ventas Guate.</td></tr>
+<tr><td>Página "Sobre nosotros"</td><td><span class="pill warn">Falta</span></td><td>No hay una página con la historia, marcas y datos en un solo lugar.</td></tr>
+<tr><td>Google Business Profile</td><td><span class="pill crit">Sin verificar</span></td><td>No aparece en búsquedas de "zona 13". Es la fuente principal de Google y Gemini para negocios locales.</td></tr>
+<tr><td>Presencia de la marca en Pacifiko</td><td><span class="pill crit">Pendiente</span></td><td>Las IA citan Pacifiko en todas las preguntas.</td></tr>
+</tbody></table></div></section>
+
+<section><h2>Las 5 acciones que más mueven</h2>
+<div class="tbl"><table><thead><tr><th>#</th><th>Acción</th><th>Impacto</th><th>Esfuerzo</th><th>Quién</th></tr></thead><tbody>
+<tr><td>1</td><td>Crear y verificar Google Business Profile con los datos de abajo</td><td>Alto</td><td>Bajo (llega postal o video)</td><td>Diego</td></tr>
+<tr><td>2</td><td>Vender en Pacifiko con el nombre de tienda "Ventas Guate"</td><td>Alto</td><td>Medio</td><td>Diego / Fernando</td></tr>
+<tr><td>3</td><td>Página "Sobre Ventas Guate" con los datos oficiales (texto abajo)</td><td>Medio</td><td>Bajo</td><td>Claude, con tu aprobado</td></tr>
+<tr><td>4</td><td>Schema FAQPage en Preguntas frecuentes (bloque abajo)</td><td>Medio</td><td>Bajo</td><td>Claude, con tu aprobado</td></tr>
+<tr><td>5</td><td>Pedir reseñas en Google a clientes reales después de cada entrega</td><td>Alto</td><td>Continuo</td><td>Luis / ventas</td></tr>
+</tbody></table></div>
+<p class="note">Fuera del top 5: guías de compra en el blog ("Dónde comprar Prodigee en Guatemala", "Echo Dot vs Echo Spot"), y traducir al español el texto en inglés del pie de página ("Subscribe / Sign up…").</p></section>
+
+<section><h2>Para copiar</h2>
+<div class="copy"><header><span>Datos para Google Business Profile<small>business.google.com → Agregar negocio</small></span><button type="button" data-copy="gbp">Copiar</button></header><pre id="gbp">Nombre: Ventas Guate
+Categoría principal: Tienda de accesorios para teléfonos móviles
+Categorías adicionales: Tienda de electrónica · Tienda de informática
+Dirección: 9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala
+Horario: Lun–Jue 9:00–18:00 · Vie 9:00–17:00 · Sáb 9:00–13:00 · Dom cerrado
+Teléfono / WhatsApp: +502 4027-3277
+Sitio web: https://ventasguate.gt
+Atributos: Pago contra entrega · Entrega a domicilio · Recogida en tienda
+Descripción (750 caracteres máx.): Tienda y distribuidora de accesorios y electrónica original en Guatemala desde 2011. Distribuidores oficiales de JBL, Reebok, Prodigee, LAUT, LOGiiX, Tucano, Targus, Sudio, OhSnap, Nimbus9, Click, Mello, Protection Pro y Reelcharge. Fundas para iPhone y Samsung, audífonos, bocinas, cargadores, smartwatches, mochilas y periféricos. Envío en Ciudad de Guatemala el mismo día y al interior el día siguiente, con pago contra entrega. Productos nuevos con 1 año de garantía.</pre></div>
+<div class="copy"><header><span>Página "Sobre Ventas Guate"<small>Shopify Admin → Tienda online → Páginas → Agregar página (vista HTML)</small></span><button type="button" data-copy="sobre">Copiar</button></header><pre id="sobre">&lt;p&gt;Ventas Guate (Buyitwithus, S.A., NIT 7606692-4) es una tienda y distribuidora de accesorios y electrónica de consumo en Guatemala, fundada en 2011.&lt;/p&gt;
+&lt;h2&gt;Qué vendemos&lt;/h2&gt;
+&lt;p&gt;Fundas y protectores para iPhone y Samsung, audífonos y bocinas, cargadores y powerbanks, smartwatches, Alexa y casa inteligente, mochilas, sleeves y periféricos para laptop, e iPhone seminuevos revisados.&lt;/p&gt;
+&lt;h2&gt;Marcas oficiales&lt;/h2&gt;
+&lt;p&gt;Somos distribuidores oficiales en Guatemala de JBL, Reebok, Prodigee, LAUT, LOGiiX, Tucano, Targus, Sudio, OhSnap, Nimbus9, Click, Mello, Protection Pro y Reelcharge.&lt;/p&gt;
+&lt;h2&gt;Tienda y contacto&lt;/h2&gt;
+&lt;p&gt;9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala. Lunes a jueves 9:00–18:00, viernes 9:00–17:00, sábado 9:00–13:00. WhatsApp 4027-3277 · pedidos@ventasguate.gt&lt;/p&gt;
+&lt;h2&gt;Envíos y garantía&lt;/h2&gt;
+&lt;p&gt;Ciudad de Guatemala mismo día (Q25) e interior próximo día (Q35), con pago contra entrega. Productos nuevos con 1 año de garantía; seminuevos con 30 días; devoluciones dentro de 15 días sin abrir.&lt;/p&gt;
+&lt;h2&gt;Otros canales&lt;/h2&gt;
+&lt;p&gt;También vendemos en Pacifiko, Kemik, Max, Walmart y Guatemala Digital, y atendemos mayoreo para comercios.&lt;/p&gt;</pre></div>
+<div class="copy"><header><span>Schema FAQPage<small>Para /pages/preguntas-frecuentes: al final del contenido de la página (vista HTML)</small></span><button type="button" data-copy="faq">Copiar</button></header><pre id="faq">&lt;script type=&quot;application/ld+json&quot;&gt;
+{
+  &quot;@context&quot;: &quot;https://schema.org&quot;,
+  &quot;@type&quot;: &quot;FAQPage&quot;,
+  &quot;mainEntity&quot;: [
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Cómo puedo pagar?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Puedes pagar con tarjeta al finalizar tu compra en línea o con pago contra entrega: pagas al recibir tu pedido.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Los productos son originales?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Sí. Todo lo que vendemos es original. Somos distribuidores oficiales en Guatemala de JBL, Reebok, Prodigee, LAUT, LOGiiX, Tucano, Targus, Sudio, OhSnap, Nimbus9, Click, Mello, Protection Pro y Reelcharge.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Cuánto cuesta el envío y cuánto tarda?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Ciudad de Guatemala: mismo día, Q25. Interior de la República: próximo día, Q35. Pago contra entrega y entrega garantizada.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Qué garantía tienen los productos?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Productos nuevos: 1 año por defectos de fabricación. iPhone seminuevos: 30 días. No cubre golpes, humedad, mal uso ni reparaciones no autorizadas.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Puedo devolver un producto?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Sí, dentro de 15 días calendario, sin abrir ni usar y en su empaque original. El reembolso se procesa en 48 a 72 horas hábiles por el mismo método de pago. Los productos en oferta no tienen cambio ni devolución.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Dónde está la tienda y cuál es el horario?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala. Lunes a jueves 9:00–18:00, viernes 9:00–17:00, sábado 9:00–13:00.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Venden al por mayor?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;Sí, atendemos distribución y mayoreo para comercios. Escríbenos a pedidos@ventasguate.gt o por WhatsApp al 4027-3277.&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;Question&quot;,
+      &quot;name&quot;: &quot;¿Dónde más puedo comprar sus productos?&quot;,
+      &quot;acceptedAnswer&quot;: {
+        &quot;@type&quot;: &quot;Answer&quot;,
+        &quot;text&quot;: &quot;También nos encuentras en Pacifiko, Kemik, Max, Walmart y Guatemala Digital.&quot;
+      }
+    }
+  ]
+}
+&lt;/script&gt;</pre></div>
+</section>
+
+<p class="note">Próxima revisión: 28/12/2026. Los cambios de visibilidad tardan al menos 30 días en notarse.</p>
+</main>
+<script>
+document.querySelectorAll('button[data-copy]').forEach(b=>b.addEventListener('click',()=>{const el=document.getElementById(b.dataset.copy);const t=el.textContent;const done=()=>{b.textContent='Copiado';setTimeout(()=>b.textContent='Copiar',1500)};
+try{navigator.clipboard.writeText(t).then(done).catch(()=>sel(el))}catch(e){sel(el)}}));
+function sel(el){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+</script>
