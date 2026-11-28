@@ -1,0 +1,1073 @@
+{
+ "fecha": "2026-11-28",
+ "estado": "PROPUESTA – no aplicada; requiere aprobación de Diego antes de subir a Shopify",
+ "criterio": "prioridad.csv: Prodigee/LAUT/LOGiiX con ≤1 foto y stock, excluyendo los ya resueltos en lote1 (primero los 16 Prodigee + LAUT Typefolio sin fuente en lote1). Emparejados por SKU del fabricante (Odoo default_code ↔ sku de products.json) y verificados visualmente (modelo/cámaras/color). Fuentes: iamprodigee.com, itslaut.world/.com, logiix.ca. Normalizadas 1200×1200, fondo blanco, JPEG <350 KB.",
+ "resumen": {
+  "productos": 60,
+  "con_fotos_nuevas": 42,
+  "fotos_nuevas": 104,
+  "sin_fuente": 18
+ },
+ "hojas": [
+  "seo/fotos_adicionales/lote2/propuesta_fotos/hoja_01.jpg",
+  "seo/fotos_adicionales/lote2/propuesta_fotos/hoja_02.jpg",
+  "seo/fotos_adicionales/lote2/propuesta_fotos/hoja_03.jpg",
+  "seo/fotos_adicionales/lote2/propuesta_fotos/hoja_04.jpg",
+  "seo/fotos_adicionales/lote2/propuesta_fotos/hoja_05.jpg"
+ ],
+ "productos": [
+  {
+   "id": "gid://shopify/Product/9149921722581",
+   "handle": "prodigee-safetee-flow-iphone-15-pro-desert",
+   "title": "Prodigee Safetee Flow iPhone 15 Pro Desert",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/17ca7381af7dfcb9147a80376d91d448.jpg?v=1783579818",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-iphone-15-pro-desert/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Flow-DesertPro-02.jpg",
+     "alt": "Prodigee Safetee Flow iPhone 15 Pro Desert – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-iphone-15-pro-desert/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Flow-DesertPro-03.jpg",
+     "alt": "Prodigee Safetee Flow iPhone 15 Pro Desert – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-flow-mag-for-iphone-15-pro"
+  },
+  {
+   "id": "gid://shopify/Product/9149965566165",
+   "handle": "prodigee-safetee-flow-galaxy-s25-plus-night-frost",
+   "title": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/06e018e5d1714e2aa4f9fb27ebd3c8e1.png?v=1783568967",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-plus-night-frost/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-NGT_b.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-plus-night-frost/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-NGT_d.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-plus-night-frost/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-NGT_e.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Night Frost – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/flow-for-galaxy-s25-1"
+  },
+  {
+   "id": "gid://shopify/Product/9150256021717",
+   "handle": "prodigee-sidekick-iphone-15-pro-max-negro",
+   "title": "Prodigee Sidekick iPhone 15 Pro Max Negro",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/c6ba3213d64f57f85fbfbaeb9f2e1b87_50dd08c7-bbe8-4c7f-887f-2dda35d5f723.jpg?v=1783566946",
+   "fotos_nuevas": [],
+   "motivo": "iamprodigee.com ya no lista Sidekick (ningún modelo)."
+  },
+  {
+   "id": "gid://shopify/Product/9149922509013",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-fuschsia",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Fuchsia",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/566d939e982f2451ea2bcc0d374e55bb.jpg?v=1783579558",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-fuschsia/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-FuchiaPro-02.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Fuchsia – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-fuschsia/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-FuchiaPro-03.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Fuchsia – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15-pro"
+  },
+  {
+   "id": "gid://shopify/Product/9149922869461",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-ocean",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Ocean",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/48ccbc65df1565176552ce1c884f4e2e_ae7e36fe-d2b7-4134-b131-cb1612c3bb43.jpg?v=1783579441",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-ocean/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-OceanPro-02.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Ocean – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-ocean/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-OceanPro-03.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Ocean – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15-pro"
+  },
+  {
+   "id": "gid://shopify/Product/9149933387989",
+   "handle": "prodigee-superstar-iphone-16-pro-rosado",
+   "title": "Prodigee Superstar iPhone 16 Pro Rosado",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/b54e6bfda51cbee1509bd735fc93d02f_b8c15914-5ffa-4d83-9edc-7df651fbc87d.jpg?v=1783578362",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-iphone-16-pro-rosado/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Superstar-16Pro-rose-01.jpg",
+     "alt": "Prodigee Superstar iPhone 16 Pro Rosado – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-iphone-16-pro-rosado/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Superstar-16Pro-rose-03.jpg",
+     "alt": "Prodigee Superstar iPhone 16 Pro Rosado – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-iphone-16-pro-rosado/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Superstar-16Pro-rose-04.jpg",
+     "alt": "Prodigee Superstar iPhone 16 Pro Rosado – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-star-for-iphone-16-pro"
+  },
+  {
+   "id": "gid://shopify/Product/9149921984725",
+   "handle": "prodigee-safetee-flow-iphone-16-desert",
+   "title": "Prodigee Safetee Flow iPhone 16 Desert",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/cdd76e74db92c44546d7aa4f85e83548.jpg?v=1783579710",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-iphone-16-desert/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Flow-16-desert-001.jpg",
+     "alt": "Prodigee Safetee Flow iPhone 16 Desert – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-iphone-16-desert/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Flow-16-desert-003.jpg",
+     "alt": "Prodigee Safetee Flow iPhone 16 Desert – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-iphone-16-desert/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Flow-16-desert-004.jpg",
+     "alt": "Prodigee Safetee Flow iPhone 16 Desert – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/flow-for-iphone-16"
+  },
+  {
+   "id": "gid://shopify/Product/9263455961301",
+   "handle": "laut-typefolio-keyboard-case-universal-9-a-11-pulgadas-negro",
+   "title": "LAUT Typefolio Keyboard Case Universal 9 a 11 Pulgadas Negro",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/d7541bd31538bd9a8b58ca2fd04876b4.png?v=1783560256",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-typefolio-keyboard-case-universal-9-a-11-pulgadas-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_IPP21S_TY_BK06_ffedd8e7-e92c-432d-ba8e-b34d7a50be1c.jpg",
+     "alt": "LAUT Typefolio Keyboard Case Universal 9 a 11 Pulgadas Negro – vista trasera con soporte"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-typefolio-keyboard-case-universal-9-a-11-pulgadas-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_IPP21S_TY_BK03_ca831247-59e3-4c50-866f-8da3148d7d42.jpg",
+     "alt": "LAUT Typefolio Keyboard Case Universal 9 a 11 Pulgadas Negro – vista abierta con teclado"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/typefolio-keyboard-case-for-ipad-pro-11-inch-2022-2018",
+   "duda": "LAUT ya no publica el Typefolio Universal como producto aparte: es la variante \"Tablet (9-11\")\" del Typefolio iPad Pro 11 y comparte sus fotos (BK03/BK06, con iPad Pro). Confirmar que el universal físico es igual."
+  },
+  {
+   "id": "gid://shopify/Product/9170873974997",
+   "handle": "prodigee-super-glass-camera-iphone-17-air-black",
+   "title": "Prodigee Super Glass Camera iPhone 17 Air Black",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/fe3b5d93fd06d26ffb943f83d9d0de9b.webp?v=1762986328",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-iphone-17-air-black/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/17air-black.webp",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Air Black – instalado en el teléfono"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-iphone-17-air-black/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/17air-black-03.webp",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Air Black – detalle del anillo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-iphone-17-air-black/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/17air-black-02.webp",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Air Black – empaque"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-glass-camera-for-iphone-air"
+  },
+  {
+   "id": "gid://shopify/Product/9149965893845",
+   "handle": "prodigee-superstar-galaxy-s25-plus-clear",
+   "title": "Prodigee Superstar Galaxy S25 Plus Clear",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e8aa6d2acad9479555960163e663c766.png?v=1783568909",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-galaxy-s25-plus-clear/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-SSTR-CLR_b.jpg",
+     "alt": "Prodigee Superstar Galaxy S25 Plus Clear – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-galaxy-s25-plus-clear/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-SSTR-CLR_d.jpg",
+     "alt": "Prodigee Superstar Galaxy S25 Plus Clear – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-galaxy-s25-plus-clear/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-SSTR-CLR_e.jpg",
+     "alt": "Prodigee Superstar Galaxy S25 Plus Clear – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/superstar-for-galaxy-s25-1",
+   "duda": "Prodigee usa exactamente las mismas fotos para S25 y S25+."
+  },
+  {
+   "id": "gid://shopify/Product/9149924999381",
+   "handle": "prodigee-superstar-galaxy-s25-clear",
+   "title": "Prodigee Superstar Galaxy S25 Clear",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/f847834931ab0ce18fc9575b21c8a06c.png?v=1783578676",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-galaxy-s25-clear/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-SSTR-CLR_b.jpg",
+     "alt": "Prodigee Superstar Galaxy S25 Clear – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-galaxy-s25-clear/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-SSTR-CLR_d.jpg",
+     "alt": "Prodigee Superstar Galaxy S25 Clear – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-galaxy-s25-clear/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-SSTR-CLR_e.jpg",
+     "alt": "Prodigee Superstar Galaxy S25 Clear – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/superstar-for-galaxy-s25",
+   "duda": "Prodigee usa exactamente las mismas fotos para S25 y S25+."
+  },
+  {
+   "id": "gid://shopify/Product/9170874466517",
+   "handle": "prodigee-super-glass-camera-iphone-17-silver",
+   "title": "Prodigee Super Glass Camera iPhone 17 Silver",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/4a4b17edbd4142dc04f234a4cd973a69_cb3725a7-613f-4542-be2d-3d55b4b2a879.webp?v=1762986341",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-iphone-17-silver/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/image_196.jpg",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Silver – empaque sobre el teléfono"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-iphone-17-silver/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/17-silver-02.webp",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Silver – empaque"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-glass-camera-for-iphone-17"
+  },
+  {
+   "id": "gid://shopify/Product/9149923721429",
+   "handle": "prodigee-sparkle-leemonchelo-iphone-14-pro-blanco",
+   "title": "Prodigee Sparkle Leemonchelo iPhone 14 Pro Blanco",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/6ad45101460cf2decb40bf3ef0959bb1.jpg?v=1783579155",
+   "fotos_nuevas": [],
+   "motivo": "iamprodigee.com no lista Sparkle/Leemonchelo."
+  },
+  {
+   "id": "gid://shopify/Product/9271505879253",
+   "handle": "prodigee-super-glass-camera-galaxy-s26-s26-plus",
+   "title": "Prodigee Super Glass Camera Galaxy S26 / S26 Plus",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/01d6422908fd281d2912c7984b89bcf7.webp?v=1771444866",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-galaxy-s26-s26-plus/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/lens-s26-01.jpg",
+     "alt": "Prodigee Super Glass Camera Galaxy S26 / S26 Plus – instalado en el teléfono"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-galaxy-s26-s26-plus/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/lens-s26-03.jpg",
+     "alt": "Prodigee Super Glass Camera Galaxy S26 / S26 Plus – detalle de los anillos"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-galaxy-s26-s26-plus/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/lens-s26-02.jpg",
+     "alt": "Prodigee Super Glass Camera Galaxy S26 / S26 Plus – guía de instalación"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-glass-camera-for-galaxy-s26"
+  },
+  {
+   "id": "gid://shopify/Product/9321272803541",
+   "handle": "l-prodigee-safetee-neo-mag-iphone-13-menta",
+   "title": "Prodigee Safetee Neo Mag iPhone 13 Menta",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e5c296dc9213ed2681e6faa438d65d29.jpg?v=1783510093",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-mag-iphone-13-menta/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/ip13-normal-neo-mint-05.jpg",
+     "alt": "Prodigee Safetee Neo Mag iPhone 13 Menta – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-mag-iphone-13-menta/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/ip13-normal-neo-mint-03.jpg",
+     "alt": "Prodigee Safetee Neo Mag iPhone 13 Menta – vista trasera con iPhone"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-mag-iphone-13-menta/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/ip13-neo-mint-02.jpg",
+     "alt": "Prodigee Safetee Neo Mag iPhone 13 Menta – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-13"
+  },
+  {
+   "id": "gid://shopify/Product/9149920182485",
+   "handle": "prodigee-magneteek-iphone-16-pro-negro",
+   "title": "Prodigee Magneteek iPhone 16 Pro Negro",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0929c1138973b1e8e5a36c5af90c0adb_104a8fb3-32ab-4561-b237-06888bf57b47.jpg?v=1783586192",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-black-01.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Negro – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-black-03.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Negro – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-negro/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-black-04.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Negro – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/magneteek-for-iphone-16-pro"
+  },
+  {
+   "id": "gid://shopify/Product/9149922705621",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-max-lila",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Max Lila",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/56258ec17d53d6e77a2bcb04061e7dfd_e00f9e67-f869-40d3-8b09-eeafe1cd208e.jpg?v=1783579486",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-max-lila/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-LilacPro-02_813dc0cb-8ff3-4a02-baf1-6407f3d05fb8.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Max Lila – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-max-lila/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-LilacPro-03_43adae07-c20a-481b-81f2-11618f0686cd.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Max Lila – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15-pro-max"
+  },
+  {
+   "id": "gid://shopify/Product/15526988120277",
+   "handle": "logiix-vibrance-neo-bundle-usb-c-to-usb-c-cable-blush",
+   "title": "LOGiiX Vibrance Neo Bundle USB-C to USB-C Cable Blush",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15526988120277.jpg?v=1795191754",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto por color (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/9372730622165",
+   "handle": "logiix-vibrance-charging-kit-lavender",
+   "title": "LOGiiX Vibrance Charging Kit Lavender",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/dce60d8f42a05f28216e0a9781a43ce9.webp?v=1783476314",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto del color Lavender (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/9149920084181",
+   "handle": "prodigee-magneteek-iphone-16-pro-blanco",
+   "title": "Prodigee Magneteek iPhone 16 Pro Blanco",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0a2635bffe7bf5fe86c6cb8c29ebf662_b60cfc2e-ad60-4878-bc4e-d3e31b20b3ac.jpg?v=1783586219",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-blanco/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-white-01.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Blanco – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-blanco/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-white-03.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Blanco – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-blanco/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-white-04.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Blanco – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/magneteek-for-iphone-16-pro"
+  },
+  {
+   "id": "gid://shopify/Product/15480769806549",
+   "handle": "laut-luxedge-iphone-17-pro-luxe-brown",
+   "title": "LAUT Luxedge iPhone 17 Pro Luxe Brown",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769806549.jpg?v=1795062221",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-luxedge-iphone-17-pro-luxe-brown/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP25BD_LX_BR_05.jpg",
+     "alt": "LAUT Luxedge iPhone 17 Pro Luxe Brown – con soporte desplegado"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-luxedge-iphone-17-pro-luxe-brown/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP25BD_LX_BR_04.jpg",
+     "alt": "LAUT Luxedge iPhone 17 Pro Luxe Brown – vista frontal"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-luxedge-iphone-17-pro-luxe-brown/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP25BD_LX_BR_03.jpg",
+     "alt": "LAUT Luxedge iPhone 17 Pro Luxe Brown – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/luxedge-case-for-iphone-17-series"
+  },
+  {
+   "id": "gid://shopify/Product/15480770068693",
+   "handle": "laut-holo-iphone-16-pro-max-pearl",
+   "title": "LAUT Holo iPhone 16 Pro Max Pearl",
+   "foto_actual": null,
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-holo-iphone-16-pro-max-pearl/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP24BD_HO_W_01.jpg",
+     "alt": "LAUT Holo iPhone 16 Pro Max Pearl – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-holo-iphone-16-pro-max-pearl/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP24BD_HO_W_03.jpg",
+     "alt": "LAUT Holo iPhone 16 Pro Max Pearl – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/holo-for-iphone-16-series",
+   "duda": "Sin foto hoy; LAUT solo tiene 2 fotos del Pro Max Pearl (las demás son iPhone 16/16 Plus, otra cámara)."
+  },
+  {
+   "id": "gid://shopify/Product/9170874171605",
+   "handle": "prodigee-super-glass-camera-iphone-17-glitter-silver",
+   "title": "Prodigee Super Glass Camera iPhone 17 Glitter Silver",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/62818b2d8adc31c58209d8552d8d593f_916252e3-120f-41b9-87ac-1273378f0e39.webp?v=1762986333",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-iphone-17-glitter-silver/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/image_195.jpg",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Glitter Silver – empaque sobre el teléfono"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-camera-iphone-17-glitter-silver/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/17-glitter-02.webp",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Glitter Silver – empaque"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-glass-camera-for-iphone-17"
+  },
+  {
+   "id": "gid://shopify/Product/15480769773781",
+   "handle": "laut-luxedge-iphone-17-pro-slate-black",
+   "title": "LAUT Luxedge iPhone 17 Pro Slate Black",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769773781.jpg?v=1795062220",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-luxedge-iphone-17-pro-slate-black/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP25BD_LX_BK_03.jpg",
+     "alt": "LAUT Luxedge iPhone 17 Pro Slate Black – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-luxedge-iphone-17-pro-slate-black/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP25BD_LX_BK_05.jpg",
+     "alt": "LAUT Luxedge iPhone 17 Pro Slate Black – con soporte desplegado"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-luxedge-iphone-17-pro-slate-black/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_IP25BD_LX_BK_04.jpg",
+     "alt": "LAUT Luxedge iPhone 17 Pro Slate Black – vista frontal"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/luxedge-case-for-iphone-17-series"
+  },
+  {
+   "id": "gid://shopify/Product/9263456026837",
+   "handle": "l-laut-crystal-matter-iphone-13-pro-rojo",
+   "title": "LAUT Crystal Matter iPhone 13 Pro Rojo",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/63c06c95d3fe9b8cd842d4c958bb039e.jpg?v=1783560227",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-laut-crystal-matter-iphone-13-pro-rojo/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/products/L_IP21M_CM_R01.jpg",
+     "alt": "LAUT Crystal Matter iPhone 13 Pro Rojo – vista frontal y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-laut-crystal-matter-iphone-13-pro-rojo/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/products/L_IP21M_CM_R02.jpg",
+     "alt": "LAUT Crystal Matter iPhone 13 Pro Rojo – vista trasera y frontal"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.com/products/crystal-matter-impkt-case-for-iphone-13-series",
+   "duda": "La foto actual es rojo coral; LAUT llama a este SKU (L_IP21M_CM_R) \"Crimson\", rojo más intenso. Confirmar color físico."
+  },
+  {
+   "id": "gid://shopify/Product/15480770199765",
+   "handle": "laut-huex-protect-airpods-pro-2022-frost",
+   "title": "LAUT Huex Protect AirPods Pro 2022 Frost",
+   "foto_actual": null,
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-huex-protect-airpods-pro-2022-frost/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_APP2_HPT_F01.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 2022 Frost – vista frontal con mosquetón"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-huex-protect-airpods-pro-2022-frost/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_APP2_HPT_F02.jpg",
+     "alt": "LAUT Huex Protect AirPods Pro 2022 Frost – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/huex-protect-for-airpods-pro-2nd-generation"
+  },
+  {
+   "id": "gid://shopify/Product/9372728983765",
+   "handle": "logiix-air-guard-classic-iphone-17-clear-white",
+   "title": "LOGiiX Air Guard Classic iPhone 17 Clear/White",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/9372728983765.jpg?v=1795191753",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca: la única foto del iPhone 17 es la actual; las demás son de 17 Air/Pro/Pro Max o de la versión con soporte (Kickstand) sobre fondo negro."
+  },
+  {
+   "id": "gid://shopify/Product/9372729901269",
+   "handle": "logiix-air-guard-classic-airpods-pro-3-clear",
+   "title": "LOGiiX Air Guard Classic AirPods Pro 3 Clear",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/9ae4db85ca5aa1ab5acc701048b5fc70.webp?v=1783478293",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/9149921362133",
+   "handle": "prodigee-safetee-flow-galaxy-s25-plus-desert",
+   "title": "Prodigee Safetee Flow Galaxy S25 Plus Desert",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/7a17348eed3f947e969f2e70976c96f6_45561001-8604-41d6-9853-7f5524883da9.png?v=1783585557",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-plus-desert/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-DSRT_b.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Desert – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-plus-desert/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-DSRT_d.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Desert – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-plus-desert/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-DSRT_e.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Plus Desert – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/flow-for-galaxy-s25-1"
+  },
+  {
+   "id": "gid://shopify/Product/9149922902229",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-ruby",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Ruby",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/ceedfb04789b7d5bd73527291a101bd7_32e5c718-3613-4341-8c76-41384e342b0e.jpg?v=1783579416",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-ruby/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-RubyPro-02.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Ruby – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-ruby/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-RubyPro-03.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Ruby – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15-pro"
+  },
+  {
+   "id": "gid://shopify/Product/9149919363285",
+   "handle": "prodigee-magneteek-iphone-12-12-pro-negro",
+   "title": "Prodigee Magneteek iPhone 12-12 Pro Negro",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/dc80a99191d05ed548a1aa66ff78e6b7.jpg?v=1783580096",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-12-12-pro-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/magneteek-black-01_3fa54463-993c-4e59-83a5-e02237cdf9b2.jpg",
+     "alt": "Prodigee Magneteek iPhone 12-12 Pro Negro – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-12-12-pro-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/magneteek-black-02_e7bfd0b6-10b2-4199-a295-193c05632211.jpg",
+     "alt": "Prodigee Magneteek iPhone 12-12 Pro Negro – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/magneteek-for-iphone-12-pro",
+   "duda": "Fotos oficiales con iPhone 12 Pro (3 cámaras); la funda sirve para 12 y 12 Pro."
+  },
+  {
+   "id": "gid://shopify/Product/15480769872085",
+   "handle": "laut-huex-protect-airpods-4-black",
+   "title": "LAUT Huex Protect AirPods 4 Black",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769872085.jpg?v=1795062221",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-huex-protect-airpods-4-black/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_AP5_HPT_BK03.jpg",
+     "alt": "LAUT Huex Protect AirPods 4 Black – abierto con AirPods"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-huex-protect-airpods-4-black/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_AP5_HPT_BK01.jpg",
+     "alt": "LAUT Huex Protect AirPods 4 Black – vista frontal y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-huex-protect-airpods-4-black/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_AP5_HPT_BK02.jpg",
+     "alt": "LAUT Huex Protect AirPods 4 Black – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/huex-protect-for-airpods-4"
+  },
+  {
+   "id": "gid://shopify/Product/9149922541781",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-lemon",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Lemon",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a01210c7706c6f84630f7c00da62a598.jpg?v=1783579530",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-lemon/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-LemonPro-02.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Lemon – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-lemon/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-LemonPro-03.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Lemon – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15-pro"
+  },
+  {
+   "id": "gid://shopify/Product/15480774164693",
+   "handle": "laut-novi-sport-apple-watch-38-40-41mm-black",
+   "title": "LAUT Novi Sport Apple Watch 38/40/41mm Black",
+   "foto_actual": null,
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-novi-sport-apple-watch-38-40-41mm-black/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_AW_NS_BK01.jpg",
+     "alt": "LAUT Novi Sport Apple Watch 38/40/41mm Black – colocada en el reloj"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-novi-sport-apple-watch-38-40-41mm-black/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_AW_NS_BK02.jpg",
+     "alt": "LAUT Novi Sport Apple Watch 38/40/41mm Black – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-novi-sport-apple-watch-38-40-41mm-black/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_AW_NS_BK03.jpg",
+     "alt": "LAUT Novi Sport Apple Watch 38/40/41mm Black – vista de ambos lados"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-novi-sport-apple-watch-38-40-41mm-black/04.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/products/L_AW_NS_BK04.jpg",
+     "alt": "LAUT Novi Sport Apple Watch 38/40/41mm Black – correa suelta"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/novi-sport-watch-strap-for-apple-watch-series-1-9-se-ultra",
+   "duda": "La correa Black es reversible negro/verde oliva según LAUT (las fotos muestran el reverso verde)."
+  },
+  {
+   "id": "gid://shopify/Product/9149922377941",
+   "handle": "prodigee-safetee-neo-iphone-14-plus-menta",
+   "title": "Prodigee Safetee Neo iPhone 14 Plus Menta",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/6ffbade6ccec70babcdbae0a33c8bb39.png?v=1783579575",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-14-plus-menta/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/neo-mint-14-01_f5aa8e64-1c03-41b2-bb07-0450f92ee8b6.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 14 Plus Menta – vista frontal y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-14-plus-menta/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/neo-mint-14-03_fbf62d7f-1251-44bd-9523-dd02a6b88598.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 14 Plus Menta – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-14-plus"
+  },
+  {
+   "id": "gid://shopify/Product/9149933748437",
+   "handle": "prodigee-trio-fold-station-negro",
+   "title": "Prodigee Trio Fold Station Negro",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/fb90b046b91f4d1038605dfa95d46109.jpg?v=1783578238",
+   "fotos_nuevas": [],
+   "motivo": "Las 5 fotos oficiales restantes son de ambiente (fondo no blanco); la única con fondo blanco ya es la actual."
+  },
+  {
+   "id": "gid://shopify/Product/9263455994069",
+   "handle": "l-laut-crystal-matter-iphone-13-pro-negro",
+   "title": "LAUT Crystal Matter iPhone 13 Pro Negro",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/76197957287a50ba0c5bc89120ddc16e.jpg?v=1783560238",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-laut-crystal-matter-iphone-13-pro-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/products/L_IP21M_CM_BK01.jpg",
+     "alt": "LAUT Crystal Matter iPhone 13 Pro Negro – vista frontal y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-laut-crystal-matter-iphone-13-pro-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1264/9135/products/L_IP21M_CM_BK02.jpg",
+     "alt": "LAUT Crystal Matter iPhone 13 Pro Negro – vista trasera y frontal"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.com/products/crystal-matter-impkt-case-for-iphone-13-series",
+   "duda": "La foto ACTUAL muestra un iPhone 13 (2 cámaras), no 13 Pro; las nuevas son 13 Pro (3 cámaras, SKU L_IP21M). Considerar reemplazar la actual."
+  },
+  {
+   "id": "gid://shopify/Product/9271505912021",
+   "handle": "prodigee-super-glass-galaxy-s26-ultra-privacy",
+   "title": "Prodigee Super Glass Galaxy S26 Ultra Privacy",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/d2d01a946ab14044dbdebbe4b7f1f304.webp?v=1771444868",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-galaxy-s26-ultra-privacy/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/s26-glass-4wayprivacy-01.jpg",
+     "alt": "Prodigee Super Glass Galaxy S26 Ultra Privacy – vista del protector"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-galaxy-s26-ultra-privacy/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/s26-glass-4wayprivacy-02_975bac03-4798-413d-8457-5ad85150a16b.jpg",
+     "alt": "Prodigee Super Glass Galaxy S26 Ultra Privacy – filtro de privacidad"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-glass-galaxy-s26-ultra-privacy/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/s26-glass-4wayprivacy-03.jpg",
+     "alt": "Prodigee Super Glass Galaxy S26 Ultra Privacy – instalado en el teléfono"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-glass-privacy"
+  },
+  {
+   "id": "gid://shopify/Product/9291022106837",
+   "handle": "l-prodigee-safetee-neo-iphone-15-14-13-lemon",
+   "title": "Prodigee Safetee Neo iPhone 15/14/13 Lemon",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a01210c7706c6f84630f7c00da62a598_4ce6cae8-79d1-43a8-90a3-d0d7dd041dc3.jpg?v=1783513125",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-iphone-15-14-13-lemon/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-Lemon-02.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15/14/13 Lemon – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-iphone-15-14-13-lemon/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-Lemon-03.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15/14/13 Lemon – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15"
+  },
+  {
+   "id": "gid://shopify/Product/9149925884117",
+   "handle": "prodigee-superstar-iphone-15-pro-rosado",
+   "title": "Prodigee Superstar iPhone 15 Pro Rosado",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/fecd930b92ecf573b642d29137a3ce44_caa67e30-66a1-4e2e-9137-2c2845294786.jpg?v=1783578501",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-iphone-15-pro-rosado/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SuperStar-RosePro-02.jpg",
+     "alt": "Prodigee Superstar iPhone 15 Pro Rosado – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-superstar-iphone-15-pro-rosado/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SuperStar-RosePro-03.jpg",
+     "alt": "Prodigee Superstar iPhone 15 Pro Rosado – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-star-for-iphone-15-pro"
+  },
+  {
+   "id": "gid://shopify/Product/9321273852117",
+   "handle": "l-prodigee-safetee-neo-iphone-13-limon",
+   "title": "Prodigee Safetee Neo iPhone 13 Limón",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/e682f79600c3f6aa7a9d799b18274e3e.jpg?v=1783510005",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-iphone-13-limon/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/ip13-normal-neo-lemon-05.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 13 Limón – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-iphone-13-limon/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/ip13-normal-neo-lemon-03.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 13 Limón – vista trasera con iPhone"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-iphone-13-limon/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/products/ip13-neo-yellow-02.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 13 Limón – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-13"
+  },
+  {
+   "id": "gid://shopify/Product/9149920542933",
+   "handle": "prodigee-pampas-galaxy-25-ice",
+   "title": "Prodigee Pampas Galaxy S25 Ice",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/320c32ae4d99bdb0403a6912907309e3.png?v=1783585966",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-pampas-galaxy-25-ice/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Pampas-S25-02.jpg",
+     "alt": "Prodigee Pampas Galaxy S25 Ice – vista frontal y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-pampas-galaxy-25-ice/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Pampas-S25-04.jpg",
+     "alt": "Prodigee Pampas Galaxy S25 Ice – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-pampas-galaxy-25-ice/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Pampas-S25-05.jpg",
+     "alt": "Prodigee Pampas Galaxy S25 Ice – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/pampas-for-galaxy-s25"
+  },
+  {
+   "id": "gid://shopify/Product/9372730360021",
+   "handle": "logiix-power-plus-eco-30w-wall-charger-white",
+   "title": "LOGiiX Power Plus Eco 30W Wall Charger White",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/7d1c5c1e5232bd6f9905027a7c472b79.webp?v=1783476855",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/15480771346645",
+   "handle": "laut-huex-macbook-neo-13-black",
+   "title": "LAUT Huex MacBook Neo 13\" Black",
+   "foto_actual": null,
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/laut-huex-macbook-neo-13-black/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1479/3364/files/L_MBN_HX-LS02.jpg",
+     "alt": "LAUT Huex MacBook Neo 13\" Black – colocada en la MacBook"
+    }
+   ],
+   "fuente_producto": "https://www.itslaut.world/products/huex-for-macbook-neo",
+   "duda": "Sin foto hoy; LAUT publica 1 sola foto por color (el negro se ve azul marino oscuro)."
+  },
+  {
+   "id": "gid://shopify/Product/9372730261717",
+   "handle": "logiix-power-plus-45w-duo-wall-charger-white",
+   "title": "LOGiiX Power Plus 45W Duo Wall Charger White",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/b9b467ce635f27fb7c7d3c02661f25a5.webp?v=1783477034",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/9149921263829",
+   "handle": "prodigee-safetee-flow-galaxy-s25-desert",
+   "title": "Prodigee Safetee Flow Galaxy S25 Desert",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/7a17348eed3f947e969f2e70976c96f6.png?v=1783585588",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-desert/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-DSRT_b.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Desert – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-desert/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-DSRT_d.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Desert – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-flow-galaxy-s25-desert/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SGS25-FLW-DSRT_e.jpg",
+     "alt": "Prodigee Safetee Flow Galaxy S25 Desert – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/flow-for-galaxy-s25"
+  },
+  {
+   "id": "gid://shopify/Product/15480771379413",
+   "handle": "laut-huex-macbook-neo-13-pink",
+   "title": "LAUT Huex MacBook Neo 13\" Pink",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/L_MBN_HX-LS03_1200.jpg?v=1795312474",
+   "fotos_nuevas": [],
+   "motivo": "itslaut publica 1 sola foto por color (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/15480771412181",
+   "handle": "laut-huex-macbook-neo-13-yellow",
+   "title": "LAUT Huex MacBook Neo 13\" Yellow",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/L_MBN_HX-LS04_1200.jpg?v=1795312474",
+   "fotos_nuevas": [],
+   "motivo": "itslaut publica 1 sola foto por color (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/9149923688661",
+   "handle": "prodigee-sparkle-leemonchelo-iphone-14-plus-blanco",
+   "title": "Prodigee Sparkle Leemonchelo iPhone 14 Plus Blanco",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/1788fc01cd1d25b61964ccc4745f7c27.jpg?v=1783579170",
+   "fotos_nuevas": [],
+   "motivo": "iamprodigee.com no lista Sparkle/Leemonchelo."
+  },
+  {
+   "id": "gid://shopify/Product/9149924016341",
+   "handle": "prodigee-super-hero-galaxy-s25-clear",
+   "title": "Prodigee Super Hero Galaxy S25 Clear",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/aa7531e3d2d3c7527562e79e70a31c13.png?v=1783579035",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-hero-galaxy-s25-clear/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SuperHeroS24-Clear-01_5cb7f0cb-a9b2-4562-b7dc-5e464a0efa3c.jpg",
+     "alt": "Prodigee Super Hero Galaxy S25 Clear – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-hero-galaxy-s25-clear/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SuperHeroS24-Clear-02_5b77b78e-82ca-4092-a9ea-8196a9887f26.jpg",
+     "alt": "Prodigee Super Hero Galaxy S25 Clear – vista frontal y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-super-hero-galaxy-s25-clear/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/SuperHeroS24-Clear-03_1.jpg",
+     "alt": "Prodigee Super Hero Galaxy S25 Clear – con cargador MagSafe"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/super-hero-for-galaxy-s25",
+   "duda": "Las fotos oficiales de la ficha Galaxy S25 tienen nombre \"SuperHeroS24\" (la actual también). Diseño de cámara igual; confirmar."
+  },
+  {
+   "id": "gid://shopify/Product/9149922672853",
+   "handle": "prodigee-safetee-neo-iphone-15-pro-max-lemon",
+   "title": "Prodigee Safetee Neo iPhone 15 Pro Max Lemon",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a01210c7706c6f84630f7c00da62a598_19af08c3-bfc4-4a4a-b8c7-0f56e4d198e3.jpg?v=1783579499",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-max-lemon/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-LemonPro-02_d84a721c-22d9-429d-a688-adf918ca88cc.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Max Lemon – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-safetee-neo-iphone-15-pro-max-lemon/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-LemonPro-03_d28109d9-ea4e-4a5a-a4e8-67bbb49c83d1.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15 Pro Max Lemon – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15-pro-max"
+  },
+  {
+   "id": "gid://shopify/Product/9372730327253",
+   "handle": "logiix-power-plus-65w-slim-duo-wall-charger-blanco",
+   "title": "LOGiiX Power Plus 65W Slim Duo Wall Charger Blanco",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0ad7ccf9f5be2d8af74e3a9cb0be0923.webp?v=1783476914",
+   "fotos_nuevas": [],
+   "motivo": "SKU LGX-13659 no está en logiix.ca (solo Power Plus 65 Slim XL LGX-13873, otro producto, con 1 foto)."
+  },
+  {
+   "id": "gid://shopify/Product/9263456059605",
+   "handle": "l-laut-crystal-x-necklace-negro-iphone-12-pro-max",
+   "title": "LAUT Crystal-X Necklace Negro iPhone 12 Pro Max",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/9786bb9473228f6dae2566728069ac87.jpg?v=1783560211",
+   "fotos_nuevas": [],
+   "motivo": "itslaut ya no lista Crystal-X Necklace ni fundas iPhone 12."
+  },
+  {
+   "id": "gid://shopify/Product/9291022139605",
+   "handle": "l-prodigee-safetee-neo-iphone-15-14-13-ruby",
+   "title": "Prodigee Safetee Neo iPhone 15/14/13 Ruby",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/ceedfb04789b7d5bd73527291a101bd7_828f13d5-4447-402a-91fe-f4e9966d0c7c.jpg?v=1783513099",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-iphone-15-14-13-ruby/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-Ruby-02.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15/14/13 Ruby – vista trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/l-prodigee-safetee-neo-iphone-15-14-13-ruby/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Neo-Ruby-03.jpg",
+     "alt": "Prodigee Safetee Neo iPhone 15/14/13 Ruby – vista en ángulo"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/safetee-neo-mag-for-iphone-15"
+  },
+  {
+   "id": "gid://shopify/Product/9150026481877",
+   "handle": "prodigee-magneteek-iphone-16-pro-max-negro",
+   "title": "Prodigee Magneteek iPhone 16 Pro Max Negro",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0929c1138973b1e8e5a36c5af90c0adb_8a7e2579-181d-4931-8270-bcfb9cca12d0.jpg?v=1783556737",
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-max-negro/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-black-01.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Max Negro – vista lateral y trasera"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-max-negro/02.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-black-03.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Max Negro – vista en ángulo"
+    },
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/prodigee-magneteek-iphone-16-pro-max-negro/03.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/0205/5216/files/Magneteek-16Pro-black-04.jpg",
+     "alt": "Prodigee Magneteek iPhone 16 Pro Max Negro – vista trasera"
+    }
+   ],
+   "fuente_producto": "https://www.iamprodigee.com/products/magneteek-for-iphone-16-pro-max"
+  },
+  {
+   "id": "gid://shopify/Product/9263456092373",
+   "handle": "l-laut-fade-series-iphone-12-pro-max-menta",
+   "title": "LAUT Fade Series iPhone 12 Pro Max Menta",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/81cc65d0fce6b2e527248bb023977b5f.png?v=1783560196",
+   "fotos_nuevas": [],
+   "motivo": "itslaut solo lista Huex Fade para iPhone 13 (no 12 Pro Max)."
+  },
+  {
+   "id": "gid://shopify/Product/9321273426133",
+   "handle": "l-prodigee-safetee-neo-mag-iphone-13-pro-peach",
+   "title": "Prodigee Safetee Neo Mag iPhone 13 Pro Peach",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/72efda978fc5a0db57160f16cdd5acda.jpg?v=1783510037",
+   "fotos_nuevas": [],
+   "motivo": "iamprodigee.com solo tiene Neo Mag iPhone 13 (2 cámaras); no hay 13 Pro (3 cámaras)."
+  },
+  {
+   "id": "gid://shopify/Product/9372730196181",
+   "handle": "logiix-power-cube-30w-duo-white",
+   "title": "LOGiiX Power Cube 30W Duo White",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a04659902a7d1c8e6f9d1576bc538572.webp?v=1783477154",
+   "fotos_nuevas": [],
+   "motivo": "logiix.ca publica 1 sola foto (igual a la actual)."
+  },
+  {
+   "id": "gid://shopify/Product/9372730523861",
+   "handle": "logiix-vibrance-braid-usb-a-to-usb-c-white",
+   "title": "LOGiiX Vibrance Braid USB-A to USB-C White",
+   "foto_actual": null,
+   "fotos_nuevas": [
+    {
+     "archivo": "seo/fotos_adicionales/lote2/propuesta_fotos/logiix-vibrance-braid-usb-a-to-usb-c-white/01.jpg",
+     "fuente_url": "https://cdn.shopify.com/s/files/1/1228/3460/files/logiix_VibranceBraid_0018_VibranceBraid_1.2M_Product01_AtoC_White_76f5a7c7-28f3-4a60-8632-262bf6e7926d.png",
+     "alt": "LOGiiX Vibrance Braid USB-A to USB-C White – cable enrollado"
+    }
+   ],
+   "fuente_producto": "https://logiix.ca/products/vibrance-braid",
+   "duda": "Sin foto hoy; logiix.ca solo tiene 1 foto del USB-A a USB-C blanco (las de ambiente no tienen fondo blanco)."
+  },
+  {
+   "id": "gid://shopify/Product/9149923360981",
+   "handle": "prodigee-samsung-galaxy-rockee-s23-plus",
+   "title": "Prodigee Rockee Galaxy S23 Plus",
+   "foto_actual": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/29aef941421a1ffee2af4e441079a77d.jpg?v=1783579316",
+   "fotos_nuevas": [],
+   "motivo": "iamprodigee.com solo lista Rockee para Galaxy S22 e iPhone 12–14 (no S23+)."
+  }
+ ]
+}
