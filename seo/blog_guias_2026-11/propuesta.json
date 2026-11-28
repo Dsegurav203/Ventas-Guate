@@ -15,7 +15,7 @@
     "fuentes": [
       "https://hifuturegroup.com/pages/about-us",
       "https://hifuturegroup.com/products/vela",
-      "https://hifuturegroup.com/products/ultra3",
+      "https://hifuturegroup.com/products/ultra4-pro",
       "https://hifuturegroup.com/products/aura2",
       "https://hifuturegroup.com/products/mix-3",
       "https://hifuturegroup.com/products/go-pro-2",
@@ -39,8 +39,9 @@
     ],
     "afirmaciones_sin_fuente": [],
     "notas": [
-      "Vela: se usó 'hasta 7 días' (página oficial). La ficha publicada dice 14 días e IP68, que no aparecen en hifuturegroup.com/products/vela: revisar la ficha.",
-      "Ultra3 no está publicado en ventasguate.gt: se menciona sin enlace y con 'confirma disponibilidad por WhatsApp'."
+      "Vela: por decisión de Diego Segura (2026-11-28) se usan los datos de la ficha publicada en ventasguate.gt (hasta 14 días de batería, IP68, AMOLED, GPS, frecuencia cardíaca y SpO2, más de 100 modos deportivos), no los 7 días del sitio oficial. Brújula y altímetro: hifuturegroup.com/products/vela (no contradice la ficha).",
+      "Ultra3 reemplazado por Ultra4 Pro (Diego: el Ultra3 cambiará por el 4). En hifuturegroup.com el único Ultra4 es 'ULTRA4 PRO' (products.json, publicado 2026-11-18). Datos solo de https://hifuturegroup.com/products/ultra4-pro: AMOLED 1.95\", GPS integrado con mapas offline, brújula y altímetro, resistencia al agua 50 m, 170+ modos deportivos, llamadas, hasta 15 días de batería, CPU dual-core. No hay ficha del Ultra4 en ventasguate.gt (Admin, 2026-11-28): se menciona sin enlace y con 'confirma disponibilidad por WhatsApp'.",
+      "Dirección: Edificio Plaza Trafalgar (corrección aprobada por Diego 2026-11-28)."
     ]
   },
   {
@@ -83,7 +84,8 @@
     ],
     "afirmaciones_sin_fuente": [],
     "notas": [
-      "Pies de caída citados por modelo de teléfono según la ficha publicada (Prodigee no los publica en products.json)."
+      "Pies de caída citados por modelo de teléfono según la ficha publicada (Prodigee no los publica en products.json).",
+      "Dirección: Edificio Plaza Trafalgar (corrección aprobada por Diego 2026-11-28)."
     ]
   },
   {
@@ -114,7 +116,8 @@
     "notas": [
       "Explicación de MIL-STD-810 y de MagSafe: conocimiento general, sin atribuir cifras a productos.",
       "Nimbus9: nimbus9.com no expone catálogo (404); el dato de 20 pies viene de la ficha publicada. No se usó 'garantía de por vida' de esa ficha para no contradecir la garantía de 1 año de la tienda.",
-      "LAUT Luxedge (6 pies en ficha; la página oficial solo dice 'drop-tested' sin cifra): descartado."
+      "LAUT Luxedge (6 pies en ficha; la página oficial solo dice 'drop-tested' sin cifra): descartado.",
+      "Dirección: Edificio Plaza Trafalgar (corrección aprobada por Diego 2026-11-28)."
     ]
   },
   {
@@ -157,7 +160,9 @@
     "notas": [
       "LOGiiX emparejado por SKU: el SKU de Shopify es el UPC 802118NNNNNc y corresponde a LGX-NNNNN en logiix.ca (Eco 30W=LGX-13969 GaN+PD; 45W Duo=LGX-13778 PD; Cube 30W Duo=LGX-13551 PD; Piston 10,000 Classic=LGX-13929).",
       "Explicaciones de GaN, PD, PPS, Qi/Qi2, MagSafe, MFi, UL, CE, FCC, RoHS: conocimiento general, sin atribuirlas a productos sin fuente.",
-      "Ningún producto publicado tiene PPS, MFi, UL, CE o FCC en su ficha o en el sitio oficial: no se atribuyeron."
+      "Ningún producto publicado tiene PPS, MFi, UL, CE o FCC en su ficha o en el sitio oficial: no se atribuyeron.",
+      "Dirección: Edificio Plaza Trafalgar (corrección aprobada por Diego 2026-11-28).",
+      "Prodigee Mag Chill Station Qi2: se mantiene la descripción de la ficha publicada (estación de carga inalámbrica Qi2 magnética, hasta 15W para el teléfono); confirmado 2026-11-28."
     ]
   }
 ]
