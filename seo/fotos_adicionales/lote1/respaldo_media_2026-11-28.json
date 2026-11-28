@@ -1,0 +1,127 @@
+{
+ "fecha": "2026-11-28",
+ "descripcion": "Media de cada producto antes de agregar fotos del lote 1 (propuesta_fotos/propuesta.json). Para revertir: borrar los media nuevos listados en REGISTRO.md y reordenar el Superstar.",
+ "productos": [
+  {
+   "id": "gid://shopify/Product/9149954326741",
+   "title": "Spigen Core Armor iPhone 15 Pro Negro",
+   "handle": "spigen-core-armor-iphone-15-pro-negro",
+   "media": [
+    {
+     "posicion": 0,
+     "id": "gid://shopify/MediaImage/39131792179413",
+     "alt": "Spigen Core Armor iPhone 15 Pro Negro",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/51d9bfd78c1c82c15d6e1e667fc27a75.jpg?v=1783571338"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9337797181653",
+   "title": "LAUT Typefolio 2.0 Keyboard iPad 10.9\" (2022) Black",
+   "handle": "laut-typefolio-2-0-keyboard-ipad-10-9-2022-black",
+   "media": [
+    {
+     "posicion": 0,
+     "id": "gid://shopify/MediaImage/40663852417237",
+     "alt": "LAUT Typefolio 2.0 Keyboard iPad 10.9\" (2022) Black",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/a2dff9bc93a1eb40882c2e5a4d516135.webp?v=1776814778"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9170874237141",
+   "title": "Prodigee Super Glass Camera iPhone 17 Negro",
+   "handle": "prodigee-super-glass-camera-iphone-17-negro",
+   "media": [
+    {
+     "posicion": 0,
+     "id": "gid://shopify/MediaImage/39310371324117",
+     "alt": "Prodigee Super Glass Camera iPhone 17 Negro",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/0be6c3b105ed639e406b275877442b5e.webp?v=1762986335"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480770953429",
+   "title": "LAUT Typefolio 2.0 Keyboard iPad 11\" (2024) Black",
+   "handle": "laut-typefolio-2-0-keyboard-ipad-11-2024-black",
+   "media": [
+    {
+     "posicion": 0,
+     "id": "gid://shopify/MediaImage/47090082185429",
+     "alt": "LAUT Typefolio 2.0 Keyboard iPad 11\" (2024) Black",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480770953429.jpg?v=1795062221"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480770363605",
+   "title": "LAUT Zentry AirPods 4 Negro",
+   "handle": "laut-zentry-airpods-4-negro",
+   "media": [
+    {
+     "posicion": 0,
+     "id": "gid://shopify/MediaImage/47090082119893",
+     "alt": "LAUT Zentry AirPods 4 Negro",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480770363605.jpg?v=1795062221"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/9149933486293",
+   "title": "Prodigee Superstar iPhone 16 Rosado",
+   "handle": "prodigee-superstar-iphone-16-rosado",
+   "media": [
+    {
+     "posicion": 0,
+     "id": "gid://shopify/MediaImage/39131580399829",
+     "alt": "Prodigee Superstar iPhone 16 Rosado",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/b54e6bfda51cbee1509bd735fc93d02f_31b37b82-8a2f-4e8c-bcaf-d2987f5571a2.jpg?v=1783578348"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480769577173",
+   "title": "LAUT Huex Protect AirPods Pro3 Frost",
+   "handle": "laut-huex-protect-airpods-pro3-frost",
+   "media": []
+  },
+  {
+   "id": "gid://shopify/Product/15480769216725",
+   "title": "LAUT Shield iPhone 16E Negro",
+   "handle": "laut-shield-iphone-16e-negro",
+   "media": []
+  },
+  {
+   "id": "gid://shopify/Product/15480769642709",
+   "title": "LAUT Huex Protect AirPods Pro3 Bronze",
+   "handle": "laut-huex-protect-airpods-pro3-bronze",
+   "media": []
+  },
+  {
+   "id": "gid://shopify/Product/15480770035925",
+   "title": "LAUT Holo iPhone 16 Pro Pearl",
+   "handle": "laut-holo-iphone-16-pro-pearl",
+   "media": []
+  },
+  {
+   "id": "gid://shopify/Product/15480769675477",
+   "title": "LAUT Huex Protect AirPods Pro3 Light Pink",
+   "handle": "laut-huex-protect-airpods-pro3-light-pink",
+   "media": [
+    {
+     "posicion": 0,
+     "id": "gid://shopify/MediaImage/47090081562837",
+     "alt": "LAUT Huex Protect AirPods Pro3 Light Pink",
+     "url": "https://cdn.shopify.com/s/files/1/0764/0940/5653/files/15480769675477.jpg?v=1795062220"
+    }
+   ]
+  },
+  {
+   "id": "gid://shopify/Product/15480769478869",
+   "title": "LOGiiX Phantom Glass Super Tempered Anti Reflective iPhone 17 Pro Clear",
+   "handle": "logiix-phantom-glass-super-tempered-anti-reflective-iphone-17-pro-clear",
+   "media": []
+  }
+ ]
+}
