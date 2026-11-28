@@ -21,7 +21,7 @@ Responder en español, directo, con tablas o viñetas. Textos para clientes con 
 
 | Dato | Valor |
 |---|---|
-| Dirección | 9a Calle 15-45 zona 13, Edificio Trafalgar, Oficina 102, Ciudad de Guatemala |
+| Dirección | 9a Calle 15-45 zona 13, Edificio Plaza Trafalgar, Oficina 102, Ciudad de Guatemala (nombre correcto confirmado por Diego 2026-11-28; no usar "Edificio Trafalgar") |
 | Horario | Lunes a jueves 9:00–18:00 · Viernes 9:00–17:00 · Sábado 9:00–13:00 |
 | WhatsApp | 4027-3277 (`https://wa.me/50240273277`) · Correo pedidos@ventasguate.gt |
 | Envío | Ciudad de Guatemala mismo día Q25 · Interior próximo día Q35 · pago contra entrega · entrega garantizada y respaldada |
