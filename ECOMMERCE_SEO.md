@@ -42,11 +42,11 @@ Cierre estándar de descripciones: `Producto original con 1 año de garantía. E
 
 | Marca | Fuente |
 |---|---|
-| LOGiiX | `https://logiix.ca/products.json?limit=250` |
-| LAUT | `https://www.itslaut.com/products.json?limit=250` (el código de barras coincide con el EAN de Odoo) |
+| LOGiiX | `https://logiix.ca/products.json?limit=250` (sitio oficial, confirmado por Diego 2026-11-28) |
+| LAUT | `https://www.itslaut.world/products.json?limit=250` (sitio oficial global, confirmado por Diego 2026-11-28) y `https://www.itslaut.com/products.json?limit=250` (el código de barras coincide con el EAN de Odoo) |
 | HiFuture | `https://hifuturegroup.com/pages/...` (descargar con curl) |
 | Tucano | `https://www.tucano.com` (buscar por EAN) |
-| Prodigee | `prodigee.com` suele estar bloqueado desde la nube; usar productos hermanos ya publicados |
+| Prodigee | `https://www.iamprodigee.com/products.json?limit=250` (sitio oficial, confirmado por Diego 2026-11-28; sí descarga desde la nube). `prodigee.com` no es el oficial |
 
 ## Sincronización Shopify ↔ Odoo
 
