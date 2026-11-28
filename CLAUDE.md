@@ -210,6 +210,9 @@ Valor inventario = Σ `qty_available × standard_price`. Rotación = costo de ve
 - **Publicación automática:** activador de Cloud Build `publicar-mcp` (us-central1, repo `Dsegurav203/Ventas-Guate`, rama `^main$`, filtro `mcp-server/**`, config `mcp-server/cloudbuild.yaml`). Flujo: cambio en rama → PR → Diego hace Merge → Cloud Build publica (~2 min) → verificar con `mcp-server/test_flow.py`. Primera corrida exitosa 2026-11-19. Cloud Shell + `deploy-cloudshell.sh` queda solo como respaldo manual.
 - Objetivo: reemplazar el MCP de terceros (5 usuarios, US$75–100/mes) tras piloto y Fase 2 de roles.
 
+## Proyectos en curso
+- **Crédito para clientes nuevos** (formulario en línea, dictamen automático, aprobación por monto, firma de pagaré/contrato): `claude/proyecto-credito-clientes.md`. Pendiente de decisiones de política de Diego (sección 6).
+
 ## Contexto de negocio (no reportar como anomalía)
 - **Cancelaciones altas desde oct‑2026**: limpieza intencional de pedidos abiertos sin movimiento. Para análisis de ventas, excluir `cancel` y no tratar ese volumen como pérdida.
 - **Margen POS nov‑2026**: 22.2% (ya corregido en Odoo). Mezcla Apple + combos de liquidación explica margen menor al de distribución. Separar Apple y liquidación antes de concluir.
